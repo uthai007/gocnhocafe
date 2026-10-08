@@ -1,0 +1,488 @@
+<!doctype html>
+<!-- Template for "MBA English with William". Do not edit index.html by hand:
+     run `node scripts/make-episode.mjs <day>` to regenerate it from series/day-XX.json. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #05070d;
+      }
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-family: Montserrat, sans-serif;
+        color: #f5f3ee;
+      }
+
+      /* ---------- stage ---------- */
+      .layer {
+        position: absolute;
+        inset: 0;
+      }
+      #stage-bg {
+        background:
+          radial-gradient(ellipse 70% 40% at 50% 30%, #1b2a4f 0%, rgba(11, 16, 32, 0) 70%),
+          linear-gradient(180deg, #0b1020 0%, #070a14 62%, #05070d 100%);
+      }
+      #curtain-l,
+      #curtain-r {
+        position: absolute;
+        top: 0;
+        width: 120px;
+        height: 1500px;
+        background: repeating-linear-gradient(90deg, #4a0f1c 0 26px, #6b1626 26px 44px, #3a0b16 44px 60px);
+        opacity: 0.85;
+      }
+      #curtain-l {
+        left: 0;
+        border-bottom-right-radius: 90px;
+      }
+      #curtain-r {
+        right: 0;
+        border-bottom-left-radius: 90px;
+      }
+      #floor {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 1440px;
+        bottom: 0;
+        background: linear-gradient(180deg, #3a2a20 0%, #241912 45%, #120c09 100%);
+      }
+      #floor-edge {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 1436px;
+        height: 8px;
+        background: #6d5240;
+      }
+      #spot-pool {
+        position: absolute;
+        left: 190px;
+        top: 1400px;
+        width: 700px;
+        height: 200px;
+        border-radius: 50%;
+        background: radial-gradient(ellipse at center, rgba(255, 236, 196, 0.42) 0%, rgba(255, 236, 196, 0) 70%);
+      }
+      #spot-beam {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1080px;
+        height: 1560px;
+        background: linear-gradient(180deg, rgba(255, 240, 210, 0.16) 0%, rgba(255, 240, 210, 0.04) 100%);
+        clip-path: polygon(46% 0, 54% 0, 80% 100%, 20% 100%);
+      }
+
+      /* ---------- screen ---------- */
+      #screen {
+        position: absolute;
+        left: 150px;
+        top: 96px;
+        width: 780px;
+        height: 480px;
+        border-radius: 28px;
+        background: linear-gradient(160deg, #13244a 0%, #0c1733 100%);
+        border: 3px solid #2e4c8f;
+        box-shadow:
+          0 0 80px rgba(70, 120, 255, 0.28),
+          inset 0 0 60px rgba(0, 0, 0, 0.35);
+        padding: 48px 56px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      #brand {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-weight: 700;
+        font-size: 26px;
+        letter-spacing: 0.14em;
+        color: #9fb7f0;
+      }
+      #brand .day {
+        background: #f2c14e;
+        color: #10152a;
+        padding: 6px 14px;
+        border-radius: 8px;
+        letter-spacing: 0.08em;
+      }
+      #topic {
+        margin-top: 34px;
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 1.04;
+        letter-spacing: -0.01em;
+        color: #ffffff;
+        max-width: 660px;
+      }
+      #subtopic {
+        margin-top: 14px;
+        font-weight: 500;
+        font-size: 34px;
+        color: #c9d6f5;
+        max-width: 660px;
+      }
+      #dots {
+        position: absolute;
+        left: 56px;
+        bottom: 40px;
+        display: flex;
+        gap: 14px;
+      }
+      .dot {
+        display: block;
+        width: 46px;
+        height: 10px;
+        border-radius: 5px;
+        background: #2b3f72;
+      }
+      #screen-stand {
+        position: absolute;
+        left: 520px;
+        top: 576px;
+        width: 40px;
+        height: 60px;
+        background: #1a2440;
+      }
+
+      /* ---------- William ---------- */
+      #william-wrap {
+        position: absolute;
+        left: 290px;
+        top: 560px;
+        width: 500px;
+        height: 1000px;
+      }
+      #william {
+        display: block;
+        width: 500px;
+        height: 1000px;
+        overflow: visible;
+      }
+
+      /* ---------- name tag ---------- */
+      #nametag {
+        position: absolute;
+        left: 70px;
+        top: 1230px;
+        padding: 18px 26px;
+        border-left: 6px solid #f2c14e;
+        background: rgba(8, 12, 24, 0.82);
+        border-radius: 0 12px 12px 0;
+      }
+      #nametag .n {
+        font-weight: 800;
+        font-size: 40px;
+        color: #ffffff;
+      }
+      #nametag .r {
+        margin-top: 4px;
+        font-weight: 500;
+        font-size: 24px;
+        color: #c9d6f5;
+      }
+
+      /* ---------- captions ---------- */
+      #cap-box {
+        position: absolute;
+        left: 50px;
+        right: 50px;
+        top: 1590px;
+        height: 270px;
+        border-radius: 26px;
+        background: rgba(6, 9, 18, 0.88);
+        border: 2px solid rgba(242, 193, 78, 0.35);
+        padding: 26px 40px;
+      }
+      #cap-count {
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: 0.12em;
+        color: #f2c14e;
+      }
+      #cap-text {
+        margin-top: 12px;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 1.3;
+        color: #ffffff;
+      }
+      .w {
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .w.said {
+        color: #ffffff;
+      }
+      .w.now {
+        color: #f2c14e;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="__DURATION__"
+      data-width="1080"
+      data-height="1920"
+      data-fps="30"
+    >
+      <div id="stage-bg" class="layer"></div>
+      <div id="curtain-l"></div>
+      <div id="curtain-r"></div>
+      <div id="screen-stand"></div>
+      <div id="screen">
+        <div id="brand"><span>MBA ENGLISH</span><span class="day">DAY __DAY__</span></div>
+        <div id="topic">__TOPIC__</div>
+        <div id="subtopic">__SUBTITLE__</div>
+        <div id="dots">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span
+          ><span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div id="floor"></div>
+      <div id="floor-edge"></div>
+      <div id="spot-beam"></div>
+      <div id="spot-pool"></div>
+
+      <div id="william-wrap">
+        <svg id="william" viewBox="0 0 500 1000" xmlns="http://www.w3.org/2000/svg">
+          <g id="w-body">
+            <!-- legs -->
+            <path d="M198 590 L310 590 L304 935 L262 935 L254 640 L246 640 L238 935 L196 935 Z" fill="#262a33" />
+            <path d="M250 642 L250 930" stroke="#1a1d24" stroke-width="3" />
+            <!-- shoes -->
+            <ellipse cx="214" cy="944" rx="34" ry="13" fill="#3a2418" />
+            <ellipse cx="288" cy="944" rx="34" ry="13" fill="#3a2418" />
+            <!-- torso: shirt + blazer -->
+            <path d="M174 272 Q250 246 326 272 L324 610 Q290 618 250 604 Q210 618 176 610 Z" fill="#1f2e4a" />
+            <path d="M226 252 L250 400 L274 252 Z" fill="#f4f1ea" />
+            <path d="M226 252 L250 300 L238 252 Z M274 252 L250 300 L262 252 Z" fill="#e2ddd2" />
+            <path d="M222 258 L250 404 L212 330 L232 300 L214 284 Z" fill="#26375a" />
+            <path d="M278 258 L250 404 L288 330 L268 300 L286 284 Z" fill="#26375a" />
+            <circle cx="250" cy="470" r="6" fill="#0f1828" />
+            <circle cx="250" cy="530" r="6" fill="#0f1828" />
+            <rect x="290" y="330" width="20" height="5" rx="2" fill="#f2c14e" />
+            <!-- neck -->
+            <rect x="232" y="210" width="36" height="48" rx="10" fill="#d9a17f" />
+
+            <!-- left arm (viewer's right): holds the clicker -->
+            <g id="w-arm-l">
+              <path d="M318 278 Q350 290 352 360 L346 452 L318 452 L320 360 Z" fill="#1f2e4a" />
+              <g id="w-fore-l">
+                <path d="M320 444 L348 444 L340 532 L314 530 Z" fill="#1f2e4a" />
+                <rect x="314" y="522" width="28" height="12" rx="4" fill="#f4f1ea" />
+                <ellipse cx="328" cy="548" rx="17" ry="19" fill="#e8b796" />
+                <rect x="320" y="540" width="16" height="34" rx="5" fill="#22262e" />
+                <circle cx="328" cy="548" r="3.5" fill="#ff5b5b" />
+              </g>
+            </g>
+
+            <!-- right arm (viewer's left): gestures -->
+            <g id="w-arm-r">
+              <path d="M182 278 Q150 290 148 360 L154 452 L182 452 L180 360 Z" fill="#1f2e4a" />
+              <g id="w-fore-r">
+                <path d="M152 444 L182 444 L188 532 L160 534 Z" fill="#1f2e4a" />
+                <rect x="158" y="524" width="30" height="12" rx="4" fill="#f4f1ea" />
+                <path
+                  d="M160 538 Q156 566 166 578 Q176 586 186 576 Q192 562 188 538 Z"
+                  fill="#e8b796"
+                />
+                <path d="M188 546 Q198 548 196 560" stroke="#e8b796" stroke-width="7" stroke-linecap="round" fill="none" />
+              </g>
+            </g>
+
+            <!-- head -->
+            <g id="w-head">
+              <ellipse cx="186" cy="150" rx="11" ry="17" fill="#d9a17f" />
+              <ellipse cx="314" cy="150" rx="11" ry="17" fill="#d9a17f" />
+              <path d="M188 132 Q188 66 250 64 Q312 66 312 132 L312 168 Q308 222 250 232 Q192 222 188 168 Z" fill="#e8b796" />
+              <!-- stubble -->
+              <path
+                d="M192 168 Q196 222 250 232 Q304 222 308 168 Q300 196 282 206 Q262 214 250 214 Q238 214 218 206 Q200 196 192 168 Z"
+                fill="#7a5a48"
+                opacity="0.32"
+              />
+              <path d="M226 186 Q250 176 274 186 Q250 182 226 186 Z" fill="#6b4a3a" opacity="0.45" />
+              <!-- hair -->
+              <path
+                d="M184 140 Q178 70 236 52 Q300 40 320 92 Q326 112 316 140 Q312 104 290 94 Q256 104 214 92 Q196 104 192 140 Z"
+                fill="#3b2a20"
+              />
+              <path d="M214 92 Q240 70 290 80 Q262 74 238 86 Z" fill="#4e382b" />
+              <!-- brows -->
+              <g id="w-brows">
+                <path d="M212 128 Q226 120 240 126" stroke="#3b2a20" stroke-width="6" stroke-linecap="round" fill="none" />
+                <path d="M260 126 Q274 120 288 128" stroke="#3b2a20" stroke-width="6" stroke-linecap="round" fill="none" />
+              </g>
+              <!-- eyes -->
+              <g id="w-eyes">
+                <ellipse cx="227" cy="147" rx="9" ry="6" fill="#f7f3ee" />
+                <ellipse cx="273" cy="147" rx="9" ry="6" fill="#f7f3ee" />
+                <circle cx="228" cy="147" r="6" fill="#4a6a86" />
+                <circle cx="274" cy="147" r="6" fill="#4a6a86" />
+                <circle cx="228" cy="147" r="3" fill="#141414" />
+                <circle cx="274" cy="147" r="3" fill="#141414" />
+                <circle cx="230" cy="145" r="1.4" fill="#ffffff" />
+                <circle cx="276" cy="145" r="1.4" fill="#ffffff" />
+                <path d="M217 142 Q227 137 237 142" stroke="#c48a68" stroke-width="2" fill="none" />
+                <path d="M263 142 Q273 137 283 142" stroke="#c48a68" stroke-width="2" fill="none" />
+              </g>
+              <!-- nose -->
+              <path d="M250 150 Q246 172 240 176 Q248 182 258 177" stroke="#c48a68" stroke-width="3.5" fill="none" stroke-linecap="round" />
+              <!-- mouth -->
+              <ellipse id="w-mouth" cx="250" cy="198" rx="15" ry="11" fill="#5a2424" />
+              <path id="w-lip" d="M234 197 Q250 204 266 197" stroke="#a5604f" stroke-width="3.5" fill="none" stroke-linecap="round" />
+            </g>
+          </g>
+        </svg>
+      </div>
+
+      <div id="nametag">
+        <div class="n">William</div>
+        <div class="r">MBA Coach</div>
+      </div>
+
+      <div id="cap-box">
+        <div id="cap-count">SENTENCE 1 / 6</div>
+        <div id="cap-text"></div>
+      </div>
+
+      <audio id="voice" src="__AUDIO__" data-start="0" data-duration="__DURATION__" data-track-index="1" data-volume="1"></audio>
+    </div>
+
+    <script>
+      const EP = /*__EPISODE_DATA__*/null;
+      const tl = gsap.timeline({ paused: true });
+      const D = EP.duration;
+
+      // --- seeded PRNG for blinks ---
+      let seed = 1337 + EP.day * 101;
+      const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+
+      // --- intro: stage reveal ---
+      tl.fromTo("#screen", { opacity: 0, y: -30 }, { opacity: 1, y: 0, duration: 0.8, ease: "power2.out" }, 0);
+      tl.fromTo("#william-wrap", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.9, ease: "power2.out" }, 0.1);
+      tl.fromTo("#nametag", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.6, ease: "power3.out" }, 0.5);
+      tl.to("#nametag", { opacity: 0, x: -40, duration: 0.5, ease: "power2.in" }, 6.5);
+      tl.fromTo("#cap-box", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 0.6);
+      tl.fromTo("#spot-beam", { opacity: 0.6 }, { opacity: 1, duration: 1.2, ease: "sine.inOut" }, 0);
+
+      // --- idle body sway + breathing ---
+      const swayCycle = 4;
+      tl.fromTo(
+        "#w-body",
+        { rotation: -0.8 },
+        {
+          rotation: 0.8,
+          svgOrigin: "250 940",
+          duration: swayCycle / 2,
+          ease: "sine.inOut",
+          yoyo: true,
+          repeat: Math.max(0, Math.floor(D / (swayCycle / 2)) - 1),
+        },
+        0
+      );
+
+      // --- blinks (deterministic) ---
+      for (let t = 1.5; t < D - 0.5; t += 2.4 + rnd() * 2.2) {
+        tl.to("#w-eyes", { scaleY: 0.1, svgOrigin: "250 146", duration: 0.07, ease: "none" }, t);
+        tl.to("#w-eyes", { scaleY: 1, svgOrigin: "250 146", duration: 0.09, ease: "none" }, t + 0.08);
+      }
+
+      // --- per-sentence: clicker, screen dot, gesture, head + brows ---
+      EP.sentences.forEach((s, i) => {
+        const len = s.end - s.start;
+        // clicker press just before speaking
+        tl.to("#w-fore-l", { rotation: -6, svgOrigin: "334 446", duration: 0.12, ease: "power2.out" }, s.start - 0.3);
+        tl.to("#w-fore-l", { rotation: 0, svgOrigin: "334 446", duration: 0.2, ease: "power2.inOut" }, s.start - 0.15);
+        tl.to(`.dot:nth-child(${i + 1})`, { backgroundColor: "#f2c14e", duration: 0.25, ease: "power1.out" }, s.start - 0.2);
+
+        // open-hand gesture with the right arm
+        // even sentences: raised open palm; odd: forearm across the body, "explaining"
+        const up = i % 2 === 0;
+        const arm = up ? 16 : 4;
+        const fore = up ? 118 : -72;
+        tl.to("#w-arm-r", { rotation: arm, svgOrigin: "176 282", duration: 0.55, ease: "power2.out" }, s.start + 0.1);
+        tl.to("#w-fore-r", { rotation: fore, svgOrigin: "168 446", duration: 0.55, ease: "power2.out" }, s.start + 0.1);
+        tl.to("#w-fore-r", { rotation: fore + (up ? -14 : 12), svgOrigin: "168 446", duration: 0.7, ease: "sine.inOut" }, s.start + 0.1 + len * 0.4);
+        tl.to("#w-arm-r", { rotation: 0, svgOrigin: "176 282", duration: 0.6, ease: "power2.inOut" }, s.end - 0.3);
+        tl.to("#w-fore-r", { rotation: 0, svgOrigin: "168 446", duration: 0.6, ease: "power2.inOut" }, s.end - 0.3);
+
+        // head tilt + brow raise at sentence start
+        const tilt = i % 2 === 0 ? 3 : -2.5;
+        tl.to("#w-head", { rotation: tilt, svgOrigin: "250 230", duration: 0.6, ease: "sine.inOut" }, s.start);
+        tl.to("#w-head", { rotation: 0, svgOrigin: "250 230", duration: 0.7, ease: "sine.inOut" }, s.start + len * 0.6);
+        tl.fromTo("#w-brows", { y: 0 }, { y: -5, duration: 0.2, ease: "power2.out" }, s.start + 0.05);
+        tl.to("#w-brows", { y: 0, duration: 0.4, ease: "power2.inOut" }, s.start + 0.6);
+      });
+
+      // --- captions (word-by-word) ---
+      const capText = document.getElementById("cap-text");
+      const capCount = document.getElementById("cap-count");
+      const spans = EP.sentences.map((s) =>
+        s.words.map((w) => {
+          const el = document.createElement("span");
+          el.className = "w";
+          el.textContent = w.w + " ";
+          return el;
+        })
+      );
+      let shown = -1;
+      function showSentence(i) {
+        if (shown === i) return;
+        shown = i;
+        const chars = EP.sentences[i].text.length;
+        capText.style.fontSize = chars > 110 ? "36px" : chars > 85 ? "40px" : "44px";
+        capText.replaceChildren(...spans[i]);
+        capCount.textContent = `SENTENCE ${i + 1} / ${EP.sentences.length}`;
+      }
+
+      // --- lip sync + caption state from one seek-safe driver ---
+      const mouth = document.getElementById("w-mouth");
+      const lip = document.getElementById("w-lip");
+      const drive = { t: 0 };
+      function render() {
+        const t = drive.t;
+        const f = Math.min(EP.mouth.length - 1, Math.max(0, Math.floor(t * EP.fps)));
+        const m = EP.mouth[f] || 0;
+        mouth.setAttribute("ry", (1.2 + m * 12).toFixed(2));
+        mouth.setAttribute("rx", (13 + m * 3).toFixed(2));
+        lip.setAttribute("opacity", m < 0.08 ? "1" : "0");
+
+        let si = 0;
+        for (let i = 0; i < EP.sentences.length; i++) if (t >= EP.sentences[i].start - 0.25) si = i;
+        showSentence(si);
+        EP.sentences[si].words.forEach((w, k) => {
+          const el = spans[si][k];
+          const cls = t >= w.e ? "w said" : t >= w.s ? "w now" : "w";
+          if (el.className !== cls) el.className = cls;
+        });
+      }
+      tl.fromTo(drive, { t: 0 }, { t: D, duration: D, ease: "none", onUpdate: render }, 0);
+      render();
+
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
