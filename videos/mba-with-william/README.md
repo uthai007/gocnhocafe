@@ -15,7 +15,7 @@ Series video dọc 9:16: nhân vật **William** (~35 tuổi, giọng Anh-Mỹ) 
    npx hyperframes render -q delivery -o renders/william-mba-day-XX.mp4
    ```
 
-Giọng đọc dùng Kokoro (`am_michael`), chạy offline. Lần đầu cần cài:
+Giọng đọc dùng Kokoro (`am_michael`, tốc độ 1.08 + xử lý âm thanh cho giọng sáng và rõ), chạy offline. Lần đầu cần cài:
 `uv venv ~/.venvs/kokoro && VIRTUAL_ENV=~/.venvs/kokoro uv pip install kokoro-onnx soundfile`.
 
 ## Cấu trúc

@@ -17,5 +17,5 @@ practise English and learn MBA content at the same time. William is the only spe
 
 ## Customizations
 - Character: illustrated (SVG) William, navy blazer, lip sync driven by the voice's loudness.
-- Voice: Kokoro `am_michael` (American male), speed 0.92.
+- Voice: Kokoro `am_michael` (American male), speed 1.08, presence EQ + compression, -14 LUFS.
 - Captions: English only, word-by-word highlight.

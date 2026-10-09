@@ -11,12 +11,16 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const VOICE = "am_michael"; // American English male
-const SPEED = 0.92; // a touch slower for learners
+const SPEED = 1.08; // brisk, energetic delivery
 const FPS = 30;
 const SR = 24000;
-const LEAD = 1.2; // silence before the first sentence
-const GAP = 0.7; // pause between sentences
-const TAIL = 1.8; // hold after the last sentence
+const LEAD = 0.8; // silence before the first sentence
+const GAP = 0.45; // pause between sentences
+const TAIL = 1.4; // hold after the last sentence
+// Voice polish: cut rumble, lift presence/air, compress, normalise to social-media loudness.
+const VOICE_FX =
+  "highpass=f=80,equalizer=f=200:t=q:w=1:g=-2,equalizer=f=3000:t=q:w=1.2:g=4,equalizer=f=8000:t=q:w=1:g=2," +
+  "acompressor=threshold=-20dB:ratio=3:attack=5:release=80:makeup=3,loudnorm=I=-14:TP=-1.5:LRA=7";
 
 const dayNum = Number(process.argv[2] || 1);
 const dd = String(dayNum).padStart(2, "0");
@@ -109,7 +113,7 @@ for (const p of parts) total.set(p.samples, Math.round(p.at * SR));
 const rawPath = join(cacheDir, `day-${dd}.pcm`);
 writeFileSync(rawPath, Buffer.from(total.buffer));
 const audioRel = `assets/audio/day-${dd}.wav`;
-execFileSync("ffmpeg", ["-v", "error", "-y", "-f", "s16le", "-ar", String(SR), "-ac", "1", "-i", rawPath, join(ROOT, audioRel)]);
+execFileSync("ffmpeg", ["-v", "error", "-y", "-f", "s16le", "-ar", String(SR), "-ac", "1", "-i", rawPath, "-af", VOICE_FX, "-ar", "48000", join(ROOT, audioRel)]);
 
 // Mouth envelope: normalise to the 95th percentile, light smoothing, 2 decimals.
 const raw = rmsFrames(total);
