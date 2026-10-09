@@ -17,6 +17,7 @@ const SR = 24000;
 const LEAD = 0.8; // silence before the first sentence
 const GAP = 0.45; // pause between sentences
 const TAIL = 1.4; // hold after the last sentence
+const MUSIC_DB = -10; // music bed level before ducking
 // Voice polish: cut rumble, lift presence/air, compress, normalise to social-media loudness.
 const VOICE_FX =
   "highpass=f=80,equalizer=f=200:t=q:w=1:g=-2,equalizer=f=3000:t=q:w=1.2:g=4,equalizer=f=8000:t=q:w=1:g=2," +
@@ -113,7 +114,19 @@ for (const p of parts) total.set(p.samples, Math.round(p.at * SR));
 const rawPath = join(cacheDir, `day-${dd}.pcm`);
 writeFileSync(rawPath, Buffer.from(total.buffer));
 const audioRel = `assets/audio/day-${dd}.wav`;
-execFileSync("ffmpeg", ["-v", "error", "-y", "-f", "s16le", "-ar", String(SR), "-ac", "1", "-i", rawPath, "-af", VOICE_FX, "-ar", "48000", join(ROOT, audioRel)]);
+const voicePath = join(cacheDir, `day-${dd}.voice.wav`);
+execFileSync("ffmpeg", ["-v", "error", "-y", "-f", "s16le", "-ar", String(SR), "-ac", "1", "-i", rawPath, "-af", VOICE_FX, "-ar", "48000", "-ac", "2", voicePath]);
+
+// Background music: synthesised bed, ducked ~10 dB under the voice (sidechain), mixed into one track.
+const bgmPath = join(cacheDir, `day-${dd}.bgm.wav`);
+execFileSync(env.HYPERFRAMES_PYTHON || "python3", [join(ROOT, "scripts/make-bgm.py"), bgmPath, String(duration)], { stdio: "ignore" });
+execFileSync("ffmpeg", [
+  "-v", "error", "-y", "-i", voicePath, "-i", bgmPath, "-filter_complex",
+  `[1:a]volume=${MUSIC_DB}dB[m];[0:a]asplit=2[v][sc];` +
+    "[m][sc]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=350:makeup=1[md];" +
+    "[v][md]amix=inputs=2:duration=longest:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=9",
+  "-ar", "48000", join(ROOT, audioRel),
+]);
 
 // Mouth envelope: normalise to the 95th percentile, light smoothing, 2 decimals.
 const raw = rmsFrames(total);

@@ -22,7 +22,8 @@ Giọng đọc dùng Kokoro (`am_michael`, tốc độ 1.08 + xử lý âm thanh
 
 - `series/` — kịch bản từng ngày (JSON)
 - `scripts/template.html` — sân khấu + nhân vật William (SVG) + phụ đề; **sửa giao diện ở đây**
-- `scripts/make-episode.mjs` — TTS → ghép câu → khẩu hình → thời gian từng từ → sinh `index.html`
+- `scripts/make-episode.mjs` — TTS → ghép câu → nhạc nền (tự nhỏ khi William nói) → khẩu hình → thời gian từng từ → sinh `index.html`
+- `scripts/make-bgm.py` — tạo nhạc nền 118 BPM (không bản quyền); chỉnh mức nhạc bằng `MUSIC_DB` trong make-episode.mjs
 - `index.html` — composition của tập vừa build (tự sinh, không sửa tay)
 - `renders/` — video đã xuất
 
