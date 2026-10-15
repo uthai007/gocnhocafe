@@ -1,0 +1,78 @@
+<template id="s11-why-now-template">
+  <div id="root" data-composition-id="11-why-now" data-start="0" data-duration="14.28" data-width="1920" data-height="1080">
+    <style>
+      @font-face { font-family: "Newsreader"; font-style: normal; font-weight: 400; src: url("assets/fonts/Newsreader-Regular.woff2") format("woff2"); }
+      @font-face { font-family: "Newsreader"; font-style: italic; font-weight: 400; src: url("assets/fonts/Newsreader-Italic.woff2") format("woff2"); }
+      @font-face { font-family: "Hanken Grotesk"; font-style: normal; font-weight: 400 700; src: url("assets/fonts/Hanken_Grotesk-Variable.woff2") format("woff2"); }
+      @font-face { font-family: "DM Mono"; font-style: normal; font-weight: 400; src: url("assets/fonts/DM_Mono-Regular.woff2") format("woff2"); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #1F2BE0;
+        font-family: "Hanken Grotesk", sans-serif; }
+      #s11-why-now-ground { position: absolute; inset: 0; background-color: #F0EBDE;
+        background-image: linear-gradient(rgba(31,43,224,0.10) 1px, transparent 1px), linear-gradient(90deg, rgba(31,43,224,0.10) 1px, transparent 1px);
+        background-size: 38.4px 38.4px; background-position: -1px -1px; }
+      #s11-why-now-ground .hl { position: absolute; left: 77px; right: 77px; height: 2px; background: #1F2BE0; }
+      #s11-why-now-ground .chrome { position: absolute; top: 20px; font-family: "DM Mono", monospace; font-size: 16px;
+        letter-spacing: 0.08em; color: #1F2BE0; }
+      #s11-why-now-stage { position: absolute; inset: 0; }
+      #s11-why-now-stage .serif { font-family: "Newsreader", serif; font-weight: 400; }
+      #s11-why-now-stage .mono { font-family: "DM Mono", monospace; letter-spacing: 0.06em; }
+      #s11-why-now-stage .label { font-family: "Hanken Grotesk", sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 0.16em; }
+      #s11-why-now-stage .abs { position: absolute; display: block; }
+      #s11-why-now-stage svg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: visible; }
+      #s11-why-now-stage .draw { fill: none; stroke: #1F2BE0; stroke-width: 4; stroke-linecap: square; stroke-linejoin: miter; }
+
+    </style>
+    <div id="s11-why-now-ground" class="clip" data-start="0" data-duration="14.28" data-track-index="0">
+      <div class="hl" style="top: 56px"></div>
+      <div class="hl" style="top: 1022px"></div>
+      <div class="chrome" style="left: 77px">MECHATRONICS — EXPLAINED</div>
+      <div class="chrome" style="right: 77px">11 / 13</div>
+    </div>
+    <div id="s11-why-now-stage" class="clip" data-start="0" data-duration="14.28" data-track-index="1">
+      <div id="s11-why-now-cam" class="abs" style="left:0;top:0;width:1920px;height:1080px">
+
+        <div class="abs serif" id="f11-h" style="left:120px;top:96px;font-size:96px;line-height:1">Demand <span class="mono" style="font-size:80px">↑</span></div>
+        <svg viewBox="0 0 1920 1080">
+          <path class="draw f11-a0" pathLength="1" style="stroke-dasharray:1" d="M1000 352 C1150 352 1150 520 1290 520" />
+          <path class="draw f11-a1" pathLength="1" style="stroke-dasharray:1" d="M1000 522 H1290" />
+          <path class="draw f11-a2" pathLength="1" style="stroke-dasharray:1" d="M1000 692 C1150 692 1150 520 1290 520 M1270 506 L1290 520 L1270 534" />
+        </svg>
+        <div class="abs" id="f11-goal" style="left:1300px;top:410px;width:500px;height:220px;background:#1F2BE0;color:#F0EBDE;padding:34px 40px;box-sizing:border-box">
+          <div class="label" style="font-size:16px">ALL OF THEM NEED</div>
+          <div class="serif" style="font-size:64px;line-height:1;margin-top:18px">Whole-system engineers</div>
+        </div>
+        <div class="abs" id="f11-r0" style="left:120px;top:300px;width:880px;height:110px;border-bottom:1px solid rgba(31,43,224,0.18);display:flex;align-items:center;justify-content:space-between">
+          <div class="serif" style="font-size:58px">Factory automation</div><div class="mono" style="font-size:48px">↑</div>
+        </div>
+        <div class="abs" id="f11-r1" style="left:120px;top:470px;width:880px;height:110px;border-bottom:1px solid rgba(31,43,224,0.18);display:flex;align-items:center;justify-content:space-between">
+          <div class="serif" style="font-size:58px">Cars → computers on wheels</div><div class="mono" style="font-size:48px">↑</div>
+        </div>
+        <div class="abs" id="f11-r2" style="left:120px;top:640px;width:880px;height:110px;border-bottom:1px solid rgba(31,43,224,0.18);display:flex;align-items:center;justify-content:space-between">
+          <div class="serif" style="font-size:58px">Smarter products</div><div class="mono" style="font-size:48px">↑</div>
+        </div>
+
+      </div>
+    </div>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        const D = 13.78;
+        const q = (s) => "#s11-why-now-stage " + s;
+        const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
+        const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: d || 0.5, ease: "power3.out" }, at);
+        const fade = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: d || 0.5, ease: "power1.out" }, at);
+        const grow = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, scale: 0.86 }, { opacity: 1, scale: 1, duration: d || 0.55, ease: "back.out(1.6)" }, at);
+        tl.fromTo("#s11-why-now-cam", { scale: 1 }, { scale: 1.035, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
+        pop("#f11-h", 0.1);
+        tl.fromTo(q("#f11-r0"), { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 2.32);
+        tl.fromTo(q("#f11-r1"), { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 4.26);
+        tl.fromTo(q("#f11-r2"), { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 8.061);
+        draw(".f11-a0", 11.701, 0.6); draw(".f11-a1", 11.801, 0.6); draw(".f11-a2", 11.901, 0.6); grow("#f11-goal", 12.301, 0.7);
+
+
+        window.__timelines["11-why-now"] = tl;
+      })();
+    </script>
+  </div>
+</template>

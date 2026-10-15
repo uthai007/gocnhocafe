@@ -1,0 +1,90 @@
+<template id="s01-hook-template">
+  <div id="root" data-composition-id="01-hook" data-start="0" data-duration="7.53" data-width="1920" data-height="1080">
+    <style>
+      @font-face { font-family: "Newsreader"; font-style: normal; font-weight: 400; src: url("assets/fonts/Newsreader-Regular.woff2") format("woff2"); }
+      @font-face { font-family: "Newsreader"; font-style: italic; font-weight: 400; src: url("assets/fonts/Newsreader-Italic.woff2") format("woff2"); }
+      @font-face { font-family: "Hanken Grotesk"; font-style: normal; font-weight: 400 700; src: url("assets/fonts/Hanken_Grotesk-Variable.woff2") format("woff2"); }
+      @font-face { font-family: "DM Mono"; font-style: normal; font-weight: 400; src: url("assets/fonts/DM_Mono-Regular.woff2") format("woff2"); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #1F2BE0;
+        font-family: "Hanken Grotesk", sans-serif; }
+      #s01-hook-ground { position: absolute; inset: 0; background-color: #F0EBDE;
+        background-image: linear-gradient(rgba(31,43,224,0.10) 1px, transparent 1px), linear-gradient(90deg, rgba(31,43,224,0.10) 1px, transparent 1px);
+        background-size: 38.4px 38.4px; background-position: -1px -1px; }
+      #s01-hook-ground .hl { position: absolute; left: 77px; right: 77px; height: 2px; background: #1F2BE0; }
+      #s01-hook-ground .chrome { position: absolute; top: 20px; font-family: "DM Mono", monospace; font-size: 16px;
+        letter-spacing: 0.08em; color: #1F2BE0; }
+      #s01-hook-stage { position: absolute; inset: 0; }
+      #s01-hook-stage .serif { font-family: "Newsreader", serif; font-weight: 400; }
+      #s01-hook-stage .mono { font-family: "DM Mono", monospace; letter-spacing: 0.06em; }
+      #s01-hook-stage .label { font-family: "Hanken Grotesk", sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 0.16em; }
+      #s01-hook-stage .abs { position: absolute; display: block; }
+      #s01-hook-stage svg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: visible; }
+      #s01-hook-stage .draw { fill: none; stroke: #1F2BE0; stroke-width: 4; stroke-linecap: square; stroke-linejoin: miter; }
+
+    </style>
+    <div id="s01-hook-ground" class="clip" data-start="0" data-duration="7.53" data-track-index="0">
+      <div class="hl" style="top: 56px"></div>
+      <div class="hl" style="top: 1022px"></div>
+      <div class="chrome" style="left: 77px">MECHATRONICS — EXPLAINED</div>
+      <div class="chrome" style="right: 77px">01 / 13</div>
+    </div>
+    <div id="s01-hook-stage" class="clip" data-start="0" data-duration="7.53" data-track-index="1">
+      <div id="s01-hook-cam" class="abs" style="left:0;top:0;width:1920px;height:1080px">
+
+        <svg viewBox="0 0 1920 1080">
+          <g id="f01-arm">
+            <path class="draw a1" pathLength="1" style="stroke-dasharray:1" d="M250 640 H430 V690 H250 Z" />
+            <path class="draw a2" pathLength="1" style="stroke-dasharray:1" d="M340 640 L340 500 L500 400 L620 450" />
+            <path class="draw a3" pathLength="1" style="stroke-dasharray:1" d="M620 450 L668 424 M620 450 L662 494" />
+            <path class="draw a4" pathLength="1" style="stroke-dasharray:1" d="M326 486 H354 V514 H326 ZM486 386 H514 V414 H486 Z" />
+          </g>
+          <g id="f01-car">
+            <path class="draw c1" pathLength="1" style="stroke-dasharray:1" d="M790 650 L810 585 L890 530 L1050 530 L1120 585 L1170 595 L1170 650 Z" />
+            <path class="draw c2" pathLength="1" style="stroke-dasharray:1" d="M905 545 L1040 545 L1085 585 L880 585 Z" />
+            <path class="draw c3" pathLength="1" style="stroke-dasharray:1" d="M844 655 A36 36 0 1 0 916 655 A36 36 0 1 0 844 655M1054 655 A36 36 0 1 0 1126 655 A36 36 0 1 0 1054 655" />
+            <path class="draw c4" pathLength="1" style="stroke-dasharray:1" d="M955 500 H999 V524 H955 Z M948 488 Q977 470 1006 488 M938 476 Q977 450 1016 476" />
+          </g>
+          <g id="f01-washer">
+            <path class="draw w1" pathLength="1" style="stroke-dasharray:1" d="M1360 410 H1660 V710 H1360 Z" />
+            <path class="draw w2" pathLength="1" style="stroke-dasharray:1" d="M1360 470 H1660" />
+            <path class="draw w3" pathLength="1" style="stroke-dasharray:1" d="M1418 595 A92 92 0 1 0 1602 595 A92 92 0 1 0 1418 595M1448 595 A62 62 0 1 0 1572 595 A62 62 0 1 0 1448 595" />
+            <path class="draw w4" pathLength="1" style="stroke-dasharray:1" d="M1390 430 H1412 V452 H1390 ZM1430 430 H1452 V452 H1430 Z" />
+          </g>
+        </svg>
+        <div class="abs label" style="left:250px;top:730px;font-size:18px" id="f01-t1">ROBOT ARM</div>
+        <div class="abs label" style="left:790px;top:730px;font-size:18px" id="f01-t2">SELF-DRIVING CAR</div>
+        <div class="abs label" style="left:1360px;top:730px;font-size:18px" id="f01-t3">WASHING MACHINE</div>
+        <div class="abs serif" id="f01-q" style="left:0;width:1920px;top:110px;text-align:center;font-size:260px;line-height:1">?</div>
+        <div class="abs mono" id="f01-tag" style="left:0;width:1920px;top:810px;text-align:center;font-size:22px">WHAT DO THEY SHARE?</div>
+
+      </div>
+    </div>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        const D = 7.03;
+        const q = (s) => "#s01-hook-stage " + s;
+        const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
+        const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: d || 0.5, ease: "power3.out" }, at);
+        const fade = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: d || 0.5, ease: "power1.out" }, at);
+        const grow = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, scale: 0.86 }, { opacity: 1, scale: 1, duration: d || 0.55, ease: "back.out(1.6)" }, at);
+        tl.fromTo("#s01-hook-cam", { scale: 1 }, { scale: 1.035, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
+
+        draw(".a1", 0.317, 0.5); draw(".a2", 0.567, 0.8); draw(".a3", 1.117, 0.4); draw(".a4", 1.217, 0.4);
+        fade("#f01-t1", 0.817);
+        draw(".c1", 1.803, 0.8); draw(".c2", 2.203, 0.5); draw(".c3", 2.403, 0.5); draw(".c4", 2.703, 0.5);
+        fade("#f01-t2", 2.403);
+        draw(".w1", 3.784, 0.7); draw(".w2", 4.084, 0.3); draw(".w3", 4.184, 0.7); draw(".w4", 4.484, 0.3);
+        fade("#f01-t3", 4.3839999999999995);
+        tl.to(q("svg"), { opacity: 0.28, duration: 0.5, ease: "power1.out" }, 5.1);
+        tl.to(q("#f01-t1, #f01-t2, #f01-t3"), { opacity: 0.35, duration: 0.5 }, 5.1);
+        grow("#f01-q", 5.199999999999999, 0.7);
+        pop("#f01-tag", 5.919);
+
+
+        window.__timelines["01-hook"] = tl;
+      })();
+    </script>
+  </div>
+</template>

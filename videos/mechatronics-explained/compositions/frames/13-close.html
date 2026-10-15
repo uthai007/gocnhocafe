@@ -1,0 +1,69 @@
+<template id="s13-close-template">
+  <div id="root" data-composition-id="13-close" data-start="0" data-duration="7.92" data-width="1920" data-height="1080">
+    <style>
+      @font-face { font-family: "Newsreader"; font-style: normal; font-weight: 400; src: url("assets/fonts/Newsreader-Regular.woff2") format("woff2"); }
+      @font-face { font-family: "Newsreader"; font-style: italic; font-weight: 400; src: url("assets/fonts/Newsreader-Italic.woff2") format("woff2"); }
+      @font-face { font-family: "Hanken Grotesk"; font-style: normal; font-weight: 400 700; src: url("assets/fonts/Hanken_Grotesk-Variable.woff2") format("woff2"); }
+      @font-face { font-family: "DM Mono"; font-style: normal; font-weight: 400; src: url("assets/fonts/DM_Mono-Regular.woff2") format("woff2"); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #1F2BE0;
+        font-family: "Hanken Grotesk", sans-serif; }
+      #s13-close-ground { position: absolute; inset: 0; background-color: #F0EBDE;
+        background-image: linear-gradient(rgba(31,43,224,0.10) 1px, transparent 1px), linear-gradient(90deg, rgba(31,43,224,0.10) 1px, transparent 1px);
+        background-size: 38.4px 38.4px; background-position: -1px -1px; }
+      #s13-close-ground .hl { position: absolute; left: 77px; right: 77px; height: 2px; background: #1F2BE0; }
+      #s13-close-ground .chrome { position: absolute; top: 20px; font-family: "DM Mono", monospace; font-size: 16px;
+        letter-spacing: 0.08em; color: #1F2BE0; }
+      #s13-close-stage { position: absolute; inset: 0; }
+      #s13-close-stage .serif { font-family: "Newsreader", serif; font-weight: 400; }
+      #s13-close-stage .mono { font-family: "DM Mono", monospace; letter-spacing: 0.06em; }
+      #s13-close-stage .label { font-family: "Hanken Grotesk", sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 0.16em; }
+      #s13-close-stage .abs { position: absolute; display: block; }
+      #s13-close-stage svg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: visible; }
+      #s13-close-stage .draw { fill: none; stroke: #1F2BE0; stroke-width: 4; stroke-linecap: square; stroke-linejoin: miter; }
+
+    </style>
+    <div id="s13-close-ground" class="clip" data-start="0" data-duration="7.92" data-track-index="0">
+      <div class="hl" style="top: 56px"></div>
+      <div class="hl" style="top: 1022px"></div>
+      <div class="chrome" style="left: 77px">MECHATRONICS — EXPLAINED</div>
+      <div class="chrome" style="right: 77px">13 / 13</div>
+    </div>
+    <div id="s13-close-stage" class="clip" data-start="0" data-duration="7.92" data-track-index="1">
+      <div id="s13-close-cam" class="abs" style="left:0;top:0;width:1920px;height:1080px">
+
+        <div class="abs" id="f13-gl" style="left:77px;top:150px;width:240px"><div style="height:90px;width:120px;margin-top:6px;background:repeating-linear-gradient(90deg,#1F2BE0 0 2px,transparent 2px 8px)"></div><div style="height:60px;width:180px;margin-top:6px;background:repeating-linear-gradient(90deg,#1F2BE0 0 2px,transparent 2px 8px)"></div><div style="height:120px;width:90px;margin-top:6px;background:repeating-linear-gradient(90deg,#1F2BE0 0 2px,transparent 2px 8px)"></div><div style="height:80px;width:220px;margin-top:6px;background:repeating-linear-gradient(90deg,#1F2BE0 0 2px,transparent 2px 8px)"></div><div style="height:70px;width:140px;margin-top:6px;background:repeating-linear-gradient(90deg,#1F2BE0 0 2px,transparent 2px 8px)"></div><div style="height:110px;width:60px;margin-top:6px;background:repeating-linear-gradient(90deg,#1F2BE0 0 2px,transparent 2px 8px)"></div><div style="height:60px;width:160px;margin-top:6px;background:repeating-linear-gradient(90deg,#1F2BE0 0 2px,transparent 2px 8px)"></div></div>
+        <svg viewBox="0 0 1920 1080">
+          <path class="draw f13-loop" pathLength="1" style="stroke-dasharray:1" d="M1080 160 H1260 V240 H1080 ZM1330 160 H1510 V240 H1330 ZM1580 160 H1760 V240 H1580 Z M1260 200 H1330 M1510 200 H1580" />
+        </svg>
+        <div class="abs mono" id="f13-lt" style="left:1080px;top:186px;width:680px;display:flex;font-size:18px">
+          <span style="width:250px;text-align:center;margin-left:-35px">SENSE</span><span style="width:250px;text-align:center">THINK</span><span style="width:250px;text-align:center">ACT</span>
+        </div>
+        <div class="abs label" id="f13-k" style="right:160px;top:330px;font-size:22px;text-align:right">MECHATRONICS — YOUR MAJOR?</div>
+        <div class="abs serif" style="right:150px;top:380px;font-size:150px;line-height:1.02;text-align:right;letter-spacing:-0.005em">
+          <span id="f13-w0" style="display:inline-block">Sense.</span> <span id="f13-w1" style="display:inline-block">Think.</span><br><span id="f13-w2" style="display:inline-block">Move.</span>
+        </div>
+
+      </div>
+    </div>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        const D = 7.92;
+        const q = (s) => "#s13-close-stage " + s;
+        const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
+        const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: d || 0.5, ease: "power3.out" }, at);
+        const fade = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: d || 0.5, ease: "power1.out" }, at);
+        const grow = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, scale: 0.86 }, { opacity: 1, scale: 1, duration: d || 0.55, ease: "back.out(1.6)" }, at);
+        tl.fromTo("#s13-close-cam", { scale: 1 }, { scale: 1.035, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
+        tl.fromTo(q("#f13-gl"), { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.8, ease: "power2.out" }, 0.1);
+        draw(".f13-loop", 0.2, 1.0); fade("#f13-lt", 0.7);
+        pop("#f13-w0", 1.062); pop("#f13-w1", 1.5); pop("#f13-w2", 3.393);
+        pop("#f13-k", 6.293);
+
+        tl.to('#s13-close-cam', { opacity: 0, duration: 0.6, ease: 'power1.in' }, D - 0.75);
+        window.__timelines["13-close"] = tl;
+      })();
+    </script>
+  </div>
+</template>
