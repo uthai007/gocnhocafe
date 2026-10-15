@@ -1,0 +1,3691 @@
+{
+  "total_duration_s": 172.86,
+  "width": 1080,
+  "height": 1920,
+  "groups": [
+    {
+      "id": "caption-group-0",
+      "frame": 1,
+      "start": 0.25,
+      "end": 1.27,
+      "text": "A robot arm.",
+      "words": [
+        {
+          "id": "caption-word-0-0",
+          "text": "A",
+          "start": 0.25,
+          "end": 0.417
+        },
+        {
+          "id": "caption-word-0-1",
+          "text": "robot",
+          "start": 0.417,
+          "end": 0.85
+        },
+        {
+          "id": "caption-word-0-2",
+          "text": "arm.",
+          "start": 0.85,
+          "end": 1.15
+        }
+      ]
+    },
+    {
+      "id": "caption-group-1",
+      "frame": 1,
+      "start": 1.63,
+      "end": 3.1,
+      "text": "A self-driving car.",
+      "words": [
+        {
+          "id": "caption-word-1-0",
+          "text": "A",
+          "start": 1.63,
+          "end": 1.803
+        },
+        {
+          "id": "caption-word-1-1",
+          "text": "self-driving",
+          "start": 1.803,
+          "end": 2.668
+        },
+        {
+          "id": "caption-word-1-2",
+          "text": "car.",
+          "start": 2.668,
+          "end": 2.98
+        }
+      ]
+    },
+    {
+      "id": "caption-group-2",
+      "frame": 1,
+      "start": 3.23,
+      "end": 3.784,
+      "text": "Even your",
+      "words": [
+        {
+          "id": "caption-word-2-0",
+          "text": "Even",
+          "start": 3.23,
+          "end": 3.507
+        },
+        {
+          "id": "caption-word-2-1",
+          "text": "your",
+          "start": 3.507,
+          "end": 3.784
+        }
+      ]
+    },
+    {
+      "id": "caption-group-3",
+      "frame": 1,
+      "start": 3.784,
+      "end": 4.76,
+      "text": "washing machine.",
+      "words": [
+        {
+          "id": "caption-word-3-0",
+          "text": "washing",
+          "start": 3.784,
+          "end": 4.212
+        },
+        {
+          "id": "caption-word-3-1",
+          "text": "machine.",
+          "start": 4.212,
+          "end": 4.64
+        }
+      ]
+    },
+    {
+      "id": "caption-group-4",
+      "frame": 1,
+      "start": 5.1,
+      "end": 5.414,
+      "text": "What do",
+      "words": [
+        {
+          "id": "caption-word-4-0",
+          "text": "What",
+          "start": 5.1,
+          "end": 5.292
+        },
+        {
+          "id": "caption-word-4-1",
+          "text": "do",
+          "start": 5.292,
+          "end": 5.414
+        }
+      ]
+    },
+    {
+      "id": "caption-group-5",
+      "frame": 1,
+      "start": 5.414,
+      "end": 5.797,
+      "text": "they have",
+      "words": [
+        {
+          "id": "caption-word-5-0",
+          "text": "they",
+          "start": 5.414,
+          "end": 5.605
+        },
+        {
+          "id": "caption-word-5-1",
+          "text": "have",
+          "start": 5.605,
+          "end": 5.797
+        }
+      ]
+    },
+    {
+      "id": "caption-group-6",
+      "frame": 1,
+      "start": 5.797,
+      "end": 6.3,
+      "text": "in common?",
+      "words": [
+        {
+          "id": "caption-word-6-0",
+          "text": "in",
+          "start": 5.797,
+          "end": 5.919
+        },
+        {
+          "id": "caption-word-6-1",
+          "text": "common?",
+          "start": 5.919,
+          "end": 6.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-7",
+      "frame": 2,
+      "start": 7.28,
+      "end": 7.779,
+      "text": "They are",
+      "words": [
+        {
+          "id": "caption-word-7-0",
+          "text": "They",
+          "start": 7.28,
+          "end": 7.554
+        },
+        {
+          "id": "caption-word-7-1",
+          "text": "are",
+          "start": 7.554,
+          "end": 7.779
+        }
+      ]
+    },
+    {
+      "id": "caption-group-8",
+      "frame": 2,
+      "start": 7.779,
+      "end": 9.17,
+      "text": "all mechatronic systems.",
+      "words": [
+        {
+          "id": "caption-word-8-0",
+          "text": "all",
+          "start": 7.779,
+          "end": 8.003
+        },
+        {
+          "id": "caption-word-8-1",
+          "text": "mechatronic",
+          "start": 8.003,
+          "end": 8.626
+        },
+        {
+          "id": "caption-word-8-2",
+          "text": "systems.",
+          "start": 8.626,
+          "end": 9.05
+        }
+      ]
+    },
+    {
+      "id": "caption-group-9",
+      "frame": 2,
+      "start": 9.22,
+      "end": 9.239,
+      "text": "Mechatronics is",
+      "words": [
+        {
+          "id": "caption-word-9-0",
+          "text": "Mechatronics",
+          "start": 9.22,
+          "end": 9.235
+        },
+        {
+          "id": "caption-word-9-1",
+          "text": "is",
+          "start": 9.235,
+          "end": 9.239
+        }
+      ]
+    },
+    {
+      "id": "caption-group-10",
+      "frame": 2,
+      "start": 9.239,
+      "end": 9.258,
+      "text": "the engineering",
+      "words": [
+        {
+          "id": "caption-word-10-0",
+          "text": "the",
+          "start": 9.239,
+          "end": 9.244
+        },
+        {
+          "id": "caption-word-10-1",
+          "text": "engineering",
+          "start": 9.244,
+          "end": 9.258
+        }
+      ]
+    },
+    {
+      "id": "caption-group-11",
+      "frame": 2,
+      "start": 9.258,
+      "end": 9.269,
+      "text": "of smart",
+      "words": [
+        {
+          "id": "caption-word-11-0",
+          "text": "of",
+          "start": 9.258,
+          "end": 9.262
+        },
+        {
+          "id": "caption-word-11-1",
+          "text": "smart",
+          "start": 9.262,
+          "end": 9.269
+        }
+      ]
+    },
+    {
+      "id": "caption-group-12",
+      "frame": 2,
+      "start": 9.269,
+      "end": 9.4,
+      "text": "machines,",
+      "words": [
+        {
+          "id": "caption-word-12-0",
+          "text": "machines,",
+          "start": 9.269,
+          "end": 9.28
+        }
+      ]
+    },
+    {
+      "id": "caption-group-13",
+      "frame": 2,
+      "start": 9.82,
+      "end": 12.82,
+      "text": "where mechanics,",
+      "words": [
+        {
+          "id": "caption-word-13-0",
+          "text": "where",
+          "start": 9.82,
+          "end": 10.921
+        },
+        {
+          "id": "caption-word-13-1",
+          "text": "mechanics,",
+          "start": 10.921,
+          "end": 12.7
+        }
+      ]
+    },
+    {
+      "id": "caption-group-14",
+      "frame": 2,
+      "start": 12.84,
+      "end": 13.01,
+      "text": "electronics,",
+      "words": [
+        {
+          "id": "caption-word-14-0",
+          "text": "electronics,",
+          "start": 12.84,
+          "end": 12.89
+        }
+      ]
+    },
+    {
+      "id": "caption-group-15",
+      "frame": 2,
+      "start": 13.31,
+      "end": 14.34,
+      "text": "computing,",
+      "words": [
+        {
+          "id": "caption-word-15-0",
+          "text": "computing,",
+          "start": 13.31,
+          "end": 14.22
+        }
+      ]
+    },
+    {
+      "id": "caption-group-16",
+      "frame": 2,
+      "start": 14.58,
+      "end": 17.09,
+      "text": "and control come together",
+      "words": [
+        {
+          "id": "caption-word-16-0",
+          "text": "and",
+          "start": 14.58,
+          "end": 14.983
+        },
+        {
+          "id": "caption-word-16-1",
+          "text": "control",
+          "start": 14.983,
+          "end": 15.746
+        },
+        {
+          "id": "caption-word-16-2",
+          "text": "come",
+          "start": 15.746,
+          "end": 16.239
+        },
+        {
+          "id": "caption-word-16-3",
+          "text": "together",
+          "start": 16.239,
+          "end": 17.09
+        }
+      ]
+    },
+    {
+      "id": "caption-group-17",
+      "frame": 2,
+      "start": 17.09,
+      "end": 18.6,
+      "text": "in one design.",
+      "words": [
+        {
+          "id": "caption-word-17-0",
+          "text": "in",
+          "start": 17.09,
+          "end": 17.404
+        },
+        {
+          "id": "caption-word-17-1",
+          "text": "one",
+          "start": 17.404,
+          "end": 17.808
+        },
+        {
+          "id": "caption-word-17-2",
+          "text": "design.",
+          "start": 17.808,
+          "end": 18.48
+        }
+      ]
+    },
+    {
+      "id": "caption-group-18",
+      "frame": 3,
+      "start": 19.58,
+      "end": 20.74,
+      "text": "The word was",
+      "words": [
+        {
+          "id": "caption-word-18-0",
+          "text": "The",
+          "start": 19.58,
+          "end": 19.94
+        },
+        {
+          "id": "caption-word-18-1",
+          "text": "word",
+          "start": 19.94,
+          "end": 20.38
+        },
+        {
+          "id": "caption-word-18-2",
+          "text": "was",
+          "start": 20.38,
+          "end": 20.74
+        }
+      ]
+    },
+    {
+      "id": "caption-group-19",
+      "frame": 3,
+      "start": 20.74,
+      "end": 22.14,
+      "text": "coined in Japan",
+      "words": [
+        {
+          "id": "caption-word-19-0",
+          "text": "coined",
+          "start": 20.74,
+          "end": 21.34
+        },
+        {
+          "id": "caption-word-19-1",
+          "text": "in",
+          "start": 21.34,
+          "end": 21.62
+        },
+        {
+          "id": "caption-word-19-2",
+          "text": "Japan",
+          "start": 21.62,
+          "end": 22.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-20",
+      "frame": 3,
+      "start": 22.14,
+      "end": 22.98,
+      "text": "in 1969,",
+      "words": [
+        {
+          "id": "caption-word-20-0",
+          "text": "in",
+          "start": 22.14,
+          "end": 22.42
+        },
+        {
+          "id": "caption-word-20-1",
+          "text": "1969,",
+          "start": 22.42,
+          "end": 22.86
+        }
+      ]
+    },
+    {
+      "id": "caption-group-21",
+      "frame": 3,
+      "start": 23.39,
+      "end": 24.63,
+      "text": "by Tetsuro Mori,",
+      "words": [
+        {
+          "id": "caption-word-21-0",
+          "text": "by",
+          "start": 23.39,
+          "end": 23.614
+        },
+        {
+          "id": "caption-word-21-1",
+          "text": "Tetsuro",
+          "start": 23.614,
+          "end": 24.158
+        },
+        {
+          "id": "caption-word-21-2",
+          "text": "Mori,",
+          "start": 24.158,
+          "end": 24.51
+        }
+      ]
+    },
+    {
+      "id": "caption-group-22",
+      "frame": 3,
+      "start": 24.93,
+      "end": 26.006,
+      "text": "an engineer at",
+      "words": [
+        {
+          "id": "caption-word-22-0",
+          "text": "an",
+          "start": 24.93,
+          "end": 25.158
+        },
+        {
+          "id": "caption-word-22-1",
+          "text": "engineer",
+          "start": 25.158,
+          "end": 25.778
+        },
+        {
+          "id": "caption-word-22-2",
+          "text": "at",
+          "start": 25.778,
+          "end": 26.006
+        }
+      ]
+    },
+    {
+      "id": "caption-group-23",
+      "frame": 3,
+      "start": 26.006,
+      "end": 27.3,
+      "text": "Yaskawa Electric.",
+      "words": [
+        {
+          "id": "caption-word-23-0",
+          "text": "Yaskawa",
+          "start": 26.006,
+          "end": 26.56
+        },
+        {
+          "id": "caption-word-23-1",
+          "text": "Electric.",
+          "start": 26.56,
+          "end": 27.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-24",
+      "frame": 3,
+      "start": 27.83,
+      "end": 28.68,
+      "text": "Mechanics,",
+      "words": [
+        {
+          "id": "caption-word-24-0",
+          "text": "Mechanics,",
+          "start": 27.83,
+          "end": 28.56
+        }
+      ]
+    },
+    {
+      "id": "caption-group-25",
+      "frame": 3,
+      "start": 28.75,
+      "end": 30.01,
+      "text": "plus electronics.",
+      "words": [
+        {
+          "id": "caption-word-25-0",
+          "text": "plus",
+          "start": 28.75,
+          "end": 29.098
+        },
+        {
+          "id": "caption-word-25-1",
+          "text": "electronics.",
+          "start": 29.098,
+          "end": 29.89
+        }
+      ]
+    },
+    {
+      "id": "caption-group-26",
+      "frame": 4,
+      "start": 30.99,
+      "end": 31.377,
+      "text": "How is",
+      "words": [
+        {
+          "id": "caption-word-26-0",
+          "text": "How",
+          "start": 30.99,
+          "end": 31.208
+        },
+        {
+          "id": "caption-word-26-1",
+          "text": "is",
+          "start": 31.208,
+          "end": 31.377
+        }
+      ]
+    },
+    {
+      "id": "caption-group-27",
+      "frame": 4,
+      "start": 31.377,
+      "end": 32.056,
+      "text": "it different",
+      "words": [
+        {
+          "id": "caption-word-27-0",
+          "text": "it",
+          "start": 31.377,
+          "end": 31.547
+        },
+        {
+          "id": "caption-word-27-1",
+          "text": "different",
+          "start": 31.547,
+          "end": 32.056
+        }
+      ]
+    },
+    {
+      "id": "caption-group-28",
+      "frame": 4,
+      "start": 32.056,
+      "end": 33.12,
+      "text": "from other majors?",
+      "words": [
+        {
+          "id": "caption-word-28-0",
+          "text": "from",
+          "start": 32.056,
+          "end": 32.322
+        },
+        {
+          "id": "caption-word-28-1",
+          "text": "other",
+          "start": 32.322,
+          "end": 32.637
+        },
+        {
+          "id": "caption-word-28-2",
+          "text": "majors?",
+          "start": 32.637,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-29",
+      "frame": 4,
+      "start": 33.43,
+      "end": 35.392,
+      "text": "Mechanical engineers focus on",
+      "words": [
+        {
+          "id": "caption-word-29-0",
+          "text": "Mechanical",
+          "start": 33.43,
+          "end": 34.135
+        },
+        {
+          "id": "caption-word-29-1",
+          "text": "engineers",
+          "start": 34.135,
+          "end": 34.779
+        },
+        {
+          "id": "caption-word-29-2",
+          "text": "focus",
+          "start": 34.779,
+          "end": 35.177
+        },
+        {
+          "id": "caption-word-29-3",
+          "text": "on",
+          "start": 35.177,
+          "end": 35.392
+        }
+      ]
+    },
+    {
+      "id": "caption-group-30",
+      "frame": 4,
+      "start": 35.392,
+      "end": 36.37,
+      "text": "moving parts.",
+      "words": [
+        {
+          "id": "caption-word-30-0",
+          "text": "moving",
+          "start": 35.392,
+          "end": 35.852
+        },
+        {
+          "id": "caption-word-30-1",
+          "text": "parts.",
+          "start": 35.852,
+          "end": 36.25
+        }
+      ]
+    },
+    {
+      "id": "caption-group-31",
+      "frame": 4,
+      "start": 36.67,
+      "end": 38.553,
+      "text": "Electrical engineers focus on",
+      "words": [
+        {
+          "id": "caption-word-31-0",
+          "text": "Electrical",
+          "start": 36.67,
+          "end": 37.347
+        },
+        {
+          "id": "caption-word-31-1",
+          "text": "engineers",
+          "start": 37.347,
+          "end": 37.965
+        },
+        {
+          "id": "caption-word-31-2",
+          "text": "focus",
+          "start": 37.965,
+          "end": 38.347
+        },
+        {
+          "id": "caption-word-31-3",
+          "text": "on",
+          "start": 38.347,
+          "end": 38.553
+        }
+      ]
+    },
+    {
+      "id": "caption-group-32",
+      "frame": 4,
+      "start": 38.553,
+      "end": 39.88,
+      "text": "circuits and power.",
+      "words": [
+        {
+          "id": "caption-word-32-0",
+          "text": "circuits",
+          "start": 38.553,
+          "end": 39.113
+        },
+        {
+          "id": "caption-word-32-1",
+          "text": "and",
+          "start": 39.113,
+          "end": 39.377
+        },
+        {
+          "id": "caption-word-32-2",
+          "text": "power.",
+          "start": 39.377,
+          "end": 39.76
+        }
+      ]
+    },
+    {
+      "id": "caption-group-33",
+      "frame": 4,
+      "start": 40.37,
+      "end": 42.322,
+      "text": "Software engineers focus on",
+      "words": [
+        {
+          "id": "caption-word-33-0",
+          "text": "Software",
+          "start": 40.37,
+          "end": 40.988
+        },
+        {
+          "id": "caption-word-33-1",
+          "text": "engineers",
+          "start": 40.988,
+          "end": 41.671
+        },
+        {
+          "id": "caption-word-33-2",
+          "text": "focus",
+          "start": 41.671,
+          "end": 42.094
+        },
+        {
+          "id": "caption-word-33-3",
+          "text": "on",
+          "start": 42.094,
+          "end": 42.322
+        }
+      ]
+    },
+    {
+      "id": "caption-group-34",
+      "frame": 4,
+      "start": 42.322,
+      "end": 42.8,
+      "text": "code.",
+      "words": [
+        {
+          "id": "caption-word-34-0",
+          "text": "code.",
+          "start": 42.322,
+          "end": 42.68
+        }
+      ]
+    },
+    {
+      "id": "caption-group-35",
+      "frame": 4,
+      "start": 43.31,
+      "end": 44.593,
+      "text": "A mechatronics engineer",
+      "words": [
+        {
+          "id": "caption-word-35-0",
+          "text": "A",
+          "start": 43.31,
+          "end": 43.436
+        },
+        {
+          "id": "caption-word-35-1",
+          "text": "mechatronics",
+          "start": 43.436,
+          "end": 44.115
+        },
+        {
+          "id": "caption-word-35-2",
+          "text": "engineer",
+          "start": 44.115,
+          "end": 44.593
+        }
+      ]
+    },
+    {
+      "id": "caption-group-36",
+      "frame": 4,
+      "start": 44.593,
+      "end": 45.146,
+      "text": "stands in",
+      "words": [
+        {
+          "id": "caption-word-36-0",
+          "text": "stands",
+          "start": 44.593,
+          "end": 44.97
+        },
+        {
+          "id": "caption-word-36-1",
+          "text": "in",
+          "start": 44.97,
+          "end": 45.146
+        }
+      ]
+    },
+    {
+      "id": "caption-group-37",
+      "frame": 4,
+      "start": 45.146,
+      "end": 45.87,
+      "text": "the middle,",
+      "words": [
+        {
+          "id": "caption-word-37-0",
+          "text": "the",
+          "start": 45.146,
+          "end": 45.373
+        },
+        {
+          "id": "caption-word-37-1",
+          "text": "middle,",
+          "start": 45.373,
+          "end": 45.75
+        }
+      ]
+    },
+    {
+      "id": "caption-group-38",
+      "frame": 4,
+      "start": 46.05,
+      "end": 47.071,
+      "text": "and connects all",
+      "words": [
+        {
+          "id": "caption-word-38-0",
+          "text": "and",
+          "start": 46.05,
+          "end": 46.298
+        },
+        {
+          "id": "caption-word-38-1",
+          "text": "connects",
+          "start": 46.298,
+          "end": 46.823
+        },
+        {
+          "id": "caption-word-38-2",
+          "text": "all",
+          "start": 46.823,
+          "end": 47.071
+        }
+      ]
+    },
+    {
+      "id": "caption-group-39",
+      "frame": 4,
+      "start": 47.071,
+      "end": 47.55,
+      "text": "three.",
+      "words": [
+        {
+          "id": "caption-word-39-0",
+          "text": "three.",
+          "start": 47.071,
+          "end": 47.43
+        }
+      ]
+    },
+    {
+      "id": "caption-group-40",
+      "frame": 5,
+      "start": 48.53,
+      "end": 48.964,
+      "text": "Every mechatronic",
+      "words": [
+        {
+          "id": "caption-word-40-0",
+          "text": "Every",
+          "start": 48.53,
+          "end": 48.679
+        },
+        {
+          "id": "caption-word-40-1",
+          "text": "mechatronic",
+          "start": 48.679,
+          "end": 48.964
+        }
+      ]
+    },
+    {
+      "id": "caption-group-41",
+      "frame": 5,
+      "start": 48.964,
+      "end": 49.33,
+      "text": "system follows",
+      "words": [
+        {
+          "id": "caption-word-41-0",
+          "text": "system",
+          "start": 48.964,
+          "end": 49.136
+        },
+        {
+          "id": "caption-word-41-1",
+          "text": "follows",
+          "start": 49.136,
+          "end": 49.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-42",
+      "frame": 5,
+      "start": 49.33,
+      "end": 49.604,
+      "text": "one simple",
+      "words": [
+        {
+          "id": "caption-word-42-0",
+          "text": "one",
+          "start": 49.33,
+          "end": 49.433
+        },
+        {
+          "id": "caption-word-42-1",
+          "text": "simple",
+          "start": 49.433,
+          "end": 49.604
+        }
+      ]
+    },
+    {
+      "id": "caption-group-43",
+      "frame": 5,
+      "start": 49.604,
+      "end": 49.79,
+      "text": "loop.",
+      "words": [
+        {
+          "id": "caption-word-43-0",
+          "text": "loop.",
+          "start": 49.604,
+          "end": 49.73
+        }
+      ]
+    },
+    {
+      "id": "caption-group-44",
+      "frame": 5,
+      "start": 49.79,
+      "end": 51.011,
+      "text": "Sensors measure the",
+      "words": [
+        {
+          "id": "caption-word-44-0",
+          "text": "Sensors",
+          "start": 49.79,
+          "end": 50.273
+        },
+        {
+          "id": "caption-word-44-1",
+          "text": "measure",
+          "start": 50.273,
+          "end": 50.755
+        },
+        {
+          "id": "caption-word-44-2",
+          "text": "the",
+          "start": 50.755,
+          "end": 51.011
+        }
+      ]
+    },
+    {
+      "id": "caption-group-45",
+      "frame": 5,
+      "start": 51.011,
+      "end": 51.5,
+      "text": "world.",
+      "words": [
+        {
+          "id": "caption-word-45-0",
+          "text": "world.",
+          "start": 51.011,
+          "end": 51.38
+        }
+      ]
+    },
+    {
+      "id": "caption-group-46",
+      "frame": 5,
+      "start": 51.96,
+      "end": 53.49,
+      "text": "A controller,",
+      "words": [
+        {
+          "id": "caption-word-46-0",
+          "text": "A",
+          "start": 51.96,
+          "end": 52.212
+        },
+        {
+          "id": "caption-word-46-1",
+          "text": "controller,",
+          "start": 52.212,
+          "end": 53.37
+        }
+      ]
+    },
+    {
+      "id": "caption-group-47",
+      "frame": 5,
+      "start": 53.95,
+      "end": 54.364,
+      "text": "a small",
+      "words": [
+        {
+          "id": "caption-word-47-0",
+          "text": "a",
+          "start": 53.95,
+          "end": 54.065
+        },
+        {
+          "id": "caption-word-47-1",
+          "text": "small",
+          "start": 54.065,
+          "end": 54.364
+        }
+      ]
+    },
+    {
+      "id": "caption-group-48",
+      "frame": 5,
+      "start": 54.364,
+      "end": 54.91,
+      "text": "computer,",
+      "words": [
+        {
+          "id": "caption-word-48-0",
+          "text": "computer,",
+          "start": 54.364,
+          "end": 54.8
+        }
+      ]
+    },
+    {
+      "id": "caption-group-49",
+      "frame": 5,
+      "start": 54.91,
+      "end": 55.217,
+      "text": "decides what",
+      "words": [
+        {
+          "id": "caption-word-49-0",
+          "text": "decides",
+          "start": 54.91,
+          "end": 55.096
+        },
+        {
+          "id": "caption-word-49-1",
+          "text": "what",
+          "start": 55.096,
+          "end": 55.217
+        }
+      ]
+    },
+    {
+      "id": "caption-group-50",
+      "frame": 5,
+      "start": 55.217,
+      "end": 55.43,
+      "text": "to do.",
+      "words": [
+        {
+          "id": "caption-word-50-0",
+          "text": "to",
+          "start": 55.217,
+          "end": 55.293
+        },
+        {
+          "id": "caption-word-50-1",
+          "text": "do.",
+          "start": 55.293,
+          "end": 55.37
+        }
+      ]
+    },
+    {
+      "id": "caption-group-51",
+      "frame": 5,
+      "start": 55.43,
+      "end": 57.34,
+      "text": "Actuators,",
+      "words": [
+        {
+          "id": "caption-word-51-0",
+          "text": "Actuators,",
+          "start": 55.43,
+          "end": 57.22
+        }
+      ]
+    },
+    {
+      "id": "caption-group-52",
+      "frame": 5,
+      "start": 57.83,
+      "end": 60.17,
+      "text": "like motors,",
+      "words": [
+        {
+          "id": "caption-word-52-0",
+          "text": "like",
+          "start": 57.83,
+          "end": 58.769
+        },
+        {
+          "id": "caption-word-52-1",
+          "text": "motors,",
+          "start": 58.769,
+          "end": 60.05
+        }
+      ]
+    },
+    {
+      "id": "caption-group-53",
+      "frame": 5,
+      "start": 60.75,
+      "end": 61.88,
+      "text": "make it move.",
+      "words": [
+        {
+          "id": "caption-word-53-0",
+          "text": "make",
+          "start": 60.75,
+          "end": 61.137
+        },
+        {
+          "id": "caption-word-53-1",
+          "text": "it",
+          "start": 61.137,
+          "end": 61.383
+        },
+        {
+          "id": "caption-word-53-2",
+          "text": "move.",
+          "start": 61.383,
+          "end": 61.77
+        }
+      ]
+    },
+    {
+      "id": "caption-group-54",
+      "frame": 5,
+      "start": 61.88,
+      "end": 62.012,
+      "text": "Then the",
+      "words": [
+        {
+          "id": "caption-word-54-0",
+          "text": "Then",
+          "start": 61.88,
+          "end": 61.953
+        },
+        {
+          "id": "caption-word-54-1",
+          "text": "the",
+          "start": 61.953,
+          "end": 62.012
+        }
+      ]
+    },
+    {
+      "id": "caption-group-55",
+      "frame": 5,
+      "start": 62.012,
+      "end": 62.211,
+      "text": "sensors check",
+      "words": [
+        {
+          "id": "caption-word-55-0",
+          "text": "sensors",
+          "start": 62.012,
+          "end": 62.125
+        },
+        {
+          "id": "caption-word-55-1",
+          "text": "check",
+          "start": 62.125,
+          "end": 62.211
+        }
+      ]
+    },
+    {
+      "id": "caption-group-56",
+      "frame": 5,
+      "start": 62.211,
+      "end": 62.49,
+      "text": "the result,",
+      "words": [
+        {
+          "id": "caption-word-56-0",
+          "text": "the",
+          "start": 62.211,
+          "end": 62.271
+        },
+        {
+          "id": "caption-word-56-1",
+          "text": "result,",
+          "start": 62.271,
+          "end": 62.37
+        }
+      ]
+    },
+    {
+      "id": "caption-group-57",
+      "frame": 5,
+      "start": 62.59,
+      "end": 62.947,
+      "text": "and the",
+      "words": [
+        {
+          "id": "caption-word-57-0",
+          "text": "and",
+          "start": 62.59,
+          "end": 62.768
+        },
+        {
+          "id": "caption-word-57-1",
+          "text": "the",
+          "start": 62.768,
+          "end": 62.947
+        }
+      ]
+    },
+    {
+      "id": "caption-group-58",
+      "frame": 5,
+      "start": 62.947,
+      "end": 63.84,
+      "text": "loop starts again.",
+      "words": [
+        {
+          "id": "caption-word-58-0",
+          "text": "loop",
+          "start": 62.947,
+          "end": 63.165
+        },
+        {
+          "id": "caption-word-58-1",
+          "text": "starts",
+          "start": 63.165,
+          "end": 63.462
+        },
+        {
+          "id": "caption-word-58-2",
+          "text": "again.",
+          "start": 63.462,
+          "end": 63.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-59",
+      "frame": 6,
+      "start": 64.82,
+      "end": 65.187,
+      "text": "Take a",
+      "words": [
+        {
+          "id": "caption-word-59-0",
+          "text": "Take",
+          "start": 64.82,
+          "end": 65.072
+        },
+        {
+          "id": "caption-word-59-1",
+          "text": "a",
+          "start": 65.072,
+          "end": 65.187
+        }
+      ]
+    },
+    {
+      "id": "caption-group-60",
+      "frame": 6,
+      "start": 65.187,
+      "end": 65.95,
+      "text": "robot vacuum.",
+      "words": [
+        {
+          "id": "caption-word-60-0",
+          "text": "robot",
+          "start": 65.187,
+          "end": 65.486
+        },
+        {
+          "id": "caption-word-60-1",
+          "text": "vacuum.",
+          "start": 65.486,
+          "end": 65.83
+        }
+      ]
+    },
+    {
+      "id": "caption-group-61",
+      "frame": 6,
+      "start": 65.96,
+      "end": 65.985,
+      "text": "Its sensors",
+      "words": [
+        {
+          "id": "caption-word-61-0",
+          "text": "Its",
+          "start": 65.96,
+          "end": 65.969
+        },
+        {
+          "id": "caption-word-61-1",
+          "text": "sensors",
+          "start": 65.969,
+          "end": 65.985
+        }
+      ]
+    },
+    {
+      "id": "caption-group-62",
+      "frame": 6,
+      "start": 65.985,
+      "end": 66.011,
+      "text": "detect walls",
+      "words": [
+        {
+          "id": "caption-word-62-0",
+          "text": "detect",
+          "start": 65.985,
+          "end": 65.999
+        },
+        {
+          "id": "caption-word-62-1",
+          "text": "walls",
+          "start": 65.999,
+          "end": 66.011
+        }
+      ]
+    },
+    {
+      "id": "caption-group-63",
+      "frame": 6,
+      "start": 66.011,
+      "end": 66.15,
+      "text": "and dirt.",
+      "words": [
+        {
+          "id": "caption-word-63-0",
+          "text": "and",
+          "start": 66.011,
+          "end": 66.02
+        },
+        {
+          "id": "caption-word-63-1",
+          "text": "dirt.",
+          "start": 66.02,
+          "end": 66.03
+        }
+      ]
+    },
+    {
+      "id": "caption-group-64",
+      "frame": 6,
+      "start": 66.46,
+      "end": 67.841,
+      "text": "Its chip plans",
+      "words": [
+        {
+          "id": "caption-word-64-0",
+          "text": "Its",
+          "start": 66.46,
+          "end": 66.837
+        },
+        {
+          "id": "caption-word-64-1",
+          "text": "chip",
+          "start": 66.837,
+          "end": 67.297
+        },
+        {
+          "id": "caption-word-64-2",
+          "text": "plans",
+          "start": 67.297,
+          "end": 67.841
+        }
+      ]
+    },
+    {
+      "id": "caption-group-65",
+      "frame": 6,
+      "start": 67.841,
+      "end": 68.63,
+      "text": "a path.",
+      "words": [
+        {
+          "id": "caption-word-65-0",
+          "text": "a",
+          "start": 67.841,
+          "end": 68.05
+        },
+        {
+          "id": "caption-word-65-1",
+          "text": "path.",
+          "start": 68.05,
+          "end": 68.51
+        }
+      ]
+    },
+    {
+      "id": "caption-group-66",
+      "frame": 6,
+      "start": 69.02,
+      "end": 69.133,
+      "text": "Its motors",
+      "words": [
+        {
+          "id": "caption-word-66-0",
+          "text": "Its",
+          "start": 69.02,
+          "end": 69.062
+        },
+        {
+          "id": "caption-word-66-1",
+          "text": "motors",
+          "start": 69.062,
+          "end": 69.133
+        }
+      ]
+    },
+    {
+      "id": "caption-group-67",
+      "frame": 6,
+      "start": 69.133,
+      "end": 69.237,
+      "text": "drive the",
+      "words": [
+        {
+          "id": "caption-word-67-0",
+          "text": "drive",
+          "start": 69.133,
+          "end": 69.194
+        },
+        {
+          "id": "caption-word-67-1",
+          "text": "the",
+          "start": 69.194,
+          "end": 69.237
+        }
+      ]
+    },
+    {
+      "id": "caption-group-68",
+      "frame": 6,
+      "start": 69.237,
+      "end": 69.35,
+      "text": "wheels and",
+      "words": [
+        {
+          "id": "caption-word-68-0",
+          "text": "wheels",
+          "start": 69.237,
+          "end": 69.307
+        },
+        {
+          "id": "caption-word-68-1",
+          "text": "and",
+          "start": 69.307,
+          "end": 69.35
+        }
+      ]
+    },
+    {
+      "id": "caption-group-69",
+      "frame": 6,
+      "start": 69.35,
+      "end": 69.55,
+      "text": "brushes.",
+      "words": [
+        {
+          "id": "caption-word-69-0",
+          "text": "brushes.",
+          "start": 69.35,
+          "end": 69.43
+        }
+      ]
+    },
+    {
+      "id": "caption-group-70",
+      "frame": 6,
+      "start": 69.55,
+      "end": 70.4,
+      "text": "Sense,",
+      "words": [
+        {
+          "id": "caption-word-70-0",
+          "text": "Sense,",
+          "start": 69.55,
+          "end": 70.28
+        }
+      ]
+    },
+    {
+      "id": "caption-group-71",
+      "frame": 6,
+      "start": 70.88,
+      "end": 73.47,
+      "text": "think,",
+      "words": [
+        {
+          "id": "caption-word-71-0",
+          "text": "think,",
+          "start": 70.88,
+          "end": 73.35
+        }
+      ]
+    },
+    {
+      "id": "caption-group-72",
+      "frame": 6,
+      "start": 73.87,
+      "end": 74.83,
+      "text": "act,",
+      "words": [
+        {
+          "id": "caption-word-72-0",
+          "text": "act,",
+          "start": 73.87,
+          "end": 74.71
+        }
+      ]
+    },
+    {
+      "id": "caption-group-73",
+      "frame": 6,
+      "start": 74.83,
+      "end": 76.075,
+      "text": "many times every",
+      "words": [
+        {
+          "id": "caption-word-73-0",
+          "text": "many",
+          "start": 74.83,
+          "end": 75.2
+        },
+        {
+          "id": "caption-word-73-1",
+          "text": "times",
+          "start": 75.2,
+          "end": 75.638
+        },
+        {
+          "id": "caption-word-73-2",
+          "text": "every",
+          "start": 75.638,
+          "end": 76.075
+        }
+      ]
+    },
+    {
+      "id": "caption-group-74",
+      "frame": 6,
+      "start": 76.075,
+      "end": 76.7,
+      "text": "second.",
+      "words": [
+        {
+          "id": "caption-word-74-0",
+          "text": "second.",
+          "start": 76.075,
+          "end": 76.58
+        }
+      ]
+    },
+    {
+      "id": "caption-group-75",
+      "frame": 7,
+      "start": 77.68,
+      "end": 78.073,
+      "text": "So what",
+      "words": [
+        {
+          "id": "caption-word-75-0",
+          "text": "So",
+          "start": 77.68,
+          "end": 77.833
+        },
+        {
+          "id": "caption-word-75-1",
+          "text": "what",
+          "start": 77.833,
+          "end": 78.073
+        }
+      ]
+    },
+    {
+      "id": "caption-group-76",
+      "frame": 7,
+      "start": 78.073,
+      "end": 78.422,
+      "text": "do you",
+      "words": [
+        {
+          "id": "caption-word-76-0",
+          "text": "do",
+          "start": 78.073,
+          "end": 78.225
+        },
+        {
+          "id": "caption-word-76-1",
+          "text": "you",
+          "start": 78.225,
+          "end": 78.422
+        }
+      ]
+    },
+    {
+      "id": "caption-group-77",
+      "frame": 7,
+      "start": 78.422,
+      "end": 79.24,
+      "text": "actually study?",
+      "words": [
+        {
+          "id": "caption-word-77-0",
+          "text": "actually",
+          "start": 78.422,
+          "end": 78.836
+        },
+        {
+          "id": "caption-word-77-1",
+          "text": "study?",
+          "start": 78.836,
+          "end": 79.12
+        }
+      ]
+    },
+    {
+      "id": "caption-group-78",
+      "frame": 7,
+      "start": 79.79,
+      "end": 81.155,
+      "text": "In the first",
+      "words": [
+        {
+          "id": "caption-word-78-0",
+          "text": "In",
+          "start": 79.79,
+          "end": 80.119
+        },
+        {
+          "id": "caption-word-78-1",
+          "text": "the",
+          "start": 80.119,
+          "end": 80.543
+        },
+        {
+          "id": "caption-word-78-2",
+          "text": "first",
+          "start": 80.543,
+          "end": 81.155
+        }
+      ]
+    },
+    {
+      "id": "caption-group-79",
+      "frame": 7,
+      "start": 81.155,
+      "end": 82.31,
+      "text": "two years,",
+      "words": [
+        {
+          "id": "caption-word-79-0",
+          "text": "two",
+          "start": 81.155,
+          "end": 81.578
+        },
+        {
+          "id": "caption-word-79-1",
+          "text": "years,",
+          "start": 81.578,
+          "end": 82.19
+        }
+      ]
+    },
+    {
+      "id": "caption-group-80",
+      "frame": 7,
+      "start": 82.74,
+      "end": 82.834,
+      "text": "you build",
+      "words": [
+        {
+          "id": "caption-word-80-0",
+          "text": "you",
+          "start": 82.74,
+          "end": 82.778
+        },
+        {
+          "id": "caption-word-80-1",
+          "text": "build",
+          "start": 82.778,
+          "end": 82.834
+        }
+      ]
+    },
+    {
+      "id": "caption-group-81",
+      "frame": 7,
+      "start": 82.834,
+      "end": 83.04,
+      "text": "the foundation:",
+      "words": [
+        {
+          "id": "caption-word-81-0",
+          "text": "the",
+          "start": 82.834,
+          "end": 82.872
+        },
+        {
+          "id": "caption-word-81-1",
+          "text": "foundation:",
+          "start": 82.872,
+          "end": 82.97
+        }
+      ]
+    },
+    {
+      "id": "caption-group-82",
+      "frame": 7,
+      "start": 83.04,
+      "end": 84.22,
+      "text": "calculus and physics,",
+      "words": [
+        {
+          "id": "caption-word-82-0",
+          "text": "calculus",
+          "start": 83.04,
+          "end": 83.488
+        },
+        {
+          "id": "caption-word-82-1",
+          "text": "and",
+          "start": 83.488,
+          "end": 83.7
+        },
+        {
+          "id": "caption-word-82-2",
+          "text": "physics,",
+          "start": 83.7,
+          "end": 84.1
+        }
+      ]
+    },
+    {
+      "id": "caption-group-83",
+      "frame": 7,
+      "start": 84.42,
+      "end": 86.03,
+      "text": "mechanics of materials,",
+      "words": [
+        {
+          "id": "caption-word-83-0",
+          "text": "mechanics",
+          "start": 84.42,
+          "end": 85.059
+        },
+        {
+          "id": "caption-word-83-1",
+          "text": "of",
+          "start": 85.059,
+          "end": 85.271
+        },
+        {
+          "id": "caption-word-83-2",
+          "text": "materials,",
+          "start": 85.271,
+          "end": 85.91
+        }
+      ]
+    },
+    {
+      "id": "caption-group-84",
+      "frame": 7,
+      "start": 86.13,
+      "end": 86.45,
+      "text": "electric circuits,",
+      "words": [
+        {
+          "id": "caption-word-84-0",
+          "text": "electric",
+          "start": 86.13,
+          "end": 86.245
+        },
+        {
+          "id": "caption-word-84-1",
+          "text": "circuits,",
+          "start": 86.245,
+          "end": 86.36
+        }
+      ]
+    },
+    {
+      "id": "caption-group-85",
+      "frame": 7,
+      "start": 86.45,
+      "end": 87.3,
+      "text": "programming,",
+      "words": [
+        {
+          "id": "caption-word-85-0",
+          "text": "programming,",
+          "start": 86.45,
+          "end": 87.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-86",
+      "frame": 7,
+      "start": 87.4,
+      "end": 89.67,
+      "text": "and computer-aided design.",
+      "words": [
+        {
+          "id": "caption-word-86-0",
+          "text": "and",
+          "start": 87.4,
+          "end": 87.765
+        },
+        {
+          "id": "caption-word-86-1",
+          "text": "computer-aided",
+          "start": 87.765,
+          "end": 88.942
+        },
+        {
+          "id": "caption-word-86-2",
+          "text": "design.",
+          "start": 88.942,
+          "end": 89.55
+        }
+      ]
+    },
+    {
+      "id": "caption-group-87",
+      "frame": 8,
+      "start": 90.65,
+      "end": 90.85,
+      "text": "Then you",
+      "words": [
+        {
+          "id": "caption-word-87-0",
+          "text": "Then",
+          "start": 90.65,
+          "end": 90.76
+        },
+        {
+          "id": "caption-word-87-1",
+          "text": "you",
+          "start": 90.76,
+          "end": 90.85
+        }
+      ]
+    },
+    {
+      "id": "caption-group-88",
+      "frame": 8,
+      "start": 90.85,
+      "end": 91.11,
+      "text": "connect the",
+      "words": [
+        {
+          "id": "caption-word-88-0",
+          "text": "connect",
+          "start": 90.85,
+          "end": 91.02
+        },
+        {
+          "id": "caption-word-88-1",
+          "text": "the",
+          "start": 91.02,
+          "end": 91.11
+        }
+      ]
+    },
+    {
+      "id": "caption-group-89",
+      "frame": 8,
+      "start": 91.11,
+      "end": 91.38,
+      "text": "pieces:",
+      "words": [
+        {
+          "id": "caption-word-89-0",
+          "text": "pieces:",
+          "start": 91.11,
+          "end": 91.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-90",
+      "frame": 8,
+      "start": 91.39,
+      "end": 92.15,
+      "text": "control systems,",
+      "words": [
+        {
+          "id": "caption-word-90-0",
+          "text": "control",
+          "start": 91.39,
+          "end": 91.71
+        },
+        {
+          "id": "caption-word-90-1",
+          "text": "systems,",
+          "start": 91.71,
+          "end": 92.03
+        }
+      ]
+    },
+    {
+      "id": "caption-group-91",
+      "frame": 8,
+      "start": 92.47,
+      "end": 93.62,
+      "text": "sensors and actuators,",
+      "words": [
+        {
+          "id": "caption-word-91-0",
+          "text": "sensors",
+          "start": 92.47,
+          "end": 92.843
+        },
+        {
+          "id": "caption-word-91-1",
+          "text": "and",
+          "start": 92.843,
+          "end": 93.04
+        },
+        {
+          "id": "caption-word-91-2",
+          "text": "actuators,",
+          "start": 93.04,
+          "end": 93.5
+        }
+      ]
+    },
+    {
+      "id": "caption-group-92",
+      "frame": 8,
+      "start": 93.8,
+      "end": 95.005,
+      "text": "microcontrollers and embedded",
+      "words": [
+        {
+          "id": "caption-word-92-0",
+          "text": "microcontrollers",
+          "start": 93.8,
+          "end": 94.469
+        },
+        {
+          "id": "caption-word-92-1",
+          "text": "and",
+          "start": 94.469,
+          "end": 94.642
+        },
+        {
+          "id": "caption-word-92-2",
+          "text": "embedded",
+          "start": 94.642,
+          "end": 95.005
+        }
+      ]
+    },
+    {
+      "id": "caption-group-93",
+      "frame": 8,
+      "start": 95.005,
+      "end": 95.45,
+      "text": "systems,",
+      "words": [
+        {
+          "id": "caption-word-93-0",
+          "text": "systems,",
+          "start": 95.005,
+          "end": 95.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-94",
+      "frame": 8,
+      "start": 95.72,
+      "end": 97.157,
+      "text": "PLCs for factory",
+      "words": [
+        {
+          "id": "caption-word-94-0",
+          "text": "PLCs",
+          "start": 95.72,
+          "end": 96.147
+        },
+        {
+          "id": "caption-word-94-1",
+          "text": "for",
+          "start": 96.147,
+          "end": 96.497
+        },
+        {
+          "id": "caption-word-94-2",
+          "text": "factory",
+          "start": 96.497,
+          "end": 97.157
+        }
+      ]
+    },
+    {
+      "id": "caption-group-95",
+      "frame": 8,
+      "start": 97.157,
+      "end": 98.17,
+      "text": "automation,",
+      "words": [
+        {
+          "id": "caption-word-95-0",
+          "text": "automation,",
+          "start": 97.157,
+          "end": 98.05
+        }
+      ]
+    },
+    {
+      "id": "caption-group-96",
+      "frame": 8,
+      "start": 98.47,
+      "end": 101.86,
+      "text": "and robotics.",
+      "words": [
+        {
+          "id": "caption-word-96-0",
+          "text": "and",
+          "start": 98.47,
+          "end": 99.521
+        },
+        {
+          "id": "caption-word-96-1",
+          "text": "robotics.",
+          "start": 99.521,
+          "end": 101.74
+        }
+      ]
+    },
+    {
+      "id": "caption-group-97",
+      "frame": 8,
+      "start": 102.34,
+      "end": 103.463,
+      "text": "Most programs end",
+      "words": [
+        {
+          "id": "caption-word-97-0",
+          "text": "Most",
+          "start": 102.34,
+          "end": 102.657
+        },
+        {
+          "id": "caption-word-97-1",
+          "text": "programs",
+          "start": 102.657,
+          "end": 103.204
+        },
+        {
+          "id": "caption-word-97-2",
+          "text": "end",
+          "start": 103.204,
+          "end": 103.463
+        }
+      ]
+    },
+    {
+      "id": "caption-group-98",
+      "frame": 8,
+      "start": 103.463,
+      "end": 104.471,
+      "text": "with a capstone",
+      "words": [
+        {
+          "id": "caption-word-98-0",
+          "text": "with",
+          "start": 103.463,
+          "end": 103.78
+        },
+        {
+          "id": "caption-word-98-1",
+          "text": "a",
+          "start": 103.78,
+          "end": 103.924
+        },
+        {
+          "id": "caption-word-98-2",
+          "text": "capstone",
+          "start": 103.924,
+          "end": 104.471
+        }
+      ]
+    },
+    {
+      "id": "caption-group-99",
+      "frame": 8,
+      "start": 104.471,
+      "end": 105.08,
+      "text": "project,",
+      "words": [
+        {
+          "id": "caption-word-99-0",
+          "text": "project,",
+          "start": 104.471,
+          "end": 104.96
+        }
+      ]
+    },
+    {
+      "id": "caption-group-100",
+      "frame": 8,
+      "start": 105.36,
+      "end": 105.843,
+      "text": "where your",
+      "words": [
+        {
+          "id": "caption-word-100-0",
+          "text": "where",
+          "start": 105.36,
+          "end": 105.621
+        },
+        {
+          "id": "caption-word-100-1",
+          "text": "your",
+          "start": 105.621,
+          "end": 105.843
+        }
+      ]
+    },
+    {
+      "id": "caption-group-101",
+      "frame": 8,
+      "start": 105.843,
+      "end": 106.366,
+      "text": "team builds",
+      "words": [
+        {
+          "id": "caption-word-101-0",
+          "text": "team",
+          "start": 105.843,
+          "end": 106.064
+        },
+        {
+          "id": "caption-word-101-1",
+          "text": "builds",
+          "start": 106.064,
+          "end": 106.366
+        }
+      ]
+    },
+    {
+      "id": "caption-group-102",
+      "frame": 8,
+      "start": 106.366,
+      "end": 107.27,
+      "text": "a working machine.",
+      "words": [
+        {
+          "id": "caption-word-102-0",
+          "text": "a",
+          "start": 106.366,
+          "end": 106.466
+        },
+        {
+          "id": "caption-word-102-1",
+          "text": "working",
+          "start": 106.466,
+          "end": 106.808
+        },
+        {
+          "id": "caption-word-102-2",
+          "text": "machine.",
+          "start": 106.808,
+          "end": 107.15
+        }
+      ]
+    },
+    {
+      "id": "caption-group-103",
+      "frame": 9,
+      "start": 108.25,
+      "end": 108.747,
+      "text": "Along the",
+      "words": [
+        {
+          "id": "caption-word-103-0",
+          "text": "Along",
+          "start": 108.25,
+          "end": 108.544
+        },
+        {
+          "id": "caption-word-103-1",
+          "text": "the",
+          "start": 108.544,
+          "end": 108.747
+        }
+      ]
+    },
+    {
+      "id": "caption-group-104",
+      "frame": 9,
+      "start": 108.747,
+      "end": 109.07,
+      "text": "way,",
+      "words": [
+        {
+          "id": "caption-word-104-0",
+          "text": "way,",
+          "start": 108.747,
+          "end": 108.95
+        }
+      ]
+    },
+    {
+      "id": "caption-group-105",
+      "frame": 9,
+      "start": 109.19,
+      "end": 109.739,
+      "text": "you learn",
+      "words": [
+        {
+          "id": "caption-word-105-0",
+          "text": "you",
+          "start": 109.19,
+          "end": 109.415
+        },
+        {
+          "id": "caption-word-105-1",
+          "text": "learn",
+          "start": 109.415,
+          "end": 109.739
+        }
+      ]
+    },
+    {
+      "id": "caption-group-106",
+      "frame": 9,
+      "start": 109.739,
+      "end": 110.089,
+      "text": "to do",
+      "words": [
+        {
+          "id": "caption-word-106-0",
+          "text": "to",
+          "start": 109.739,
+          "end": 109.914
+        },
+        {
+          "id": "caption-word-106-1",
+          "text": "do",
+          "start": 109.914,
+          "end": 110.089
+        }
+      ]
+    },
+    {
+      "id": "caption-group-107",
+      "frame": 9,
+      "start": 110.089,
+      "end": 110.787,
+      "text": "three things",
+      "words": [
+        {
+          "id": "caption-word-107-0",
+          "text": "three",
+          "start": 110.089,
+          "end": 110.413
+        },
+        {
+          "id": "caption-word-107-1",
+          "text": "things",
+          "start": 110.413,
+          "end": 110.787
+        }
+      ]
+    },
+    {
+      "id": "caption-group-108",
+      "frame": 9,
+      "start": 110.787,
+      "end": 111.536,
+      "text": "few engineers",
+      "words": [
+        {
+          "id": "caption-word-108-0",
+          "text": "few",
+          "start": 110.787,
+          "end": 111.012
+        },
+        {
+          "id": "caption-word-108-1",
+          "text": "engineers",
+          "start": 111.012,
+          "end": 111.536
+        }
+      ]
+    },
+    {
+      "id": "caption-group-109",
+      "frame": 9,
+      "start": 111.536,
+      "end": 112.38,
+      "text": "can do alone:",
+      "words": [
+        {
+          "id": "caption-word-109-0",
+          "text": "can",
+          "start": 111.536,
+          "end": 111.761
+        },
+        {
+          "id": "caption-word-109-1",
+          "text": "do",
+          "start": 111.761,
+          "end": 111.936
+        },
+        {
+          "id": "caption-word-109-2",
+          "text": "alone:",
+          "start": 111.936,
+          "end": 112.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-110",
+      "frame": 9,
+      "start": 112.95,
+      "end": 114.25,
+      "text": "design the mechanism,",
+      "words": [
+        {
+          "id": "caption-word-110-0",
+          "text": "design",
+          "start": 112.95,
+          "end": 113.343
+        },
+        {
+          "id": "caption-word-110-1",
+          "text": "the",
+          "start": 113.343,
+          "end": 113.579
+        },
+        {
+          "id": "caption-word-110-2",
+          "text": "mechanism,",
+          "start": 113.579,
+          "end": 114.13
+        }
+      ]
+    },
+    {
+      "id": "caption-group-111",
+      "frame": 9,
+      "start": 114.6,
+      "end": 116.17,
+      "text": "wire the electronics,",
+      "words": [
+        {
+          "id": "caption-word-111-0",
+          "text": "wire",
+          "start": 114.6,
+          "end": 114.954
+        },
+        {
+          "id": "caption-word-111-1",
+          "text": "the",
+          "start": 114.954,
+          "end": 115.244
+        },
+        {
+          "id": "caption-word-111-2",
+          "text": "electronics,",
+          "start": 115.244,
+          "end": 116.05
+        }
+      ]
+    },
+    {
+      "id": "caption-group-112",
+      "frame": 9,
+      "start": 116.4,
+      "end": 116.935,
+      "text": "and write",
+      "words": [
+        {
+          "id": "caption-word-112-0",
+          "text": "and",
+          "start": 116.4,
+          "end": 116.619
+        },
+        {
+          "id": "caption-word-112-1",
+          "text": "write",
+          "start": 116.619,
+          "end": 116.935
+        }
+      ]
+    },
+    {
+      "id": "caption-group-113",
+      "frame": 9,
+      "start": 116.935,
+      "end": 117.421,
+      "text": "the code",
+      "words": [
+        {
+          "id": "caption-word-113-0",
+          "text": "the",
+          "start": 116.935,
+          "end": 117.153
+        },
+        {
+          "id": "caption-word-113-1",
+          "text": "code",
+          "start": 117.153,
+          "end": 117.421
+        }
+      ]
+    },
+    {
+      "id": "caption-group-114",
+      "frame": 9,
+      "start": 117.421,
+      "end": 118.052,
+      "text": "that brings",
+      "words": [
+        {
+          "id": "caption-word-114-0",
+          "text": "that",
+          "start": 117.421,
+          "end": 117.688
+        },
+        {
+          "id": "caption-word-114-1",
+          "text": "brings",
+          "start": 117.688,
+          "end": 118.052
+        }
+      ]
+    },
+    {
+      "id": "caption-group-115",
+      "frame": 9,
+      "start": 118.052,
+      "end": 118.78,
+      "text": "it to life.",
+      "words": [
+        {
+          "id": "caption-word-115-0",
+          "text": "it",
+          "start": 118.052,
+          "end": 118.223
+        },
+        {
+          "id": "caption-word-115-1",
+          "text": "to",
+          "start": 118.223,
+          "end": 118.393
+        },
+        {
+          "id": "caption-word-115-2",
+          "text": "life.",
+          "start": 118.393,
+          "end": 118.66
+        }
+      ]
+    },
+    {
+      "id": "caption-group-116",
+      "frame": 10,
+      "start": 119.76,
+      "end": 120.332,
+      "text": "That mix",
+      "words": [
+        {
+          "id": "caption-word-116-0",
+          "text": "That",
+          "start": 119.76,
+          "end": 120.075
+        },
+        {
+          "id": "caption-word-116-1",
+          "text": "mix",
+          "start": 120.075,
+          "end": 120.332
+        }
+      ]
+    },
+    {
+      "id": "caption-group-117",
+      "frame": 10,
+      "start": 120.332,
+      "end": 121.51,
+      "text": "opens many doors.",
+      "words": [
+        {
+          "id": "caption-word-117-0",
+          "text": "opens",
+          "start": 120.332,
+          "end": 120.704
+        },
+        {
+          "id": "caption-word-117-1",
+          "text": "many",
+          "start": 120.704,
+          "end": 121.018
+        },
+        {
+          "id": "caption-word-117-2",
+          "text": "doors.",
+          "start": 121.018,
+          "end": 121.39
+        }
+      ]
+    },
+    {
+      "id": "caption-group-118",
+      "frame": 10,
+      "start": 121.57,
+      "end": 121.606,
+      "text": "Mechatronics graduates",
+      "words": [
+        {
+          "id": "caption-word-118-0",
+          "text": "Mechatronics",
+          "start": 121.57,
+          "end": 121.59
+        },
+        {
+          "id": "caption-word-118-1",
+          "text": "graduates",
+          "start": 121.59,
+          "end": 121.606
+        }
+      ]
+    },
+    {
+      "id": "caption-group-119",
+      "frame": 10,
+      "start": 121.606,
+      "end": 121.62,
+      "text": "work as",
+      "words": [
+        {
+          "id": "caption-word-119-0",
+          "text": "work",
+          "start": 121.606,
+          "end": 121.615
+        },
+        {
+          "id": "caption-word-119-1",
+          "text": "as",
+          "start": 121.615,
+          "end": 121.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-120",
+      "frame": 10,
+      "start": 121.62,
+      "end": 121.77,
+      "text": "robotics engineers,",
+      "words": [
+        {
+          "id": "caption-word-120-0",
+          "text": "robotics",
+          "start": 121.62,
+          "end": 121.634
+        },
+        {
+          "id": "caption-word-120-1",
+          "text": "engineers,",
+          "start": 121.634,
+          "end": 121.65
+        }
+      ]
+    },
+    {
+      "id": "caption-group-121",
+      "frame": 10,
+      "start": 122.2,
+      "end": 125.6,
+      "text": "automation and control engineers,",
+      "words": [
+        {
+          "id": "caption-word-121-0",
+          "text": "automation",
+          "start": 122.2,
+          "end": 123.278
+        },
+        {
+          "id": "caption-word-121-1",
+          "text": "and",
+          "start": 123.278,
+          "end": 123.699
+        },
+        {
+          "id": "caption-word-121-2",
+          "text": "control",
+          "start": 123.699,
+          "end": 124.496
+        },
+        {
+          "id": "caption-word-121-3",
+          "text": "engineers,",
+          "start": 124.496,
+          "end": 125.48
+        }
+      ]
+    },
+    {
+      "id": "caption-group-122",
+      "frame": 10,
+      "start": 125.87,
+      "end": 128.07,
+      "text": "embedded systems engineers,",
+      "words": [
+        {
+          "id": "caption-word-122-0",
+          "text": "embedded",
+          "start": 125.87,
+          "end": 126.563
+        },
+        {
+          "id": "caption-word-122-1",
+          "text": "systems",
+          "start": 126.563,
+          "end": 127.184
+        },
+        {
+          "id": "caption-word-122-2",
+          "text": "engineers,",
+          "start": 127.184,
+          "end": 127.95
+        }
+      ]
+    },
+    {
+      "id": "caption-group-123",
+      "frame": 10,
+      "start": 128.38,
+      "end": 129.508,
+      "text": "and in electric",
+      "words": [
+        {
+          "id": "caption-word-123-0",
+          "text": "and",
+          "start": 128.38,
+          "end": 128.67
+        },
+        {
+          "id": "caption-word-123-1",
+          "text": "in",
+          "start": 128.67,
+          "end": 128.896
+        },
+        {
+          "id": "caption-word-123-2",
+          "text": "electric",
+          "start": 128.896,
+          "end": 129.508
+        }
+      ]
+    },
+    {
+      "id": "caption-group-124",
+      "frame": 10,
+      "start": 129.508,
+      "end": 130.24,
+      "text": "vehicles,",
+      "words": [
+        {
+          "id": "caption-word-124-0",
+          "text": "vehicles,",
+          "start": 129.508,
+          "end": 130.12
+        }
+      ]
+    },
+    {
+      "id": "caption-group-125",
+      "frame": 10,
+      "start": 130.45,
+      "end": 131.95,
+      "text": "aerospace,",
+      "words": [
+        {
+          "id": "caption-word-125-0",
+          "text": "aerospace,",
+          "start": 130.45,
+          "end": 131.83
+        }
+      ]
+    },
+    {
+      "id": "caption-group-126",
+      "frame": 10,
+      "start": 132.12,
+      "end": 133.04,
+      "text": "medical devices,",
+      "words": [
+        {
+          "id": "caption-word-126-0",
+          "text": "medical",
+          "start": 132.12,
+          "end": 132.52
+        },
+        {
+          "id": "caption-word-126-1",
+          "text": "devices,",
+          "start": 132.52,
+          "end": 132.92
+        }
+      ]
+    },
+    {
+      "id": "caption-group-127",
+      "frame": 10,
+      "start": 133.24,
+      "end": 135.72,
+      "text": "and smart factories.",
+      "words": [
+        {
+          "id": "caption-word-127-0",
+          "text": "and",
+          "start": 133.24,
+          "end": 133.734
+        },
+        {
+          "id": "caption-word-127-1",
+          "text": "smart",
+          "start": 133.734,
+          "end": 134.447
+        },
+        {
+          "id": "caption-word-127-2",
+          "text": "factories.",
+          "start": 134.447,
+          "end": 135.6
+        }
+      ]
+    },
+    {
+      "id": "caption-group-128",
+      "frame": 11,
+      "start": 136.7,
+      "end": 137.322,
+      "text": "And demand",
+      "words": [
+        {
+          "id": "caption-word-128-0",
+          "text": "And",
+          "start": 136.7,
+          "end": 136.933
+        },
+        {
+          "id": "caption-word-128-1",
+          "text": "demand",
+          "start": 136.933,
+          "end": 137.322
+        }
+      ]
+    },
+    {
+      "id": "caption-group-129",
+      "frame": 11,
+      "start": 137.322,
+      "end": 138.22,
+      "text": "keeps growing.",
+      "words": [
+        {
+          "id": "caption-word-129-0",
+          "text": "keeps",
+          "start": 137.322,
+          "end": 137.659
+        },
+        {
+          "id": "caption-word-129-1",
+          "text": "growing.",
+          "start": 137.659,
+          "end": 138.1
+        }
+      ]
+    },
+    {
+      "id": "caption-group-130",
+      "frame": 11,
+      "start": 138.77,
+      "end": 140.39,
+      "text": "Factories are automating,",
+      "words": [
+        {
+          "id": "caption-word-130-0",
+          "text": "Factories",
+          "start": 138.77,
+          "end": 139.364
+        },
+        {
+          "id": "caption-word-130-1",
+          "text": "are",
+          "start": 139.364,
+          "end": 139.619
+        },
+        {
+          "id": "caption-word-130-2",
+          "text": "automating,",
+          "start": 139.619,
+          "end": 140.27
+        }
+      ]
+    },
+    {
+      "id": "caption-group-131",
+      "frame": 11,
+      "start": 140.71,
+      "end": 141.928,
+      "text": "cars are becoming",
+      "words": [
+        {
+          "id": "caption-word-131-0",
+          "text": "cars",
+          "start": 140.71,
+          "end": 141.053
+        },
+        {
+          "id": "caption-word-131-1",
+          "text": "are",
+          "start": 141.053,
+          "end": 141.334
+        },
+        {
+          "id": "caption-word-131-2",
+          "text": "becoming",
+          "start": 141.334,
+          "end": 141.928
+        }
+      ]
+    },
+    {
+      "id": "caption-group-132",
+      "frame": 11,
+      "start": 141.928,
+      "end": 143.39,
+      "text": "computers on wheels,",
+      "words": [
+        {
+          "id": "caption-word-132-0",
+          "text": "computers",
+          "start": 141.928,
+          "end": 142.583
+        },
+        {
+          "id": "caption-word-132-1",
+          "text": "on",
+          "start": 142.583,
+          "end": 142.802
+        },
+        {
+          "id": "caption-word-132-2",
+          "text": "wheels,",
+          "start": 142.802,
+          "end": 143.27
+        }
+      ]
+    },
+    {
+      "id": "caption-group-133",
+      "frame": 11,
+      "start": 143.58,
+      "end": 144.184,
+      "text": "and almost",
+      "words": [
+        {
+          "id": "caption-word-133-0",
+          "text": "and",
+          "start": 143.58,
+          "end": 143.806
+        },
+        {
+          "id": "caption-word-133-1",
+          "text": "almost",
+          "start": 143.806,
+          "end": 144.184
+        }
+      ]
+    },
+    {
+      "id": "caption-group-134",
+      "frame": 11,
+      "start": 144.184,
+      "end": 144.939,
+      "text": "every product",
+      "words": [
+        {
+          "id": "caption-word-134-0",
+          "text": "every",
+          "start": 144.184,
+          "end": 144.511
+        },
+        {
+          "id": "caption-word-134-1",
+          "text": "product",
+          "start": 144.511,
+          "end": 144.939
+        }
+      ]
+    },
+    {
+      "id": "caption-group-135",
+      "frame": 11,
+      "start": 144.939,
+      "end": 146.09,
+      "text": "is getting smarter.",
+      "words": [
+        {
+          "id": "caption-word-135-0",
+          "text": "is",
+          "start": 144.939,
+          "end": 145.115
+        },
+        {
+          "id": "caption-word-135-1",
+          "text": "getting",
+          "start": 145.115,
+          "end": 145.542
+        },
+        {
+          "id": "caption-word-135-2",
+          "text": "smarter.",
+          "start": 145.542,
+          "end": 145.97
+        }
+      ]
+    },
+    {
+      "id": "caption-group-136",
+      "frame": 11,
+      "start": 146.64,
+      "end": 146.999,
+      "text": "All of",
+      "words": [
+        {
+          "id": "caption-word-136-0",
+          "text": "All",
+          "start": 146.64,
+          "end": 146.842
+        },
+        {
+          "id": "caption-word-136-1",
+          "text": "of",
+          "start": 146.842,
+          "end": 146.999
+        }
+      ]
+    },
+    {
+      "id": "caption-group-137",
+      "frame": 11,
+      "start": 146.999,
+      "end": 147.493,
+      "text": "them need",
+      "words": [
+        {
+          "id": "caption-word-137-0",
+          "text": "them",
+          "start": 146.999,
+          "end": 147.246
+        },
+        {
+          "id": "caption-word-137-1",
+          "text": "need",
+          "start": 147.246,
+          "end": 147.493
+        }
+      ]
+    },
+    {
+      "id": "caption-group-138",
+      "frame": 11,
+      "start": 147.493,
+      "end": 148.549,
+      "text": "people who understand",
+      "words": [
+        {
+          "id": "caption-word-138-0",
+          "text": "people",
+          "start": 147.493,
+          "end": 147.83
+        },
+        {
+          "id": "caption-word-138-1",
+          "text": "who",
+          "start": 147.83,
+          "end": 148.032
+        },
+        {
+          "id": "caption-word-138-2",
+          "text": "understand",
+          "start": 148.032,
+          "end": 148.549
+        }
+      ]
+    },
+    {
+      "id": "caption-group-139",
+      "frame": 11,
+      "start": 148.549,
+      "end": 149.5,
+      "text": "the whole system.",
+      "words": [
+        {
+          "id": "caption-word-139-0",
+          "text": "the",
+          "start": 148.549,
+          "end": 148.751
+        },
+        {
+          "id": "caption-word-139-1",
+          "text": "whole",
+          "start": 148.751,
+          "end": 149.043
+        },
+        {
+          "id": "caption-word-139-2",
+          "text": "system.",
+          "start": 149.043,
+          "end": 149.38
+        }
+      ]
+    },
+    {
+      "id": "caption-group-140",
+      "frame": 12,
+      "start": 150.48,
+      "end": 150.748,
+      "text": "Is it",
+      "words": [
+        {
+          "id": "caption-word-140-0",
+          "text": "Is",
+          "start": 150.48,
+          "end": 150.614
+        },
+        {
+          "id": "caption-word-140-1",
+          "text": "it",
+          "start": 150.614,
+          "end": 150.748
+        }
+      ]
+    },
+    {
+      "id": "caption-group-141",
+      "frame": 12,
+      "start": 150.748,
+      "end": 151.46,
+      "text": "right for you?",
+      "words": [
+        {
+          "id": "caption-word-141-0",
+          "text": "right",
+          "start": 150.748,
+          "end": 150.996
+        },
+        {
+          "id": "caption-word-141-1",
+          "text": "for",
+          "start": 150.996,
+          "end": 151.168
+        },
+        {
+          "id": "caption-word-141-2",
+          "text": "you?",
+          "start": 151.168,
+          "end": 151.34
+        }
+      ]
+    },
+    {
+      "id": "caption-group-142",
+      "frame": 12,
+      "start": 151.97,
+      "end": 152.423,
+      "text": "If you",
+      "words": [
+        {
+          "id": "caption-word-142-0",
+          "text": "If",
+          "start": 151.97,
+          "end": 152.168
+        },
+        {
+          "id": "caption-word-142-1",
+          "text": "you",
+          "start": 152.168,
+          "end": 152.423
+        }
+      ]
+    },
+    {
+      "id": "caption-group-143",
+      "frame": 12,
+      "start": 152.423,
+      "end": 153.103,
+      "text": "enjoy math",
+      "words": [
+        {
+          "id": "caption-word-143-0",
+          "text": "enjoy",
+          "start": 152.423,
+          "end": 152.792
+        },
+        {
+          "id": "caption-word-143-1",
+          "text": "math",
+          "start": 152.792,
+          "end": 153.103
+        }
+      ]
+    },
+    {
+      "id": "caption-group-144",
+      "frame": 12,
+      "start": 153.103,
+      "end": 153.96,
+      "text": "and physics,",
+      "words": [
+        {
+          "id": "caption-word-144-0",
+          "text": "and",
+          "start": 153.103,
+          "end": 153.358
+        },
+        {
+          "id": "caption-word-144-1",
+          "text": "physics,",
+          "start": 153.358,
+          "end": 153.84
+        }
+      ]
+    },
+    {
+      "id": "caption-group-145",
+      "frame": 12,
+      "start": 154.12,
+      "end": 158.11,
+      "text": "love taking things apart,",
+      "words": [
+        {
+          "id": "caption-word-145-0",
+          "text": "love",
+          "start": 154.12,
+          "end": 154.908
+        },
+        {
+          "id": "caption-word-145-1",
+          "text": "taking",
+          "start": 154.908,
+          "end": 155.983
+        },
+        {
+          "id": "caption-word-145-2",
+          "text": "things",
+          "start": 155.983,
+          "end": 157.058
+        },
+        {
+          "id": "caption-word-145-3",
+          "text": "apart,",
+          "start": 157.058,
+          "end": 157.99
+        }
+      ]
+    },
+    {
+      "id": "caption-group-146",
+      "frame": 12,
+      "start": 158.32,
+      "end": 158.486,
+      "text": "and want",
+      "words": [
+        {
+          "id": "caption-word-146-0",
+          "text": "and",
+          "start": 158.32,
+          "end": 158.395
+        },
+        {
+          "id": "caption-word-146-1",
+          "text": "want",
+          "start": 158.395,
+          "end": 158.486
+        }
+      ]
+    },
+    {
+      "id": "caption-group-147",
+      "frame": 12,
+      "start": 158.486,
+      "end": 158.619,
+      "text": "to see",
+      "words": [
+        {
+          "id": "caption-word-147-0",
+          "text": "to",
+          "start": 158.486,
+          "end": 158.545
+        },
+        {
+          "id": "caption-word-147-1",
+          "text": "see",
+          "start": 158.545,
+          "end": 158.619
+        }
+      ]
+    },
+    {
+      "id": "caption-group-148",
+      "frame": 12,
+      "start": 158.619,
+      "end": 158.802,
+      "text": "your code",
+      "words": [
+        {
+          "id": "caption-word-148-0",
+          "text": "your",
+          "start": 158.619,
+          "end": 158.711
+        },
+        {
+          "id": "caption-word-148-1",
+          "text": "code",
+          "start": 158.711,
+          "end": 158.802
+        }
+      ]
+    },
+    {
+      "id": "caption-group-149",
+      "frame": 12,
+      "start": 158.802,
+      "end": 159.28,
+      "text": "move something real,",
+      "words": [
+        {
+          "id": "caption-word-149-0",
+          "text": "move",
+          "start": 158.802,
+          "end": 158.894
+        },
+        {
+          "id": "caption-word-149-1",
+          "text": "something",
+          "start": 158.894,
+          "end": 159.069
+        },
+        {
+          "id": "caption-word-149-2",
+          "text": "real,",
+          "start": 159.069,
+          "end": 159.16
+        }
+      ]
+    },
+    {
+      "id": "caption-group-150",
+      "frame": 12,
+      "start": 159.84,
+      "end": 161.85,
+      "text": "you'll feel at home.",
+      "words": [
+        {
+          "id": "caption-word-150-0",
+          "text": "you'll",
+          "start": 159.84,
+          "end": 160.425
+        },
+        {
+          "id": "caption-word-150-1",
+          "text": "feel",
+          "start": 160.425,
+          "end": 160.92
+        },
+        {
+          "id": "caption-word-150-2",
+          "text": "at",
+          "start": 160.92,
+          "end": 161.235
+        },
+        {
+          "id": "caption-word-150-3",
+          "text": "home.",
+          "start": 161.235,
+          "end": 161.73
+        }
+      ]
+    },
+    {
+      "id": "caption-group-151",
+      "frame": 12,
+      "start": 162.23,
+      "end": 162.697,
+      "text": "Just know",
+      "words": [
+        {
+          "id": "caption-word-151-0",
+          "text": "Just",
+          "start": 162.23,
+          "end": 162.463
+        },
+        {
+          "id": "caption-word-151-1",
+          "text": "know",
+          "start": 162.463,
+          "end": 162.697
+        }
+      ]
+    },
+    {
+      "id": "caption-group-152",
+      "frame": 12,
+      "start": 162.697,
+      "end": 163.164,
+      "text": "it's broad",
+      "words": [
+        {
+          "id": "caption-word-152-0",
+          "text": "it's",
+          "start": 162.697,
+          "end": 162.888
+        },
+        {
+          "id": "caption-word-152-1",
+          "text": "broad",
+          "start": 162.888,
+          "end": 163.164
+        }
+      ]
+    },
+    {
+      "id": "caption-group-153",
+      "frame": 12,
+      "start": 163.164,
+      "end": 163.92,
+      "text": "and demanding:",
+      "words": [
+        {
+          "id": "caption-word-153-0",
+          "text": "and",
+          "start": 163.164,
+          "end": 163.354
+        },
+        {
+          "id": "caption-word-153-1",
+          "text": "demanding:",
+          "start": 163.354,
+          "end": 163.8
+        }
+      ]
+    },
+    {
+      "id": "caption-group-154",
+      "frame": 12,
+      "start": 163.93,
+      "end": 163.988,
+      "text": "you'll study",
+      "words": [
+        {
+          "id": "caption-word-154-0",
+          "text": "you'll",
+          "start": 163.93,
+          "end": 163.959
+        },
+        {
+          "id": "caption-word-154-1",
+          "text": "study",
+          "start": 163.959,
+          "end": 163.988
+        }
+      ]
+    },
+    {
+      "id": "caption-group-155",
+      "frame": 12,
+      "start": 163.988,
+      "end": 164.05,
+      "text": "three fields",
+      "words": [
+        {
+          "id": "caption-word-155-0",
+          "text": "three",
+          "start": 163.988,
+          "end": 164.017
+        },
+        {
+          "id": "caption-word-155-1",
+          "text": "fields",
+          "start": 164.017,
+          "end": 164.05
+        }
+      ]
+    },
+    {
+      "id": "caption-group-156",
+      "frame": 12,
+      "start": 164.05,
+      "end": 164.21,
+      "text": "at once.",
+      "words": [
+        {
+          "id": "caption-word-156-0",
+          "text": "at",
+          "start": 164.05,
+          "end": 164.066
+        },
+        {
+          "id": "caption-word-156-1",
+          "text": "once.",
+          "start": 164.066,
+          "end": 164.09
+        }
+      ]
+    },
+    {
+      "id": "caption-group-157",
+      "frame": 13,
+      "start": 165.19,
+      "end": 165.91,
+      "text": "Mechatronics:",
+      "words": [
+        {
+          "id": "caption-word-157-0",
+          "text": "Mechatronics:",
+          "start": 165.19,
+          "end": 165.81
+        }
+      ]
+    },
+    {
+      "id": "caption-group-158",
+      "frame": 13,
+      "start": 165.91,
+      "end": 165.979,
+      "text": "build machines",
+      "words": [
+        {
+          "id": "caption-word-158-0",
+          "text": "build",
+          "start": 165.91,
+          "end": 165.938
+        },
+        {
+          "id": "caption-word-158-1",
+          "text": "machines",
+          "start": 165.938,
+          "end": 165.979
+        }
+      ]
+    },
+    {
+      "id": "caption-group-159",
+      "frame": 13,
+      "start": 165.979,
+      "end": 166.15,
+      "text": "that sense,",
+      "words": [
+        {
+          "id": "caption-word-159-0",
+          "text": "that",
+          "start": 165.979,
+          "end": 166.002
+        },
+        {
+          "id": "caption-word-159-1",
+          "text": "sense,",
+          "start": 166.002,
+          "end": 166.03
+        }
+      ]
+    },
+    {
+      "id": "caption-group-160",
+      "frame": 13,
+      "start": 166.44,
+      "end": 167.97,
+      "text": "think,",
+      "words": [
+        {
+          "id": "caption-word-160-0",
+          "text": "think,",
+          "start": 166.44,
+          "end": 167.85
+        }
+      ]
+    },
+    {
+      "id": "caption-group-161",
+      "frame": 13,
+      "start": 168,
+      "end": 168.86,
+      "text": "and move.",
+      "words": [
+        {
+          "id": "caption-word-161-0",
+          "text": "and",
+          "start": 168,
+          "end": 168.333
+        },
+        {
+          "id": "caption-word-161-1",
+          "text": "move.",
+          "start": 168.333,
+          "end": 168.74
+        }
+      ]
+    },
+    {
+      "id": "caption-group-162",
+      "frame": 13,
+      "start": 169.35,
+      "end": 170.518,
+      "text": "If that sounds",
+      "words": [
+        {
+          "id": "caption-word-162-0",
+          "text": "If",
+          "start": 169.35,
+          "end": 169.598
+        },
+        {
+          "id": "caption-word-162-1",
+          "text": "that",
+          "start": 169.598,
+          "end": 169.987
+        },
+        {
+          "id": "caption-word-162-2",
+          "text": "sounds",
+          "start": 169.987,
+          "end": 170.518
+        }
+      ]
+    },
+    {
+      "id": "caption-group-163",
+      "frame": 13,
+      "start": 170.518,
+      "end": 171.26,
+      "text": "exciting,",
+      "words": [
+        {
+          "id": "caption-word-163-0",
+          "text": "exciting,",
+          "start": 170.518,
+          "end": 171.19
+        }
+      ]
+    },
+    {
+      "id": "caption-group-164",
+      "frame": 13,
+      "start": 171.26,
+      "end": 171.587,
+      "text": "this might",
+      "words": [
+        {
+          "id": "caption-word-164-0",
+          "text": "this",
+          "start": 171.26,
+          "end": 171.41
+        },
+        {
+          "id": "caption-word-164-1",
+          "text": "might",
+          "start": 171.41,
+          "end": 171.587
+        }
+      ]
+    },
+    {
+      "id": "caption-group-165",
+      "frame": 13,
+      "start": 171.587,
+      "end": 172.13,
+      "text": "be your major.",
+      "words": [
+        {
+          "id": "caption-word-165-0",
+          "text": "be",
+          "start": 171.587,
+          "end": 171.683
+        },
+        {
+          "id": "caption-word-165-1",
+          "text": "your",
+          "start": 171.683,
+          "end": 171.833
+        },
+        {
+          "id": "caption-word-165-2",
+          "text": "major.",
+          "start": 171.833,
+          "end": 172.01
+        }
+      ]
+    }
+  ]
+}

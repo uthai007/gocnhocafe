@@ -1,0 +1,78 @@
+<template id="s04-compare-template">
+  <div id="root" data-composition-id="04-compare" data-start="0" data-duration="18.04" data-width="1080" data-height="1920">
+    <style>
+      @font-face { font-family: "Newsreader"; font-style: normal; font-weight: 400; src: url("assets/fonts/Newsreader-Regular.woff2") format("woff2"); }
+      @font-face { font-family: "Newsreader"; font-style: italic; font-weight: 400; src: url("assets/fonts/Newsreader-Italic.woff2") format("woff2"); }
+      @font-face { font-family: "Hanken Grotesk"; font-style: normal; font-weight: 400 700; src: url("assets/fonts/Hanken_Grotesk-Variable.woff2") format("woff2"); }
+      @font-face { font-family: "DM Mono"; font-style: normal; font-weight: 400; src: url("assets/fonts/DM_Mono-Regular.woff2") format("woff2"); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #1F2BE0;
+        font-family: "Hanken Grotesk", sans-serif; }
+      #s04-compare-ground { position: absolute; inset: 0; background-color: #F0EBDE;
+        background-image: linear-gradient(rgba(31,43,224,0.10) 1px, transparent 1px), linear-gradient(90deg, rgba(31,43,224,0.10) 1px, transparent 1px);
+        background-size: 38.4px 38.4px; background-position: -1px -1px; }
+      #s04-compare-ground .hl { position: absolute; left: 60px; right: 60px; height: 2px; background: #1F2BE0; }
+      #s04-compare-ground .chrome { position: absolute; top: 62px; font-family: "DM Mono", monospace; font-size: 20px;
+        letter-spacing: 0.08em; color: #1F2BE0; }
+      #s04-compare-stage { position: absolute; inset: 0; }
+      #s04-compare-stage .serif { font-family: "Newsreader", serif; font-weight: 400; }
+      #s04-compare-stage .mono { font-family: "DM Mono", monospace; letter-spacing: 0.06em; }
+      #s04-compare-stage .label { font-family: "Hanken Grotesk", sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 0.16em; }
+      #s04-compare-stage .abs { position: absolute; display: block; }
+      #s04-compare-stage svg { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: visible; }
+      #s04-compare-stage .draw { fill: none; stroke: #1F2BE0; stroke-width: 4; stroke-linecap: square; stroke-linejoin: miter; }
+
+    </style>
+    <div id="s04-compare-ground" class="clip" data-start="0" data-duration="18.04" data-track-index="0">
+      <div class="hl" style="top: 100px"></div>
+      <div class="hl" style="top: 1850px"></div>
+      <div class="chrome" style="left: 60px">MECHATRONICS — EXPLAINED</div>
+      <div class="chrome" style="right: 60px">04 / 13</div>
+    </div>
+    <div id="s04-compare-stage" class="clip" data-start="0" data-duration="18.04" data-track-index="1">
+      <div id="s04-compare-cam" class="abs" style="left:0;top:0;width:1080px;height:1920px">
+
+        <div class="abs serif" id="f04-h" style="left:90px;top:220px;font-size:110px;line-height:1;width:900px">Not just one field</div>
+        <svg viewBox="0 0 1080 1920"><path class="draw f04-l1" pathLength="1" style="stroke-dasharray:1" d="M310 740 V880" /><path class="draw f04-l2" pathLength="1" style="stroke-dasharray:1" d="M770 740 V880" /><path class="draw f04-l3" pathLength="1" style="stroke-dasharray:1" d="M540 1070 V1200" /></svg>
+        <div class="abs" id="f04-mech" style="left:90px;top:550px;width:440px;height:190px;border:2px solid #1F2BE0;background:#F0EBDE;color:#1F2BE0;padding:30px 34px;box-sizing:border-box">
+          <div class="serif" style="font-size:64px;line-height:1">Mechanical</div>
+          <div class="label" style="font-size:20px;margin-top:20px">MOVING PARTS</div>
+        </div>
+        <div class="abs" id="f04-elec" style="left:550px;top:550px;width:440px;height:190px;border:2px solid #1F2BE0;background:#F0EBDE;color:#1F2BE0;padding:30px 34px;box-sizing:border-box">
+          <div class="serif" style="font-size:64px;line-height:1">Electrical</div>
+          <div class="label" style="font-size:20px;margin-top:20px">CIRCUITS · POWER</div>
+        </div>
+        <div class="abs" id="f04-soft" style="left:270px;top:1200px;width:540px;height:190px;border:2px solid #1F2BE0;background:#F0EBDE;color:#1F2BE0;padding:30px 34px;box-sizing:border-box">
+          <div class="serif" style="font-size:64px;line-height:1">Software</div>
+          <div class="label" style="font-size:20px;margin-top:20px">CODE</div>
+        </div>
+        <div class="abs" id="f04-mt" style="left:170px;top:880px;width:740px;height:190px;border:2px solid #1F2BE0;background:#1F2BE0;color:#F0EBDE;padding:30px 34px;box-sizing:border-box">
+          <div class="serif" style="font-size:64px;line-height:1">Mechatronics</div>
+          <div class="label" style="font-size:20px;margin-top:20px">CONNECTS ALL THREE</div>
+        </div>
+
+
+      </div>
+    </div>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        const D = 17.54;
+        const q = (s) => "#s04-compare-stage " + s;
+        const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
+        const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: d || 0.5, ease: "power3.out" }, at);
+        const fade = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: d || 0.5, ease: "power1.out" }, at);
+        const grow = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, scale: 0.86 }, { opacity: 1, scale: 1, duration: d || 0.55, ease: "back.out(1.6)" }, at);
+        tl.fromTo("#s04-compare-cam", { scale: 1 }, { scale: 1.035, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
+
+        pop("#f04-h", 0.15);
+        grow("#f04-mech", 2.69); grow("#f04-elec", 5.93); grow("#f04-soft", 9.63);
+        grow("#f04-mt", 12.696, 0.7);
+        draw(".f04-l1", 15.558, 0.5); draw(".f04-l2", 15.758, 0.5); draw(".f04-l3", 15.958, 0.5);
+
+
+        window.__timelines["04-compare"] = tl;
+      })();
+    </script>
+  </div>
+</template>

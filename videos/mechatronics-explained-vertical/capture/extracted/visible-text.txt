@@ -1,0 +1,11 @@
+Topic: Introduce everything about the Mechatronics major (university degree), in about 3 minutes.
+Cover: what mechatronics is (mechanical + electrical/electronic + computer/software + control engineering;
+term coined in 1969 by Tetsuro Mori, an engineer at Yaskawa Electric, Japan); how a mechatronic system works
+(sensors -> controller -> actuators feedback loop); everyday examples (robot vacuum, car ABS brakes, drones,
+3D printers, washing machines, industrial robot arms); what students study (math, physics, statics and
+dynamics, circuits, programming, CAD, control systems, microcontrollers/embedded systems, PLC and
+automation, robotics, capstone project); skills (design, build, program, integrate, teamwork, problem
+solving); careers (robotics engineer, automation/control engineer, embedded systems engineer,
+automotive/EV engineer, aerospace, medical devices, smart manufacturing/Industry 4.0, R&D); why it matters
+now (factory automation, electric and autonomous vehicles, smart devices); who it suits (curious builders who
+like math, physics, coding and hands-on projects; it is broad and demanding); takeaway.

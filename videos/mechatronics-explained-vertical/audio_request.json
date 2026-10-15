@@ -1,0 +1,62 @@
+{
+  "provider": "auto",
+  "speed": "1.0",
+  "lines": [
+    {
+      "id": "01",
+      "text": "A robot arm. A self-driving car. Even your washing machine. What do they have in common?"
+    },
+    {
+      "id": "02",
+      "text": "They are all mechatronic systems. Mechatronics is the engineering of smart machines, where mechanics, electronics, computing, and control come together in one design."
+    },
+    {
+      "id": "03",
+      "text": "The word was coined in Japan in 1969, by Tetsuro Mori, an engineer at Yaskawa Electric. Mechanics, plus electronics."
+    },
+    {
+      "id": "04",
+      "text": "How is it different from other majors? Mechanical engineers focus on moving parts. Electrical engineers focus on circuits and power. Software engineers focus on code. A mechatronics engineer stands in the middle, and connects all three."
+    },
+    {
+      "id": "05",
+      "text": "Every mechatronic system follows one simple loop. Sensors measure the world. A controller, a small computer, decides what to do. Actuators, like motors, make it move. Then the sensors check the result, and the loop starts again."
+    },
+    {
+      "id": "06",
+      "text": "Take a robot vacuum. Its sensors detect walls and dirt. Its chip plans a path. Its motors drive the wheels and brushes. Sense, think, act, many times every second."
+    },
+    {
+      "id": "07",
+      "text": "So what do you actually study? In the first two years, you build the foundation: calculus and physics, mechanics of materials, electric circuits, programming, and computer-aided design."
+    },
+    {
+      "id": "08",
+      "text": "Then you connect the pieces: control systems, sensors and actuators, microcontrollers and embedded systems, PLCs for factory automation, and robotics. Most programs end with a capstone project, where your team builds a working machine."
+    },
+    {
+      "id": "09",
+      "text": "Along the way, you learn to do three things few engineers can do alone: design the mechanism, wire the electronics, and write the code that brings it to life."
+    },
+    {
+      "id": "10",
+      "text": "That mix opens many doors. Mechatronics graduates work as robotics engineers, automation and control engineers, embedded systems engineers, and in electric vehicles, aerospace, medical devices, and smart factories."
+    },
+    {
+      "id": "11",
+      "text": "And demand keeps growing. Factories are automating, cars are becoming computers on wheels, and almost every product is getting smarter. All of them need people who understand the whole system."
+    },
+    {
+      "id": "12",
+      "text": "Is it right for you? If you enjoy math and physics, love taking things apart, and want to see your code move something real, you'll feel at home. Just know it's broad and demanding: you'll study three fields at once."
+    },
+    {
+      "id": "13",
+      "text": "Mechatronics: build machines that sense, think, and move. If that sounds exciting, this might be your major."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_michael"
+}

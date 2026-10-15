@@ -1,0 +1,1 @@
+ffmpeg -v error -y -i renders/mechatronics-explained.mp4 -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k renders/tmp.mp4 && mv renders/tmp.mp4 renders/mechatronics-explained.mp4  # after render: loudness to -14 LUFS

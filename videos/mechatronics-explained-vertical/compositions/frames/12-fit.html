@@ -1,0 +1,84 @@
+<template id="s12-fit-template">
+  <div id="root" data-composition-id="12-fit" data-start="0" data-duration="15.31" data-width="1080" data-height="1920">
+    <style>
+      @font-face { font-family: "Newsreader"; font-style: normal; font-weight: 400; src: url("assets/fonts/Newsreader-Regular.woff2") format("woff2"); }
+      @font-face { font-family: "Newsreader"; font-style: italic; font-weight: 400; src: url("assets/fonts/Newsreader-Italic.woff2") format("woff2"); }
+      @font-face { font-family: "Hanken Grotesk"; font-style: normal; font-weight: 400 700; src: url("assets/fonts/Hanken_Grotesk-Variable.woff2") format("woff2"); }
+      @font-face { font-family: "DM Mono"; font-style: normal; font-weight: 400; src: url("assets/fonts/DM_Mono-Regular.woff2") format("woff2"); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #1F2BE0;
+        font-family: "Hanken Grotesk", sans-serif; }
+      #s12-fit-ground { position: absolute; inset: 0; background-color: #F0EBDE;
+        background-image: linear-gradient(rgba(31,43,224,0.10) 1px, transparent 1px), linear-gradient(90deg, rgba(31,43,224,0.10) 1px, transparent 1px);
+        background-size: 38.4px 38.4px; background-position: -1px -1px; }
+      #s12-fit-ground .hl { position: absolute; left: 60px; right: 60px; height: 2px; background: #1F2BE0; }
+      #s12-fit-ground .chrome { position: absolute; top: 62px; font-family: "DM Mono", monospace; font-size: 20px;
+        letter-spacing: 0.08em; color: #1F2BE0; }
+      #s12-fit-stage { position: absolute; inset: 0; }
+      #s12-fit-stage .serif { font-family: "Newsreader", serif; font-weight: 400; }
+      #s12-fit-stage .mono { font-family: "DM Mono", monospace; letter-spacing: 0.06em; }
+      #s12-fit-stage .label { font-family: "Hanken Grotesk", sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 0.16em; }
+      #s12-fit-stage .abs { position: absolute; display: block; }
+      #s12-fit-stage svg { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: visible; }
+      #s12-fit-stage .draw { fill: none; stroke: #1F2BE0; stroke-width: 4; stroke-linecap: square; stroke-linejoin: miter; }
+
+    </style>
+    <div id="s12-fit-ground" class="clip" data-start="0" data-duration="15.31" data-track-index="0">
+      <div class="hl" style="top: 100px"></div>
+      <div class="hl" style="top: 1850px"></div>
+      <div class="chrome" style="left: 60px">MECHATRONICS — EXPLAINED</div>
+      <div class="chrome" style="right: 60px">12 / 13</div>
+    </div>
+    <div id="s12-fit-stage" class="clip" data-start="0" data-duration="15.31" data-track-index="1">
+      <div id="s12-fit-cam" class="abs" style="left:0;top:0;width:1080px;height:1920px">
+
+        <div class="abs serif" id="f12-h" style="left:90px;top:190px;font-size:120px;line-height:1">Is it for you?</div>
+        <svg viewBox="0 0 1080 1920">
+          <rect x="90" y="400" width="76" height="76" fill="none" stroke="#1F2BE0" stroke-width="3" id="f12-box0"/>
+          <path class="draw f12-tick0" pathLength="1" style="stroke-dasharray:1" d="M106 440 L126 460 L152 418" style="stroke-dasharray:1;stroke-width:7"/>
+          <rect x="90" y="550" width="76" height="76" fill="none" stroke="#1F2BE0" stroke-width="3" id="f12-box1"/>
+          <path class="draw f12-tick1" pathLength="1" style="stroke-dasharray:1" d="M106 590 L126 610 L152 568" style="stroke-dasharray:1;stroke-width:7"/>
+          <rect x="90" y="700" width="76" height="76" fill="none" stroke="#1F2BE0" stroke-width="3" id="f12-box2"/>
+          <path class="draw f12-tick2" pathLength="1" style="stroke-dasharray:1" d="M106 740 L126 760 L152 718" style="stroke-dasharray:1;stroke-width:7"/>
+        </svg>
+        <div class="abs serif" id="f12-c0" style="left:200px;top:396px;font-size:62px;line-height:1.25">Math & physics</div>
+        <div class="abs serif" id="f12-c1" style="left:200px;top:546px;font-size:62px;line-height:1.25">Taking things apart</div>
+        <div class="abs serif" id="f12-c2" style="left:200px;top:696px;font-size:62px;line-height:1.25">Code that moves something</div>
+        <div class="abs f12-st" id="f12-s0" style="left:190px;top:950px;width:700px;height:128px;border:2px solid #1F2BE0;background:#F0EBDE;display:flex;align-items:center;padding-left:40px;box-sizing:border-box">
+          <div class="serif" style="font-size:62px">Software</div>
+        </div>
+        <div class="abs f12-st" id="f12-s1" style="left:190px;top:1090px;width:700px;height:128px;border:2px solid #1F2BE0;background:#F0EBDE;display:flex;align-items:center;padding-left:40px;box-sizing:border-box">
+          <div class="serif" style="font-size:62px">Electrical</div>
+        </div>
+        <div class="abs f12-st" id="f12-s2" style="left:190px;top:1230px;width:700px;height:128px;border:2px solid #1F2BE0;background:#F0EBDE;display:flex;align-items:center;padding-left:40px;box-sizing:border-box">
+          <div class="serif" style="font-size:62px">Mechanical</div>
+        </div>
+        <div class="abs label" id="f12-bd" style="left:0;top:1395px;width:1080px;text-align:center;font-size:28px">BROAD · DEMANDING</div>
+
+      </div>
+    </div>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        const D = 14.71;
+        const q = (s) => "#s12-fit-stage " + s;
+        const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
+        const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: d || 0.5, ease: "power3.out" }, at);
+        const fade = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: d || 0.5, ease: "power1.out" }, at);
+        const grow = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, scale: 0.86 }, { opacity: 1, scale: 1, duration: d || 0.55, ease: "back.out(1.6)" }, at);
+        tl.fromTo("#s12-fit-cam", { scale: 1 }, { scale: 1.035, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
+        pop("#f12-h", 0.1);
+        fade("#f12-box0", 2.262, 0.3); pop("#f12-c0", 2.3619999999999997); draw(".f12-tick0", 2.762, 0.4);
+        fade("#f12-box1", 6.5280000000000005, 0.3); pop("#f12-c1", 6.628); draw(".f12-tick1", 7.0280000000000005, 0.4);
+        fade("#f12-box2", 8.181, 0.3); pop("#f12-c2", 8.281); draw(".f12-tick2", 8.681, 0.4);
+        tl.fromTo(q("#f12-s2"), { opacity: 0, y: -140 }, { opacity: 1, y: 0, duration: 0.5, ease: "bounce.out" }, 12.26);
+        tl.fromTo(q("#f12-s1"), { opacity: 0, y: -140 }, { opacity: 1, y: 0, duration: 0.5, ease: "bounce.out" }, 12.61);
+        tl.fromTo(q("#f12-s0"), { opacity: 0, y: -140 }, { opacity: 1, y: 0, duration: 0.5, ease: "bounce.out" }, 12.96);
+        pop("#f12-bd", 13.124);
+
+
+        window.__timelines["12-fit"] = tl;
+      })();
+    </script>
+  </div>
+</template>
