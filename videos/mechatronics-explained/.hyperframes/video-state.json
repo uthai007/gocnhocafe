@@ -959,5 +959,16 @@
       ]
     },
     "unversioned": []
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "7dc69945-7d78-4e37-8924-6be0a55c16ee",
+      "completedAt": 1792081359856,
+      "output": "/home/user/gocnhocafe/videos/mechatronics-explained/renders/mechatronics-explained.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
