@@ -3,3 +3,4 @@ snapshots/
 node_modules/
 renders/*.tmp*
 assets/voice/raw/
+renders/*-share.mp4
