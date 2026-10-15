@@ -1,6 +1,6 @@
 .hyperframes/artifacts/
-snapshots/
-node_modules/
-renders/*.tmp*
 assets/voice/raw/
+node_modules/
 renders/*-share.mp4
+renders/*.tmp*
+snapshots/

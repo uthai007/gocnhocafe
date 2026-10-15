@@ -331,7 +331,6 @@
         {
           "id": "ff7afa60-60ee-4549-8df5-1923099eaabf",
           "scope": "project",
-          "report": "/home/user/gocnhocafe/videos/mechatronics-explained-vertical/.hyperframes/artifacts/checks/ff7afa60-60ee-4549-8df5-1923099eaabf.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -353,7 +352,9 @@
           "revision": "c2453e68-a244-49df-9f4a-e3f273d7e046",
           "inputFingerprint": "a1fdc73a4773cb5a14a23e1e18e40e50aa4cad7dca60aab5a95979eaf33a2fc4",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "73ae68fa-79a3-4ee8-8bbb-916c6f3de4f6"
         }
       ],
       "dbaddca5-8d77-4b98-aaaf-31703790b673": [
@@ -731,13 +732,15 @@
   },
   "renders": {
     "latest": {
-      "id": "7dc69945-7d78-4e37-8924-6be0a55c16ee",
-      "completedAt": 1792081359856,
-      "output": "/home/user/gocnhocafe/videos/mechatronics-explained/renders/mechatronics-explained.mp4",
+      "id": "73ae68fa-79a3-4ee8-8bbb-916c6f3de4f6",
+      "completedAt": 1792107480708,
+      "output": "/home/user/gocnhocafe/videos/mechatronics-explained-vertical/renders/mechatronics-explained-vertical.mp4",
       "status": "completed",
-      "revision": null
+      "revision": "dbaddca5-8d77-4b98-aaaf-31703790b673"
     },
-    "retainedRevisions": []
+    "retainedRevisions": [
+      "dbaddca5-8d77-4b98-aaaf-31703790b673"
+    ]
   },
   "pendingArtifactCleanup": []
 }
