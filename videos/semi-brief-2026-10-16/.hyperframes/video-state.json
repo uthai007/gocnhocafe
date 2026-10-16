@@ -907,7 +907,6 @@
         {
           "id": "7dcdd0a5-ff2b-46a4-8a7c-577cef3b14ef",
           "scope": "project",
-          "report": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/.hyperframes/artifacts/checks/7dcdd0a5-ff2b-46a4-8a7c-577cef3b14ef.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -929,7 +928,9 @@
           "revision": "68afa21a-bc8a-442f-afd7-de9053eb35a3",
           "inputFingerprint": "5d9a313d98a79de92650c2424c2cd1369897f62cbc2652e39b4a34806a1b3f9b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "5b55ec59-b5b4-45bc-9760-0f9164a5d3b7"
         }
       ],
       "b9c59522-2f09-41ce-a1ac-92e88008a988": [
@@ -1022,7 +1023,6 @@
         {
           "id": "84d0e98c-e654-49d8-80ca-3d45fa080b43",
           "scope": "project",
-          "report": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/.hyperframes/artifacts/checks/84d0e98c-e654-49d8-80ca-3d45fa080b43.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -1044,7 +1044,9 @@
           "revision": "c13b5ed0-fa64-416a-9282-8f046063a174",
           "inputFingerprint": "20f6f07ebc1f28d65c019144af8db3cfe87a38359ed3bedb19d0cc0e66be2974",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "5b55ec59-b5b4-45bc-9760-0f9164a5d3b7"
         }
       ],
       "e6b0c801-baad-434b-b3ac-0e146043de7e": [
@@ -1716,15 +1718,15 @@
   },
   "renders": {
     "latest": {
-      "id": "1d4b1b8c-4f8b-41a8-b8d0-33a8dec3a9e9",
-      "completedAt": 1792144936445,
-      "output": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/renders/semi-market-update-2026-10-16.mp4",
+      "id": "5b55ec59-b5b4-45bc-9760-0f9164a5d3b7",
+      "completedAt": 1792158385707,
+      "output": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/renders/full.mp4",
       "status": "completed",
-      "revision": "42a69070-8f5b-4fe0-9757-0ff7d535d3fc"
+      "revision": "e6b0c801-baad-434b-b3ac-0e146043de7e"
     },
     "retainedRevisions": [
-      "42a69070-8f5b-4fe0-9757-0ff7d535d3fc",
-      "68afa21a-bc8a-442f-afd7-de9053eb35a3"
+      "e6b0c801-baad-434b-b3ac-0e146043de7e",
+      "42a69070-8f5b-4fe0-9757-0ff7d535d3fc"
     ]
   },
   "pendingArtifactCleanup": []
