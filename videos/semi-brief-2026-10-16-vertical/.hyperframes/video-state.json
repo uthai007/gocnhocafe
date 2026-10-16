@@ -1275,15 +1275,15 @@
   },
   "renders": {
     "latest": {
-      "id": "1d4b1b8c-4f8b-41a8-b8d0-33a8dec3a9e9",
-      "completedAt": 1792144936445,
-      "output": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/renders/semi-market-update-2026-10-16.mp4",
+      "id": "80516681-a137-4b4c-9258-8dfc07dc396b",
+      "completedAt": 1792159308356,
+      "output": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16-vertical/renders/full.mp4",
       "status": "completed",
-      "revision": "42a69070-8f5b-4fe0-9757-0ff7d535d3fc"
+      "revision": "ab844324-0473-47d9-b1db-1325f264ea5b"
     },
     "retainedRevisions": [
-      "42a69070-8f5b-4fe0-9757-0ff7d535d3fc",
-      "68afa21a-bc8a-442f-afd7-de9053eb35a3"
+      "ab844324-0473-47d9-b1db-1325f264ea5b",
+      "42a69070-8f5b-4fe0-9757-0ff7d535d3fc"
     ]
   },
   "pendingArtifactCleanup": []
