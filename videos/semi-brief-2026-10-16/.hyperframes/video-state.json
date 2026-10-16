@@ -867,7 +867,6 @@
         {
           "id": "a82e3794-f269-4b96-a6d8-d040c5120d1f",
           "scope": "project",
-          "report": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/.hyperframes/artifacts/checks/a82e3794-f269-4b96-a6d8-d040c5120d1f.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -889,7 +888,9 @@
           "revision": "b9c59522-2f09-41ce-a1ac-92e88008a988",
           "inputFingerprint": "be147b5f6d8f4a0a43778fa249d7372a21bbfda341dc8ccfb86a4190cb3812ba",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "1d4b1b8c-4f8b-41a8-b8d0-33a8dec3a9e9"
         }
       ],
       "42a69070-8f5b-4fe0-9757-0ff7d535d3fc": [
@@ -1588,13 +1589,14 @@
   },
   "renders": {
     "latest": {
-      "id": "c4727f40-1892-40e3-959a-59f0118dbbe4",
-      "completedAt": 1792139882857,
-      "output": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/renders/ptw-semi-brief-2026-10-16.mp4",
+      "id": "1d4b1b8c-4f8b-41a8-b8d0-33a8dec3a9e9",
+      "completedAt": 1792144936445,
+      "output": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/renders/semi-market-update-2026-10-16.mp4",
       "status": "completed",
-      "revision": "68afa21a-bc8a-442f-afd7-de9053eb35a3"
+      "revision": "42a69070-8f5b-4fe0-9757-0ff7d535d3fc"
     },
     "retainedRevisions": [
+      "42a69070-8f5b-4fe0-9757-0ff7d535d3fc",
       "68afa21a-bc8a-442f-afd7-de9053eb35a3"
     ]
   },
