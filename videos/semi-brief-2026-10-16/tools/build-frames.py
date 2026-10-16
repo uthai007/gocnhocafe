@@ -218,7 +218,7 @@ t_rev = cue(n, "revenue")
 js = f"""        fade("#t-map", 0.0, 1.0); pulse("#t-node-r", 0.6); pulse("#t-node-r", 2.6); fade("#t-tag", 0.4);
         fade("#t-k", {cue(n, "tsmc")});
         pop("#t-rev", {t_rev}); count("#t-usd", {t_rev}, 0, 46.7, 1, "", "", 1.2); count("#t-yoy", {cue(n, "50") - 0.3}, 0, 50.9, 1, "+", "%", 1.3);
-        pop("#t-ni", {cue(n, "net")}); pop("#t-gm", {cue(n, "gross")}); count("#t-gmv", {cue(n, "gross")}, 0, 66.4, 1, "", "%", 1.2);
+        pop("#t-ni", {cue(n, "net")}); pop("#t-gm", {cue(n, "net") + 0.3}); count("#t-gmv", {cue(n, "net") + 0.3}, 0, 66.4, 1, "", "%", 0.9);
         pop("#t-eps", {cue(n, "net") + 0.6});
 """
 out[n] = (stage, js)

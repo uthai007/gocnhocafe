@@ -1,0 +1,1703 @@
+{
+  "bgm": {
+    "path": "assets/bgm/bed.wav",
+    "source": "host",
+    "volume": 0.14
+  },
+  "bgm_pending": false,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/voice/01.wav",
+      "duration_s": 5.42,
+      "words": [
+        {
+          "id": "01-0",
+          "text": "Friday,",
+          "start": 0.1,
+          "end": 0.967
+        },
+        {
+          "id": "01-1",
+          "text": "16",
+          "start": 0.967,
+          "end": 1.372
+        },
+        {
+          "id": "01-2",
+          "text": "October",
+          "start": 1.372,
+          "end": 2.354
+        },
+        {
+          "id": "01-3",
+          "text": "2026.",
+          "start": 2.354,
+          "end": 2.99
+        },
+        {
+          "id": "01-4",
+          "text": "Here's",
+          "start": 3.36,
+          "end": 3.595
+        },
+        {
+          "id": "01-5",
+          "text": "what",
+          "start": 3.595,
+          "end": 3.793
+        },
+        {
+          "id": "01-6",
+          "text": "moved",
+          "start": 3.793,
+          "end": 4.028
+        },
+        {
+          "id": "01-7",
+          "text": "the",
+          "start": 4.028,
+          "end": 4.19
+        },
+        {
+          "id": "01-8",
+          "text": "chip",
+          "start": 4.19,
+          "end": 4.388
+        },
+        {
+          "id": "01-9",
+          "text": "world",
+          "start": 4.388,
+          "end": 4.623
+        },
+        {
+          "id": "01-10",
+          "text": "this",
+          "start": 4.623,
+          "end": 4.822
+        },
+        {
+          "id": "01-11",
+          "text": "week.",
+          "start": 4.822,
+          "end": 5.02
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/voice/02.wav",
+      "duration_s": 10.27,
+      "words": [
+        {
+          "id": "02-0",
+          "text": "Memory",
+          "start": 0.1,
+          "end": 0.502
+        },
+        {
+          "id": "02-1",
+          "text": "stocks",
+          "start": 0.502,
+          "end": 0.904
+        },
+        {
+          "id": "02-2",
+          "text": "are",
+          "start": 0.904,
+          "end": 1.145
+        },
+        {
+          "id": "02-3",
+          "text": "still",
+          "start": 1.145,
+          "end": 1.493
+        },
+        {
+          "id": "02-4",
+          "text": "digesting",
+          "start": 1.493,
+          "end": 2.055
+        },
+        {
+          "id": "02-5",
+          "text": "Tuesday's",
+          "start": 2.055,
+          "end": 2.564
+        },
+        {
+          "id": "02-6",
+          "text": "AI",
+          "start": 2.564,
+          "end": 2.752
+        },
+        {
+          "id": "02-7",
+          "text": "scare,",
+          "start": 2.752,
+          "end": 3.1
+        },
+        {
+          "id": "02-8",
+          "text": "but",
+          "start": 3.55,
+          "end": 3.807
+        },
+        {
+          "id": "02-9",
+          "text": "TSMC",
+          "start": 3.807,
+          "end": 4.121
+        },
+        {
+          "id": "02-10",
+          "text": "posted",
+          "start": 4.121,
+          "end": 4.55
+        },
+        {
+          "id": "02-11",
+          "text": "another",
+          "start": 4.55,
+          "end": 5.036
+        },
+        {
+          "id": "02-12",
+          "text": "record",
+          "start": 5.036,
+          "end": 5.464
+        },
+        {
+          "id": "02-13",
+          "text": "quarter,",
+          "start": 5.464,
+          "end": 5.95
+        },
+        {
+          "id": "02-14",
+          "text": "and",
+          "start": 6.25,
+          "end": 6.486
+        },
+        {
+          "id": "02-15",
+          "text": "Applied",
+          "start": 6.486,
+          "end": 6.932
+        },
+        {
+          "id": "02-16",
+          "text": "Materials",
+          "start": 6.932,
+          "end": 7.483
+        },
+        {
+          "id": "02-17",
+          "text": "opened",
+          "start": 7.483,
+          "end": 7.876
+        },
+        {
+          "id": "02-18",
+          "text": "a",
+          "start": 7.876,
+          "end": 8.008
+        },
+        {
+          "id": "02-19",
+          "text": "five-billion-dollar",
+          "start": 8.008,
+          "end": 8.978
+        },
+        {
+          "id": "02-20",
+          "text": "research",
+          "start": 8.978,
+          "end": 9.477
+        },
+        {
+          "id": "02-21",
+          "text": "campus.",
+          "start": 9.477,
+          "end": 9.87
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/voice/03.wav",
+      "duration_s": 13.93,
+      "words": [
+        {
+          "id": "03-0",
+          "text": "Taiwan",
+          "start": 0.1,
+          "end": 0.55
+        },
+        {
+          "id": "03-1",
+          "text": "first.",
+          "start": 0.55,
+          "end": 0.94
+        },
+        {
+          "id": "03-2",
+          "text": "TSMC's",
+          "start": 1.33,
+          "end": 2.009
+        },
+        {
+          "id": "03-3",
+          "text": "third-quarter",
+          "start": 2.009,
+          "end": 3.42
+        },
+        {
+          "id": "03-4",
+          "text": "revenue",
+          "start": 3.42,
+          "end": 4.308
+        },
+        {
+          "id": "03-5",
+          "text": "hit",
+          "start": 4.308,
+          "end": 4.778
+        },
+        {
+          "id": "03-6",
+          "text": "46.7",
+          "start": 4.778,
+          "end": 5.248
+        },
+        {
+          "id": "03-7",
+          "text": "billion",
+          "start": 5.248,
+          "end": 6.136
+        },
+        {
+          "id": "03-8",
+          "text": "US",
+          "start": 6.136,
+          "end": 6.502
+        },
+        {
+          "id": "03-9",
+          "text": "dollars,",
+          "start": 6.502,
+          "end": 7.39
+        },
+        {
+          "id": "03-10",
+          "text": "up",
+          "start": 7.89,
+          "end": 8.422
+        },
+        {
+          "id": "03-11",
+          "text": "50.9",
+          "start": 8.422,
+          "end": 9.107
+        },
+        {
+          "id": "03-12",
+          "text": "percent.",
+          "start": 9.107,
+          "end": 10.4
+        },
+        {
+          "id": "03-13",
+          "text": "Net",
+          "start": 10.61,
+          "end": 10.879
+        },
+        {
+          "id": "03-14",
+          "text": "income",
+          "start": 10.879,
+          "end": 11.326
+        },
+        {
+          "id": "03-15",
+          "text": "jumped",
+          "start": 11.326,
+          "end": 11.774
+        },
+        {
+          "id": "03-16",
+          "text": "68.7",
+          "start": 11.774,
+          "end": 12.043
+        },
+        {
+          "id": "03-17",
+          "text": "percent,",
+          "start": 12.043,
+          "end": 12.55
+        },
+        {
+          "id": "03-18",
+          "text": "and",
+          "start": 12.9,
+          "end": 12.971
+        },
+        {
+          "id": "03-19",
+          "text": "gross",
+          "start": 12.971,
+          "end": 13.073
+        },
+        {
+          "id": "03-20",
+          "text": "margin",
+          "start": 13.073,
+          "end": 13.191
+        },
+        {
+          "id": "03-21",
+          "text": "reached",
+          "start": 13.191,
+          "end": 13.325
+        },
+        {
+          "id": "03-22",
+          "text": "66.4",
+          "start": 13.325,
+          "end": 13.396
+        },
+        {
+          "id": "03-23",
+          "text": "percent.",
+          "start": 13.396,
+          "end": 13.53
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/voice/04.wav",
+      "duration_s": 9.85,
+      "words": [
+        {
+          "id": "04-0",
+          "text": "Advanced",
+          "start": 0.1,
+          "end": 0.627
+        },
+        {
+          "id": "04-1",
+          "text": "nodes",
+          "start": 0.627,
+          "end": 0.988
+        },
+        {
+          "id": "04-2",
+          "text": "made",
+          "start": 0.988,
+          "end": 1.293
+        },
+        {
+          "id": "04-3",
+          "text": "up",
+          "start": 1.293,
+          "end": 1.487
+        },
+        {
+          "id": "04-4",
+          "text": "79",
+          "start": 1.487,
+          "end": 1.682
+        },
+        {
+          "id": "04-5",
+          "text": "percent",
+          "start": 1.682,
+          "end": 2.153
+        },
+        {
+          "id": "04-6",
+          "text": "of",
+          "start": 2.153,
+          "end": 2.348
+        },
+        {
+          "id": "04-7",
+          "text": "wafer",
+          "start": 2.348,
+          "end": 2.708
+        },
+        {
+          "id": "04-8",
+          "text": "revenue,",
+          "start": 2.708,
+          "end": 3.18
+        },
+        {
+          "id": "04-9",
+          "text": "with",
+          "start": 3.54,
+          "end": 3.834
+        },
+        {
+          "id": "04-10",
+          "text": "2-nanometre",
+          "start": 3.834,
+          "end": 4.45
+        },
+        {
+          "id": "04-11",
+          "text": "already",
+          "start": 4.45,
+          "end": 4.904
+        },
+        {
+          "id": "04-12",
+          "text": "at",
+          "start": 4.904,
+          "end": 5.091
+        },
+        {
+          "id": "04-13",
+          "text": "8",
+          "start": 5.091,
+          "end": 5.225
+        },
+        {
+          "id": "04-14",
+          "text": "percent.",
+          "start": 5.225,
+          "end": 5.68
+        },
+        {
+          "id": "04-15",
+          "text": "The",
+          "start": 6.28,
+          "end": 6.532
+        },
+        {
+          "id": "04-16",
+          "text": "full-year",
+          "start": 6.532,
+          "end": 7.065
+        },
+        {
+          "id": "04-17",
+          "text": "growth",
+          "start": 7.065,
+          "end": 7.486
+        },
+        {
+          "id": "04-18",
+          "text": "guide",
+          "start": 7.486,
+          "end": 7.851
+        },
+        {
+          "id": "04-19",
+          "text": "rises",
+          "start": 7.851,
+          "end": 8.216
+        },
+        {
+          "id": "04-20",
+          "text": "to",
+          "start": 8.216,
+          "end": 8.412
+        },
+        {
+          "id": "04-21",
+          "text": "about",
+          "start": 8.412,
+          "end": 8.777
+        },
+        {
+          "id": "04-22",
+          "text": "44",
+          "start": 8.777,
+          "end": 8.973
+        },
+        {
+          "id": "04-23",
+          "text": "percent.",
+          "start": 8.973,
+          "end": 9.45
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/voice/05.wav",
+      "duration_s": 9.67,
+      "words": [
+        {
+          "id": "05-0",
+          "text": "A",
+          "start": 0.1,
+          "end": 0.276
+        },
+        {
+          "id": "05-1",
+          "text": "new",
+          "start": 0.276,
+          "end": 0.593
+        },
+        {
+          "id": "05-2",
+          "text": "3-nanometre",
+          "start": 0.593,
+          "end": 1.402
+        },
+        {
+          "id": "05-3",
+          "text": "plant",
+          "start": 1.402,
+          "end": 1.86
+        },
+        {
+          "id": "05-4",
+          "text": "in",
+          "start": 1.86,
+          "end": 2.106
+        },
+        {
+          "id": "05-5",
+          "text": "Tainan",
+          "start": 2.106,
+          "end": 2.634
+        },
+        {
+          "id": "05-6",
+          "text": "targets",
+          "start": 2.634,
+          "end": 3.233
+        },
+        {
+          "id": "05-7",
+          "text": "2028,",
+          "start": 3.233,
+          "end": 3.62
+        },
+        {
+          "id": "05-8",
+          "text": "and",
+          "start": 4.13,
+          "end": 4.423
+        },
+        {
+          "id": "05-9",
+          "text": "Arizona",
+          "start": 4.423,
+          "end": 4.976
+        },
+        {
+          "id": "05-10",
+          "text": "Fab",
+          "start": 4.976,
+          "end": 5.269
+        },
+        {
+          "id": "05-11",
+          "text": "2",
+          "start": 5.269,
+          "end": 5.431
+        },
+        {
+          "id": "05-12",
+          "text": "aims",
+          "start": 5.431,
+          "end": 5.789
+        },
+        {
+          "id": "05-13",
+          "text": "for",
+          "start": 5.789,
+          "end": 6.082
+        },
+        {
+          "id": "05-14",
+          "text": "mass",
+          "start": 6.082,
+          "end": 6.44
+        },
+        {
+          "id": "05-15",
+          "text": "production",
+          "start": 6.44,
+          "end": 7.188
+        },
+        {
+          "id": "05-16",
+          "text": "in",
+          "start": 7.188,
+          "end": 7.416
+        },
+        {
+          "id": "05-17",
+          "text": "the",
+          "start": 7.416,
+          "end": 7.708
+        },
+        {
+          "id": "05-18",
+          "text": "third",
+          "start": 7.708,
+          "end": 8.131
+        },
+        {
+          "id": "05-19",
+          "text": "quarter",
+          "start": 8.131,
+          "end": 8.684
+        },
+        {
+          "id": "05-20",
+          "text": "of",
+          "start": 8.684,
+          "end": 8.912
+        },
+        {
+          "id": "05-21",
+          "text": "2027.",
+          "start": 8.912,
+          "end": 9.27
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/voice/06.wav",
+      "duration_s": 8.94,
+      "words": [
+        {
+          "id": "06-0",
+          "text": "TSMC",
+          "start": 0.1,
+          "end": 0.504
+        },
+        {
+          "id": "06-1",
+          "text": "is",
+          "start": 0.504,
+          "end": 0.762
+        },
+        {
+          "id": "06-2",
+          "text": "also",
+          "start": 0.762,
+          "end": 1.166
+        },
+        {
+          "id": "06-3",
+          "text": "evaluating",
+          "start": 1.166,
+          "end": 2.012
+        },
+        {
+          "id": "06-4",
+          "text": "Texas,",
+          "start": 2.012,
+          "end": 2.49
+        },
+        {
+          "id": "06-5",
+          "text": "and",
+          "start": 2.7,
+          "end": 2.887
+        },
+        {
+          "id": "06-6",
+          "text": "talking",
+          "start": 2.887,
+          "end": 3.24
+        },
+        {
+          "id": "06-7",
+          "text": "with",
+          "start": 3.24,
+          "end": 3.469
+        },
+        {
+          "id": "06-8",
+          "text": "a",
+          "start": 3.469,
+          "end": 3.573
+        },
+        {
+          "id": "06-9",
+          "text": "customer",
+          "start": 3.573,
+          "end": 3.968
+        },
+        {
+          "id": "06-10",
+          "text": "building",
+          "start": 3.968,
+          "end": 4.363
+        },
+        {
+          "id": "06-11",
+          "text": "a",
+          "start": 4.363,
+          "end": 4.467
+        },
+        {
+          "id": "06-12",
+          "text": "Terafab,",
+          "start": 4.467,
+          "end": 4.82
+        },
+        {
+          "id": "06-13",
+          "text": "but",
+          "start": 5.17,
+          "end": 5.445
+        },
+        {
+          "id": "06-14",
+          "text": "any",
+          "start": 5.445,
+          "end": 5.72
+        },
+        {
+          "id": "06-15",
+          "text": "fab",
+          "start": 5.72,
+          "end": 5.995
+        },
+        {
+          "id": "06-16",
+          "text": "must",
+          "start": 5.995,
+          "end": 6.331
+        },
+        {
+          "id": "06-17",
+          "text": "be",
+          "start": 6.331,
+          "end": 6.545
+        },
+        {
+          "id": "06-18",
+          "text": "run",
+          "start": 6.545,
+          "end": 6.82
+        },
+        {
+          "id": "06-19",
+          "text": "by",
+          "start": 6.82,
+          "end": 7.034
+        },
+        {
+          "id": "06-20",
+          "text": "TSMC.",
+          "start": 7.034,
+          "end": 7.37
+        },
+        {
+          "id": "06-21",
+          "text": "No",
+          "start": 7.89,
+          "end": 8.059
+        },
+        {
+          "id": "06-22",
+          "text": "deal",
+          "start": 8.059,
+          "end": 8.323
+        },
+        {
+          "id": "06-23",
+          "text": "yet.",
+          "start": 8.323,
+          "end": 8.54
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/voice/07.wav",
+      "duration_s": 10.02,
+      "words": [
+        {
+          "id": "07-0",
+          "text": "In",
+          "start": 0.1,
+          "end": 0.31
+        },
+        {
+          "id": "07-1",
+          "text": "Korea,",
+          "start": 0.31,
+          "end": 0.7
+        },
+        {
+          "id": "07-2",
+          "text": "Samsung",
+          "start": 0.89,
+          "end": 1.466
+        },
+        {
+          "id": "07-3",
+          "text": "showed",
+          "start": 1.466,
+          "end": 1.974
+        },
+        {
+          "id": "07-4",
+          "text": "V-10",
+          "start": 1.974,
+          "end": 2.279
+        },
+        {
+          "id": "07-5",
+          "text": "V-NAND,",
+          "start": 2.279,
+          "end": 2.72
+        },
+        {
+          "id": "07-6",
+          "text": "the",
+          "start": 3.07,
+          "end": 3.321
+        },
+        {
+          "id": "07-7",
+          "text": "industry's",
+          "start": 3.321,
+          "end": 3.906
+        },
+        {
+          "id": "07-8",
+          "text": "first",
+          "start": 3.906,
+          "end": 4.268
+        },
+        {
+          "id": "07-9",
+          "text": "with",
+          "start": 4.268,
+          "end": 4.575
+        },
+        {
+          "id": "07-10",
+          "text": "over",
+          "start": 4.575,
+          "end": 4.881
+        },
+        {
+          "id": "07-11",
+          "text": "400",
+          "start": 4.881,
+          "end": 5.132
+        },
+        {
+          "id": "07-12",
+          "text": "layers:",
+          "start": 5.132,
+          "end": 5.55
+        },
+        {
+          "id": "07-13",
+          "text": "58",
+          "start": 5.92,
+          "end": 6.131
+        },
+        {
+          "id": "07-14",
+          "text": "percent",
+          "start": 6.131,
+          "end": 6.644
+        },
+        {
+          "id": "07-15",
+          "text": "more",
+          "start": 6.644,
+          "end": 6.976
+        },
+        {
+          "id": "07-16",
+          "text": "bit",
+          "start": 6.976,
+          "end": 7.247
+        },
+        {
+          "id": "07-17",
+          "text": "density,",
+          "start": 7.247,
+          "end": 7.76
+        },
+        {
+          "id": "07-18",
+          "text": "and",
+          "start": 7.97,
+          "end": 8.231
+        },
+        {
+          "id": "07-19",
+          "text": "25",
+          "start": 8.231,
+          "end": 8.433
+        },
+        {
+          "id": "07-20",
+          "text": "percent",
+          "start": 8.433,
+          "end": 8.925
+        },
+        {
+          "id": "07-21",
+          "text": "less",
+          "start": 8.925,
+          "end": 9.244
+        },
+        {
+          "id": "07-22",
+          "text": "power.",
+          "start": 9.244,
+          "end": 9.62
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/voice/08.wav",
+      "duration_s": 7.8,
+      "words": [
+        {
+          "id": "08-0",
+          "text": "SK",
+          "start": 0.1,
+          "end": 0.288
+        },
+        {
+          "id": "08-1",
+          "text": "Hynix",
+          "start": 0.288,
+          "end": 0.636
+        },
+        {
+          "id": "08-2",
+          "text": "is",
+          "start": 0.636,
+          "end": 0.824
+        },
+        {
+          "id": "08-3",
+          "text": "seeking",
+          "start": 0.824,
+          "end": 1.279
+        },
+        {
+          "id": "08-4",
+          "text": "US",
+          "start": 1.279,
+          "end": 1.467
+        },
+        {
+          "id": "08-5",
+          "text": "approval",
+          "start": 1.467,
+          "end": 1.976
+        },
+        {
+          "id": "08-6",
+          "text": "for",
+          "start": 1.976,
+          "end": 2.218
+        },
+        {
+          "id": "08-7",
+          "text": "more",
+          "start": 2.218,
+          "end": 2.512
+        },
+        {
+          "id": "08-8",
+          "text": "American",
+          "start": 2.512,
+          "end": 3.022
+        },
+        {
+          "id": "08-9",
+          "text": "tools",
+          "start": 3.022,
+          "end": 3.37
+        },
+        {
+          "id": "08-10",
+          "text": "at",
+          "start": 3.37,
+          "end": 3.558
+        },
+        {
+          "id": "08-11",
+          "text": "Dalian,",
+          "start": 3.558,
+          "end": 3.96
+        },
+        {
+          "id": "08-12",
+          "text": "linked",
+          "start": 4.39,
+          "end": 4.737
+        },
+        {
+          "id": "08-13",
+          "text": "to",
+          "start": 4.737,
+          "end": 4.899
+        },
+        {
+          "id": "08-14",
+          "text": "talks",
+          "start": 4.899,
+          "end": 5.2
+        },
+        {
+          "id": "08-15",
+          "text": "on",
+          "start": 5.2,
+          "end": 5.362
+        },
+        {
+          "id": "08-16",
+          "text": "a",
+          "start": 5.362,
+          "end": 5.478
+        },
+        {
+          "id": "08-17",
+          "text": "possible",
+          "start": 5.478,
+          "end": 5.918
+        },
+        {
+          "id": "08-18",
+          "text": "NAND",
+          "start": 5.918,
+          "end": 6.173
+        },
+        {
+          "id": "08-19",
+          "text": "fab",
+          "start": 6.173,
+          "end": 6.381
+        },
+        {
+          "id": "08-20",
+          "text": "in",
+          "start": 6.381,
+          "end": 6.543
+        },
+        {
+          "id": "08-21",
+          "text": "upstate",
+          "start": 6.543,
+          "end": 6.937
+        },
+        {
+          "id": "08-22",
+          "text": "New",
+          "start": 6.937,
+          "end": 7.145
+        },
+        {
+          "id": "08-23",
+          "text": "York.",
+          "start": 7.145,
+          "end": 7.4
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/voice/09.wav",
+      "duration_s": 11.84,
+      "words": [
+        {
+          "id": "09-0",
+          "text": "In",
+          "start": 0.1,
+          "end": 0.298
+        },
+        {
+          "id": "09-1",
+          "text": "the",
+          "start": 0.298,
+          "end": 0.552
+        },
+        {
+          "id": "09-2",
+          "text": "US,",
+          "start": 0.552,
+          "end": 0.75
+        },
+        {
+          "id": "09-3",
+          "text": "Applied",
+          "start": 0.98,
+          "end": 1.406
+        },
+        {
+          "id": "09-4",
+          "text": "Materials",
+          "start": 1.406,
+          "end": 1.931
+        },
+        {
+          "id": "09-5",
+          "text": "opened",
+          "start": 1.931,
+          "end": 2.307
+        },
+        {
+          "id": "09-6",
+          "text": "its",
+          "start": 2.307,
+          "end": 2.532
+        },
+        {
+          "id": "09-7",
+          "text": "5-billion-dollar",
+          "start": 2.532,
+          "end": 3.308
+        },
+        {
+          "id": "09-8",
+          "text": "EPIC",
+          "start": 3.308,
+          "end": 3.584
+        },
+        {
+          "id": "09-9",
+          "text": "Center",
+          "start": 3.584,
+          "end": 3.959
+        },
+        {
+          "id": "09-10",
+          "text": "in",
+          "start": 3.959,
+          "end": 4.134
+        },
+        {
+          "id": "09-11",
+          "text": "Sunnyvale,",
+          "start": 4.134,
+          "end": 4.66
+        },
+        {
+          "id": "09-12",
+          "text": "with",
+          "start": 5.03,
+          "end": 5.257
+        },
+        {
+          "id": "09-13",
+          "text": "nearly",
+          "start": 5.257,
+          "end": 5.567
+        },
+        {
+          "id": "09-14",
+          "text": "four",
+          "start": 5.567,
+          "end": 5.794
+        },
+        {
+          "id": "09-15",
+          "text": "acres",
+          "start": 5.794,
+          "end": 6.062
+        },
+        {
+          "id": "09-16",
+          "text": "of",
+          "start": 6.062,
+          "end": 6.207
+        },
+        {
+          "id": "09-17",
+          "text": "cleanroom,",
+          "start": 6.207,
+          "end": 6.64
+        },
+        {
+          "id": "09-18",
+          "text": "backed",
+          "start": 7.02,
+          "end": 7.093
+        },
+        {
+          "id": "09-19",
+          "text": "by",
+          "start": 7.093,
+          "end": 7.127
+        },
+        {
+          "id": "09-20",
+          "text": "TSMC,",
+          "start": 7.127,
+          "end": 7.18
+        },
+        {
+          "id": "09-21",
+          "text": "Intel,",
+          "start": 7.31,
+          "end": 8.98
+        },
+        {
+          "id": "09-22",
+          "text": "Samsung,",
+          "start": 9.22,
+          "end": 9.74
+        },
+        {
+          "id": "09-23",
+          "text": "Micron",
+          "start": 9.9,
+          "end": 10.425
+        },
+        {
+          "id": "09-24",
+          "text": "and",
+          "start": 10.425,
+          "end": 10.74
+        },
+        {
+          "id": "09-25",
+          "text": "SK",
+          "start": 10.74,
+          "end": 10.985
+        },
+        {
+          "id": "09-26",
+          "text": "Hynix.",
+          "start": 10.985,
+          "end": 11.44
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/voice/10.wav",
+      "duration_s": 11.14,
+      "words": [
+        {
+          "id": "10-0",
+          "text": "SEMI",
+          "start": 0.1,
+          "end": 0.459
+        },
+        {
+          "id": "10-1",
+          "text": "sees",
+          "start": 0.459,
+          "end": 0.818
+        },
+        {
+          "id": "10-2",
+          "text": "300-millimetre",
+          "start": 0.818,
+          "end": 1.763
+        },
+        {
+          "id": "10-3",
+          "text": "fab",
+          "start": 1.763,
+          "end": 2.057
+        },
+        {
+          "id": "10-4",
+          "text": "equipment",
+          "start": 2.057,
+          "end": 2.742
+        },
+        {
+          "id": "10-5",
+          "text": "spending",
+          "start": 2.742,
+          "end": 3.362
+        },
+        {
+          "id": "10-6",
+          "text": "of",
+          "start": 3.362,
+          "end": 3.59
+        },
+        {
+          "id": "10-7",
+          "text": "149",
+          "start": 3.59,
+          "end": 3.883
+        },
+        {
+          "id": "10-8",
+          "text": "billion",
+          "start": 3.883,
+          "end": 4.438
+        },
+        {
+          "id": "10-9",
+          "text": "dollars",
+          "start": 4.438,
+          "end": 4.992
+        },
+        {
+          "id": "10-10",
+          "text": "this",
+          "start": 4.992,
+          "end": 5.351
+        },
+        {
+          "id": "10-11",
+          "text": "year,",
+          "start": 5.351,
+          "end": 5.71
+        },
+        {
+          "id": "10-12",
+          "text": "up",
+          "start": 6.18,
+          "end": 6.426
+        },
+        {
+          "id": "10-13",
+          "text": "31",
+          "start": 6.426,
+          "end": 6.672
+        },
+        {
+          "id": "10-14",
+          "text": "percent,",
+          "start": 6.672,
+          "end": 7.27
+        },
+        {
+          "id": "10-15",
+          "text": "and",
+          "start": 7.7,
+          "end": 8.216
+        },
+        {
+          "id": "10-16",
+          "text": "227",
+          "start": 8.216,
+          "end": 8.732
+        },
+        {
+          "id": "10-17",
+          "text": "billion",
+          "start": 8.732,
+          "end": 9.708
+        },
+        {
+          "id": "10-18",
+          "text": "by",
+          "start": 9.708,
+          "end": 10.109
+        },
+        {
+          "id": "10-19",
+          "text": "2029.",
+          "start": 10.109,
+          "end": 10.74
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "path": "assets/voice/11.wav",
+      "duration_s": 10.72,
+      "words": [
+        {
+          "id": "11-0",
+          "text": "In",
+          "start": 0.1,
+          "end": 0.224
+        },
+        {
+          "id": "11-1",
+          "text": "Europe,",
+          "start": 0.224,
+          "end": 0.49
+        },
+        {
+          "id": "11-2",
+          "text": "GlobalFoundries",
+          "start": 0.71,
+          "end": 1.717
+        },
+        {
+          "id": "11-3",
+          "text": "topped",
+          "start": 1.717,
+          "end": 2.175
+        },
+        {
+          "id": "11-4",
+          "text": "out",
+          "start": 2.175,
+          "end": 2.45
+        },
+        {
+          "id": "11-5",
+          "text": "its",
+          "start": 2.45,
+          "end": 2.725
+        },
+        {
+          "id": "11-6",
+          "text": "1.1-billion-euro",
+          "start": 2.725,
+          "end": 3.61
+        },
+        {
+          "id": "11-7",
+          "text": "Dresden",
+          "start": 3.61,
+          "end": 4.129
+        },
+        {
+          "id": "11-8",
+          "text": "expansion.",
+          "start": 4.129,
+          "end": 4.77
+        },
+        {
+          "id": "11-9",
+          "text": "And",
+          "start": 5.31,
+          "end": 5.472
+        },
+        {
+          "id": "11-10",
+          "text": "in",
+          "start": 5.472,
+          "end": 5.598
+        },
+        {
+          "id": "11-11",
+          "text": "Malaysia,",
+          "start": 5.598,
+          "end": 5.94
+        },
+        {
+          "id": "11-12",
+          "text": "FIC",
+          "start": 6.31,
+          "end": 6.588
+        },
+        {
+          "id": "11-13",
+          "text": "Global",
+          "start": 6.588,
+          "end": 7.05
+        },
+        {
+          "id": "11-14",
+          "text": "opened",
+          "start": 7.05,
+          "end": 7.513
+        },
+        {
+          "id": "11-15",
+          "text": "a",
+          "start": 7.513,
+          "end": 7.667
+        },
+        {
+          "id": "11-16",
+          "text": "Johor",
+          "start": 7.667,
+          "end": 8.068
+        },
+        {
+          "id": "11-17",
+          "text": "plant",
+          "start": 8.068,
+          "end": 8.469
+        },
+        {
+          "id": "11-18",
+          "text": "for",
+          "start": 8.469,
+          "end": 8.747
+        },
+        {
+          "id": "11-19",
+          "text": "AI",
+          "start": 8.747,
+          "end": 8.963
+        },
+        {
+          "id": "11-20",
+          "text": "optical",
+          "start": 8.963,
+          "end": 9.487
+        },
+        {
+          "id": "11-21",
+          "text": "transceivers.",
+          "start": 9.487,
+          "end": 10.32
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "path": "assets/voice/12.wav",
+      "duration_s": 8.39,
+      "words": [
+        {
+          "id": "12-0",
+          "text": "Japan,",
+          "start": 0.1,
+          "end": 0.443
+        },
+        {
+          "id": "12-1",
+          "text": "China",
+          "start": 0.443,
+          "end": 0.786
+        },
+        {
+          "id": "12-2",
+          "text": "and",
+          "start": 0.786,
+          "end": 1.024
+        },
+        {
+          "id": "12-3",
+          "text": "India",
+          "start": 1.024,
+          "end": 1.367
+        },
+        {
+          "id": "12-4",
+          "text": "were",
+          "start": 1.367,
+          "end": 1.657
+        },
+        {
+          "id": "12-5",
+          "text": "quiet.",
+          "start": 1.657,
+          "end": 2.0
+        },
+        {
+          "id": "12-6",
+          "text": "Record",
+          "start": 2.47,
+          "end": 2.805
+        },
+        {
+          "id": "12-7",
+          "text": "quarters",
+          "start": 2.805,
+          "end": 3.23
+        },
+        {
+          "id": "12-8",
+          "text": "still",
+          "start": 3.23,
+          "end": 3.52
+        },
+        {
+          "id": "12-9",
+          "text": "need",
+          "start": 3.52,
+          "end": 3.766
+        },
+        {
+          "id": "12-10",
+          "text": "wet",
+          "start": 3.766,
+          "end": 3.967
+        },
+        {
+          "id": "12-11",
+          "text": "benches",
+          "start": 3.967,
+          "end": 4.347
+        },
+        {
+          "id": "12-12",
+          "text": "that",
+          "start": 4.347,
+          "end": 4.593
+        },
+        {
+          "id": "12-13",
+          "text": "turn",
+          "start": 4.593,
+          "end": 4.839
+        },
+        {
+          "id": "12-14",
+          "text": "wafers",
+          "start": 4.839,
+          "end": 5.174
+        },
+        {
+          "id": "12-15",
+          "text": "this",
+          "start": 5.174,
+          "end": 5.42
+        },
+        {
+          "id": "12-16",
+          "text": "quarter.",
+          "start": 5.42,
+          "end": 5.8
+        },
+        {
+          "id": "12-17",
+          "text": "If",
+          "start": 6.19,
+          "end": 6.373
+        },
+        {
+          "id": "12-18",
+          "text": "that",
+          "start": 6.373,
+          "end": 6.66
+        },
+        {
+          "id": "12-19",
+          "text": "gap",
+          "start": 6.66,
+          "end": 6.894
+        },
+        {
+          "id": "12-20",
+          "text": "is",
+          "start": 6.894,
+          "end": 7.077
+        },
+        {
+          "id": "12-21",
+          "text": "yours,",
+          "start": 7.077,
+          "end": 7.416
+        },
+        {
+          "id": "12-22",
+          "text": "let's",
+          "start": 7.416,
+          "end": 7.703
+        },
+        {
+          "id": "12-23",
+          "text": "talk.",
+          "start": 7.703,
+          "end": 7.99
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

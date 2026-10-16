@@ -7,40 +7,40 @@
       "id": "caption-group-0",
       "frame": 1,
       "start": 0.1,
-      "end": 1.21,
+      "end": 0.967,
       "text": "Friday,",
       "words": [
         {
           "id": "caption-word-0-0",
           "text": "Friday,",
           "start": 0.1,
-          "end": 1.13
+          "end": 0.967
         }
       ]
     },
     {
       "id": "caption-group-1",
       "frame": 1,
-      "start": 1.21,
+      "start": 0.967,
       "end": 3.11,
       "text": "16 October 2026.",
       "words": [
         {
           "id": "caption-word-1-0",
           "text": "16",
-          "start": 1.21,
-          "end": 1.566
+          "start": 0.967,
+          "end": 1.372
         },
         {
           "id": "caption-word-1-1",
           "text": "October",
-          "start": 1.566,
-          "end": 2.431
+          "start": 1.372,
+          "end": 2.354
         },
         {
           "id": "caption-word-1-2",
           "text": "2026.",
-          "start": 2.431,
+          "start": 2.354,
           "end": 2.99
         }
       ]
@@ -2389,259 +2389,250 @@
       "id": "caption-group-102",
       "frame": 12,
       "start": 109.7,
-      "end": 111.72,
+      "end": 110.043,
       "text": "Japan,",
       "words": [
         {
           "id": "caption-word-102-0",
           "text": "Japan,",
           "start": 109.7,
-          "end": 111.6
+          "end": 110.043
         }
       ]
     },
     {
       "id": "caption-group-103",
       "frame": 12,
-      "start": 112.07,
-      "end": 114.666,
-      "text": "China and India were",
+      "start": 110.043,
+      "end": 110.624,
+      "text": "China and",
       "words": [
         {
           "id": "caption-word-103-0",
           "text": "China",
-          "start": 112.07,
-          "end": 112.804
+          "start": 110.043,
+          "end": 110.386
         },
         {
           "id": "caption-word-103-1",
           "text": "and",
-          "start": 112.804,
-          "end": 113.312
-        },
-        {
-          "id": "caption-word-103-2",
-          "text": "India",
-          "start": 113.312,
-          "end": 114.045
-        },
-        {
-          "id": "caption-word-103-3",
-          "text": "were",
-          "start": 114.045,
-          "end": 114.666
+          "start": 110.386,
+          "end": 110.624
         }
       ]
     },
     {
       "id": "caption-group-104",
       "frame": 12,
-      "start": 114.666,
-      "end": 115.52,
-      "text": "quiet.",
+      "start": 110.624,
+      "end": 111.72,
+      "text": "India were quiet.",
       "words": [
         {
           "id": "caption-word-104-0",
+          "text": "India",
+          "start": 110.624,
+          "end": 110.967
+        },
+        {
+          "id": "caption-word-104-1",
+          "text": "were",
+          "start": 110.967,
+          "end": 111.257
+        },
+        {
+          "id": "caption-word-104-2",
           "text": "quiet.",
-          "start": 114.666,
-          "end": 115.4
+          "start": 111.257,
+          "end": 111.6
         }
       ]
     },
     {
       "id": "caption-group-105",
       "frame": 12,
-      "start": 115.79,
-      "end": 116.048,
-      "text": "Record quarters",
+      "start": 112.07,
+      "end": 113.12,
+      "text": "Record quarters still",
       "words": [
         {
           "id": "caption-word-105-0",
           "text": "Record",
-          "start": 115.79,
-          "end": 115.904
+          "start": 112.07,
+          "end": 112.405
         },
         {
           "id": "caption-word-105-1",
           "text": "quarters",
-          "start": 115.904,
-          "end": 116.048
+          "start": 112.405,
+          "end": 112.83
+        },
+        {
+          "id": "caption-word-105-2",
+          "text": "still",
+          "start": 112.83,
+          "end": 113.12
         }
       ]
     },
     {
       "id": "caption-group-106",
       "frame": 12,
-      "start": 116.048,
-      "end": 116.23,
-      "text": "still need",
+      "start": 113.12,
+      "end": 113.567,
+      "text": "need wet",
       "words": [
         {
           "id": "caption-word-106-0",
-          "text": "still",
-          "start": 116.048,
-          "end": 116.146
+          "text": "need",
+          "start": 113.12,
+          "end": 113.366
         },
         {
           "id": "caption-word-106-1",
-          "text": "need",
-          "start": 116.146,
-          "end": 116.23
+          "text": "wet",
+          "start": 113.366,
+          "end": 113.567
         }
       ]
     },
     {
       "id": "caption-group-107",
       "frame": 12,
-      "start": 116.23,
-      "end": 116.427,
-      "text": "wet benches",
+      "start": 113.567,
+      "end": 114.193,
+      "text": "benches that",
       "words": [
         {
           "id": "caption-word-107-0",
-          "text": "wet",
-          "start": 116.23,
-          "end": 116.298
+          "text": "benches",
+          "start": 113.567,
+          "end": 113.947
         },
         {
           "id": "caption-word-107-1",
-          "text": "benches",
-          "start": 116.298,
-          "end": 116.427
+          "text": "that",
+          "start": 113.947,
+          "end": 114.193
         }
       ]
     },
     {
       "id": "caption-group-108",
       "frame": 12,
-      "start": 116.427,
-      "end": 116.594,
-      "text": "that turn",
+      "start": 114.193,
+      "end": 114.774,
+      "text": "turn wafers",
       "words": [
         {
           "id": "caption-word-108-0",
-          "text": "that",
-          "start": 116.427,
-          "end": 116.51
+          "text": "turn",
+          "start": 114.193,
+          "end": 114.439
         },
         {
           "id": "caption-word-108-1",
-          "text": "turn",
-          "start": 116.51,
-          "end": 116.594
+          "text": "wafers",
+          "start": 114.439,
+          "end": 114.774
         }
       ]
     },
     {
       "id": "caption-group-109",
       "frame": 12,
-      "start": 116.594,
-      "end": 116.791,
-      "text": "wafers this",
+      "start": 114.774,
+      "end": 115.52,
+      "text": "this quarter.",
       "words": [
         {
           "id": "caption-word-109-0",
-          "text": "wafers",
-          "start": 116.594,
-          "end": 116.708
+          "text": "this",
+          "start": 114.774,
+          "end": 115.02
         },
         {
           "id": "caption-word-109-1",
-          "text": "this",
-          "start": 116.708,
-          "end": 116.791
+          "text": "quarter.",
+          "start": 115.02,
+          "end": 115.4
         }
       ]
     },
     {
       "id": "caption-group-110",
       "frame": 12,
-      "start": 116.791,
-      "end": 117.01,
-      "text": "quarter.",
+      "start": 115.79,
+      "end": 116.26,
+      "text": "If that",
       "words": [
         {
           "id": "caption-word-110-0",
-          "text": "quarter.",
-          "start": 116.791,
-          "end": 116.92
+          "text": "If",
+          "start": 115.79,
+          "end": 115.973
+        },
+        {
+          "id": "caption-word-110-1",
+          "text": "that",
+          "start": 115.973,
+          "end": 116.26
         }
       ]
     },
     {
       "id": "caption-group-111",
       "frame": 12,
-      "start": 117.01,
-      "end": 117.19,
-      "text": "If that",
+      "start": 116.26,
+      "end": 116.677,
+      "text": "gap is",
       "words": [
         {
           "id": "caption-word-111-0",
-          "text": "If",
-          "start": 117.01,
-          "end": 117.08
+          "text": "gap",
+          "start": 116.26,
+          "end": 116.494
         },
         {
           "id": "caption-word-111-1",
-          "text": "that",
-          "start": 117.08,
-          "end": 117.19
+          "text": "is",
+          "start": 116.494,
+          "end": 116.677
         }
       ]
     },
     {
       "id": "caption-group-112",
       "frame": 12,
-      "start": 117.19,
-      "end": 117.35,
-      "text": "gap is",
+      "start": 116.677,
+      "end": 117.016,
+      "text": "yours,",
       "words": [
         {
           "id": "caption-word-112-0",
-          "text": "gap",
-          "start": 117.19,
-          "end": 117.28
-        },
-        {
-          "id": "caption-word-112-1",
-          "text": "is",
-          "start": 117.28,
-          "end": 117.35
+          "text": "yours,",
+          "start": 116.677,
+          "end": 117.016
         }
       ]
     },
     {
       "id": "caption-group-113",
       "frame": 12,
-      "start": 117.35,
-      "end": 117.58,
-      "text": "yours,",
-      "words": [
-        {
-          "id": "caption-word-113-0",
-          "text": "yours,",
-          "start": 117.35,
-          "end": 117.48
-        }
-      ]
-    },
-    {
-      "id": "caption-group-114",
-      "frame": 12,
-      "start": 117.58,
+      "start": 117.016,
       "end": 117.71,
       "text": "let's talk.",
       "words": [
         {
-          "id": "caption-word-114-0",
+          "id": "caption-word-113-0",
           "text": "let's",
-          "start": 117.58,
-          "end": 117.585
+          "start": 117.016,
+          "end": 117.303
         },
         {
-          "id": "caption-word-114-1",
+          "id": "caption-word-113-1",
           "text": "talk.",
-          "start": 117.585,
+          "start": 117.303,
           "end": 117.59
         }
       ]

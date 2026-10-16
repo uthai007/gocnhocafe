@@ -47,15 +47,27 @@ for v in meta["voices"]:
             i += 1
     text = lines[v["frame"]]
     words = text.split()
-    phrases, cur = [], []
-    for w in words:
-        cur.append(w)
-        if re.search(r"[,.;:?!]$", w):
-            phrases.append(cur); cur = []
-    if cur:
-        phrases.append(cur)
+
+    def split(pattern):
+        ph, cur = [], []
+        for w in words:
+            cur.append(w)
+            if re.search(pattern, w):
+                ph.append(cur); cur = []
+        if cur:
+            ph.append(cur)
+        return ph
+
+    # Real pauses only (>= 0.10 s). Fast reads don't pause at every comma: use comma-level phrases when
+    # there are enough pauses for them, else sentence-level, else spread words over the whole line.
+    sig = [g for g in gaps if (g[1] - g[0]) * HOP >= 0.10]
+    phrases = split(r"[,.;:?!]$")
+    if len(sig) < len(phrases) - 1:
+        phrases = split(r"[.?!]$")
     k = len(phrases) - 1
-    big = sorted(sorted(gaps, key=lambda g: g[1] - g[0], reverse=True)[:k])
+    if len(sig) < k:
+        phrases, k = [words], 0
+    big = sorted(sorted(sig, key=lambda g: g[1] - g[0], reverse=True)[:k])
     if len(big) == k and k > 0:
         bounds = [a] + [g for gp in big for g in gp] + [b]
         spans = [(bounds[2*i], bounds[2*i+1]) for i in range(k + 1)]

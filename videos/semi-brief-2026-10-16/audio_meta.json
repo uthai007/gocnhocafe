@@ -15,24 +15,24 @@
           "id": "01-0",
           "text": "Friday,",
           "start": 0.1,
-          "end": 1.13
+          "end": 0.967
         },
         {
           "id": "01-1",
           "text": "16",
-          "start": 1.21,
-          "end": 1.566
+          "start": 0.967,
+          "end": 1.372
         },
         {
           "id": "01-2",
           "text": "October",
-          "start": 1.566,
-          "end": 2.431
+          "start": 1.372,
+          "end": 2.354
         },
         {
           "id": "01-3",
           "text": "2026.",
-          "start": 2.431,
+          "start": 2.354,
           "end": 2.99
         },
         {
@@ -1556,144 +1556,144 @@
           "id": "12-0",
           "text": "Japan,",
           "start": 0.1,
-          "end": 2.0
+          "end": 0.443
         },
         {
           "id": "12-1",
           "text": "China",
-          "start": 2.47,
-          "end": 3.204
+          "start": 0.443,
+          "end": 0.786
         },
         {
           "id": "12-2",
           "text": "and",
-          "start": 3.204,
-          "end": 3.712
+          "start": 0.786,
+          "end": 1.024
         },
         {
           "id": "12-3",
           "text": "India",
-          "start": 3.712,
-          "end": 4.445
+          "start": 1.024,
+          "end": 1.367
         },
         {
           "id": "12-4",
           "text": "were",
-          "start": 4.445,
-          "end": 5.066
+          "start": 1.367,
+          "end": 1.657
         },
         {
           "id": "12-5",
           "text": "quiet.",
-          "start": 5.066,
-          "end": 5.8
+          "start": 1.657,
+          "end": 2.0
         },
         {
           "id": "12-6",
           "text": "Record",
-          "start": 6.19,
-          "end": 6.304
+          "start": 2.47,
+          "end": 2.805
         },
         {
           "id": "12-7",
           "text": "quarters",
-          "start": 6.304,
-          "end": 6.448
+          "start": 2.805,
+          "end": 3.23
         },
         {
           "id": "12-8",
           "text": "still",
-          "start": 6.448,
-          "end": 6.546
+          "start": 3.23,
+          "end": 3.52
         },
         {
           "id": "12-9",
           "text": "need",
-          "start": 6.546,
-          "end": 6.63
+          "start": 3.52,
+          "end": 3.766
         },
         {
           "id": "12-10",
           "text": "wet",
-          "start": 6.63,
-          "end": 6.698
+          "start": 3.766,
+          "end": 3.967
         },
         {
           "id": "12-11",
           "text": "benches",
-          "start": 6.698,
-          "end": 6.827
+          "start": 3.967,
+          "end": 4.347
         },
         {
           "id": "12-12",
           "text": "that",
-          "start": 6.827,
-          "end": 6.91
+          "start": 4.347,
+          "end": 4.593
         },
         {
           "id": "12-13",
           "text": "turn",
-          "start": 6.91,
-          "end": 6.994
+          "start": 4.593,
+          "end": 4.839
         },
         {
           "id": "12-14",
           "text": "wafers",
-          "start": 6.994,
-          "end": 7.108
+          "start": 4.839,
+          "end": 5.174
         },
         {
           "id": "12-15",
           "text": "this",
-          "start": 7.108,
-          "end": 7.191
+          "start": 5.174,
+          "end": 5.42
         },
         {
           "id": "12-16",
           "text": "quarter.",
-          "start": 7.191,
-          "end": 7.32
+          "start": 5.42,
+          "end": 5.8
         },
         {
           "id": "12-17",
           "text": "If",
-          "start": 7.41,
-          "end": 7.48
+          "start": 6.19,
+          "end": 6.373
         },
         {
           "id": "12-18",
           "text": "that",
-          "start": 7.48,
-          "end": 7.59
+          "start": 6.373,
+          "end": 6.66
         },
         {
           "id": "12-19",
           "text": "gap",
-          "start": 7.59,
-          "end": 7.68
+          "start": 6.66,
+          "end": 6.894
         },
         {
           "id": "12-20",
           "text": "is",
-          "start": 7.68,
-          "end": 7.75
+          "start": 6.894,
+          "end": 7.077
         },
         {
           "id": "12-21",
           "text": "yours,",
-          "start": 7.75,
-          "end": 7.88
+          "start": 7.077,
+          "end": 7.416
         },
         {
           "id": "12-22",
           "text": "let's",
-          "start": 7.98,
-          "end": 7.985
+          "start": 7.416,
+          "end": 7.703
         },
         {
           "id": "12-23",
           "text": "talk.",
-          "start": 7.985,
+          "start": 7.703,
           "end": 7.99
         }
       ]
