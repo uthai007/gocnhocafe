@@ -1,0 +1,58 @@
+{
+  "provider": "auto",
+  "speed": "1.0",
+  "lines": [
+    {
+      "id": "01",
+      "text": "PTW Semi Market Brief, Friday 16 October 2026. Here's what moved the chip world this week."
+    },
+    {
+      "id": "02",
+      "text": "Memory stocks are still digesting Tuesday's AI scare, but TSMC posted another record quarter, and Applied Materials opened a five-billion-dollar research campus."
+    },
+    {
+      "id": "03",
+      "text": "Taiwan first. TSMC's third-quarter revenue hit 46.7 billion US dollars, up 50.9 percent. Net income jumped 68.7 percent, and gross margin reached 66.4 percent."
+    },
+    {
+      "id": "04",
+      "text": "Advanced nodes made up 79 percent of wafer revenue, with 2-nanometre already at 8 percent. The full-year growth guide rises to about 44 percent."
+    },
+    {
+      "id": "05",
+      "text": "A new 3-nanometre plant in Tainan targets 2028, and Arizona Fab 2 aims for mass production in the third quarter of 2027."
+    },
+    {
+      "id": "06",
+      "text": "TSMC is also evaluating Texas, and talking with a customer building a Terafab, but any fab must be run by TSMC. No deal yet."
+    },
+    {
+      "id": "07",
+      "text": "In Korea, Samsung showed V-10 V-NAND, the industry's first with over 400 layers: 58 percent more bit density, and 25 percent less power."
+    },
+    {
+      "id": "08",
+      "text": "SK Hynix is seeking US approval for more American tools at Dalian, linked to talks on a possible NAND fab in upstate New York."
+    },
+    {
+      "id": "09",
+      "text": "In the US, Applied Materials opened its 5-billion-dollar EPIC Center in Sunnyvale, with nearly four acres of cleanroom, backed by TSMC, Intel, Samsung, Micron and SK Hynix."
+    },
+    {
+      "id": "10",
+      "text": "SEMI sees 300-millimetre fab equipment spending of 149 billion dollars this year, up 31 percent, and 227 billion by 2029."
+    },
+    {
+      "id": "11",
+      "text": "In Europe, GlobalFoundries topped out its 1.1-billion-euro Dresden expansion. And in Malaysia, FIC Global opened a Johor plant for AI optical transceivers."
+    },
+    {
+      "id": "12",
+      "text": "Japan, China and India were quiet. Record quarters still need wet benches that turn wafers this quarter. If that gap is yours, let's talk."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_michael"
+}

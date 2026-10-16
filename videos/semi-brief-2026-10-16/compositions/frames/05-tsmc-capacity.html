@@ -1,0 +1,89 @@
+<template id="s05-tsmc-capacity-template">
+  <div id="root" data-composition-id="05-tsmc-capacity" data-start="0" data-duration="11.25" data-width="1920" data-height="1080">
+    <style>
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #e9f7ff; font-family: Montserrat, sans-serif; }
+      #s05-tsmc-capacity-ground { position: absolute; inset: 0; background:
+          radial-gradient(ellipse 70% 60% at 55% 45%, rgba(20,70,140,0.55) 0%, rgba(3,9,20,0) 70%),
+          linear-gradient(180deg, #071531 0%, #030914 100%); }
+      #s05-tsmc-capacity-ground .grid { position: absolute; inset: 0; opacity: 0.35;
+          background-image: linear-gradient(rgba(56,217,255,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(56,217,255,0.08) 1px, transparent 1px);
+          background-size: 64px 64px; }
+      #s05-tsmc-capacity-ground svg { position: absolute; inset: 0; width: 1920px; height: 1080px; }
+      #s05-tsmc-capacity-ground .tr { fill: none; stroke: rgba(56,217,255,0.28); stroke-width: 2; }
+      #s05-tsmc-capacity-ground .trg { fill: none; stroke: #7fe8ff; stroke-width: 4; stroke-dasharray: 6 94; opacity: 0.9; }
+      #s05-tsmc-capacity-ground .vig { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 75% at 50% 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.6) 100%); }
+      #s05-tsmc-capacity-stage { position: absolute; inset: 0; }
+      #s05-tsmc-capacity-stage .abs { position: absolute; display: block; }
+      #s05-tsmc-capacity-stage .glass { background: linear-gradient(160deg, rgba(14,40,80,0.72), rgba(6,18,40,0.72)); border: 1.5px solid rgba(56,217,255,0.55); box-shadow: 0 0 28px rgba(56,217,255,0.22), inset 0 0 22px rgba(56,217,255,0.10); }
+      #s05-tsmc-capacity-stage .kick { font-family: "JetBrains Mono", monospace; font-size: 20px; letter-spacing: 0.18em; color: #38d9ff; text-transform: uppercase; }
+      #s05-tsmc-capacity-stage .h1 { font-weight: 800; font-size: 64px; line-height: 1.05; color: #e9f7ff; text-shadow: 0 0 22px rgba(56,217,255,0.45); }
+      #s05-tsmc-capacity-stage .big { font-family: Oswald, sans-serif; font-weight: 600; line-height: 1; }
+      #s05-tsmc-capacity-stage .mono { font-family: "JetBrains Mono", monospace; }
+      #s05-tsmc-capacity-stage .g { color: #3dffa0; text-shadow: 0 0 18px rgba(61,255,160,0.55); }
+      #s05-tsmc-capacity-stage .a { color: #ffb547; text-shadow: 0 0 18px rgba(255,181,71,0.5); }
+      #s05-tsmc-capacity-stage .c { color: #38d9ff; text-shadow: 0 0 18px rgba(56,217,255,0.55); }
+      #s05-tsmc-capacity-stage .mut { color: #8fb6d1; }
+      #s05-tsmc-capacity-stage svg.full { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: visible; }
+      #s05-tsmc-capacity-stage .land { fill: rgba(16,52,104,0.55); stroke: rgba(56,217,255,0.45); stroke-width: 1.2; }
+      #s05-tsmc-capacity-stage .hi { fill: rgba(56,217,255,0.28); stroke: #7fe8ff; stroke-width: 2; }
+      #s05-tsmc-capacity-stage .hig { fill: none; stroke: rgba(56,217,255,0.22); stroke-width: 12; }
+      #s05-tsmc-capacity-stage .arc { fill: none; stroke: #ffb547; stroke-width: 4; }
+      #s05-tsmc-capacity-stage .ln { fill: none; stroke: #7fe8ff; stroke-width: 3; }
+      #s05-tsmc-capacity-stage .node { fill: #7fe8ff; }
+      #s05-tsmc-capacity-stage .halo { fill: rgba(56,217,255,0.22); }
+      #s05-tsmc-capacity-stage .ring { fill: none; stroke: #38d9ff; stroke-width: 2.5; }
+
+    </style>
+    <div id="s05-tsmc-capacity-ground" class="clip" data-start="0" data-duration="11.25" data-track-index="0">
+      <div class="grid"></div>
+      <svg viewBox="0 0 1920 1080"><path d="M0 210 H170 L230 270 H420" class="tr"/><path d="M0 210 H170 L230 270 H420" class="trg" pathLength="100"/><path d="M0 860 H120 L180 800 H360 L400 760" class="tr"/><path d="M0 860 H120 L180 800 H360 L400 760" class="trg" pathLength="100"/><path d="M1920 180 H1760 L1700 240 H1520" class="tr"/><path d="M1920 180 H1760 L1700 240 H1520" class="trg" pathLength="100"/><path d="M1920 900 H1800 L1740 840 H1560" class="tr"/><path d="M1920 900 H1800 L1740 840 H1560" class="trg" pathLength="100"/><path d="M260 0 V60 L320 120 H520" class="tr"/><path d="M260 0 V60 L320 120 H520" class="trg" pathLength="100"/><path d="M1660 1080 V1010 L1600 950 H1450" class="tr"/><path d="M1660 1080 V1010 L1600 950 H1450" class="trg" pathLength="100"/></svg>
+      <div class="vig"></div>
+    </div>
+    <div id="s05-tsmc-capacity-stage" class="clip" data-start="0" data-duration="11.25" data-track-index="1">
+      <div id="s05-tsmc-capacity-cam" class="abs" style="left:0;top:0;width:1920px;height:1080px">
+        <div class="abs kick" id="c-k" style="left:110px;top:150px">TSMC · NEW CAPACITY</div>
+        <div class="abs h1" id="c-h" style="left:110px;top:200px">Chasing every last wafer</div>
+        <svg class="full" viewBox="0 0 1920 1080">
+          <path class="ln" id="c-axis" pathLength="1" style="stroke-dasharray:1" d="M150 535 H1770"/>
+          <g id="c-ticks"><line x1="210" y1="520" x2="210" y2="550" stroke="#38d9ff" stroke-width="3"/><text x="210" y="600" fill="#8fb6d1" font-family="JetBrains Mono" font-size="26" text-anchor="middle">2026</text><line x1="690" y1="520" x2="690" y2="550" stroke="#38d9ff" stroke-width="3"/><text x="690" y="600" fill="#8fb6d1" font-family="JetBrains Mono" font-size="26" text-anchor="middle">2027</text><line x1="1170" y1="520" x2="1170" y2="550" stroke="#38d9ff" stroke-width="3"/><text x="1170" y="600" fill="#8fb6d1" font-family="JetBrains Mono" font-size="26" text-anchor="middle">2028</text><line x1="1650" y1="520" x2="1650" y2="550" stroke="#38d9ff" stroke-width="3"/><text x="1650" y="600" fill="#8fb6d1" font-family="JetBrains Mono" font-size="26" text-anchor="middle">2029</text></g>
+          <circle class="node" id="c-az" cx="930" cy="535" r="14"/><circle class="ring" id="c-az-r" cx="930" cy="535" r="26"/>
+          <circle class="node" id="c-tn" cx="1228" cy="535" r="14" style="fill:#ffb547"/><circle class="ring" id="c-tn-r" cx="1228" cy="535" r="26" style="stroke:#ffb547"/>
+          <path class="ln" id="c-l1" pathLength="1" style="stroke-dasharray:1" d="M930 520 V420"/>
+          <path class="ln" id="c-l2" pathLength="1" style="stroke-dasharray:1;stroke:#ffb547" d="M1228 550 V650"/>
+        </svg>
+        <div class="abs glass" id="c-az-card" style="left:510px;top:270px;width:560px;height:150px;padding:28px 32px;box-sizing:border-box;padding:22px 28px"><div class="kick">Q3 2027 · ARIZONA FAB 2</div><div style="font-size:30px;font-weight:700;margin-top:12px">Mass production · slightly ahead</div></div>
+        <div class="abs glass" id="c-tn-card" style="left:1107px;top:650px;width:620px;height:150px;padding:28px 32px;box-sizing:border-box;padding:22px 28px;border-color:rgba(255,181,71,0.6)"><div class="kick" style="color:#ffb547">1H 2028 · TAINAN</div><div style="font-size:30px;font-weight:700;margin-top:12px">One more 3nm plant · volume production</div></div>
+        <div class="abs glass" id="c-note1" style="left:110px;top:650px;width:640px;height:150px;padding:28px 32px;box-sizing:border-box;padding:22px 28px"><div class="kick">ARIZONA FAB 2 STATUS</div><div style="font-size:28px;font-weight:600;margin-top:12px">Construction complete · tools going in</div></div>
+        <div class="abs glass" id="c-2nm" style="left:1250px;top:250px;width:560px;height:170px;padding:28px 32px;box-sizing:border-box;padding:22px 28px"><div class="kick">2NM CAPACITY</div><div class="big g" style="font-size:60px;margin-top:12px">&gt;2× next year</div></div>
+
+      </div>
+    </div>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        const D = 10.65;
+        const q = (s) => "#s05-tsmc-capacity-stage " + s;
+        const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
+        const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: d || 0.55, ease: "power3.out" }, at);
+        const fade = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: d || 0.5, ease: "power1.out" }, at);
+        const grow = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: d || 0.6, ease: "back.out(1.5)" }, at);
+        const slide = (sel, at, dx) => tl.fromTo(q(sel), { opacity: 0, x: dx || 60 }, { opacity: 1, x: 0, duration: 0.6, ease: "power3.out" }, at);
+        const count = (sel, at, from, to, dec, pre, suf, d) => {
+          const el = document.querySelector(q(sel)); const o = { v: from };
+          tl.fromTo(o, { v: from }, { v: to, duration: d || 1.2, ease: "power2.out", onUpdate: () => { el.textContent = pre + o.v.toFixed(dec) + suf; } }, at);
+        };
+        const pulse = (sel, at) => tl.fromTo(q(sel), { scale: 0.4, opacity: 0.9 }, { scale: 2.6, opacity: 0, duration: 1.6, ease: "power1.out", transformOrigin: "50% 50%" }, at);
+        tl.fromTo("#s05-tsmc-capacity-ground .trg", { strokeDashoffset: 100 }, { strokeDashoffset: -100, duration: D, ease: "none" }, 0);
+        tl.fromTo("#s05-tsmc-capacity-cam", { scale: 1 }, { scale: 1.04, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
+        fade("#c-k", 0.1); pop("#c-h", 0.2); draw("#c-axis", 0.4, 1.0); fade("#c-ticks", 0.8);
+        grow("#c-tn", 2.309); pulse("#c-tn-r", 2.309); draw("#c-l2", 2.5090000000000003, 0.4); pop("#c-tn-card", 2.709);
+        grow("#c-az", 4.792); pulse("#c-az-r", 4.792); draw("#c-l1", 4.992, 0.4); pop("#c-az-card", 5.192);
+        pop("#c-note1", 6.938); pop("#c-2nm", 9.569);
+
+
+        window.__timelines["05-tsmc-capacity"] = tl;
+      })();
+    </script>
+  </div>
+</template>
