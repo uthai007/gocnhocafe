@@ -489,7 +489,6 @@
         {
           "id": "18610499-728a-4e50-ad21-d89331196478",
           "scope": "project",
-          "report": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/.hyperframes/artifacts/checks/18610499-728a-4e50-ad21-d89331196478.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -511,14 +510,15 @@
           "revision": "45591694-2c69-4f55-9217-1245fbeb58cb",
           "inputFingerprint": "8045754ae0c2bb308759946a00eac08fcd30423c5df58f48ff303cc409d2f7bb",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "c4727f40-1892-40e3-959a-59f0118dbbe4"
         }
       ],
       "20ef56b1-eb98-48b5-a9e6-93fc83f2ad24": [
         {
           "id": "b40b22d9-b2ac-4bf3-8b06-aefd2b8fceb8",
           "scope": "project",
-          "report": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/.hyperframes/artifacts/checks/b40b22d9-b2ac-4bf3-8b06-aefd2b8fceb8.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -540,7 +540,9 @@
           "revision": "20ef56b1-eb98-48b5-a9e6-93fc83f2ad24",
           "inputFingerprint": "f6fd0173d8c85c2951661ef466cc0423214f0bcf6119bbfad91fc6b99cfa90ed",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "c4727f40-1892-40e3-959a-59f0118dbbe4"
         }
       ],
       "68afa21a-bc8a-442f-afd7-de9053eb35a3": [
@@ -1023,5 +1025,18 @@
         "attribution": "unversioned"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "c4727f40-1892-40e3-959a-59f0118dbbe4",
+      "completedAt": 1792139882857,
+      "output": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/renders/ptw-semi-brief-2026-10-16.mp4",
+      "status": "completed",
+      "revision": "68afa21a-bc8a-442f-afd7-de9053eb35a3"
+    },
+    "retainedRevisions": [
+      "68afa21a-bc8a-442f-afd7-de9053eb35a3"
+    ]
+  },
+  "pendingArtifactCleanup": []
 }
