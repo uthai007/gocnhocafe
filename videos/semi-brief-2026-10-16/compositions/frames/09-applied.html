@@ -1,5 +1,5 @@
 <template id="s09-applied-template">
-  <div id="root" data-composition-id="09-applied" data-start="0" data-duration="13.64" data-width="1920" data-height="1080">
+  <div id="root" data-composition-id="09-applied" data-start="0" data-duration="12.34" data-width="1920" data-height="1080">
     <style>
       #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #e9f7ff; font-family: Montserrat, sans-serif; }
       #s09-applied-ground { position: absolute; inset: 0; background:
@@ -34,12 +34,12 @@
       #s09-applied-stage .ring { fill: none; stroke: #38d9ff; stroke-width: 2.5; }
 
     </style>
-    <div id="s09-applied-ground" class="clip" data-start="0" data-duration="13.64" data-track-index="0">
+    <div id="s09-applied-ground" class="clip" data-start="0" data-duration="12.34" data-track-index="0">
       <div class="grid"></div>
       <svg viewBox="0 0 1920 1080"><path d="M0 210 H170 L230 270 H420" class="tr"/><path d="M0 210 H170 L230 270 H420" class="trg" pathLength="100"/><path d="M0 860 H120 L180 800 H360 L400 760" class="tr"/><path d="M0 860 H120 L180 800 H360 L400 760" class="trg" pathLength="100"/><path d="M1920 180 H1760 L1700 240 H1520" class="tr"/><path d="M1920 180 H1760 L1700 240 H1520" class="trg" pathLength="100"/><path d="M1920 900 H1800 L1740 840 H1560" class="tr"/><path d="M1920 900 H1800 L1740 840 H1560" class="trg" pathLength="100"/><path d="M260 0 V60 L320 120 H520" class="tr"/><path d="M260 0 V60 L320 120 H520" class="trg" pathLength="100"/><path d="M1660 1080 V1010 L1600 950 H1450" class="tr"/><path d="M1660 1080 V1010 L1600 950 H1450" class="trg" pathLength="100"/></svg>
       <div class="vig"></div>
     </div>
-    <div id="s09-applied-stage" class="clip" data-start="0" data-duration="13.64" data-track-index="1">
+    <div id="s09-applied-stage" class="clip" data-start="0" data-duration="12.34" data-track-index="1">
       <div id="s09-applied-cam" class="abs" style="left:0;top:0;width:1920px;height:1080px">
         <svg class="full" viewBox="0 0 1920 1080">
           <path class="ln" id="e-bld" pathLength="1" style="stroke-dasharray:1;stroke-width:3" d="M960 330 L1289 520 M1289 520 L1064 650 M1064 650 L735 460 M735 460 L960 330 M960 210 L1289 400 M1289 400 L1064 530 M1064 530 L735 340 M735 340 L960 210 M960 330 L960 210 M1289 520 L1289 400 M1064 650 L1064 530 M735 460 L735 340 M1040 380 L1144 440 M1144 440 L1075 480 M1075 480 L971 420 M971 420 L1040 380 M1040 320 L1144 380 M1144 380 L1075 420 M1075 420 L971 360 M971 360 L1040 320 M1040 380 L1040 320 M1144 440 L1144 380 M1075 480 L1075 420 M971 420 L971 360 "/>
@@ -64,7 +64,7 @@
     <script>
       (function () {
         const tl = gsap.timeline({ paused: true });
-        const D = 13.14;
+        const D = 11.84;
         const q = (s) => "#s09-applied-stage " + s;
         const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
         const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: d || 0.55, ease: "power3.out" }, at);
@@ -79,12 +79,12 @@
         tl.fromTo("#s09-applied-ground .trg", { strokeDashoffset: 100 }, { strokeDashoffset: -100, duration: D, ease: "none" }, 0);
         tl.fromTo("#s09-applied-cam", { scale: 1 }, { scale: 1.04, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
         fade("#e-k", 0.1); pop("#e-h", 0.2); fade("#e-sub", 0.6); draw("#e-bld", 0.3, 2.2); fade("#e-bays", 1.6, 1.0);
-        pop("#e-s1", 2.873); pop("#e-s2", 4.58); pop("#e-s3", 6.802);
-        draw("#e-l0", 8.89, 0.4); grow("#e-p0", 9.09, 0.45);
-        draw("#e-l1", 9.860000000000001, 0.4); grow("#e-p1", 10.06, 0.45);
-        draw("#e-l2", 10.600000000000001, 0.4); grow("#e-p2", 10.8, 0.45);
-        draw("#e-l3", 12.15, 0.4); grow("#e-p3", 12.35, 0.45);
-        draw("#e-l4", 12.213000000000001, 0.4); grow("#e-p4", 12.413, 0.45);
+        pop("#e-s1", 2.532); pop("#e-s2", 4.134); pop("#e-s3", 6.207);
+        draw("#e-l0", 6.927, 0.4); grow("#e-p0", 7.127, 0.45);
+        draw("#e-l1", 7.109999999999999, 0.4); grow("#e-p1", 7.31, 0.45);
+        draw("#e-l2", 9.020000000000001, 0.4); grow("#e-p2", 9.22, 0.45);
+        draw("#e-l3", 9.700000000000001, 0.4); grow("#e-p3", 9.9, 0.45);
+        draw("#e-l4", 10.785, 0.4); grow("#e-p4", 10.985, 0.45);
 
 
         window.__timelines["09-applied"] = tl;

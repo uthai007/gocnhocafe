@@ -1,5 +1,5 @@
 <template id="s07-samsung-template">
-  <div id="root" data-composition-id="07-samsung" data-start="0" data-duration="11.53" data-width="1920" data-height="1080">
+  <div id="root" data-composition-id="07-samsung" data-start="0" data-duration="10.52" data-width="1920" data-height="1080">
     <style>
       #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #e9f7ff; font-family: Montserrat, sans-serif; }
       #s07-samsung-ground { position: absolute; inset: 0; background:
@@ -34,12 +34,12 @@
       #s07-samsung-stage .ring { fill: none; stroke: #38d9ff; stroke-width: 2.5; }
 
     </style>
-    <div id="s07-samsung-ground" class="clip" data-start="0" data-duration="11.53" data-track-index="0">
+    <div id="s07-samsung-ground" class="clip" data-start="0" data-duration="10.52" data-track-index="0">
       <div class="grid"></div>
       <svg viewBox="0 0 1920 1080"><path d="M0 210 H170 L230 270 H420" class="tr"/><path d="M0 210 H170 L230 270 H420" class="trg" pathLength="100"/><path d="M0 860 H120 L180 800 H360 L400 760" class="tr"/><path d="M0 860 H120 L180 800 H360 L400 760" class="trg" pathLength="100"/><path d="M1920 180 H1760 L1700 240 H1520" class="tr"/><path d="M1920 180 H1760 L1700 240 H1520" class="trg" pathLength="100"/><path d="M1920 900 H1800 L1740 840 H1560" class="tr"/><path d="M1920 900 H1800 L1740 840 H1560" class="trg" pathLength="100"/><path d="M260 0 V60 L320 120 H520" class="tr"/><path d="M260 0 V60 L320 120 H520" class="trg" pathLength="100"/><path d="M1660 1080 V1010 L1600 950 H1450" class="tr"/><path d="M1660 1080 V1010 L1600 950 H1450" class="trg" pathLength="100"/></svg>
       <div class="vig"></div>
     </div>
-    <div id="s07-samsung-stage" class="clip" data-start="0" data-duration="11.53" data-track-index="1">
+    <div id="s07-samsung-stage" class="clip" data-start="0" data-duration="10.52" data-track-index="1">
       <div id="s07-samsung-cam" class="abs" style="left:0;top:0;width:1920px;height:1080px">
         <svg class="full" viewBox="0 0 1920 1080"><g id="s-stack"><path class="lay" d="M200 760 L430 690 L660 760 L430 830 Z" fill="rgba(56,217,255,0.10)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 726 L430 656 L660 726 L430 796 Z" fill="rgba(56,217,255,0.13)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 692 L430 622 L660 692 L430 762 Z" fill="rgba(56,217,255,0.16)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 658 L430 588 L660 658 L430 728 Z" fill="rgba(56,217,255,0.19)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 624 L430 554 L660 624 L430 694 Z" fill="rgba(56,217,255,0.22)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 590 L430 520 L660 590 L430 660 Z" fill="rgba(56,217,255,0.25)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 556 L430 486 L660 556 L430 626 Z" fill="rgba(56,217,255,0.28)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 522 L430 452 L660 522 L430 592 Z" fill="rgba(56,217,255,0.31)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 488 L430 418 L660 488 L430 558 Z" fill="rgba(56,217,255,0.34)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 454 L430 384 L660 454 L430 524 Z" fill="rgba(56,217,255,0.37)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 420 L430 350 L660 420 L430 490 Z" fill="rgba(56,217,255,0.40)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 386 L430 316 L660 386 L430 456 Z" fill="rgba(56,217,255,0.43)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 352 L430 282 L660 352 L430 422 Z" fill="rgba(56,217,255,0.46)" stroke="#38d9ff" stroke-width="1.8"/><path class="lay" d="M200 318 L430 248 L660 318 L430 388 Z" fill="rgba(56,217,255,0.49)" stroke="#38d9ff" stroke-width="1.8"/></g></svg>
         <div class="abs" id="s-cnt" style="left:250px;top:830px;width:360px;text-align:center"><span class="big c" style="font-size:80px" id="s-layers">400+</span><div class="kick" style="margin-top:4px">LAYERS · V-NAND</div></div>
@@ -66,7 +66,7 @@
     <script>
       (function () {
         const tl = gsap.timeline({ paused: true });
-        const D = 11.03;
+        const D = 10.02;
         const q = (s) => "#s07-samsung-stage " + s;
         const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
         const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: d || 0.55, ease: "power3.out" }, at);
@@ -82,11 +82,11 @@
         tl.fromTo("#s07-samsung-cam", { scale: 1 }, { scale: 1.04, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
         fade("#s-k", 0.1);
         tl.fromTo(q(".lay"), { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.25, stagger: 0.12, ease: "power2.out" }, 0.3);
-        pop("#s-h", 2.139); pop("#s-cnt", 5.053); count("#s-layers", 5.053, 0, 400, 0, "", "+", 1.0);
-        pop("#s-b1", 6.51); tl.fromTo(q("#s-b1 .bar"), { scaleX: 0 }, { scaleX: 1, transformOrigin: "0% 50%", duration: 0.8, ease: "power2.out" }, 6.51);
-        pop("#s-b2", 7.21); tl.fromTo(q("#s-b2 .bar"), { scaleX: 0 }, { scaleX: 1, transformOrigin: "0% 50%", duration: 0.8, ease: "power2.out" }, 7.21);
-        pop("#s-b3", 9.34); tl.fromTo(q("#s-b3 .bar"), { scaleX: 0 }, { scaleX: 1, transformOrigin: "0% 50%", duration: 0.8, ease: "power2.out" }, 9.34);
-        pop("#s-c1", 8.31); pop("#s-c2", 8.809999999999999);
+        pop("#s-h", 1.974); pop("#s-cnt", 4.581); count("#s-layers", 4.581, 0, 400, 0, "", "+", 1.0);
+        pop("#s-b1", 5.92); tl.fromTo(q("#s-b1 .bar"), { scaleX: 0 }, { scaleX: 1, transformOrigin: "0% 50%", duration: 0.8, ease: "power2.out" }, 5.92);
+        pop("#s-b2", 6.62); tl.fromTo(q("#s-b2 .bar"), { scaleX: 0 }, { scaleX: 1, transformOrigin: "0% 50%", duration: 0.8, ease: "power2.out" }, 6.62);
+        pop("#s-b3", 8.644); tl.fromTo(q("#s-b3 .bar"), { scaleX: 0 }, { scaleX: 1, transformOrigin: "0% 50%", duration: 0.8, ease: "power2.out" }, 8.644);
+        pop("#s-c1", 7.72); pop("#s-c2", 8.219999999999999);
 
 
         window.__timelines["07-samsung"] = tl;

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Rebuild "PTW Semi Market Brief — 16 Oct 2026" (run from the project root).
+# Rebuild the semiconductor market update — 16 Oct 2026 (run from the project root).
 set -euo pipefail
 S=../../.claude/skills/faceless-explainer/scripts
 node $S/audio.mjs sync-durations --audio-meta ./audio_meta.json --storyboard ./STORYBOARD.md

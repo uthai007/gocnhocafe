@@ -1,5 +1,5 @@
 <template id="s10-semi-template">
-  <div id="root" data-composition-id="10-semi" data-start="0" data-duration="12.96" data-width="1920" data-height="1080">
+  <div id="root" data-composition-id="10-semi" data-start="0" data-duration="11.74" data-width="1920" data-height="1080">
     <style>
       #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #e9f7ff; font-family: Montserrat, sans-serif; }
       #s10-semi-ground { position: absolute; inset: 0; background:
@@ -34,12 +34,12 @@
       #s10-semi-stage .ring { fill: none; stroke: #38d9ff; stroke-width: 2.5; }
 
     </style>
-    <div id="s10-semi-ground" class="clip" data-start="0" data-duration="12.96" data-track-index="0">
+    <div id="s10-semi-ground" class="clip" data-start="0" data-duration="11.74" data-track-index="0">
       <div class="grid"></div>
       <svg viewBox="0 0 1920 1080"><path d="M0 210 H170 L230 270 H420" class="tr"/><path d="M0 210 H170 L230 270 H420" class="trg" pathLength="100"/><path d="M0 860 H120 L180 800 H360 L400 760" class="tr"/><path d="M0 860 H120 L180 800 H360 L400 760" class="trg" pathLength="100"/><path d="M1920 180 H1760 L1700 240 H1520" class="tr"/><path d="M1920 180 H1760 L1700 240 H1520" class="trg" pathLength="100"/><path d="M1920 900 H1800 L1740 840 H1560" class="tr"/><path d="M1920 900 H1800 L1740 840 H1560" class="trg" pathLength="100"/><path d="M260 0 V60 L320 120 H520" class="tr"/><path d="M260 0 V60 L320 120 H520" class="trg" pathLength="100"/><path d="M1660 1080 V1010 L1600 950 H1450" class="tr"/><path d="M1660 1080 V1010 L1600 950 H1450" class="trg" pathLength="100"/></svg>
       <div class="vig"></div>
     </div>
-    <div id="s10-semi-stage" class="clip" data-start="0" data-duration="12.96" data-track-index="1">
+    <div id="s10-semi-stage" class="clip" data-start="0" data-duration="11.74" data-track-index="1">
       <div id="s10-semi-cam" class="abs" style="left:0;top:0;width:1920px;height:1080px">
         <div class="abs kick" id="m2-k" style="left:110px;top:150px">USA · SEMI @ SEMICON WEST · 13 OCT</div>
         <div class="abs h1" id="m2-h" style="left:110px;top:200px">300mm front-end fab equipment spend</div>
@@ -60,7 +60,7 @@
     <script>
       (function () {
         const tl = gsap.timeline({ paused: true });
-        const D = 12.36;
+        const D = 11.14;
         const q = (s) => "#s10-semi-stage " + s;
         const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
         const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: d || 0.55, ease: "power3.out" }, at);
@@ -75,11 +75,11 @@
         tl.fromTo("#s10-semi-ground .trg", { strokeDashoffset: 100 }, { strokeDashoffset: -100, duration: D, ease: "none" }, 0);
         tl.fromTo("#s10-semi-cam", { scale: 1 }, { scale: 1.04, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
         fade("#m2-k", 0.1); pop("#m2-h", 0.2);
-        tl.fromTo(q("#m2-b1"), { scaleY: 0 }, { scaleY: 1, transformOrigin: "50% 100%", duration: 1.0, ease: "power3.out" }, 3.545);
-        pop("#m2-v1", 3.945); pop("#m2-c1", 7.023);
-        draw("#m2-arc", 8.395, 0.7);
-        tl.fromTo(q("#m2-b2"), { scaleY: 0 }, { scaleY: 1, transformOrigin: "50% 100%", duration: 1.0, ease: "power3.out" }, 8.694999999999999);
-        pop("#m2-v2", 8.995); pop("#m2-c2", 9.995);
+        tl.fromTo(q("#m2-b1"), { scaleY: 0 }, { scaleY: 1, transformOrigin: "50% 100%", duration: 1.0, ease: "power3.out" }, 3.19);
+        pop("#m2-v1", 3.59); pop("#m2-c1", 6.426);
+        draw("#m2-arc", 7.616, 0.7);
+        tl.fromTo(q("#m2-b2"), { scaleY: 0 }, { scaleY: 1, transformOrigin: "50% 100%", duration: 1.0, ease: "power3.out" }, 7.9159999999999995);
+        pop("#m2-v2", 8.216); pop("#m2-c2", 9.216);
 
 
         window.__timelines["10-semi"] = tl;

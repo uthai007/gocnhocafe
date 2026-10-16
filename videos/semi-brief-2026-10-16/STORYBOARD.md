@@ -1,7 +1,7 @@
 ---
 format: 1920x1080
 duration: 120s
-message: "Everything that moved the semiconductor market in the 16 Oct 2026 PTW brief, in two minutes."
+message: "Everything that moved the semiconductor market on 16 Oct 2026, in two minutes."
 arc: news-brief by region
 audience: semiconductor professionals and investors
 mode: autonomous
@@ -15,8 +15,8 @@ Neon HUD: deep navy ground, glowing cyan circuitry and map, amber arcs, green fo
 ## Frame 1 — Open
 
 - scene: Open
-- voiceover: "PTW Semi Market Brief, Friday 16 October 2026. Here's what moved the chip world this week."
-- duration: 8.57s
+- voiceover: "Friday, 16 October 2026. Here's what moved the chip world this week."
+- duration: 5.42s
 - transition_in: cut
 - status: animated
 - src: compositions/frames/01-open.html
@@ -32,7 +32,7 @@ keyMessage: Open.
 
 - scene: Headlines
 - voiceover: "Memory stocks are still digesting Tuesday's AI scare, but TSMC posted another record quarter, and Applied Materials opened a five-billion-dollar research campus."
-- duration: 11.35s
+- duration: 10.27s
 - transition_in: blur-crossfade
 - status: animated
 - src: compositions/frames/02-headlines.html
@@ -48,7 +48,7 @@ keyMessage: Headlines.
 
 - scene: TSMC record Q3
 - voiceover: "Taiwan first. TSMC's third-quarter revenue hit 46.7 billion US dollars, up 50.9 percent. Net income jumped 68.7 percent, and gross margin reached 66.4 percent."
-- duration: 15.39s
+- duration: 13.93s
 - transition_in: zoom-through
 - status: animated
 - src: compositions/frames/03-tsmc-q3.html
@@ -64,7 +64,7 @@ keyMessage: TSMC record Q3.
 
 - scene: Node mix and guidance
 - voiceover: "Advanced nodes made up 79 percent of wafer revenue, with 2-nanometre already at 8 percent. The full-year growth guide rises to about 44 percent."
-- duration: 11.08s
+- duration: 9.85s
 - transition_in: push-slide LEFT
 - status: animated
 - src: compositions/frames/04-tsmc-mix.html
@@ -80,7 +80,7 @@ keyMessage: Node mix and guidance.
 
 - scene: New capacity
 - voiceover: "A new 3-nanometre plant in Tainan targets 2028, and Arizona Fab 2 aims for mass production in the third quarter of 2027."
-- duration: 10.65s
+- duration: 9.67s
 - transition_in: push-slide LEFT
 - status: animated
 - src: compositions/frames/05-tsmc-capacity.html
@@ -96,7 +96,7 @@ keyMessage: New capacity.
 
 - scene: Texas and Terafab
 - voiceover: "TSMC is also evaluating Texas, and talking with a customer building a Terafab, but any fab must be run by TSMC. No deal yet."
-- duration: 10.08s
+- duration: 8.94s
 - transition_in: blur-crossfade
 - status: animated
 - src: compositions/frames/06-texas.html
@@ -112,7 +112,7 @@ keyMessage: Texas and Terafab.
 
 - scene: Samsung 400-layer V-NAND
 - voiceover: "In Korea, Samsung showed V-10 V-NAND, the industry's first with over 400 layers: 58 percent more bit density, and 25 percent less power."
-- duration: 11.03s
+- duration: 10.02s
 - transition_in: zoom-through
 - status: animated
 - src: compositions/frames/07-samsung.html
@@ -128,7 +128,7 @@ keyMessage: Samsung 400-layer V-NAND.
 
 - scene: SK hynix Dalian and US NAND
 - voiceover: "SK Hynix is seeking US approval for more American tools at Dalian, linked to talks on a possible NAND fab in upstate New York."
-- duration: 8.91s
+- duration: 7.8s
 - transition_in: push-slide LEFT
 - status: animated
 - src: compositions/frames/08-skhynix.html
@@ -144,7 +144,7 @@ keyMessage: SK hynix Dalian and US NAND.
 
 - scene: Applied Materials EPIC Center
 - voiceover: "In the US, Applied Materials opened its 5-billion-dollar EPIC Center in Sunnyvale, with nearly four acres of cleanroom, backed by TSMC, Intel, Samsung, Micron and SK Hynix."
-- duration: 13.14s
+- duration: 11.84s
 - transition_in: zoom-through
 - status: animated
 - src: compositions/frames/09-applied.html
@@ -160,7 +160,7 @@ keyMessage: Applied Materials EPIC Center.
 
 - scene: SEMI 300mm outlook
 - voiceover: "SEMI sees 300-millimetre fab equipment spending of 149 billion dollars this year, up 31 percent, and 227 billion by 2029."
-- duration: 12.36s
+- duration: 11.14s
 - transition_in: push-slide LEFT
 - status: animated
 - src: compositions/frames/10-semi.html
@@ -176,7 +176,7 @@ keyMessage: SEMI 300mm outlook.
 
 - scene: Europe and South East Asia
 - voiceover: "In Europe, GlobalFoundries topped out its 1.1-billion-euro Dresden expansion. And in Malaysia, FIC Global opened a Johor plant for AI optical transceivers."
-- duration: 11.89s
+- duration: 10.72s
 - transition_in: blur-crossfade
 - status: animated
 - src: compositions/frames/11-eu-sea.html
@@ -192,7 +192,7 @@ keyMessage: Europe and South East Asia.
 
 - scene: Close
 - voiceover: "Japan, China and India were quiet. Record quarters still need wet benches that turn wafers this quarter. If that gap is yours, let's talk."
-- duration: 9.37s
+- duration: 8.39s
 - transition_in: zoom-through
 - status: animated
 - src: compositions/frames/12-close.html

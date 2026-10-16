@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the 12 scene sub-compositions + the persistent HUD overlay for "PTW Semi Market Brief — 16 Oct 2026".
+"""Build the 12 scene sub-compositions + the persistent HUD overlay for the semiconductor market update, 16 Oct 2026.
 
     python3 tools/build-frames.py      # from the project root, after tools/pad-and-time.py + sync-durations
 
@@ -126,8 +126,18 @@ def shell(fid, n, dur, stage, js, final=False):
 """
 
 
-def mapsvg(cls_id, highlight=(), viewbox="0 0 1920 1080", extra="", opacity=1.0):
+EUROPE = [rnd(d) for d in WORLD["europe"]]
+EUBOX = WORLD["europeBox"]
+
+
+def mapsvg(cls_id, highlight=(), viewbox="0 0 1920 1080", extra="", opacity=1.0, europe=False):
+    # Highlights are exact areas only: one named country each; Europe = all European countries clipped to
+    # Europe's box (lon -25..60, lat 34..72) so French Guiana / Svalbard / Asian Russia stay unlit.
     hi = "".join(f'<path class="hig" d="{CTRY[c]}"/><path class="hi" d="{CTRY[c]}"/>' for c in highlight)
+    if europe:
+        x, y, w, h = EUBOX
+        eu = "".join(f'<path class="hig" d="{d}"/><path class="hi" d="{d}"/>' for d in EUROPE)
+        hi += f'<clipPath id="{cls_id}-euclip"><rect x="{x}" y="{y}" width="{w}" height="{h}"/></clipPath><g clip-path="url(#{cls_id}-euclip)">{eu}</g>'
     return (f'<svg class="full" id="{cls_id}" viewBox="{viewbox}" preserveAspectRatio="xMidYMid slice" style="opacity:{opacity}">'
             f'<path class="land" d="{LAND}"/>{hi}{extra}</svg>')
 
@@ -159,7 +169,7 @@ nodes = "".join(node(*P[k], f"o-{k}") for k in pts)
 arcs = "".join(arc(P["Tainan"], P[k], f"oa-{k}") for k in ["Seoul", "Johor", "Dresden", "Sunnyvale", "UpstateNY"])
 stage = f"""
         {mapsvg("o-map", extra=arcs + nodes)}
-        {card("o-title", 90, 560, 900, 300, f'''<div class="kick">PTW · SEMI MARKET BRIEF</div>
+        {card("o-title", 90, 560, 900, 300, f'''<div class="kick">SEMICONDUCTOR MARKET UPDATE</div>
           <div class="h1" style="font-size:84px;margin-top:18px">This week in chips</div>
           <div class="mono c" style="font-size:30px;margin-top:22px">FRI 16 OCT 2026 · SGT</div>''')}
 """
@@ -169,7 +179,7 @@ for i, k in enumerate(pts):
     js += f'        grow("#o-{k}", {0.3 + i*0.25:.2f}, 0.4); pulse("#o-{k}-r", {0.3 + i*0.25:.2f});\n'
 for i, k in enumerate(["Seoul", "Johor", "Dresden", "Sunnyvale", "UpstateNY"]):
     js += f'        draw("#oa-{k}", {cue(n, "moved") - 0.6 + i*0.3:.2f}, 1.2);\n'
-js += f'        pop("#o-title", {cue(n, "ptw")}, 0.7);\n'
+js += f'        pop("#o-title", {cue(n, "friday")}, 0.7);\n'
 out[n] = (stage, js)
 
 # ---------------------------------------------------------------- 02 headlines
@@ -192,7 +202,7 @@ tx, ty = P["Tainan"]
 vb = f"{tx-260:.0f} {ty-230:.0f} 520 460"
 stage = f"""
         <div class="abs" style="left:0;top:0;width:820px;height:1080px;overflow:hidden">
-          {mapsvg("t-map", highlight=["Taiwan", "China", "Japan", "Korea"], viewbox=vb, extra=node(tx, ty, "t-node", 4)).replace('class="full"', 'class="full" style="width:820px;height:1080px"')}
+          {mapsvg("t-map", highlight=["Taiwan"], viewbox=vb, extra=node(tx, ty, "t-node", 4)).replace('class="full"', 'class="full" style="width:820px;height:1080px"')}
         </div>
         {tag("TAIWAN · REPORTED 15 OCT", 110, 150, "t-tag")}
         <div class="abs kick" id="t-k" style="left:900px;top:150px">TSMC · RECORD Q3</div>
@@ -322,7 +332,7 @@ n = 8
 dx, dy = P["Dalian"]; nx, ny = P["UpstateNY"]
 k_arc = f'<path class="arc" id="k-arc" pathLength="1" style="stroke-dasharray:1" d="M{dx} {dy} C{dx-300} {dy-330} {nx+300} {ny-330} {nx} {ny}"/>'
 stage = f"""
-        {mapsvg("k-map", highlight=["China", "USA"], extra=k_arc + node(dx, dy, "k-dl", 7) + node(nx, ny, "k-ny", 7), opacity=0.85)}
+        {mapsvg("k-map", highlight=[], extra=k_arc + node(dx, dy, "k-dl", 7) + node(nx, ny, "k-ny", 7), opacity=0.85)}
         <div class="abs kick" id="k-k" style="left:110px;top:150px">KOREA · SK HYNIX / SOLIDIGM · REUTERS 15 OCT</div>
         {card("k-c1", 1180, 470, 640, 210, '<div class="kick" style="color:#ffb547">DALIAN, CHINA · MOD B</div><div style="font-size:30px;font-weight:700;margin-top:12px;line-height:1.3">More US-made tools in unused space — US approval sought</div>', "padding:22px 28px;border-color:rgba(255,181,71,0.6)")}
         {card("k-c2", 110, 470, 640, 210, '<div class="kick">UPSTATE NEW YORK</div><div style="font-size:30px;font-weight:700;margin-top:12px;line-height:1.3">Leading site for a possible US NAND fab</div>', "padding:22px 28px")}
@@ -400,22 +410,24 @@ out[n] = (stage, js)
 n = 11
 ex, ey = P["Dresden"]; jx, jy = P["Johor"]
 stage = f"""
-        {mapsvg("u-map", highlight=["Germany", "Malaysia"], extra=node(ex, ey, "u-dr", 7) + node(jx, jy, "u-jh", 7), opacity=0.8)}
+        {mapsvg("u-map", highlight=["Malaysia"], europe=True, extra=node(ex, ey, "u-dr", 7) + node(jx, jy, "u-jh", 7), opacity=0.8)}
         <div class="abs kick" id="u-k" style="left:110px;top:150px">EUROPE &amp; SOUTH EAST ASIA</div>
-        {card("u-c1", 110, 230, 760, 560, '''<div class="kick">EUROPE · GLOBALFOUNDRIES · DRESDEN · 9 OCT</div>
+        {card("u-c1", 90, 220, 700, 520, '''<div class="kick">GLOBALFOUNDRIES · DRESDEN · 9 OCT</div>
           <div class="big c" style="font-size:84px;margin-top:20px">€1.1bn</div>
           <div style="font-size:30px;font-weight:700;margin-top:6px">SPRINT expansion topped out</div>
           <div style="font-size:26px;margin-top:26px;line-height:1.4" class="mut">&gt;1M 300mm wafers / year by end-2028</div>
           <div style="font-size:26px;margin-top:10px;line-height:1.4" class="mut">FDX Fusion · next-gen FD-SOI for Physical AI</div>''')}
-        {card("u-c2", 1050, 230, 760, 560, '''<div class="kick" style="color:#ffb547">MALAYSIA · FIC GLOBAL · JOHOR · 15 OCT</div>
-          <div class="big a" style="font-size:84px;margin-top:20px">800G–3.2T</div>
-          <div style="font-size:30px;font-weight:700;margin-top:6px">Optical transceivers · new i-Park @ Senai plant</div>
-          <div style="font-size:26px;margin-top:26px;line-height:1.4" class="mut">CPO / LPO · silicon photonics for AI &amp; HPC</div>
-          <div style="font-size:26px;margin-top:10px;line-height:1.4" class="mut">Johor–Singapore twinning model</div>''', "border-color:rgba(255,181,71,0.6)")}
+        {card("u-c2", 1310, 100, 560, 440, '''<div class="kick" style="color:#ffb547;font-size:18px">FIC GLOBAL · JOHOR · 15 OCT</div>
+          <div class="big a" style="font-size:76px;margin-top:16px">800G–3.2T</div>
+          <div style="font-size:27px;font-weight:700;margin-top:6px;line-height:1.3">Optical transceivers · new i-Park @ Senai plant</div>
+          <div style="font-size:23px;margin-top:20px;line-height:1.4" class="mut">CPO / LPO · silicon photonics for AI &amp; HPC</div>
+          <div style="font-size:23px;margin-top:8px;line-height:1.4" class="mut">Johor–Singapore twinning model</div>''', "border-color:rgba(255,181,71,0.6);padding:24px 28px")}
+        {tag("EUROPE", 1000, 470, "u-eu", "#7fe8ff")}
+        {tag("MALAYSIA", 1385, 668, "u-my", "#ffb547")}
 """
 js = f"""        fade("#u-map", 0.0, 1.0); fade("#u-k", 0.1);
         grow("#u-dr", {cue(n, "globalfoundries") - 0.3}); pulse("#u-dr-r", {cue(n, "globalfoundries") - 0.3}); slide("#u-c1", {cue(n, "globalfoundries")}, -60);
-        grow("#u-jh", {cue(n, "malaysia") - 0.3}); pulse("#u-jh-r", {cue(n, "malaysia") - 0.3}); slide("#u-c2", {cue(n, "malaysia")});
+        grow("#u-jh", {cue(n, "malaysia") - 0.3}); pulse("#u-jh-r", {cue(n, "malaysia") - 0.3}); slide("#u-c2", {cue(n, "malaysia")}); fade("#u-eu", {cue(n, "europe")}); fade("#u-my", {cue(n, "malaysia")});
 """
 out[n] = (stage, js)
 
@@ -466,7 +478,7 @@ overlay = f"""<template id="hud-template">
       #hud-tape {{ position: absolute; left: 0; top: 9px; white-space: nowrap; }}
     </style>
     <div id="hud-top" class="clip" data-start="0" data-duration="{dur}" data-track-index="0">
-      <span><span style="color:{CY}">PTW</span> · SEMI MARKET BRIEF</span><span class="live" id="hud-live">● LIVE BRIEF</span><span>FRI 16 OCT 2026 · SGT</span>
+      <span>SEMICONDUCTOR MARKET UPDATE</span><span class="live" id="hud-live">● LIVE</span><span>FRI 16 OCT 2026 · SGT</span>
     </div>
     <div id="hud-tick" data-layout-allow-overflow class="clip" data-start="0" data-duration="{dur}" data-track-index="1"><div id="hud-tape">{tick}{tick}{tick}</div></div>
     <script src="assets/vendor/gsap.min.js"></script>

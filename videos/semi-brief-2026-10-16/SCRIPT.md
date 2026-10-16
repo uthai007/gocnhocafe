@@ -9,7 +9,7 @@
 
 **Delivery:** crisp.
 
-    PTW Semi Market Brief, Friday 16 October 2026. Here's what moved the chip world this week.
+    Friday, 16 October 2026. Here's what moved the chip world this week.
 
 ## Line 2 — Headlines (Frame 2)
 
