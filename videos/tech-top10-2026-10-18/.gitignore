@@ -1,0 +1,7 @@
+.hyperframes/artifacts/
+snapshots/
+node_modules/
+assets/voice/raw/
+renders/*-share.mp4
+renders/work-*/
+renders/.*

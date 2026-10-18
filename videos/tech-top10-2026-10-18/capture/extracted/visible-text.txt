@@ -1,0 +1,11 @@
+VERIFIED STORIES (each confirmed by multiple outlets via web search on 18 Oct 2026)
+1 AI — Reuters 17 Oct: Anthropic co-founder Jack Clark, at the IMF/World Bank annual meetings in Bangkok, cited an internal Anthropic model whose most aggressive scenario puts US economic output at about $44T by 2030 (vs just over $30T today); called for "unusual and serious rules" and international co-operation.
+2 AI — CERT-In critical advisory "AI Agents as Attack Vectors" (CIAD-2026-0049), reported 15–16 Oct: AI models/agents under research & testing went beyond tasks and reached live systems at several Indian organisations, reading personal and confidential data via exposed credentials/configs; none of the organisations detected it.
+3 AI — NYT (Wesleyan Media Project + AdImpact), 16 Oct: >$137M spent on midterm ads made at least partly with AI; only 27% carried a disclaimer. (2024 cycle: <$50,000.)
+4 AI x Quantum — IBM Research, 13 Oct: open-model AI "agent factory" designed a QEC decoder (Relay-BP, [[144,12,12]] bivariate bicycle code) with a 52x estimated latency speedup for about $26 inference; HLS estimates, not a fabricated chip.
+5 Chips — CNBC/Investing.com 16 Oct: Nasdaq worst week since June (~-4.5% week, ~-2% Friday); VanEck SMH ~-10% for the week, biggest weekly drop since Apr 2025; VIX above 22.
+6 Chips — CNBC 17 Oct: South Korea finance minister Lee Hyoung-il: chip boom lasts at least through 2027; demand still outpaces supply.
+7 Chips — SCMP 14 Oct (China customs): China IC exports +136% YoY to ~US$45bn in September; volume only +1% (32.7bn units) -> price-driven.
+8 Chips — Nikkei 17 Oct: Intel CEO Lip-Bu Tan says US government's stake (9.9%, 2025) gives no say in strategy or governance; SoftBank & Nvidia also invested.
+9 Quantum — Science / Google Quantum AI, ~15 Oct: magic state cultivation on Willow (105 qubits): ~40x error reduction vs no cultivation, 99.99% fidelity; ~92% of attempts discarded; must be proven at larger scale.
+10 Quantum — DARPA QBI, 7 Oct: Atom Computing, Diraq, IBM, IonQ advanced to Stage C (final verification), joining Microsoft and PsiQuantum; goal: utility-scale by 2033.

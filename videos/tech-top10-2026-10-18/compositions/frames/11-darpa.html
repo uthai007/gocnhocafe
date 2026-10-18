@@ -1,0 +1,91 @@
+<template id="s11-darpa-template">
+  <div id="root" data-composition-id="11-darpa" data-start="0" data-duration="9.76" data-width="1920" data-height="1080">
+    <style>
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #e9f7ff; font-family: Montserrat, sans-serif; }
+      #s11-darpa-ground { position: absolute; inset: 0; background:
+          radial-gradient(ellipse 70% 60% at 55% 45%, rgba(20,70,140,0.55) 0%, rgba(3,9,20,0) 70%),
+          linear-gradient(180deg, #071531 0%, #030914 100%); }
+      #s11-darpa-ground .grid { position: absolute; inset: 0; opacity: 0.35;
+          background-image: linear-gradient(rgba(56,217,255,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(56,217,255,0.08) 1px, transparent 1px);
+          background-size: 64px 64px; }
+      #s11-darpa-ground svg { position: absolute; inset: 0; width: 1920px; height: 1080px; }
+      #s11-darpa-ground .tr { fill: none; stroke: rgba(56,217,255,0.28); stroke-width: 2; }
+      #s11-darpa-ground .trg { fill: none; stroke: #7fe8ff; stroke-width: 4; stroke-dasharray: 6 94; opacity: 0.9; }
+      #s11-darpa-ground .vig { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 75% at 50% 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.6) 100%); }
+      #s11-darpa-stage { position: absolute; inset: 0; }
+      #s11-darpa-stage .abs { position: absolute; display: block; }
+      #s11-darpa-stage .glass { background: linear-gradient(160deg, rgba(14,40,80,0.72), rgba(6,18,40,0.72)); border: 1.5px solid rgba(56,217,255,0.55); box-shadow: 0 0 28px rgba(56,217,255,0.22), inset 0 0 22px rgba(56,217,255,0.10); }
+      #s11-darpa-stage .kick { font-family: "JetBrains Mono", monospace; font-size: 20px; letter-spacing: 0.18em; color: #38d9ff; text-transform: uppercase; }
+      #s11-darpa-stage .h1 { font-weight: 800; font-size: 64px; line-height: 1.05; color: #e9f7ff; text-shadow: 0 0 22px rgba(56,217,255,0.45); }
+      #s11-darpa-stage .big { font-family: Oswald, sans-serif; font-weight: 600; line-height: 1; }
+      #s11-darpa-stage .mono { font-family: "JetBrains Mono", monospace; }
+      #s11-darpa-stage .g { color: #3dffa0; text-shadow: 0 0 18px rgba(61,255,160,0.55); }
+      #s11-darpa-stage .a { color: #ffb547; text-shadow: 0 0 18px rgba(255,181,71,0.5); }
+      #s11-darpa-stage .c { color: #38d9ff; text-shadow: 0 0 18px rgba(56,217,255,0.55); }
+      #s11-darpa-stage .mut { color: #8fb6d1; }
+      #s11-darpa-stage svg.full { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: visible; }
+      #s11-darpa-stage .land { fill: rgba(16,52,104,0.55); stroke: rgba(56,217,255,0.45); stroke-width: 1.2; }
+      #s11-darpa-stage .hi { fill: rgba(56,217,255,0.28); stroke: #7fe8ff; stroke-width: 2; }
+      #s11-darpa-stage .hig { fill: none; stroke: rgba(56,217,255,0.22); stroke-width: 12; }
+      #s11-darpa-stage .arc { fill: none; stroke: #ffb547; stroke-width: 4; }
+      #s11-darpa-stage .ln { fill: none; stroke: #7fe8ff; stroke-width: 3; }
+      #s11-darpa-stage .node { fill: #7fe8ff; }
+      #s11-darpa-stage .halo { fill: rgba(56,217,255,0.22); }
+      #s11-darpa-stage .ring { fill: none; stroke: #38d9ff; stroke-width: 2.5; }
+
+    </style>
+    <div id="s11-darpa-ground" class="clip" data-start="0" data-duration="9.76" data-track-index="0">
+      <div class="grid"></div>
+      <svg viewBox="0 0 1920 1080"><path d="M0 210 H170 L230 270 H420" class="tr"/><path d="M0 210 H170 L230 270 H420" class="trg" pathLength="100"/><path d="M0 860 H120 L180 800 H360 L400 760" class="tr"/><path d="M0 860 H120 L180 800 H360 L400 760" class="trg" pathLength="100"/><path d="M1920 180 H1760 L1700 240 H1520" class="tr"/><path d="M1920 180 H1760 L1700 240 H1520" class="trg" pathLength="100"/><path d="M1920 900 H1800 L1740 840 H1560" class="tr"/><path d="M1920 900 H1800 L1740 840 H1560" class="trg" pathLength="100"/><path d="M260 0 V60 L320 120 H520" class="tr"/><path d="M260 0 V60 L320 120 H520" class="trg" pathLength="100"/><path d="M1660 1080 V1010 L1600 950 H1450" class="tr"/><path d="M1660 1080 V1010 L1600 950 H1450" class="trg" pathLength="100"/></svg>
+      <div class="vig"></div>
+    </div>
+    <div id="s11-darpa-stage" class="clip" data-start="0" data-duration="9.76" data-track-index="1">
+      <div id="s11-darpa-cam" class="abs" style="left:0;top:0;width:1920px;height:1080px">
+        <div class="abs big" id="n11-num" style="left:100px;top:120px;font-size:250px;color:#3dffa0;text-shadow:0 0 30px #3dffa0">10</div>
+        <div class="abs mono" id="n11-cat" style="left:110px;top:420px;font-size:24px;letter-spacing:0.16em;color:#03101f;background:#3dffa0;padding:8px 18px;box-shadow:0 0 20px #3dffa0">QUANTUM</div>
+        <div class="abs h1" id="n11-h" style="left:470px;top:140px;width:1350px;font-size:56px;line-height:1.12">DARPA moves four quantum firms into its final test stage</div>
+        <div class="abs mono mut" id="n11-src" style="left:110px;top:800px;width:330px;font-size:20px;line-height:1.5;letter-spacing:0.08em">SOURCE<br><span style="color:#e9f7ff">DARPA QBI · 7 OCT</span></div>
+        <div class="abs" style="left:440px;top:130px;width:2px;height:720px;background:linear-gradient(180deg,rgba(56,217,255,0),rgba(56,217,255,0.6),rgba(56,217,255,0))"></div>
+        <div class="abs kick" id="d11-k" style="left:480px;top:330px;font-size:22px">QUANTUM BENCHMARKING INITIATIVE · STAGE C (FINAL VERIFICATION)</div>
+<div class="abs glass" id="d11-c0" style="left:480px;top:390px;width:320px;height:200px;padding:28px 32px;box-sizing:border-box;padding:24px 24px"><div style="font-size:38px;font-weight:800">Atom Computing</div><div class="mono" style="font-size:18px;margin-top:14px;color:#3dffa0">NEUTRAL ATOMS</div></div>
+<div class="abs glass" id="d11-c1" style="left:820px;top:390px;width:320px;height:200px;padding:28px 32px;box-sizing:border-box;padding:24px 24px"><div style="font-size:38px;font-weight:800">Diraq</div><div class="mono" style="font-size:18px;margin-top:14px;color:#3dffa0">SILICON SPIN QUBITS</div></div>
+<div class="abs glass" id="d11-c2" style="left:1160px;top:390px;width:320px;height:200px;padding:28px 32px;box-sizing:border-box;padding:24px 24px"><div style="font-size:38px;font-weight:800">IBM</div><div class="mono" style="font-size:18px;margin-top:14px;color:#3dffa0">SUPERCONDUCTING</div></div>
+<div class="abs glass" id="d11-c3" style="left:1500px;top:390px;width:320px;height:200px;padding:28px 32px;box-sizing:border-box;padding:24px 24px"><div style="font-size:38px;font-weight:800">IonQ</div><div class="mono" style="font-size:18px;margin-top:14px;color:#3dffa0">TRAPPED IONS</div></div>
+<div class="abs glass" id="d11-j" style="left:480px;top:640px;width:760px;height:180px;padding:28px 32px;box-sizing:border-box;padding:22px 28px"><div class="kick">ALREADY IN STAGE C</div><div style="font-size:34px;font-weight:700;margin-top:12px">Microsoft · PsiQuantum</div></div>
+<div class="abs glass" id="d11-goal" style="left:1280px;top:640px;width:540px;height:180px;padding:28px 32px;box-sizing:border-box;padding:22px 28px"><div class="kick">TARGET</div><div class="big" id="d11-goal-v" style="font-size:54px;margin-top:14px;color:#3dffa0;text-shadow:0 0 22px #3dffa0">Utility-scale · 2033</div></div>
+
+      </div>
+    </div>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        const D = 9.16;
+        const q = (s) => "#s11-darpa-stage " + s;
+        const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
+        const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: d || 0.55, ease: "power3.out" }, at);
+        const fade = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: d || 0.5, ease: "power1.out" }, at);
+        const grow = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: d || 0.6, ease: "back.out(1.5)" }, at);
+        const slide = (sel, at, dx) => tl.fromTo(q(sel), { opacity: 0, x: dx || 60 }, { opacity: 1, x: 0, duration: 0.6, ease: "power3.out" }, at);
+        const count = (sel, at, from, to, dec, pre, suf, d) => {
+          const el = document.querySelector(q(sel)); const o = { v: from };
+          tl.fromTo(o, { v: from }, { v: to, duration: d || 1.2, ease: "power2.out", onUpdate: () => { el.textContent = pre + o.v.toFixed(dec) + suf; } }, at);
+        };
+        const pulse = (sel, at) => tl.fromTo(q(sel), { scale: 0.4, opacity: 0.9 }, { scale: 2.6, opacity: 0, duration: 1.6, ease: "power1.out", transformOrigin: "50% 50%" }, at);
+        tl.fromTo("#s11-darpa-ground .trg", { strokeDashoffset: 100 }, { strokeDashoffset: -100, duration: D, ease: "none" }, 0);
+        tl.fromTo("#s11-darpa-cam", { scale: 1 }, { scale: 1.04, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
+        tl.fromTo(q("#n11-num"), { opacity: 0, x: -50 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 0.05);
+        fade("#n11-cat", 0.25); pop("#n11-h", 0.3, 0.6); fade("#n11-src", 0.8);
+        fade("#d11-k", 0.7);
+        pop("#d11-c0", 1.676);
+        pop("#d11-c1", 2.72);
+        pop("#d11-c2", 3.36);
+        pop("#d11-c3", 3.856);
+        pop("#d11-j", 4.709); pop("#d11-goal", 7.077);
+
+
+        window.__timelines["11-darpa"] = tl;
+      })();
+    </script>
+  </div>
+</template>
