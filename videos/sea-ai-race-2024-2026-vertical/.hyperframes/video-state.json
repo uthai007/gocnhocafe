@@ -1,0 +1,298 @@
+{
+  "version": 1,
+  "historyId": "5df48f36-4e43-4cf0-be8d-aa491bc4824e",
+  "currentRevision": "582a77fe-2c45-4eb5-b0bd-9863cb5850f9",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "hyperframes.json": {
+      "hash": "dcceda5ae98e9213addc8a4bbef73c91d587ff47ca5395acab4ebc9194376a10",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/dc/dcceda5ae98e9213addc8a4bbef73c91d587ff47ca5395acab4ebc9194376a10"
+    },
+    "index.html": {
+      "hash": "51d3be25add6c8fe0bbad7cb3ab56ec4fc0ed03e97adf6a13d04b78577888674",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/51/51d3be25add6c8fe0bbad7cb3ab56ec4fc0ed03e97adf6a13d04b78577888674"
+    },
+    "meta.json": {
+      "hash": "1f5ac1cb775f72abffecdfa7cf8c7d30f5d9ad45fd9b02de296972bd14dabc21",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/1f/1f5ac1cb775f72abffecdfa7cf8c7d30f5d9ad45fd9b02de296972bd14dabc21"
+    },
+    "package.json": {
+      "hash": "226ef004c863a602313004d0f3850ff7e676f5a75f513c314cb31a3be2b81b0c",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/22/226ef004c863a602313004d0f3850ff7e676f5a75f513c314cb31a3be2b81b0c"
+    },
+    "assets/bgm/bed.wav": {
+      "hash": "ec6e06c0239c54157566e7f89c4c9654757230390b8f54277c22c738deda5a9d",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/ec/ec6e06c0239c54157566e7f89c4c9654757230390b8f54277c22c738deda5a9d"
+    },
+    "snaps/contact-sheet.jpg": {
+      "hash": "5557d23f52c4a6bb580c7736916ddc43fc9cf83dbe063ac8f02c49c8a71db281",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/55/5557d23f52c4a6bb580c7736916ddc43fc9cf83dbe063ac8f02c49c8a71db281"
+    },
+    "snaps/frame-00-at-2s.png": {
+      "hash": "e1376233e3ebed1e3a4a4dda3be699ffe79c3651e1f69069596cc7184b07f646",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/e1/e1376233e3ebed1e3a4a4dda3be699ffe79c3651e1f69069596cc7184b07f646"
+    },
+    "snaps/frame-02-at-52s.png": {
+      "hash": "d7e930db80b6a457d869fef347932d239853d7ea898564e96f49d3872d9405a8",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/d7/d7e930db80b6a457d869fef347932d239853d7ea898564e96f49d3872d9405a8"
+    },
+    "snaps/frame-01-at-8s.png": {
+      "hash": "136bfbee2507ff2a95de1e77b9e26ff50c4b64aca1c6dcd5f7562f7e11b5f70a",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/13/136bfbee2507ff2a95de1e77b9e26ff50c4b64aca1c6dcd5f7562f7e11b5f70a"
+    }
+  },
+  "revisions": {
+    "17c1849b-2169-43a7-9a5f-3cfbf943e1bb": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792344158365,
+      "endedAt": 1792344158393,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/a7/a744f0cfa653a0b38d2b187aeeb1ab30d3f5dbfac1c867e04f90680bb0aee45e",
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/66/665571a254a13bbd210314092c787c8553b815a24e29e2a347ed24e2f8549b1c"
+        },
+        "snaps/contact-sheet.jpg": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/cb/cb147a4b1d9415c58f17c18d75c19a7ef98dca9da8f8921572a36b6979182aa2"
+        },
+        "snaps/frame-00-at-2s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/e1/e1376233e3ebed1e3a4a4dda3be699ffe79c3651e1f69069596cc7184b07f646"
+        },
+        "snaps/frame-01-at-30s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/fd/fdc9bd2deee71ed12ca291abb4410857f1efebd1d30572cb98841659a3c81510"
+        },
+        "snaps/frame-02-at-52s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/fd/fdfe8e104721110191706451139781075970dcbcd8e623680adc92c59a437487"
+        }
+      }
+    },
+    "9383570a-6180-439f-9531-259e8f8b2224": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792344186530,
+      "endedAt": 1792344186562,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/66/665571a254a13bbd210314092c787c8553b815a24e29e2a347ed24e2f8549b1c",
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/dc/dc6c1c63ab3840a788a2ac9eabed088976111c1e44a29f882fe5856343b3e499"
+        },
+        "snaps/contact-sheet.jpg": {
+          "before": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/cb/cb147a4b1d9415c58f17c18d75c19a7ef98dca9da8f8921572a36b6979182aa2",
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/55/5557d23f52c4a6bb580c7736916ddc43fc9cf83dbe063ac8f02c49c8a71db281"
+        },
+        "snaps/frame-01-at-30s.png": {
+          "before": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/fd/fdc9bd2deee71ed12ca291abb4410857f1efebd1d30572cb98841659a3c81510",
+          "after": null
+        },
+        "snaps/frame-01-at-8s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/13/136bfbee2507ff2a95de1e77b9e26ff50c4b64aca1c6dcd5f7562f7e11b5f70a"
+        },
+        "snaps/frame-02-at-52s.png": {
+          "before": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/fd/fdfe8e104721110191706451139781075970dcbcd8e623680adc92c59a437487",
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/d7/d7e930db80b6a457d869fef347932d239853d7ea898564e96f49d3872d9405a8"
+        }
+      }
+    },
+    "582a77fe-2c45-4eb5-b0bd-9863cb5850f9": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792344234907,
+      "endedAt": 1792344234908,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/dc/dc6c1c63ab3840a788a2ac9eabed088976111c1e44a29f882fe5856343b3e499",
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/51/51d3be25add6c8fe0bbad7cb3ab56ec4fc0ed03e97adf6a13d04b78577888674"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "582a77fe-2c45-4eb5-b0bd-9863cb5850f9",
+      "id": "0c389dc2-c637-4969-864c-200de375763c"
+    },
+    "revisions": {
+      "9383570a-6180-439f-9531-259e8f8b2224": [
+        {
+          "id": "035770c2-db1b-4737-84c0-5710d5d264a5",
+          "scope": "project",
+          "report": "/home/user/gocnhocafe/videos/sea-ai-race-2024-2026-vertical/.hyperframes/artifacts/checks/035770c2-db1b-4737-84c0-5710d5d264a5.json",
+          "metadata": {
+            "ok": false,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792344198023,
+          "contentHash": "9fa0564e72ea2b75e7272ded28f123e2fb7a152dd4e9f36a4ee42d24ab5d68df",
+          "revision": "9383570a-6180-439f-9531-259e8f8b2224",
+          "inputFingerprint": "45c443b469dc1cb0bc9cc6057601cb285062fbd6319ce158ed730a5dea32754f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "48f4473b-3777-4a5d-9002-14fa3e196a27",
+          "scope": "project",
+          "report": "/home/user/gocnhocafe/videos/sea-ai-race-2024-2026-vertical/.hyperframes/artifacts/checks/48f4473b-3777-4a5d-9002-14fa3e196a27.json",
+          "metadata": {
+            "ok": false,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792344213570,
+          "contentHash": "9fa0564e72ea2b75e7272ded28f123e2fb7a152dd4e9f36a4ee42d24ab5d68df",
+          "revision": "9383570a-6180-439f-9531-259e8f8b2224",
+          "inputFingerprint": "45c443b469dc1cb0bc9cc6057601cb285062fbd6319ce158ed730a5dea32754f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "582a77fe-2c45-4eb5-b0bd-9863cb5850f9": [
+        {
+          "id": "0c389dc2-c637-4969-864c-200de375763c",
+          "scope": "project",
+          "report": "/home/user/gocnhocafe/videos/sea-ai-race-2024-2026-vertical/.hyperframes/artifacts/checks/0c389dc2-c637-4969-864c-200de375763c.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792344245494,
+          "contentHash": "5e877fdd65b852c35d1652bf380f0ff94597c89738af874d145d96017c13544d",
+          "revision": "582a77fe-2c45-4eb5-b0bd-9863cb5850f9",
+          "inputFingerprint": "a962c643e7f81a35b6e3e97249d5414be43dde361e02130edc88280c95e983f6",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "9ad7e7db-bf0d-423c-98c4-aa29132f07ae-2"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "9ad7e7db-bf0d-423c-98c4-aa29132f07ae-0",
+        "image": "/home/user/gocnhocafe/videos/sea-ai-race-2024-2026-vertical/snaps/frame-00-at-2s.png",
+        "time": 2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792344162101,
+        "contentHash": "e1376233e3ebed1e3a4a4dda3be699ffe79c3651e1f69069596cc7184b07f646",
+        "revision": null,
+        "inputFingerprint": "0affb949702935a56fe856a511a8dcf29b2a14b2e48aa9bf68f47c86c1c69a8d",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "9ad7e7db-bf0d-423c-98c4-aa29132f07ae-1",
+        "image": "/home/user/gocnhocafe/videos/sea-ai-race-2024-2026-vertical/snaps/frame-01-at-8s.png",
+        "time": 8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792344162101,
+        "contentHash": "136bfbee2507ff2a95de1e77b9e26ff50c4b64aca1c6dcd5f7562f7e11b5f70a",
+        "revision": null,
+        "inputFingerprint": "0affb949702935a56fe856a511a8dcf29b2a14b2e48aa9bf68f47c86c1c69a8d",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "9ad7e7db-bf0d-423c-98c4-aa29132f07ae-2",
+        "image": "/home/user/gocnhocafe/videos/sea-ai-race-2024-2026-vertical/snaps/frame-02-at-52s.png",
+        "time": 52,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792344162101,
+        "contentHash": "d7e930db80b6a457d869fef347932d239853d7ea898564e96f49d3872d9405a8",
+        "revision": null,
+        "inputFingerprint": "0affb949702935a56fe856a511a8dcf29b2a14b2e48aa9bf68f47c86c1c69a8d",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
+  }
+}

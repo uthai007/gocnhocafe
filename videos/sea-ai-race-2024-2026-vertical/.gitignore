@@ -1,0 +1,6 @@
+.hyperframes/artifacts/
+snaps/
+snapshots/
+node_modules/
+renders/work-*/
+renders/.*

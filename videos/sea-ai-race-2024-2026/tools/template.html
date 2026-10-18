@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=__W__, height=__H__" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: __W__px;
+        height: __H__px;
+        overflow: hidden;
+        background: #26287a;
+      }
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-family: Oswald, sans-serif;
+        color: #ffffff;
+      }
+      #stage,
+      #bg,
+      #intro {
+        position: absolute;
+        inset: 0;
+      }
+      #stage {
+        z-index: 0;
+      }
+      #intro {
+        z-index: 10;
+      }
+      #bg {
+        background: radial-gradient(120% 90% at 70% 30%, #33369a 0%, #26287a 55%, #1c1d5e 100%);
+      }
+      .px {
+        position: absolute;
+        background: #ffffff;
+      }
+      .lg {
+        font-family: "League Gothic", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+      }
+      #kicker {
+        position: absolute;
+        color: #f7ec7e;
+        white-space: nowrap;
+      }
+      .colhead {
+        position: absolute;
+        color: #ffffff;
+        white-space: nowrap;
+      }
+      .row {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+      .name {
+        position: absolute;
+        text-align: right;
+        white-space: nowrap;
+        color: #ffffff;
+      }
+      .flag {
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.9);
+      }
+      .flag svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .bar {
+        position: absolute;
+        border-radius: 2px;
+        overflow: hidden;
+      }
+      .share {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: 700;
+        color: #232571;
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+      }
+      .val {
+        position: absolute;
+        font-weight: 700;
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+        color: #ffffff;
+      }
+      #date {
+        position: absolute;
+        text-align: center;
+      }
+      #month {
+        display: block;
+        color: #f7ec7e;
+        line-height: 0.9;
+      }
+      #year {
+        display: block;
+        color: #ffffff;
+        line-height: 0.9;
+        -webkit-text-stroke: 3px #3fc1a5;
+        text-shadow:
+          6px 6px 0 #f7ec7e,
+          12px 12px 0 #f2a5a0,
+          18px 18px 0 #e0297a;
+      }
+      #note {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        opacity: 0;
+      }
+      #note-arrow {
+        flex: none;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-color: transparent transparent transparent #f7ec7e;
+      }
+      #note-text {
+        color: #ffffff;
+        font-family: Inter, sans-serif;
+        font-weight: 500;
+        line-height: 1.3;
+      }
+      #note-text b {
+        color: #f7ec7e;
+        font-weight: 700;
+      }
+      #pie {
+        position: absolute;
+      }
+      #pie svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+      }
+      #total {
+        position: absolute;
+        white-space: nowrap;
+      }
+      #total-label {
+        display: block;
+        color: #f2a5a0;
+        letter-spacing: 0.08em;
+      }
+      #total-val {
+        display: block;
+        font-weight: 700;
+        color: #ffffff;
+        font-variant-numeric: tabular-nums;
+        line-height: 1;
+      }
+      #total-sub {
+        display: block;
+        font-family: Inter, sans-serif;
+        color: rgba(255, 255, 255, 0.75);
+      }
+      #prog {
+        position: absolute;
+      }
+      #prog-track {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 6px;
+        background: rgba(255, 255, 255, 0.18);
+      }
+      #prog-fill {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 6px;
+        width: 100%;
+        background: #f7ec7e;
+        transform-origin: 0 50%;
+      }
+      .prog-year {
+        position: absolute;
+        top: 14px;
+        color: rgba(255, 255, 255, 0.7);
+        white-space: nowrap;
+      }
+      .prog-tick {
+        position: absolute;
+        top: -6px;
+        width: 2px;
+        height: 18px;
+        background: rgba(255, 255, 255, 0.5);
+      }
+      #source {
+        position: absolute;
+        font-family: Inter, sans-serif;
+        color: rgba(255, 255, 255, 0.72);
+        line-height: 1.35;
+      }
+      #intro {
+        background: #26287a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      #intro-ai {
+        color: #ffffff;
+        line-height: 0.85;
+        -webkit-text-stroke: 5px #3fc1a5;
+        text-shadow:
+          10px 10px 0 #f7ec7e,
+          20px 20px 0 #f2a5a0,
+          30px 30px 0 #e0297a;
+      }
+      #intro-title {
+        color: #ffffff;
+        line-height: 1;
+      }
+      #intro-sub {
+        font-family: Inter, sans-serif;
+        font-weight: 500;
+        color: #f7ec7e;
+      }
+      /* ---------- landscape 1920x1080 ---------- */
+      .land #kicker { left: 90px; top: 46px; font-size: 64px; }
+      .land #ch-share { left: 330px; top: 136px; font-size: 34px; }
+      .land #ch-val { left: 1060px; top: 136px; font-size: 34px; width: 240px; text-align: right; }
+      .land #date { left: 1360px; top: 120px; width: 480px; }
+      .land #month { font-size: 120px; }
+      .land #year { font-size: 230px; }
+      .land #note { left: 1370px; top: 530px; width: 470px; }
+      .land #note-arrow { border-width: 26px 0 26px 40px; margin-right: 18px; }
+      .land #note-text { font-size: 28px; }
+      .land #pie { left: 1380px; top: 680px; width: 230px; height: 230px; }
+      .land #total { left: 1650px; top: 700px; }
+      .land #total-label { font-size: 30px; }
+      .land #total-val { font-size: 76px; }
+      .land #total-sub { font-size: 20px; margin-top: 6px; }
+      .land #prog { left: 330px; top: 958px; width: 900px; height: 40px; }
+      .land .prog-year { font-size: 22px; }
+      .land #source { left: 90px; top: 1018px; width: 1740px; font-size: 18px; }
+      .land #intro-ai { font-size: 330px; }
+      .land #intro-title { font-size: 120px; margin-top: 30px; }
+      .land #intro-sub { font-size: 34px; margin-top: 18px; }
+      /* ---------- portrait 1080x1920 ---------- */
+      .port #kicker { left: 60px; top: 70px; width: 960px; font-size: 92px; line-height: 0.95; white-space: normal; }
+      .port #date { left: 60px; top: 250px; width: 960px; display: flex; align-items: baseline; justify-content: center; gap: 36px; }
+      .port #month { display: inline-block; font-size: 170px; }
+      .port #year { display: inline-block; font-size: 230px; }
+      .port #ch-share { left: 330px; top: 600px; font-size: 30px; }
+      .port #ch-val { left: 760px; top: 600px; font-size: 30px; width: 260px; text-align: right; }
+      .port #prog { left: 330px; top: 1500px; width: 690px; height: 40px; }
+      .port .prog-year { font-size: 24px; }
+      .port #note { left: 60px; top: 1570px; width: 960px; }
+      .port #note-arrow { border-width: 26px 0 26px 40px; margin-right: 18px; }
+      .port #note-text { font-size: 32px; }
+      .port #pie { left: 70px; top: 1672px; width: 150px; height: 150px; }
+      .port #total { left: 260px; top: 1672px; }
+      .port #total-label { font-size: 30px; }
+      .port #total-val { font-size: 72px; }
+      .port #total-sub { font-size: 22px; margin-top: 6px; }
+      .port #source { left: 60px; top: 1846px; width: 960px; font-size: 16px; }
+      .port #intro-ai { font-size: 360px; }
+      .port #intro-title { font-size: 104px; margin-top: 40px; width: 1000px; }
+      .port #intro-sub { font-size: 30px; margin-top: 24px; width: 1000px; }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      class="__ORIENT__"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="54"
+      data-width="__W__"
+      data-height="__H__"
+    >
+      <div id="stage" class="clip" data-start="0" data-duration="54" data-track-index="0">
+        <div id="bg"></div>
+        <div id="pixels"></div>
+        <div id="kicker" class="lg">AI usage in Southeast Asia</div>
+        <div id="ch-share" class="colhead lg">Share of ASEAN-6 AI traffic</div>
+        <div id="ch-val" class="colhead lg">Visits / month</div>
+        <div id="plot"></div>
+        <div id="date" class="lg"><span id="month">Jan</span><span id="year">2024</span></div>
+        <div id="prog"><div id="prog-track"></div><div id="prog-fill"></div></div>
+        <div id="note"><div id="note-arrow"></div><div id="note-text"></div></div>
+        <div id="pie"><svg viewBox="-100 -100 200 200" id="pie-svg"></svg></div>
+        <div id="total">
+          <span id="total-label" class="lg">ASEAN-6 total</span>
+          <span id="total-val">0M</span>
+          <span id="total-sub">AI tool visits in the month</span>
+        </div>
+        <div id="source">
+          Source: AITools.xyz (SEMrush &amp; Ahrefs estimates) · 2024 &amp; 2025 country totals and June 2026 figures; months in between
+          are interpolated, Malaysia &amp; Singapore June 2026 estimated · Website visits, not unique users; app sessions excluded.
+        </div>
+      </div>
+      <div id="intro" class="clip" data-start="0" data-duration="4" data-track-index="1">
+        <div id="intro-inner">
+          <div id="intro-ai" class="lg">AI</div>
+          <div id="intro-title" class="lg">Usage in Southeast Asia</div>
+          <div id="intro-sub">Monthly visits to AI tool websites · Jan 2024 – Jun 2026</div>
+        </div>
+      </div>
+      <audio id="bgm" src="assets/bgm/bed.wav" data-start="0" data-duration="54" data-track-index="2" data-volume="0.55"></audio>
+    </div>
+    <script>
+      (function () {
+        "use strict";
+        var DATA = __DATA__;
+        var PORT = document.getElementById("root").classList.contains("port");
+
+        // ---- geometry -------------------------------------------------------
+        var G = PORT
+          ? { plotTop: 650, plotH: 820, nameR: 236, nameSize: 54, flagX: 248, flag: 72, barX: 330, trackW: 520, barH: 96, shareSize: 34, valSize: 46 }
+          : { plotTop: 186, plotH: 760, nameR: 220, nameSize: 58, flagX: 236, flag: 74, barX: 330, trackW: 840, barH: 92, shareSize: 36, valSize: 48 };
+        var PITCH = G.plotH / 6;
+
+        // ---- timing ---------------------------------------------------------
+        var RACE_START = 4.0; // bars are at Jan 2024 when the intro clears
+        var PER_MONTH = 1.6;
+        var T = DATA.months.length; // 30
+        var RACE_END = RACE_START + (T - 1) * PER_MONTH; // 50.4
+        function at(month) {
+          return RACE_START + DATA.months.indexOf(month) * PER_MONTH;
+        }
+
+        var COUNTRIES = [
+          { id: "ID", name: "Indonesia" },
+          { id: "PH", name: "Philippines" },
+          { id: "VN", name: "Vietnam" },
+          { id: "TH", name: "Thailand" },
+          { id: "MY", name: "Malaysia" },
+          { id: "SG", name: "Singapore" }
+        ];
+        // Rank colours, as in the reference infographic: #1 yellow, #2 teal, #3 magenta, the rest salmon.
+        var RANK_COLORS = ["#f7ec7e", "#3fc1a5", "#e0297a", "#f2a5a0", "#f2a5a0", "#f2a5a0"];
+        var SHARE_INK = ["#232571", "#232571", "#ffffff", "#232571", "#232571", "#232571"];
+        var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+        function flagSvg(id) {
+          var c = '<svg viewBox="0 0 60 60" preserveAspectRatio="xMidYMid slice">';
+          if (id === "ID") c += '<rect width="60" height="30" fill="#ce1126"/><rect y="30" width="60" height="30" fill="#fff"/>';
+          if (id === "SG")
+            c +=
+              '<rect width="60" height="30" fill="#ef3340"/><rect y="30" width="60" height="30" fill="#fff"/>' +
+              '<circle cx="17" cy="15" r="9" fill="#fff"/><circle cx="20.5" cy="15" r="8.5" fill="#ef3340"/>' +
+              '<g fill="#fff"><circle cx="24" cy="9" r="1.6"/><circle cx="29" cy="12.5" r="1.6"/><circle cx="27" cy="18.5" r="1.6"/><circle cx="21" cy="18.5" r="1.6"/><circle cx="19.5" cy="12.5" r="1.6"/></g>';
+          if (id === "MY") {
+            for (var i = 0; i < 14; i++) c += '<rect y="' + (i * 60) / 14 + '" width="60" height="' + 60 / 14 + '" fill="' + (i % 2 ? "#fff" : "#cc0001") + '"/>';
+            c += '<rect width="34" height="' + (60 * 8) / 14 + '" fill="#010066"/><circle cx="15" cy="17" r="9" fill="#fc0"/><circle cx="18" cy="17" r="7.8" fill="#010066"/><circle cx="25" cy="17" r="3.4" fill="#fc0"/>';
+          }
+          if (id === "TH")
+            c +=
+              '<rect width="60" height="60" fill="#a51931"/><rect y="10" width="60" height="40" fill="#f4f5f8"/><rect y="20" width="60" height="20" fill="#2d2a4a"/>';
+          if (id === "VN")
+            c +=
+              '<rect width="60" height="60" fill="#da251d"/><polygon fill="#ff0" points="30,13 34.1,25.6 47.3,25.6 36.6,33.4 40.7,46 30,38.2 19.3,46 23.4,33.4 12.7,25.6 25.9,25.6"/>';
+          if (id === "PH")
+            c +=
+              '<rect width="60" height="30" fill="#0038a8"/><rect y="30" width="60" height="30" fill="#ce1126"/><polygon points="0,0 34,30 0,60" fill="#fff"/><circle cx="12" cy="30" r="5.5" fill="#fcd116"/>';
+          return c + "</svg>";
+        }
+
+        // ---- decorative pixels (fixed positions, seeded) ---------------------
+        var seed = 11;
+        function rnd() {
+          seed = (seed * 16807) % 2147483647;
+          return seed / 2147483647;
+        }
+        var W = PORT ? 1080 : 1920;
+        var H = PORT ? 1920 : 1080;
+        var pixHtml = "";
+        for (var p = 0; p < 70; p++) {
+          var s = 4 + Math.floor(rnd() * 3) * 4;
+          pixHtml +=
+            '<div class="px" style="left:' + Math.floor(rnd() * W) + "px;top:" + Math.floor(rnd() * H) + "px;width:" + s + "px;height:" + s + "px;opacity:" + (0.05 + rnd() * 0.12).toFixed(2) + '"></div>';
+        }
+        document.getElementById("pixels").innerHTML = pixHtml;
+
+        // ---- rows -----------------------------------------------------------
+        var plot = document.getElementById("plot");
+        var rows = COUNTRIES.map(function (c) {
+          var row = document.createElement("div");
+          row.className = "row";
+          row.style.height = PITCH + "px";
+          row.innerHTML =
+            '<div class="name lg"></div><div class="flag"></div><div class="bar"><span class="share"></span></div><div class="val"></div>';
+          var name = row.children[0];
+          name.textContent = c.name;
+          name.style.cssText = "right:" + (W - G.nameR) + "px;font-size:" + G.nameSize + "px;line-height:" + PITCH + "px;top:0";
+          var flag = row.children[1];
+          flag.innerHTML = flagSvg(c.id);
+          flag.style.cssText = "left:" + G.flagX + "px;top:" + (PITCH - G.flag) / 2 + "px;width:" + G.flag + "px;height:" + G.flag + "px";
+          var bar = row.children[2];
+          bar.style.cssText = "left:" + G.barX + "px;top:" + (PITCH - G.barH) / 2 + "px;height:" + G.barH + "px;width:0px";
+          bar.firstChild.style.fontSize = G.shareSize + "px";
+          var val = row.children[3];
+          val.style.cssText = "top:0;line-height:" + PITCH + "px;font-size:" + G.valSize + "px;left:" + G.barX + "px";
+          plot.appendChild(row);
+          return { row: row, bar: bar, share: bar.firstChild, val: val, values: DATA.series[c.id] };
+        });
+
+        // ---- progress strip -------------------------------------------------
+        var prog = document.getElementById("prog");
+        var progW = PORT ? 690 : 900;
+        [0, 12, 24].forEach(function (i) {
+          var x = (i / (T - 1)) * progW;
+          prog.insertAdjacentHTML("beforeend", '<div class="prog-tick" style="left:' + x + 'px"></div><div class="prog-year" style="left:' + (x + 8) + 'px">' + DATA.months[i].slice(0, 4) + "</div>");
+        });
+
+        // ---- closed-form state (pure function of race position u) -----------
+        var K = 10;
+        function valueAt(series, u) {
+          var i = Math.min(Math.max(Math.floor(u), 0), T - 2);
+          var f = Math.min(Math.max(u - i, 0), 1);
+          return series[i] + (series[i + 1] - series[i]) * f;
+        }
+        var RANKS = [];
+        for (var m = 0; m <= (T - 1) * K; m++) {
+          var order = rows.map(function (r, j) {
+            return { j: j, v: valueAt(r.values, m / K) };
+          });
+          order.sort(function (a, b) {
+            return b.v - a.v || a.j - b.j;
+          });
+          var rk = [];
+          order.forEach(function (o, r) {
+            rk[o.j] = r;
+          });
+          RANKS.push(rk);
+        }
+        function rankPos(u, j) {
+          var m = u * K;
+          var m0 = Math.min(Math.max(Math.floor(m), 0), RANKS.length - 2);
+          var e = Math.min(Math.max(m - m0, 0), 1);
+          e = e * e * (3 - 2 * e);
+          return RANKS[m0][j] + (RANKS[m0 + 1][j] - RANKS[m0][j]) * e;
+        }
+
+        var pieSvg = document.getElementById("pie-svg");
+        var monthEl = document.getElementById("month");
+        var yearEl = document.getElementById("year");
+        var totalEl = document.getElementById("total-val");
+        var fillEl = document.getElementById("prog-fill");
+        var lastLabel = "";
+
+        function fmt(v) {
+          return v >= 1000 ? (v / 1000).toFixed(2) + "B" : Math.round(v) + "M";
+        }
+
+        function render(u, g) {
+          var vals = rows.map(function (r) {
+            return valueAt(r.values, u);
+          });
+          var total = vals.reduce(function (a, b) {
+            return a + b;
+          }, 0);
+          var max = Math.max.apply(null, vals);
+          var slices = [];
+          rows.forEach(function (r, j) {
+            var pos = rankPos(u, j);
+            var rank = Math.round(pos);
+            var w = Math.max(4, (vals[j] / max) * G.trackW * g);
+            r.row.style.transform = "translateY(" + (G.plotTop + pos * PITCH).toFixed(2) + "px)";
+            r.row.style.zIndex = String(100 - rank);
+            r.bar.style.width = w.toFixed(1) + "px";
+            r.bar.style.background = RANK_COLORS[rank];
+            r.share.style.color = SHARE_INK[rank];
+            r.share.textContent = ((vals[j] / total) * 100).toFixed(1) + "%";
+            r.share.style.opacity = w > 105 ? "1" : "0";
+            r.val.style.left = (G.barX + w + 16).toFixed(1) + "px";
+            r.val.textContent = Math.round(vals[j] * g) + "M";
+            slices.push({ rank: rank, share: vals[j] / total });
+          });
+          // Pie: slices in rank order starting at 12 o'clock, coloured like the bars.
+          slices.sort(function (a, b) {
+            return a.rank - b.rank;
+          });
+          var a0 = -Math.PI / 2;
+          var d = "";
+          slices.forEach(function (s) {
+            var a1 = a0 + s.share * 2 * Math.PI * g;
+            var large = a1 - a0 > Math.PI ? 1 : 0;
+            d +=
+              '<path fill="' + RANK_COLORS[s.rank] + '" stroke="#26287a" stroke-width="1.5" d="M0 0 L' + (100 * Math.cos(a0)).toFixed(2) + " " + (100 * Math.sin(a0)).toFixed(2) +
+              " A100 100 0 " + large + " 1 " + (100 * Math.cos(a1)).toFixed(2) + " " + (100 * Math.sin(a1)).toFixed(2) + ' Z"/>';
+            a0 = a1;
+          });
+          pieSvg.innerHTML = '<circle r="102" fill="none" stroke="#fff" stroke-width="4"/>' + d;
+          totalEl.textContent = fmt(total * g);
+          var mi = Math.min(T - 1, Math.round(u));
+          var label = DATA.months[mi];
+          if (label !== lastLabel) {
+            lastLabel = label;
+            monthEl.textContent = MONTHS[Number(label.slice(5, 7)) - 1];
+            yearEl.textContent = label.slice(0, 4);
+          }
+          fillEl.style.transform = "scaleX(" + (u / (T - 1)).toFixed(4) + ")";
+        }
+
+        // ---- timeline -------------------------------------------------------
+        var tl = gsap.timeline({ paused: true });
+        // Intro: title stack lands, then clears to reveal the chart.
+        tl.fromTo("#intro-ai", { y: 80, opacity: 0, scale: 0.85 }, { y: 0, opacity: 1, scale: 1, duration: 0.8, ease: "back.out(1.6)" }, 0.15);
+        tl.fromTo("#intro-title", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, 0.6);
+        tl.fromTo("#intro-sub", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, 0.9);
+        tl.to("#intro-inner", { y: -60, opacity: 0, duration: 0.5, ease: "power2.in" }, 2.9);
+        tl.fromTo("#intro", { opacity: 1 }, { opacity: 0, duration: 0.5, ease: "power1.inOut" }, 3.3);
+        tl.fromTo("#plot", { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "none" }, 3.15);
+
+        tl.fromTo("#year", { scale: 1 }, { scale: 1.04, duration: 0.3, yoyo: true, repeat: 1, ease: "power1.inOut" }, RACE_END);
+
+        // Callouts. Facts come from annual totals and June 2026 figures, never from an interpolated month alone.
+        var NOTES = [
+          { at: at("2024-03") - 0.4, dur: 4.2, html: "<b>Thailand</b> edges past <b>Malaysia</b> — 0.98B vs 0.94B visits over 2024" },
+          { at: at("2024-06"), dur: 5.4, html: "<b>Indonesia</b> overtakes the <b>Philippines</b> — neck and neck in 2024 (2.56B vs 2.57B), clear #1 in 2025" },
+          { at: at("2025-02"), dur: 5.4, html: "<b>Vietnam</b> grows fastest: 1.55B → 2.67B visits from 2024 to 2025 (+72%)" },
+          { at: at("2025-08"), dur: 5.4, html: "ASEAN-6 logged <b>13.0B</b> AI tool visits in 2025, about 10% of the world's 125.7B" },
+          { at: at("2026-01"), dur: 4.8, html: "Vietnam cools: <b>155M</b> visits in June 2026, below its 2025 monthly average of 222M" },
+          { at: RACE_END + 0.2, dur: 3.4, html: "June 2026: <b>Indonesia 314M</b> · Philippines 244M · Vietnam 155M · Thailand 131M" }
+        ];
+        var noteText = document.getElementById("note-text");
+        NOTES.forEach(function (n, i) {
+          tl.fromTo("#note", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.45, ease: "power3.out", immediateRender: false }, n.at);
+          if (i < NOTES.length - 1) tl.to("#note", { opacity: 0, x: 20, duration: 0.35, ease: "power2.in", immediateRender: false }, n.at + n.dur - 0.35);
+        });
+
+        // One clock drives the chart and the note text, so every frame is a pure function of time.
+        var lastNote = -1;
+        function frame(t) {
+          var gx = Math.min(Math.max((t - 3.2) / 0.9, 0), 1);
+          var g = 1 - (1 - gx) * (1 - gx);
+          var u = Math.min(Math.max((t - RACE_START) / PER_MONTH, 0), T - 1);
+          render(u, g);
+          var ni = 0;
+          NOTES.forEach(function (n, i) {
+            if (t >= n.at - 0.01) ni = i;
+          });
+          if (ni !== lastNote) {
+            lastNote = ni;
+            noteText.innerHTML = NOTES[ni].html;
+          }
+        }
+        var clock = { t: 0 };
+        frame(0);
+        tl.to(clock, { t: 54, duration: 54, ease: "none", onUpdate: function () { frame(clock.t); } }, 0);
+        window.__timelines["main"] = tl;
+      })();
+    </script>
+  </body>
+</html>
