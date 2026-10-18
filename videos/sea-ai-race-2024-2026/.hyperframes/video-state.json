@@ -314,5 +314,16 @@
         "attribution": "inputs-changed"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "03f82719-cfa3-477b-a936-2458a39b745c",
+      "completedAt": 1792344381331,
+      "output": "/home/user/gocnhocafe/videos/sea-ai-race-2024-2026/renders/sea-ai-race-2024-2026.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }

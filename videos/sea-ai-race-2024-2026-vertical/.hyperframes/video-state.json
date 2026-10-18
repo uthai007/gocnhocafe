@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "5df48f36-4e43-4cf0-be8d-aa491bc4824e",
-  "currentRevision": "582a77fe-2c45-4eb5-b0bd-9863cb5850f9",
+  "currentRevision": "5531a34d-f477-45d5-ab3f-fed1031a56d5",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -51,6 +51,14 @@
     "snaps/frame-01-at-8s.png": {
       "hash": "136bfbee2507ff2a95de1e77b9e26ff50c4b64aca1c6dcd5f7562f7e11b5f70a",
       "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/13/136bfbee2507ff2a95de1e77b9e26ff50c4b64aca1c6dcd5f7562f7e11b5f70a"
+    },
+    "BRIEF.md": {
+      "hash": "0c28650fc47ac9672ee456b76dd05f403bab2359e612113aae79da15366f52a9",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/0c/0c28650fc47ac9672ee456b76dd05f403bab2359e612113aae79da15366f52a9"
+    },
+    "render.log": {
+      "hash": "a6419159b2205caa1d227512138d6f61bf2d0f96cca806871fc7b8c3a9841df0",
+      "content": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/a6/a6419159b2205caa1d227512138d6f61bf2d0f96cca806871fc7b8c3a9841df0"
     }
   },
   "revisions": {
@@ -128,6 +136,25 @@
         "index.html": {
           "before": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/dc/dc6c1c63ab3840a788a2ac9eabed088976111c1e44a29f882fe5856343b3e499",
           "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/51/51d3be25add6c8fe0bbad7cb3ab56ec4fc0ed03e97adf6a13d04b78577888674"
+        }
+      }
+    },
+    "5531a34d-f477-45d5-ab3f-fed1031a56d5": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792344383229,
+      "endedAt": 1792344383238,
+      "files": {
+        "BRIEF.md": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/0c/0c28650fc47ac9672ee456b76dd05f403bab2359e612113aae79da15366f52a9"
+        },
+        "render.log": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/5df48f36-4e43-4cf0-be8d-aa491bc4824e/blobs/a6/a6419159b2205caa1d227512138d6f61bf2d0f96cca806871fc7b8c3a9841df0"
         }
       }
     }
@@ -294,5 +321,16 @@
         "attribution": "inputs-changed"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "c0581095-f6da-43da-955f-9ec6e84dc2f5",
+      "completedAt": 1792344509734,
+      "output": "/home/user/gocnhocafe/videos/sea-ai-race-2024-2026-vertical/renders/sea-ai-race-2024-2026-vertical.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
