@@ -56,7 +56,7 @@ Lip-Bu Tan, Google Willow, magic states, DARPA QBI, IonQ, Atom Computing, Diraq
 
 Alternatives:
 - AI, Chips & Quantum in 2 Minutes — 19 Oct 2026 #Shorts
-- Chip Stocks Sink, AI Hits $44T & Google's Quantum Leap #Shorts
+- Chip Stocks Sink, AI's $44T Scenario & Google's Quantum Leap #Shorts
 
 ## YouTube Shorts / TikTok (9:16) — description
 
