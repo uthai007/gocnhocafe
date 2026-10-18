@@ -1,0 +1,231 @@
+<template id="captions-template" data-composition-id="captions" data-width="1080" data-height="1920">
+<script src="assets/vendor/gsap.min.js"></script>
+
+
+<style data-brand-tokens>
+      :root {
+      --ink: #141413;
+      --cream: #FAF9F5;
+      --tile: #EFE9DE;
+      --tile-strong: #ECE3D4;
+      --coral: #CC785C;
+      --navy: #181715;
+      --navy-soft: #1F1E1B;
+      --navy-elev: #252320;
+      --cap-ink: #141413;
+      --cap-canvas: #FAF9F5;
+      --cap-accent: #CC785C;
+      --cap-accent-2: #ECE3D4;
+      --font-display: "EB Garamond", system-ui, serif;
+      --font-body: "Inter", system-ui, sans-serif;
+      --cap-band-top: 1600px;
+      --cap-band-height: 320px;
+      }
+    </style>
+
+<style>
+  #captions-root {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+  .caption-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    pointer-events: none;
+  }
+  /* the keep-out band, from captionBand(H) — frame content stays above it */
+  .caption-stage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: var(--cap-band-top, 900px);
+    height: var(--cap-band-height, 180px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .caption-group {
+    /* every group is absolutely stacked over the SAME band — exactly one shown at a
+       time via opacity. Must be absolute: in-flow groups would lay out side-by-side. */
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+
+  /* THE lifted cream card — warm cream fill, 1px hairline ink border, one soft warm
+     shadow (code-editorial's only elevation language), 12px radius, no tilt */
+  .caption-pill {
+    max-width: 78%;
+    padding: 22px 44px 26px;
+    background: var(--cap-canvas, #faf9f5);
+    border: 1px solid color-mix(in srgb, var(--cap-ink, #141413) 12%, transparent);
+    border-radius: 12px;
+    box-shadow:
+      0 1px 3px color-mix(in srgb, var(--cap-ink, #141413) 8%, transparent),
+      0 4px 16px color-mix(in srgb, var(--cap-ink, #141413) 4%, transparent);
+  }
+  .caption-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.12em 0.3em;
+    font-family: "EB Garamond", Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(40px, 4.4vw, 56px);
+    line-height: 1.24;
+    letter-spacing: -0.02em;
+  }
+
+  /* upcoming — faint warm ink, no underline */
+  .caption-word {
+    display: inline-block;
+    padding: 0 0.02em 0.06em;
+    color: color-mix(in srgb, var(--cap-ink, #141413) 40%, var(--cap-canvas, #faf9f5));
+    border-bottom: 3px solid transparent;
+  }
+  /* current word — full ink under the coral voltage underline (the brand's signature
+     inline-link gesture; border-bottom = underline without layout shift) */
+  .caption-word.is-active {
+    color: var(--cap-ink, #141413);
+    border-bottom: 3px solid var(--cap-accent, #cc785c);
+  }
+  /* already spoken — solid warm ink, underline cleared */
+  .caption-word.is-spoken {
+    color: var(--cap-ink, #141413);
+    border-bottom: 3px solid transparent;
+  }
+
+  /* optional per-word accents (dormant until a word-classer tags them) */
+  /* brand / key term — the expressive EB Garamond italic */
+  .caption-word.cap-brand {
+    font-style: italic;
+    color: var(--cap-ink, #141413);
+  }
+  .caption-word.cap-brand.is-active {
+    border-bottom: 3px solid var(--cap-accent, #cc785c);
+  }
+  /* numerals / data — slightly recessed warm ink */
+  .caption-word.cap-num {
+    color: color-mix(in srgb, var(--cap-ink, #141413) 72%, var(--cap-canvas, #faf9f5));
+  }
+  /* emphasis — a persistent coral voltage underline */
+  .caption-word.cap-cta {
+    border-bottom: 3px solid var(--cap-accent-2, #b5654a);
+    color: var(--cap-ink, #141413);
+  }
+
+  @media (max-aspect-ratio: 9/16) {
+    .caption-pill {
+      max-width: 92%;
+    }
+    .caption-line {
+      font-size: clamp(34px, 5.4vw, 46px);
+    }
+  }
+</style>
+
+<div
+  id="captions-root"
+  data-composition-id="captions"
+  data-timeline-locked
+  data-start="0"
+  data-duration="118.72"
+  data-fps="30"
+  data-width="1080"
+  data-height="1920"
+>
+  <div class="caption-layer" aria-hidden="true">
+    <div id="caption-stage" class="caption-stage"></div>
+  </div>
+</div>
+
+<script>
+  // captions.mjs injects the engine's scene-aware groups + real duration here.
+  var GROUPS = [{"id":"caption-group-0","frame":1,"start":0.15,"end":0.933,"text":"Sunday,","words":[{"id":"caption-word-0-0","text":"Sunday,","start":0.15,"end":0.933}]},{"id":"caption-group-1","frame":1,"start":0.933,"end":2.88,"text":"18 October 2026.","words":[{"id":"caption-word-1-0","text":"18","start":0.933,"end":1.298},{"id":"caption-word-1-1","text":"October","start":1.298,"end":2.186},{"id":"caption-word-1-2","text":"2026.","start":2.186,"end":2.76}]},{"id":"caption-group-2","frame":1,"start":3.17,"end":3.672,"text":"Here are","words":[{"id":"caption-word-2-0","text":"Here","start":3.17,"end":3.446},{"id":"caption-word-2-1","text":"are","start":3.446,"end":3.672}]},{"id":"caption-group-3","frame":1,"start":3.672,"end":4.125,"text":"the ten","words":[{"id":"caption-word-3-0","text":"the","start":3.672,"end":3.898},{"id":"caption-word-3-1","text":"ten","start":3.898,"end":4.125}]},{"id":"caption-group-4","frame":1,"start":4.125,"end":5.154,"text":"stories that moved","words":[{"id":"caption-word-4-0","text":"stories","start":4.125,"end":4.552},{"id":"caption-word-4-1","text":"that","start":4.552,"end":4.828},{"id":"caption-word-4-2","text":"moved","start":4.828,"end":5.154}]},{"id":"caption-group-5","frame":1,"start":5.154,"end":5.33,"text":"AI,","words":[{"id":"caption-word-5-0","text":"AI,","start":5.154,"end":5.33}]},{"id":"caption-group-6","frame":1,"start":5.33,"end":6.43,"text":"chips and quantum.","words":[{"id":"caption-word-6-0","text":"chips","start":5.33,"end":5.657},{"id":"caption-word-6-1","text":"and","start":5.657,"end":5.883},{"id":"caption-word-6-2","text":"quantum.","start":5.883,"end":6.31}]},{"id":"caption-group-7","frame":2,"start":7.91,"end":8.49,"text":"Number one.","words":[{"id":"caption-word-7-0","text":"Number","start":7.91,"end":8.198},{"id":"caption-word-7-1","text":"one.","start":8.198,"end":8.37}]},{"id":"caption-group-8","frame":2,"start":8.88,"end":10.534,"text":"Anthropic co-founder Jack Clark","words":[{"id":"caption-word-8-0","text":"Anthropic","start":8.88,"end":9.406},{"id":"caption-word-8-1","text":"co-founder","start":9.406,"end":9.933},{"id":"caption-word-8-2","text":"Jack","start":9.933,"end":10.208},{"id":"caption-word-8-3","text":"Clark","start":10.208,"end":10.534}]},{"id":"caption-group-9","frame":2,"start":10.534,"end":11.035,"text":"told the","words":[{"id":"caption-word-9-0","text":"told","start":10.534,"end":10.81},{"id":"caption-word-9-1","text":"the","start":10.81,"end":11.035}]},{"id":"caption-group-10","frame":2,"start":11.035,"end":11.487,"text":"IMF and","words":[{"id":"caption-word-10-0","text":"IMF","start":11.035,"end":11.261},{"id":"caption-word-10-1","text":"and","start":11.261,"end":11.487}]},{"id":"caption-group-11","frame":2,"start":11.487,"end":12.564,"text":"World Bank meetings","words":[{"id":"caption-word-11-0","text":"World","start":11.487,"end":11.812},{"id":"caption-word-11-1","text":"Bank","start":11.812,"end":12.088},{"id":"caption-word-11-2","text":"meetings","start":12.088,"end":12.564}]},{"id":"caption-group-12","frame":2,"start":12.564,"end":12.96,"text":"that,","words":[{"id":"caption-word-12-0","text":"that,","start":12.564,"end":12.84}]},{"id":"caption-group-13","frame":2,"start":13.21,"end":13.549,"text":"in its","words":[{"id":"caption-word-13-0","text":"in","start":13.21,"end":13.358},{"id":"caption-word-13-1","text":"its","start":13.358,"end":13.549}]},{"id":"caption-group-14","frame":2,"start":13.549,"end":14.79,"text":"most aggressive scenario,","words":[{"id":"caption-word-14-0","text":"most","start":13.549,"end":13.781},{"id":"caption-word-14-1","text":"aggressive","start":13.781,"end":14.268},{"id":"caption-word-14-2","text":"scenario,","start":14.268,"end":14.67}]},{"id":"caption-group-15","frame":2,"start":15,"end":16.131,"text":"AI could lift","words":[{"id":"caption-word-15-0","text":"AI","start":15,"end":15.255},{"id":"caption-word-15-1","text":"could","start":15.255,"end":15.73},{"id":"caption-word-15-2","text":"lift","start":15.73,"end":16.131}]},{"id":"caption-group-16","frame":2,"start":16.131,"end":17.19,"text":"US output to","words":[{"id":"caption-word-16-0","text":"US","start":16.131,"end":16.387},{"id":"caption-word-16-1","text":"output","start":16.387,"end":16.934},{"id":"caption-word-16-2","text":"to","start":16.934,"end":17.19}]},{"id":"caption-group-17","frame":2,"start":17.19,"end":18.613,"text":"about 44 trillion","words":[{"id":"caption-word-17-0","text":"about","start":17.19,"end":17.664},{"id":"caption-word-17-1","text":"44","start":17.664,"end":17.919},{"id":"caption-word-17-2","text":"trillion","start":17.919,"end":18.613}]},{"id":"caption-group-18","frame":2,"start":18.613,"end":20.01,"text":"dollars by 2030,","words":[{"id":"caption-word-18-0","text":"dollars","start":18.613,"end":19.233},{"id":"caption-word-18-1","text":"by","start":19.233,"end":19.489},{"id":"caption-word-18-2","text":"2030,","start":19.489,"end":19.89}]},{"id":"caption-group-19","frame":2,"start":20.23,"end":20.798,"text":"and called","words":[{"id":"caption-word-19-0","text":"and","start":20.23,"end":20.443},{"id":"caption-word-19-1","text":"called","start":20.443,"end":20.798}]},{"id":"caption-group-20","frame":2,"start":20.798,"end":21.84,"text":"for serious rules.","words":[{"id":"caption-word-20-0","text":"for","start":20.798,"end":21.01},{"id":"caption-word-20-1","text":"serious","start":21.01,"end":21.413},{"id":"caption-word-20-2","text":"rules.","start":21.413,"end":21.72}]},{"id":"caption-group-21","frame":3,"start":23.32,"end":25.79,"text":"Two.","words":[{"id":"caption-word-21-0","text":"Two.","start":23.32,"end":25.67}]},{"id":"caption-group-22","frame":3,"start":26.02,"end":26.578,"text":"India's cyber","words":[{"id":"caption-word-22-0","text":"India's","start":26.02,"end":26.319},{"id":"caption-word-22-1","text":"cyber","start":26.319,"end":26.578}]},{"id":"caption-group-23","frame":3,"start":26.578,"end":26.877,"text":"agency,","words":[{"id":"caption-word-23-0","text":"agency,","start":26.578,"end":26.877}]},{"id":"caption-group-24","frame":3,"start":26.877,"end":27.176,"text":"CERT-In,","words":[{"id":"caption-word-24-0","text":"CERT-In,","start":26.877,"end":27.176}]},{"id":"caption-group-25","frame":3,"start":27.176,"end":27.694,"text":"warned that","words":[{"id":"caption-word-25-0","text":"warned","start":27.176,"end":27.475},{"id":"caption-word-25-1","text":"that","start":27.475,"end":27.694}]},{"id":"caption-group-26","frame":3,"start":27.694,"end":28.132,"text":"AI agents","words":[{"id":"caption-word-26-0","text":"AI","start":27.694,"end":27.833},{"id":"caption-word-26-1","text":"agents","start":27.833,"end":28.132}]},{"id":"caption-group-27","frame":3,"start":28.132,"end":28.73,"text":"under testing","words":[{"id":"caption-word-27-0","text":"under","start":28.132,"end":28.391},{"id":"caption-word-27-1","text":"testing","start":28.391,"end":28.73}]},{"id":"caption-group-28","frame":3,"start":28.73,"end":29.288,"text":"reached live","words":[{"id":"caption-word-28-0","text":"reached","start":28.73,"end":29.069},{"id":"caption-word-28-1","text":"live","start":29.069,"end":29.288}]},{"id":"caption-group-29","frame":3,"start":29.288,"end":29.766,"text":"systems at","words":[{"id":"caption-word-29-0","text":"systems","start":29.288,"end":29.627},{"id":"caption-word-29-1","text":"at","start":29.627,"end":29.766}]},{"id":"caption-group-30","frame":3,"start":29.766,"end":30.324,"text":"Indian firms","words":[{"id":"caption-word-30-0","text":"Indian","start":29.766,"end":30.065},{"id":"caption-word-30-1","text":"firms","start":30.065,"end":30.324}]},{"id":"caption-group-31","frame":3,"start":30.324,"end":30.723,"text":"and read","words":[{"id":"caption-word-31-0","text":"and","start":30.324,"end":30.504},{"id":"caption-word-31-1","text":"read","start":30.504,"end":30.723}]},{"id":"caption-group-32","frame":3,"start":30.723,"end":31.6,"text":"confidential data.","words":[{"id":"caption-word-32-0","text":"confidential","start":30.723,"end":31.261},{"id":"caption-word-32-1","text":"data.","start":31.261,"end":31.48}]},{"id":"caption-group-33","frame":3,"start":32.01,"end":32.345,"text":"None of","words":[{"id":"caption-word-33-0","text":"None","start":32.01,"end":32.215},{"id":"caption-word-33-1","text":"of","start":32.215,"end":32.345}]},{"id":"caption-group-34","frame":3,"start":32.345,"end":33.34,"text":"the companies noticed.","words":[{"id":"caption-word-34-0","text":"the","start":32.345,"end":32.513},{"id":"caption-word-34-1","text":"companies","start":32.513,"end":32.904},{"id":"caption-word-34-2","text":"noticed.","start":32.904,"end":33.22}]},{"id":"caption-group-35","frame":4,"start":34.82,"end":35.25,"text":"Three.","words":[{"id":"caption-word-35-0","text":"Three.","start":34.82,"end":35.13}]},{"id":"caption-group-36","frame":4,"start":35.39,"end":36.394,"text":"More than 137","words":[{"id":"caption-word-36-0","text":"More","start":35.39,"end":35.746},{"id":"caption-word-36-1","text":"than","start":35.746,"end":36.103},{"id":"caption-word-36-2","text":"137","start":36.103,"end":36.394}]},{"id":"caption-group-37","frame":4,"start":36.394,"end":38.144,"text":"million dollars has been","words":[{"id":"caption-word-37-0","text":"million","start":36.394,"end":36.945},{"id":"caption-word-37-1","text":"dollars","start":36.945,"end":37.496},{"id":"caption-word-37-2","text":"has","start":37.496,"end":37.787},{"id":"caption-word-37-3","text":"been","start":37.787,"end":38.144}]},{"id":"caption-group-38","frame":4,"start":38.144,"end":39.278,"text":"spent on AI-made","words":[{"id":"caption-word-38-0","text":"spent","start":38.144,"end":38.565},{"id":"caption-word-38-1","text":"on","start":38.565,"end":38.792},{"id":"caption-word-38-2","text":"AI-made","start":38.792,"end":39.278}]},{"id":"caption-group-39","frame":4,"start":39.278,"end":39.796,"text":"ads in","words":[{"id":"caption-word-39-0","text":"ads","start":39.278,"end":39.569},{"id":"caption-word-39-1","text":"in","start":39.569,"end":39.796}]},{"id":"caption-group-40","frame":4,"start":39.796,"end":41.05,"text":"the US midterms.","words":[{"id":"caption-word-40-0","text":"the","start":39.796,"end":40.088},{"id":"caption-word-40-1","text":"US","start":40.088,"end":40.314},{"id":"caption-word-40-2","text":"midterms.","start":40.314,"end":40.93}]},{"id":"caption-group-41","frame":4,"start":41.38,"end":41.87,"text":"Only 27","words":[{"id":"caption-word-41-0","text":"Only","start":41.38,"end":41.68},{"id":"caption-word-41-1","text":"27","start":41.68,"end":41.87}]},{"id":"caption-group-42","frame":4,"start":41.87,"end":42.687,"text":"percent carry","words":[{"id":"caption-word-42-0","text":"percent","start":41.87,"end":42.333},{"id":"caption-word-42-1","text":"carry","start":42.333,"end":42.687}]},{"id":"caption-group-43","frame":4,"start":42.687,"end":43.57,"text":"a disclaimer.","words":[{"id":"caption-word-43-0","text":"a","start":42.687,"end":42.824},{"id":"caption-word-43-1","text":"disclaimer.","start":42.824,"end":43.45}]},{"id":"caption-group-44","frame":5,"start":45.05,"end":45.5,"text":"Four.","words":[{"id":"caption-word-44-0","text":"Four.","start":45.05,"end":45.38}]},{"id":"caption-group-45","frame":5,"start":45.56,"end":46.77,"text":"AI meets quantum.","words":[{"id":"caption-word-45-0","text":"AI","start":45.56,"end":45.766},{"id":"caption-word-45-1","text":"meets","start":45.766,"end":46.149},{"id":"caption-word-45-2","text":"quantum.","start":46.149,"end":46.65}]},{"id":"caption-group-46","frame":5,"start":47.23,"end":48.262,"text":"IBM's AI agents","words":[{"id":"caption-word-46-0","text":"IBM's","start":47.23,"end":47.574},{"id":"caption-word-46-1","text":"AI","start":47.574,"end":47.793},{"id":"caption-word-46-2","text":"agents","start":47.793,"end":48.262}]},{"id":"caption-group-47","frame":5,"start":48.262,"end":50.107,"text":"designed an error-correction","words":[{"id":"caption-word-47-0","text":"designed","start":48.262,"end":48.856},{"id":"caption-word-47-1","text":"an","start":48.856,"end":49.075},{"id":"caption-word-47-2","text":"error-correction","start":49.075,"end":50.107}]},{"id":"caption-group-48","frame":5,"start":50.107,"end":51.796,"text":"decoder estimated to run","words":[{"id":"caption-word-48-0","text":"decoder","start":50.107,"end":50.639},{"id":"caption-word-48-1","text":"estimated","start":50.639,"end":51.295},{"id":"caption-word-48-2","text":"to","start":51.295,"end":51.514},{"id":"caption-word-48-3","text":"run","start":51.514,"end":51.796}]},{"id":"caption-group-49","frame":5,"start":51.796,"end":53.01,"text":"52 times faster,","words":[{"id":"caption-word-49-0","text":"52","start":51.796,"end":52.014},{"id":"caption-word-49-1","text":"times","start":52.014,"end":52.421},{"id":"caption-word-49-2","text":"faster,","start":52.421,"end":52.89}]},{"id":"caption-group-50","frame":5,"start":53.22,"end":53.776,"text":"for about","words":[{"id":"caption-word-50-0","text":"for","start":53.22,"end":53.448},{"id":"caption-word-50-1","text":"about","start":53.448,"end":53.776}]},{"id":"caption-group-51","frame":5,"start":53.776,"end":54.383,"text":"26 dollars","words":[{"id":"caption-word-51-0","text":"26","start":53.776,"end":53.953},{"id":"caption-word-51-1","text":"dollars","start":53.953,"end":54.383}]},{"id":"caption-group-52","frame":5,"start":54.383,"end":55.11,"text":"of compute.","words":[{"id":"caption-word-52-0","text":"of","start":54.383,"end":54.56},{"id":"caption-word-52-1","text":"compute.","start":54.56,"end":54.99}]},{"id":"caption-group-53","frame":6,"start":56.59,"end":57.14,"text":"Five.","words":[{"id":"caption-word-53-0","text":"Five.","start":56.59,"end":57.02}]},{"id":"caption-group-54","frame":6,"start":57.15,"end":57.542,"text":"A rough","words":[{"id":"caption-word-54-0","text":"A","start":57.15,"end":57.259},{"id":"caption-word-54-1","text":"rough","start":57.259,"end":57.542}]},{"id":"caption-group-55","frame":6,"start":57.542,"end":58.38,"text":"week for chips.","words":[{"id":"caption-word-55-0","text":"week","start":57.542,"end":57.781},{"id":"caption-word-55-1","text":"for","start":57.781,"end":57.977},{"id":"caption-word-55-2","text":"chips.","start":57.977,"end":58.26}]},{"id":"caption-group-56","frame":6,"start":58.66,"end":59.121,"text":"The Nasdaq","words":[{"id":"caption-word-56-0","text":"The","start":58.66,"end":58.833},{"id":"caption-word-56-1","text":"Nasdaq","start":58.833,"end":59.121}]},{"id":"caption-group-57","frame":6,"start":59.121,"end":59.582,"text":"fell about","words":[{"id":"caption-word-57-0","text":"fell","start":59.121,"end":59.332},{"id":"caption-word-57-1","text":"about","start":59.332,"end":59.582}]},{"id":"caption-group-58","frame":6,"start":59.582,"end":59.966,"text":"four and","words":[{"id":"caption-word-58-0","text":"four","start":59.582,"end":59.793},{"id":"caption-word-58-1","text":"and","start":59.793,"end":59.966}]},{"id":"caption-group-59","frame":6,"start":59.966,"end":60.273,"text":"a half","words":[{"id":"caption-word-59-0","text":"a","start":59.966,"end":60.062},{"id":"caption-word-59-1","text":"half","start":60.062,"end":60.273}]},{"id":"caption-group-60","frame":6,"start":60.273,"end":60.72,"text":"percent,","words":[{"id":"caption-word-60-0","text":"percent,","start":60.273,"end":60.6}]},{"id":"caption-group-61","frame":6,"start":60.86,"end":61.385,"text":"its worst","words":[{"id":"caption-word-61-0","text":"its","start":60.86,"end":61.075},{"id":"caption-word-61-1","text":"worst","start":61.075,"end":61.385}]},{"id":"caption-group-62","frame":6,"start":61.385,"end":62.34,"text":"week since June,","words":[{"id":"caption-word-62-0","text":"week","start":61.385,"end":61.647},{"id":"caption-word-62-1","text":"since","start":61.647,"end":61.958},{"id":"caption-word-62-2","text":"June,","start":61.958,"end":62.22}]},{"id":"caption-group-63","frame":6,"start":62.44,"end":62.879,"text":"and the","words":[{"id":"caption-word-63-0","text":"and","start":62.44,"end":62.659},{"id":"caption-word-63-1","text":"the","start":62.659,"end":62.879}]},{"id":"caption-group-64","frame":6,"start":62.879,"end":63.415,"text":"main chip","words":[{"id":"caption-word-64-0","text":"main","start":62.879,"end":63.147},{"id":"caption-word-64-1","text":"chip","start":63.147,"end":63.415}]},{"id":"caption-group-65","frame":6,"start":63.415,"end":64.049,"text":"ETF dropped","words":[{"id":"caption-word-65-0","text":"ETF","start":63.415,"end":63.635},{"id":"caption-word-65-1","text":"dropped","start":63.635,"end":64.049}]},{"id":"caption-group-66","frame":6,"start":64.049,"end":65.12,"text":"about ten percent.","words":[{"id":"caption-word-66-0","text":"about","start":64.049,"end":64.366},{"id":"caption-word-66-1","text":"ten","start":64.366,"end":64.586},{"id":"caption-word-66-2","text":"percent.","start":64.586,"end":65}]},{"id":"caption-group-67","frame":7,"start":66.6,"end":67.05,"text":"Six.","words":[{"id":"caption-word-67-0","text":"Six.","start":66.6,"end":66.93}]},{"id":"caption-group-68","frame":7,"start":67.24,"end":68.483,"text":"South Korea's finance","words":[{"id":"caption-word-68-0","text":"South","start":67.24,"end":67.599},{"id":"caption-word-68-1","text":"Korea's","start":67.599,"end":68.013},{"id":"caption-word-68-2","text":"finance","start":68.013,"end":68.483}]},{"id":"caption-group-69","frame":7,"start":68.483,"end":69.56,"text":"minister says the","words":[{"id":"caption-word-69-0","text":"minister","start":68.483,"end":69.007},{"id":"caption-word-69-1","text":"says","start":69.007,"end":69.311},{"id":"caption-word-69-2","text":"the","start":69.311,"end":69.56}]},{"id":"caption-group-70","frame":7,"start":69.56,"end":70.167,"text":"chip boom","words":[{"id":"caption-word-70-0","text":"chip","start":69.56,"end":69.863},{"id":"caption-word-70-1","text":"boom","start":69.863,"end":70.167}]},{"id":"caption-group-71","frame":7,"start":70.167,"end":70.775,"text":"will last","words":[{"id":"caption-word-71-0","text":"will","start":70.167,"end":70.471},{"id":"caption-word-71-1","text":"last","start":70.471,"end":70.775}]},{"id":"caption-group-72","frame":7,"start":70.775,"end":71.796,"text":"at least through","words":[{"id":"caption-word-72-0","text":"at","start":70.775,"end":70.968},{"id":"caption-word-72-1","text":"least","start":70.968,"end":71.327},{"id":"caption-word-72-2","text":"through","start":71.327,"end":71.796}]},{"id":"caption-group-73","frame":7,"start":71.796,"end":72.22,"text":"2027,","words":[{"id":"caption-word-73-0","text":"2027,","start":71.796,"end":72.1}]},{"id":"caption-group-74","frame":7,"start":72.5,"end":73.656,"text":"because demand still","words":[{"id":"caption-word-74-0","text":"because","start":72.5,"end":72.937},{"id":"caption-word-74-1","text":"demand","start":72.937,"end":73.322},{"id":"caption-word-74-2","text":"still","start":73.322,"end":73.656}]},{"id":"caption-group-75","frame":7,"start":73.656,"end":74.65,"text":"outpaces supply.","words":[{"id":"caption-word-75-0","text":"outpaces","start":73.656,"end":74.145},{"id":"caption-word-75-1","text":"supply.","start":74.145,"end":74.53}]},{"id":"caption-group-76","frame":8,"start":76.13,"end":76.59,"text":"Seven.","words":[{"id":"caption-word-76-0","text":"Seven.","start":76.13,"end":76.47}]},{"id":"caption-group-77","frame":8,"start":76.67,"end":78.018,"text":"China's chip exports","words":[{"id":"caption-word-77-0","text":"China's","start":76.67,"end":77.14},{"id":"caption-word-77-1","text":"chip","start":77.14,"end":77.485},{"id":"caption-word-77-2","text":"exports","start":77.485,"end":78.018}]},{"id":"caption-group-78","frame":8,"start":78.018,"end":79.303,"text":"jumped 136 percent","words":[{"id":"caption-word-78-0","text":"jumped","start":78.018,"end":78.488},{"id":"caption-word-78-1","text":"136","start":78.488,"end":78.77},{"id":"caption-word-78-2","text":"percent","start":78.77,"end":79.302}]},{"id":"caption-group-79","frame":8,"start":79.303,"end":80.3,"text":"in September,","words":[{"id":"caption-word-79-0","text":"in","start":79.303,"end":79.522},{"id":"caption-word-79-1","text":"September,","start":79.522,"end":80.18}]},{"id":"caption-group-80","frame":8,"start":80.53,"end":81.209,"text":"to about","words":[{"id":"caption-word-80-0","text":"to","start":80.53,"end":80.768},{"id":"caption-word-80-1","text":"about","start":80.768,"end":81.209}]},{"id":"caption-group-81","frame":8,"start":81.209,"end":82.72,"text":"45 billion dollars,","words":[{"id":"caption-word-81-0","text":"45","start":81.209,"end":81.446},{"id":"caption-word-81-1","text":"billion","start":81.446,"end":82.023},{"id":"caption-word-81-2","text":"dollars,","start":82.023,"end":82.6}]},{"id":"caption-group-82","frame":8,"start":82.93,"end":83.736,"text":"driven mostly","words":[{"id":"caption-word-82-0","text":"driven","start":82.93,"end":83.333},{"id":"caption-word-82-1","text":"mostly","start":83.333,"end":83.736}]},{"id":"caption-group-83","frame":8,"start":83.736,"end":84.85,"text":"by higher prices.","words":[{"id":"caption-word-83-0","text":"by","start":83.736,"end":83.924},{"id":"caption-word-83-1","text":"higher","start":83.924,"end":84.327},{"id":"caption-word-83-2","text":"prices.","start":84.327,"end":84.73}]},{"id":"caption-group-84","frame":9,"start":86.33,"end":89.94,"text":"Eight.","words":[{"id":"caption-word-84-0","text":"Eight.","start":86.33,"end":89.82}]},{"id":"caption-group-85","frame":9,"start":90.17,"end":90.482,"text":"Intel chief","words":[{"id":"caption-word-85-0","text":"Intel","start":90.17,"end":90.326},{"id":"caption-word-85-1","text":"chief","start":90.326,"end":90.482}]},{"id":"caption-group-86","frame":9,"start":90.482,"end":90.747,"text":"Lip-Bu Tan","words":[{"id":"caption-word-86-0","text":"Lip-Bu","start":90.482,"end":90.639},{"id":"caption-word-86-1","text":"Tan","start":90.639,"end":90.747}]},{"id":"caption-group-87","frame":9,"start":90.747,"end":90.987,"text":"says the","words":[{"id":"caption-word-87-0","text":"says","start":90.747,"end":90.879},{"id":"caption-word-87-1","text":"the","start":90.879,"end":90.987}]},{"id":"caption-group-88","frame":9,"start":90.987,"end":91.372,"text":"US government's","words":[{"id":"caption-word-88-0","text":"US","start":90.987,"end":91.071},{"id":"caption-word-88-1","text":"government's","start":91.071,"end":91.372}]},{"id":"caption-group-89","frame":9,"start":91.372,"end":91.684,"text":"stake gives","words":[{"id":"caption-word-89-0","text":"stake","start":91.372,"end":91.528},{"id":"caption-word-89-1","text":"gives","start":91.528,"end":91.684}]},{"id":"caption-group-90","frame":9,"start":91.684,"end":92.045,"text":"Washington no","words":[{"id":"caption-word-90-0","text":"Washington","start":91.684,"end":91.961},{"id":"caption-word-90-1","text":"no","start":91.961,"end":92.045}]},{"id":"caption-group-91","frame":9,"start":92.045,"end":92.237,"text":"say in","words":[{"id":"caption-word-91-0","text":"say","start":92.045,"end":92.153},{"id":"caption-word-91-1","text":"in","start":92.153,"end":92.237}]},{"id":"caption-group-92","frame":9,"start":92.237,"end":92.501,"text":"how Intel","words":[{"id":"caption-word-92-0","text":"how","start":92.237,"end":92.345},{"id":"caption-word-92-1","text":"Intel","start":92.345,"end":92.501}]},{"id":"caption-group-93","frame":9,"start":92.501,"end":93.09,"text":"runs its business.","words":[{"id":"caption-word-93-0","text":"runs","start":92.501,"end":92.634},{"id":"caption-word-93-1","text":"its","start":92.634,"end":92.742},{"id":"caption-word-93-2","text":"business.","start":92.742,"end":92.97}]},{"id":"caption-group-94","frame":10,"start":94.57,"end":98.07,"text":"Nine.","words":[{"id":"caption-word-94-0","text":"Nine.","start":94.57,"end":97.95}]},{"id":"caption-group-95","frame":10,"start":98.33,"end":99.023,"text":"Google showed","words":[{"id":"caption-word-95-0","text":"Google","start":98.33,"end":98.676},{"id":"caption-word-95-1","text":"showed","start":98.676,"end":99.023}]},{"id":"caption-group-96","frame":10,"start":99.023,"end":100.2,"text":"magic state cultivation","words":[{"id":"caption-word-96-0","text":"magic","start":99.023,"end":99.323},{"id":"caption-word-96-1","text":"state","start":99.323,"end":99.623},{"id":"caption-word-96-2","text":"cultivation","start":99.623,"end":100.2}]},{"id":"caption-group-97","frame":10,"start":100.2,"end":100.57,"text":"on its","words":[{"id":"caption-word-97-0","text":"on","start":100.2,"end":100.362},{"id":"caption-word-97-1","text":"its","start":100.362,"end":100.57}]},{"id":"caption-group-98","frame":10,"start":100.57,"end":101.29,"text":"Willow chip,","words":[{"id":"caption-word-98-0","text":"Willow","start":100.57,"end":100.916},{"id":"caption-word-98-1","text":"chip,","start":100.916,"end":101.17}]},{"id":"caption-group-99","frame":10,"start":101.66,"end":101.996,"text":"cutting errors","words":[{"id":"caption-word-99-0","text":"cutting","start":101.66,"end":101.839},{"id":"caption-word-99-1","text":"errors","start":101.839,"end":101.996}]},{"id":"caption-group-100","frame":10,"start":101.996,"end":102.206,"text":"about 40","words":[{"id":"caption-word-100-0","text":"about","start":101.996,"end":102.132},{"id":"caption-word-100-1","text":"40","start":102.132,"end":102.206}]},{"id":"caption-group-101","frame":10,"start":102.206,"end":102.437,"text":"times and","words":[{"id":"caption-word-101-0","text":"times","start":102.206,"end":102.342},{"id":"caption-word-101-1","text":"and","start":102.342,"end":102.437}]},{"id":"caption-group-102","frame":10,"start":102.437,"end":102.752,"text":"reaching 99.99","words":[{"id":"caption-word-102-0","text":"reaching","start":102.437,"end":102.636},{"id":"caption-word-102-1","text":"99.99","start":102.636,"end":102.752}]},{"id":"caption-group-103","frame":10,"start":102.752,"end":103.25,"text":"percent fidelity.","words":[{"id":"caption-word-103-0","text":"percent","start":102.752,"end":102.93},{"id":"caption-word-103-1","text":"fidelity.","start":102.93,"end":103.13}]},{"id":"caption-group-104","frame":11,"start":104.73,"end":105.23,"text":"And ten.","words":[{"id":"caption-word-104-0","text":"And","start":104.73,"end":104.92},{"id":"caption-word-104-1","text":"ten.","start":104.92,"end":105.11}]},{"id":"caption-group-105","frame":11,"start":105.61,"end":106.256,"text":"DARPA moved","words":[{"id":"caption-word-105-0","text":"DARPA","start":105.61,"end":105.933},{"id":"caption-word-105-1","text":"moved","start":105.933,"end":106.256}]},{"id":"caption-group-106","frame":11,"start":106.256,"end":107.17,"text":"Atom Computing,","words":[{"id":"caption-word-106-0","text":"Atom","start":106.256,"end":106.529},{"id":"caption-word-106-1","text":"Computing,","start":106.529,"end":107.05}]},{"id":"caption-group-107","frame":11,"start":107.3,"end":107.84,"text":"Diraq,","words":[{"id":"caption-word-107-0","text":"Diraq,","start":107.3,"end":107.72}]},{"id":"caption-group-108","frame":11,"start":107.94,"end":108.436,"text":"IBM and","words":[{"id":"caption-word-108-0","text":"IBM","start":107.94,"end":108.188},{"id":"caption-word-108-1","text":"and","start":108.188,"end":108.436}]},{"id":"caption-group-109","frame":11,"start":108.436,"end":109.041,"text":"IonQ into","words":[{"id":"caption-word-109-0","text":"IonQ","start":108.436,"end":108.738},{"id":"caption-word-109-1","text":"into","start":108.738,"end":109.041}]},{"id":"caption-group-110","frame":11,"start":109.041,"end":109.647,"text":"the final","words":[{"id":"caption-word-110-0","text":"the","start":109.041,"end":109.289},{"id":"caption-word-110-1","text":"final","start":109.289,"end":109.647}]},{"id":"caption-group-111","frame":11,"start":109.647,"end":110.198,"text":"stage of","words":[{"id":"caption-word-111-0","text":"stage","start":109.647,"end":110.005},{"id":"caption-word-111-1","text":"of","start":110.005,"end":110.198}]},{"id":"caption-group-112","frame":11,"start":110.198,"end":111.657,"text":"its Quantum Benchmarking","words":[{"id":"caption-word-112-0","text":"its","start":110.198,"end":110.445},{"id":"caption-word-112-1","text":"Quantum","start":110.445,"end":110.913},{"id":"caption-word-112-2","text":"Benchmarking","start":110.913,"end":111.657}]},{"id":"caption-group-113","frame":11,"start":111.657,"end":112.41,"text":"Initiative.","words":[{"id":"caption-word-113-0","text":"Initiative.","start":111.657,"end":112.29}]},{"id":"caption-group-114","frame":12,"start":113.89,"end":114.425,"text":"That's the","words":[{"id":"caption-word-114-0","text":"That's","start":113.89,"end":114.206},{"id":"caption-word-114-1","text":"the","start":114.206,"end":114.425}]},{"id":"caption-group-115","frame":12,"start":114.425,"end":114.862,"text":"top ten","words":[{"id":"caption-word-115-0","text":"top","start":114.425,"end":114.643},{"id":"caption-word-115-1","text":"ten","start":114.643,"end":114.862}]},{"id":"caption-group-116","frame":12,"start":114.862,"end":115.202,"text":"in AI,","words":[{"id":"caption-word-116-0","text":"in","start":114.862,"end":115.032},{"id":"caption-word-116-1","text":"AI,","start":115.032,"end":115.202}]},{"id":"caption-group-117","frame":12,"start":115.202,"end":116.27,"text":"chips and quantum.","words":[{"id":"caption-word-117-0","text":"chips","start":115.202,"end":115.518},{"id":"caption-word-117-1","text":"and","start":115.518,"end":115.737},{"id":"caption-word-117-2","text":"quantum.","start":115.737,"end":116.15}]},{"id":"caption-group-118","frame":12,"start":116.47,"end":116.83,"text":"See you","words":[{"id":"caption-word-118-0","text":"See","start":116.47,"end":116.65},{"id":"caption-word-118-1","text":"you","start":116.65,"end":116.83}]},{"id":"caption-group-119","frame":12,"start":116.83,"end":117.39,"text":"next week.","words":[{"id":"caption-word-119-0","text":"next","start":116.83,"end":117.05},{"id":"caption-word-119-1","text":"week.","start":117.05,"end":117.27}]}];
+  var DURATION = 118.72;
+
+  (function () {
+    var stage = document.getElementById("caption-stage");
+
+    // build DOM: one .caption-group per group, .caption-word per word
+    GROUPS.forEach(function (group, g) {
+      var groupEl = document.createElement("div");
+      groupEl.className = "caption-group";
+      groupEl.id = "caption-group-" + g;
+      var pill = document.createElement("div");
+      pill.className = "caption-pill";
+      var line = document.createElement("div");
+      line.className = "caption-line";
+      (group.words || []).forEach(function (w, i) {
+        var span = document.createElement("span");
+        span.className = "caption-word";
+        span.id = "caption-word-" + g + "-" + i;
+        span.textContent = String(w.text);
+        line.appendChild(span);
+      });
+      pill.appendChild(line);
+      groupEl.appendChild(pill);
+      stage.appendChild(groupEl);
+    });
+
+    window.__timelines = window.__timelines || {};
+    var tl = gsap.timeline({ paused: true });
+
+    GROUPS.forEach(function (group, g) {
+      var groupEl = document.getElementById("caption-group-" + g);
+      var words = group.words || [];
+      var next = GROUPS[g + 1];
+      var isLast = g === GROUPS.length - 1;
+      var start = Math.max(0, Number(group.start));
+      var end = isLast ? DURATION : Math.min(Number(next.start), Number(group.end) + 0.3);
+      if (end <= start) end = start + 0.01;
+
+      // group on/off — exactly one group visible at a time
+      tl.set(groupEl, { opacity: 1 }, start);
+      tl.set(groupEl, { opacity: 0 }, end);
+
+      // 3-state karaoke via className SETS — seek-safe (gsap.set applies on the
+      // engine's frame-by-frame seek; .call callbacks would NOT fire).
+      words.forEach(function (w, i) {
+        var el = document.getElementById("caption-word-" + g + "-" + i);
+        var at = Math.max(start, Number(w.start));
+        tl.set(el, { className: "caption-word" }, start); // upcoming (also resets on reverse-seek)
+        tl.set(el, { className: "caption-word is-active" }, at); // current
+        tl.fromTo(el, { scale: 0.98 }, { scale: 1, duration: 0.16, ease: "power1.out" }, at);
+        if (i + 1 < words.length) {
+          var nextAt = Math.max(start, Number(words[i + 1].start));
+          tl.set(el, { className: "caption-word is-spoken" }, nextAt); // demote when next activates
+        }
+      });
+      if (words.length) {
+        var lastEl = document.getElementById("caption-word-" + g + "-" + (words.length - 1));
+        var lastSpoken = Math.min(end, Number(words[words.length - 1].end) + 0.1);
+        tl.set(lastEl, { className: "caption-word is-spoken" }, lastSpoken);
+      }
+    });
+
+    // full-span anchor so the sub-comp timeline spans the whole video
+    tl.to({}, { duration: DURATION }, 0);
+    window.__timelines["captions"] = tl;
+  })();
+</script>
+
+<style>
+  .caption-line { line-height: 1.1 !important; }
+</style>
+<style data-hud-captions>
+  :root { --cap-band-top: 1390px; --cap-band-height: 175px; }
+  .caption-pill { max-width: 92% !important; }
+  .caption-pill { background: rgba(5,16,36,0.84); border: 1.5px solid rgba(56,217,255,0.6); border-radius: 6px;
+    box-shadow: 0 0 26px rgba(56,217,255,0.28), inset 0 0 18px rgba(56,217,255,0.10); padding: 14px 40px 18px; }
+  .caption-line { font-family: Montserrat, sans-serif; font-weight: 700; font-size: 48px; letter-spacing: 0; line-height: 1.2; }
+  .caption-word, .caption-word.cap-num { color: rgba(233,247,255,0.42); }
+  .caption-word.is-active { color: #38d9ff; border-bottom: 3px solid #38d9ff; text-shadow: 0 0 14px rgba(56,217,255,0.8); }
+  .caption-word.is-spoken, .caption-word.cap-brand, .caption-word.cap-cta { color: #e9f7ff; }
+</style>
+</template>

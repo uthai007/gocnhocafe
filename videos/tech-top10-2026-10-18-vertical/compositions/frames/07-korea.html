@@ -1,0 +1,90 @@
+<template id="s07-korea-template">
+  <div id="root" data-composition-id="07-korea" data-start="0" data-duration="10.03" data-width="1080" data-height="1920">
+    <style>
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #e9f7ff; font-family: Montserrat, sans-serif; }
+      #s07-korea-ground { position: absolute; inset: 0; background:
+          radial-gradient(ellipse 70% 60% at 55% 45%, rgba(20,70,140,0.55) 0%, rgba(3,9,20,0) 70%),
+          linear-gradient(180deg, #071531 0%, #030914 100%); }
+      #s07-korea-ground .grid { position: absolute; inset: 0; opacity: 0.35;
+          background-image: linear-gradient(rgba(56,217,255,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(56,217,255,0.08) 1px, transparent 1px);
+          background-size: 64px 64px; }
+      #s07-korea-ground svg { position: absolute; inset: 0; width: 1080px; height: 1920px; }
+      #s07-korea-ground .tr { fill: none; stroke: rgba(56,217,255,0.28); stroke-width: 2; }
+      #s07-korea-ground .trg { fill: none; stroke: #7fe8ff; stroke-width: 4; stroke-dasharray: 6 94; opacity: 0.9; }
+      #s07-korea-ground .vig { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 75% at 50% 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.6) 100%); }
+      #s07-korea-stage { position: absolute; inset: 0; }
+      #s07-korea-stage .abs { position: absolute; display: block; }
+      #s07-korea-stage .glass { background: linear-gradient(160deg, rgba(14,40,80,0.72), rgba(6,18,40,0.72)); border: 1.5px solid rgba(56,217,255,0.55); box-shadow: 0 0 28px rgba(56,217,255,0.22), inset 0 0 22px rgba(56,217,255,0.10); }
+      #s07-korea-stage .kick { font-family: "JetBrains Mono", monospace; font-size: 20px; letter-spacing: 0.18em; color: #38d9ff; text-transform: uppercase; }
+      #s07-korea-stage .h1 { font-weight: 800; font-size: 64px; line-height: 1.05; color: #e9f7ff; text-shadow: 0 0 22px rgba(56,217,255,0.45); }
+      #s07-korea-stage .big { font-family: Oswald, sans-serif; font-weight: 600; line-height: 1; }
+      #s07-korea-stage .mono { font-family: "JetBrains Mono", monospace; }
+      #s07-korea-stage .g { color: #3dffa0; text-shadow: 0 0 18px rgba(61,255,160,0.55); }
+      #s07-korea-stage .a { color: #ffb547; text-shadow: 0 0 18px rgba(255,181,71,0.5); }
+      #s07-korea-stage .c { color: #38d9ff; text-shadow: 0 0 18px rgba(56,217,255,0.55); }
+      #s07-korea-stage .mut { color: #8fb6d1; }
+      #s07-korea-stage svg.full { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: visible; }
+      #s07-korea-stage .land { fill: rgba(16,52,104,0.55); stroke: rgba(56,217,255,0.45); stroke-width: 1.2; }
+      #s07-korea-stage .hi { fill: rgba(56,217,255,0.28); stroke: #7fe8ff; stroke-width: 2; }
+      #s07-korea-stage .hig { fill: none; stroke: rgba(56,217,255,0.22); stroke-width: 12; }
+      #s07-korea-stage .arc { fill: none; stroke: #ffb547; stroke-width: 4; }
+      #s07-korea-stage .ln { fill: none; stroke: #7fe8ff; stroke-width: 3; }
+      #s07-korea-stage .node { fill: #7fe8ff; }
+      #s07-korea-stage .halo { fill: rgba(56,217,255,0.22); }
+      #s07-korea-stage .ring { fill: none; stroke: #38d9ff; stroke-width: 2.5; }
+
+    </style>
+    <div id="s07-korea-ground" class="clip" data-start="0" data-duration="10.03" data-track-index="0">
+      <div class="grid"></div>
+      <svg viewBox="0 0 1080 1920"><path d="M0 300 H110 L160 350 H300" class="tr"/><path d="M0 300 H110 L160 350 H300" class="trg" pathLength="100"/><path d="M0 1300 H90 L140 1250 H260" class="tr"/><path d="M0 1300 H90 L140 1250 H260" class="trg" pathLength="100"/><path d="M1080 240 H960 L910 290 H780" class="tr"/><path d="M1080 240 H960 L910 290 H780" class="trg" pathLength="100"/><path d="M1080 1180 H990 L940 1130 H820" class="tr"/><path d="M1080 1180 H990 L940 1130 H820" class="trg" pathLength="100"/><path d="M200 1920 V1830 L250 1780 H420" class="tr"/><path d="M200 1920 V1830 L250 1780 H420" class="trg" pathLength="100"/><path d="M880 1920 V1840 L830 1790 H700" class="tr"/><path d="M880 1920 V1840 L830 1790 H700" class="trg" pathLength="100"/></svg>
+      <div class="vig"></div>
+    </div>
+    <div id="s07-korea-stage" class="clip" data-start="0" data-duration="10.03" data-track-index="1">
+      <div id="s07-korea-cam" class="abs" style="left:0;top:0;width:1080px;height:1920px">
+        <div class="abs big" id="n7-num" style="left:60px;top:110px;font-size:200px;color:#ffb547;text-shadow:0 0 30px #ffb547">06</div>
+        <div class="abs mono" id="n7-cat" style="left:330px;top:140px;font-size:24px;letter-spacing:0.16em;color:#03101f;background:#ffb547;padding:8px 18px;box-shadow:0 0 20px #ffb547">CHIPS</div>
+        <div class="abs mono mut" id="n7-src" style="left:330px;top:210px;width:690px;font-size:19px;line-height:1.5;letter-spacing:0.08em">SOURCE · <span style="color:#e9f7ff">CNBC · 17 OCT · IMF/WORLD BANK MEETINGS, BANGKOK</span></div>
+        <div class="abs" style="left:60px;top:330px;width:960px;height:2px;background:linear-gradient(90deg,rgba(56,217,255,0),rgba(56,217,255,0.6),rgba(56,217,255,0))"></div>
+        <div class="abs h1" id="n7-h" style="left:60px;top:355px;width:960px;font-size:54px;line-height:1.12">South Korea: the chip boom lasts at least through 2027</div>
+        <svg class="full" viewBox="0 0 1080 1920">
+          <path class="ln" id="k7-axis" pathLength="1" style="stroke-dasharray:1" d="M60 760 H1020"/>
+          <rect id="k7-band" x="100" y="730" width="760" height="60" fill="rgba(255,181,71,0.25)" stroke="#ffb547" stroke-width="2"/>
+        </svg>
+        <div class="abs mono mut" style="left:80px;top:810px;font-size:26px">2026</div>
+        <div class="abs mono" style="left:740px;top:810px;font-size:26px;color:#ffb547">END-2027</div>
+        <div class="abs big a" id="k7-label" style="left:120px;top:620px;font-size:76px">CHIP BOOM →</div>
+        <div class="abs glass" id="k7-why" style="left:60px;top:900px;width:960px;height:200px;padding:28px 32px;box-sizing:border-box;padding:24px 30px"><div class="kick">WHY</div><div style="font-size:34px;font-weight:700;margin-top:10px;line-height:1.3">Demand still outpaces supply; capacity still being added</div></div>
+        <div class="abs glass" id="k7-who" style="left:60px;top:1130px;width:960px;height:200px;padding:28px 32px;box-sizing:border-box;padding:24px 30px"><div class="kick">WHO</div><div style="font-size:34px;font-weight:700;margin-top:10px;line-height:1.3">Lee Hyoung-il, South Korea finance minister</div></div>
+
+      </div>
+    </div>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        const D = 9.53;
+        const q = (s) => "#s07-korea-stage " + s;
+        const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
+        const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: d || 0.55, ease: "power3.out" }, at);
+        const fade = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: d || 0.5, ease: "power1.out" }, at);
+        const grow = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: d || 0.6, ease: "back.out(1.5)" }, at);
+        const slide = (sel, at, dx) => tl.fromTo(q(sel), { opacity: 0, x: dx || 60 }, { opacity: 1, x: 0, duration: 0.6, ease: "power3.out" }, at);
+        const count = (sel, at, from, to, dec, pre, suf, d) => {
+          const el = document.querySelector(q(sel)); const o = { v: from };
+          tl.fromTo(o, { v: from }, { v: to, duration: d || 1.2, ease: "power2.out", onUpdate: () => { el.textContent = pre + o.v.toFixed(dec) + suf; } }, at);
+        };
+        const pulse = (sel, at) => tl.fromTo(q(sel), { scale: 0.4, opacity: 0.9 }, { scale: 2.6, opacity: 0, duration: 1.6, ease: "power1.out", transformOrigin: "50% 50%" }, at);
+        tl.fromTo("#s07-korea-ground .trg", { strokeDashoffset: 100 }, { strokeDashoffset: -100, duration: D, ease: "none" }, 0);
+        tl.fromTo("#s07-korea-cam", { scale: 1 }, { scale: 1.04, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
+        tl.fromTo(q("#n7-num"), { opacity: 0, x: -50 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 0.05);
+        fade("#n7-cat", 0.25); pop("#n7-h", 0.3, 0.6); fade("#n7-src", 0.8);
+        draw("#k7-axis", 0.6, 0.8); fade("#k7-who", 0.9);
+        tl.fromTo(q("#k7-band"), { scaleX: 0 }, { scaleX: 1, transformOrigin: "0% 50%", duration: 1.2, ease: "power2.out" }, 3.2129999999999996); pop("#k7-label", 3.413);
+        pop("#k7-why", 6.487);
+
+
+        window.__timelines["07-korea"] = tl;
+      })();
+    </script>
+  </div>
+</template>
