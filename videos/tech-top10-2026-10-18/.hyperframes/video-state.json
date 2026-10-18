@@ -1277,11 +1277,11 @@
   },
   "renders": {
     "latest": {
-      "id": "6b554189-68cc-4933-855b-122ae1b02a3b",
-      "completedAt": 1792336393373,
+      "id": "fda9df85-d960-41da-9891-32e50819b343",
+      "completedAt": 1792338385664,
       "output": "/home/user/gocnhocafe/videos/tech-top10-2026-10-18/renders/full.mp4",
       "status": "completed",
-      "revision": "69061c96-33d7-4c95-8ed2-2d668b1c4ab6"
+      "revision": null
     },
     "retainedRevisions": [
       "69061c96-33d7-4c95-8ed2-2d668b1c4ab6",

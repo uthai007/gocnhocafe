@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "b896d31b-b73d-4416-9a5f-a892c4e0a7a6",
-  "currentRevision": "075bc5b6-31a2-48dd-aa34-6a439eb53694",
+  "currentRevision": "2bce04d0-b0c3-4530-970c-80efc138e815",
   "pendingChanges": false,
   "files": {
     ".media/manifest.jsonl": {
@@ -315,6 +315,10 @@
     "snapshots/frame-11-at-118.3s.png": {
       "hash": "d32226b736e3f5acbd90e269efd71ab2270a423ed1a8cb87ca3a42936d7e2bd2",
       "content": "/root/.cache/hyperframes/history/b896d31b-b73d-4416-9a5f-a892c4e0a7a6/blobs/d3/d32226b736e3f5acbd90e269efd71ab2270a423ed1a8cb87ca3a42936d7e2bd2"
+    },
+    "UPLOAD.md": {
+      "hash": "c9da802edc0fa9ae03db74fe1cba8af433e1334754ce966856d81c9b41af40d2",
+      "content": "/root/.cache/hyperframes/history/b896d31b-b73d-4416-9a5f-a892c4e0a7a6/blobs/c9/c9da802edc0fa9ae03db74fe1cba8af433e1334754ce966856d81c9b41af40d2"
     }
   },
   "revisions": {
@@ -821,19 +825,33 @@
           "after": "/root/.cache/hyperframes/history/b896d31b-b73d-4416-9a5f-a892c4e0a7a6/blobs/95/9545ab704f954ae4585a9ec587eeb0c8973d634ba2a73c916b8bb5ecdeaebb80"
         }
       }
+    },
+    "2bce04d0-b0c3-4530-970c-80efc138e815": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792338604360,
+      "endedAt": 1792338604362,
+      "files": {
+        "UPLOAD.md": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/b896d31b-b73d-4416-9a5f-a892c4e0a7a6/blobs/c9/c9da802edc0fa9ae03db74fe1cba8af433e1334754ce966856d81c9b41af40d2"
+        }
+      }
     }
   },
   "checks": {
     "latest": {
-      "revision": "075bc5b6-31a2-48dd-aa34-6a439eb53694",
-      "id": "14fbc164-3d46-48b0-b388-5484e387a8e0"
+      "revision": null,
+      "id": "fc2ac04f-7df6-4f65-9a96-85a8b869e753"
     },
     "revisions": {
       "f011803f-fe93-4bb9-9033-922eb1336aa6": [
         {
           "id": "5ba0a06c-0b94-49ca-ab3a-53487ea3d4e2",
           "scope": "project",
-          "report": "/home/user/gocnhocafe/videos/tech-top10-2026-10-18-vertical/.hyperframes/artifacts/checks/5ba0a06c-0b94-49ca-ab3a-53487ea3d4e2.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -855,14 +873,15 @@
           "revision": "f011803f-fe93-4bb9-9033-922eb1336aa6",
           "inputFingerprint": "65776b6b5f184adef56ff32d23e9fc9d4cf26a7c67d392b38599d224eeba1ad1",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "78e1882c-3998-486b-8435-32ea7bd21b18"
         }
       ],
       "04c9bf24-4d86-440b-aa77-29ffbcb3e8fb": [
         {
           "id": "b538c830-78f7-4ac1-819c-5f42ee5b35a1",
           "scope": "project",
-          "report": "/home/user/gocnhocafe/videos/tech-top10-2026-10-18-vertical/.hyperframes/artifacts/checks/b538c830-78f7-4ac1-819c-5f42ee5b35a1.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -884,14 +903,15 @@
           "revision": "04c9bf24-4d86-440b-aa77-29ffbcb3e8fb",
           "inputFingerprint": "008f829c469c5bcf3d7e9b37e3ba7a47b7161992640cd7b8cccdd8ca4936f044",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "78e1882c-3998-486b-8435-32ea7bd21b18"
         }
       ],
       "075bc5b6-31a2-48dd-aa34-6a439eb53694": [
         {
           "id": "14fbc164-3d46-48b0-b388-5484e387a8e0",
           "scope": "project",
-          "report": "/home/user/gocnhocafe/videos/tech-top10-2026-10-18-vertical/.hyperframes/artifacts/checks/14fbc164-3d46-48b0-b388-5484e387a8e0.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -913,7 +933,9 @@
           "revision": "075bc5b6-31a2-48dd-aa34-6a439eb53694",
           "inputFingerprint": "051982366554f56f4d9c9c3c69201ca74ed144fa7c3218a874e9d12c2f7c6505",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "78e1882c-3998-486b-8435-32ea7bd21b18"
         }
       ]
     },
@@ -1198,15 +1220,15 @@
   },
   "renders": {
     "latest": {
-      "id": "24640cc9-bf03-47c9-beac-ba0e42763b55",
-      "completedAt": 1792334432114,
-      "output": "/home/user/gocnhocafe/videos/tech-top10-2026-10-18/renders/full.mp4",
+      "id": "78e1882c-3998-486b-8435-32ea7bd21b18",
+      "completedAt": 1792339351781,
+      "output": "/home/user/gocnhocafe/videos/tech-top10-2026-10-18-vertical/renders/full.mp4",
       "status": "completed",
-      "revision": "5ec9b0ba-f14f-4203-913b-e61922e8bf87"
+      "revision": "2bce04d0-b0c3-4530-970c-80efc138e815"
     },
     "retainedRevisions": [
-      "5ec9b0ba-f14f-4203-913b-e61922e8bf87",
-      "e6b0c801-baad-434b-b3ac-0e146043de7e"
+      "2bce04d0-b0c3-4530-970c-80efc138e815",
+      "5ec9b0ba-f14f-4203-913b-e61922e8bf87"
     ]
   },
   "pendingArtifactCleanup": []
