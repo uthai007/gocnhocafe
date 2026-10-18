@@ -414,7 +414,6 @@
         {
           "id": "3a5d2dbb-c224-45d4-bb8d-e51762fdb2fd",
           "scope": "project",
-          "report": "/home/user/gocnhocafe/videos/tech-top10-2026-10-18/.hyperframes/artifacts/checks/3a5d2dbb-c224-45d4-bb8d-e51762fdb2fd.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -436,7 +435,9 @@
           "revision": "0d101564-dc7a-4647-b8ff-23ef320b3be8",
           "inputFingerprint": "f17a0a9bfa8eb23f8b71bb5085d581a905c554d328af713c4e72fec36dd3310f",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "24640cc9-bf03-47c9-beac-ba0e42763b55"
         }
       ],
       "5ec9b0ba-f14f-4203-913b-e61922e8bf87": [
@@ -752,15 +753,15 @@
   },
   "renders": {
     "latest": {
-      "id": "5b55ec59-b5b4-45bc-9760-0f9164a5d3b7",
-      "completedAt": 1792158385707,
-      "output": "/home/user/gocnhocafe/videos/semi-brief-2026-10-16/renders/full.mp4",
+      "id": "24640cc9-bf03-47c9-beac-ba0e42763b55",
+      "completedAt": 1792334432114,
+      "output": "/home/user/gocnhocafe/videos/tech-top10-2026-10-18/renders/full.mp4",
       "status": "completed",
-      "revision": "e6b0c801-baad-434b-b3ac-0e146043de7e"
+      "revision": "5ec9b0ba-f14f-4203-913b-e61922e8bf87"
     },
     "retainedRevisions": [
-      "e6b0c801-baad-434b-b3ac-0e146043de7e",
-      "42a69070-8f5b-4fe0-9757-0ff7d535d3fc"
+      "5ec9b0ba-f14f-4203-913b-e61922e8bf87",
+      "e6b0c801-baad-434b-b3ac-0e146043de7e"
     ]
   },
   "pendingArtifactCleanup": []
