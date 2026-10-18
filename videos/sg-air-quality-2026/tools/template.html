@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=__W__, height=__H__" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: __W__px;
+        height: __H__px;
+        overflow: hidden;
+        background: #16203a;
+      }
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-family: Oswald, sans-serif;
+        color: #ffffff;
+      }
+      #stage,
+      #bg,
+      #intro {
+        position: absolute;
+        inset: 0;
+      }
+      #stage {
+        z-index: 0;
+      }
+      #intro {
+        z-index: 10;
+      }
+      #bg {
+        background: radial-gradient(110% 80% at 30% 40%, #2a3658 0%, #1b2544 55%, #121a30 100%);
+      }
+      #haze {
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(80% 60% at 50% 45%, rgba(214, 170, 110, 0.55), rgba(214, 170, 110, 0) 70%);
+        opacity: 0;
+      }
+      .lg {
+        font-family: "League Gothic", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+      }
+      #title {
+        position: absolute;
+        color: #ffffff;
+        white-space: nowrap;
+        line-height: 1;
+      }
+      #title b {
+        color: #f5c242;
+        font-weight: 400;
+      }
+      #subtitle {
+        position: absolute;
+        font-family: Inter, sans-serif;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.78);
+        white-space: nowrap;
+      }
+      #map {
+        position: absolute;
+      }
+      #map svg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .rbox {
+        position: absolute;
+        border-radius: 10px;
+        text-align: center;
+        color: #16203a;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+        transform-origin: 50% 50%;
+      }
+      .rbox .rn {
+        display: block;
+        font-family: Inter, sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+      .rbox .rp {
+        display: block;
+        font-weight: 700;
+        line-height: 1.05;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+      .rbox .rm {
+        display: block;
+        font-family: Inter, sans-serif;
+        font-weight: 600;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+      #date {
+        position: absolute;
+        z-index: 5;
+        text-align: right;
+        line-height: 0.9;
+      }
+      #day {
+        color: #ffffff;
+        -webkit-text-stroke: 2px #f5c242;
+        text-shadow:
+          5px 5px 0 #f5c242,
+          10px 10px 0 #f07a2a,
+          15px 15px 0 #d6332f;
+      }
+      #yr {
+        color: #f5c242;
+      }
+      .panel {
+        position: absolute;
+      }
+      .ptitle {
+        position: absolute;
+        left: 0;
+        top: 0;
+        white-space: nowrap;
+        color: #ffffff;
+      }
+      .ptitle span {
+        font-family: Inter, sans-serif;
+        font-weight: 600;
+        text-transform: none;
+        letter-spacing: 0;
+        font-size: 0.55em;
+        color: rgba(255, 255, 255, 0.65);
+      }
+      .bands {
+        position: absolute;
+        opacity: 0.16;
+      }
+      .band-lab {
+        position: absolute;
+        font-family: Inter, sans-serif;
+        font-weight: 600;
+        white-space: nowrap;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+      .tick {
+        position: absolute;
+        width: 1px;
+        background: rgba(255, 255, 255, 0.22);
+      }
+      .tick-lab {
+        position: absolute;
+        font-family: Inter, sans-serif;
+        color: rgba(255, 255, 255, 0.55);
+        transform: translateX(-50%);
+        font-variant-numeric: tabular-nums;
+      }
+      .row {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+      .rname {
+        position: absolute;
+        left: 0;
+        text-align: right;
+        white-space: nowrap;
+      }
+      .rbar {
+        position: absolute;
+        overflow: hidden;
+        border-radius: 4px;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.85);
+      }
+      .rbar .strip {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+      }
+      .rlo,
+      .rhi {
+        position: absolute;
+        font-weight: 700;
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+      }
+      .rlo {
+        color: rgba(255, 255, 255, 0.75);
+        text-align: right;
+      }
+      .rhi {
+        color: #ffffff;
+      }
+      #spark {
+        position: absolute;
+      }
+      #spark svg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+      }
+      .sp-lab {
+        position: absolute;
+        font-family: Inter, sans-serif;
+        color: rgba(255, 255, 255, 0.6);
+        white-space: nowrap;
+      }
+      #note {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        opacity: 0;
+      }
+      #note-arrow {
+        flex: none;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-color: transparent transparent transparent #f5c242;
+      }
+      #note-text {
+        font-family: Inter, sans-serif;
+        font-weight: 500;
+        line-height: 1.3;
+        color: #ffffff;
+      }
+      #note-text b {
+        color: #f5c242;
+        font-weight: 700;
+      }
+      #source {
+        position: absolute;
+        font-family: Inter, sans-serif;
+        color: rgba(255, 255, 255, 0.68);
+        line-height: 1.35;
+      }
+      #intro {
+        background: #16203a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      #intro-big {
+        color: #ffffff;
+        line-height: 0.85;
+        -webkit-text-stroke: 4px #f5c242;
+        text-shadow:
+          9px 9px 0 #f5c242,
+          18px 18px 0 #f07a2a,
+          27px 27px 0 #d6332f;
+      }
+      #intro-title {
+        color: #ffffff;
+        line-height: 1;
+      }
+      #intro-sub {
+        font-family: Inter, sans-serif;
+        font-weight: 500;
+        color: #f5c242;
+      }
+      /* ---------- landscape 1920x1080 ---------- */
+      .land #title { left: 64px; top: 44px; font-size: 76px; }
+      .land #subtitle { left: 66px; top: 128px; font-size: 24px; }
+      .land #date { right: 64px; top: 40px; }
+      .land #day { font-size: 120px; }
+      .land #yr { font-size: 46px; display: block; margin-top: 6px; }
+      .land #note { left: 64px; top: 900px; width: 880px; }
+      .land #note-arrow { border-width: 20px 0 20px 30px; margin-right: 16px; }
+      .land #note-text { font-size: 25px; }
+      .land #source { left: 64px; top: 1030px; width: 1800px; font-size: 17px; }
+      .land #intro-big { font-size: 300px; }
+      .land #intro-title { font-size: 104px; margin-top: 28px; }
+      .land #intro-sub { font-size: 32px; margin-top: 16px; }
+      /* ---------- portrait 1080x1920 ---------- */
+      .port #title { left: 60px; top: 64px; font-size: 92px; }
+      .port #subtitle { left: 62px; top: 164px; font-size: 25px; white-space: normal; width: 960px; }
+      .port #date { left: 60px; top: 214px; text-align: left; display: flex; align-items: baseline; gap: 22px; }
+      .port #day { font-size: 118px; }
+      .port #yr { font-size: 48px; }
+      .port #note { left: 60px; top: 1786px; width: 960px; }
+      .port #note-arrow { border-width: 20px 0 20px 30px; margin-right: 16px; }
+      .port #note-text { font-size: 24px; }
+      .port #source { left: 60px; top: 1866px; width: 960px; font-size: 15px; }
+      .port #intro-big { font-size: 280px; }
+      .port #intro-title { font-size: 104px; margin-top: 36px; }
+      .port #intro-sub { font-size: 30px; margin-top: 20px; width: 980px; }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      class="__ORIENT__"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="__DUR__"
+      data-width="__W__"
+      data-height="__H__"
+    >
+      <div id="stage" class="clip" data-start="0" data-duration="__DUR__" data-track-index="0">
+        <div id="bg"></div>
+        <div id="haze"></div>
+        <div id="title" class="lg">Singapore <b>air quality</b></div>
+        <div id="subtitle">Daily low → high by region · 24-hr PSI &amp; 1-hr PM2.5</div>
+        <div id="date" class="lg"><span id="day">15 Sep</span><span id="yr">2026</span></div>
+        <div id="map"></div>
+        <div id="panel-psi" class="panel"></div>
+        <div id="panel-pm" class="panel"></div>
+        <div id="spark"></div>
+        <div id="note"><div id="note-arrow"></div><div id="note-text"></div></div>
+        <div id="source">__SOURCE__</div>
+      </div>
+      <div id="intro" class="clip" data-start="0" data-duration="4" data-track-index="1">
+        <div id="intro-inner">
+          <div id="intro-big" class="lg">Haze</div>
+          <div id="intro-title" class="lg">Singapore air quality, day by day</div>
+          <div id="intro-sub">Daily low and high · 24-hr PSI &amp; 1-hr PM2.5 · five regions · __RANGE__</div>
+        </div>
+      </div>
+      <audio id="bgm" src="assets/bgm/bed.wav" data-start="0" data-duration="__DUR__" data-track-index="2" data-volume="0.5"></audio>
+    </div>
+    <script>
+      (function () {
+        "use strict";
+        var DATA = __DATA__;
+        var MAP = __MAP__;
+        var DUR = __DUR__;
+        var PORT = document.getElementById("root").classList.contains("port");
+        var W = PORT ? 1080 : 1920;
+
+        // ---- layout ----------------------------------------------------------------
+        var L = PORT
+          ? {
+              map: { x: 90, y: 372, w: 900 },
+              box: { w: 176, h: 104, rn: 17, rp: 34, rm: 18 },
+              psi: { x: 60, y: 1050, w: 960, nameW: 120, rowH: 44, barH: 28, name: 32, num: 26 },
+              pm: { x: 60, y: 1372, w: 960, nameW: 120, rowH: 44, barH: 28, name: 32, num: 26 },
+              spark: { x: 190, y: 1708, w: 830, h: 44 }
+            }
+          : {
+              map: { x: 50, y: 200, w: 900 },
+              box: { w: 168, h: 100, rn: 16, rp: 32, rm: 17 },
+              psi: { x: 1000, y: 196, w: 860, nameW: 120, rowH: 46, barH: 30, name: 34, num: 27 },
+              pm: { x: 1000, y: 540, w: 860, nameW: 120, rowH: 46, barH: 30, name: 34, num: 27 },
+              spark: { x: 1130, y: 896, w: 730, h: 64 }
+            };
+
+        var REGIONS = ["north", "south", "east", "west", "central"];
+        var RNAME = { north: "North", south: "South", east: "East", west: "West", central: "Central" };
+        var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+        // NEA bands. PSI: Good / Moderate / Unhealthy / Very unhealthy / Hazardous. PM2.5 1-hr: Band I-IV.
+        var PSI_BANDS = [
+          { to: 50, c: "#43b05c", n: "Good" },
+          { to: 100, c: "#2f8fe0", n: "Moderate" },
+          { to: 200, c: "#f5c242", n: "Unhealthy" },
+          { to: 300, c: "#f07a2a", n: "Very unhealthy" },
+          { to: 9999, c: "#d6332f", n: "Hazardous" }
+        ];
+        var PM_BANDS = [
+          { to: 55, c: "#43b05c", n: "Normal" },
+          { to: 150, c: "#f5c242", n: "Elevated" },
+          { to: 250, c: "#f07a2a", n: "High" },
+          { to: 9999, c: "#d6332f", n: "Very high" }
+        ];
+        function band(bands, v) {
+          for (var i = 0; i < bands.length; i++) if (v <= bands[i].to) return bands[i];
+          return bands[bands.length - 1];
+        }
+
+        var N = DATA.days.length;
+        function allMax(metric) {
+          var m = 0;
+          REGIONS.forEach(function (r) {
+            DATA[metric][r].max.forEach(function (v) {
+              m = Math.max(m, v);
+            });
+          });
+          return m;
+        }
+        // Fixed scales for the whole film, so a bar's length always means the same reading.
+        function niceMax(v, step) {
+          return Math.max(step * 2, Math.ceil((v * 1.08) / step) * step);
+        }
+        var PSI_MAX = niceMax(allMax("psi"), 50);
+        var PM_MAX = niceMax(allMax("pm25"), 50);
+
+        // ---- timing ------------------------------------------------------------------
+        var START = 4.0;
+        var PER_DAY = __PER_DAY__;
+        var MOVE = Math.min(0.55, PER_DAY * 0.45); // bars glide to the next day, then hold
+        var END = START + (N - 1) * PER_DAY;
+
+        // ---- map -----------------------------------------------------------------------
+        var vb = MAP.viewBox.split(" ").map(Number);
+        var mapScale = L.map.w / vb[2];
+        var mapEl = document.getElementById("map");
+        mapEl.style.cssText = "left:" + L.map.x + "px;top:" + L.map.y + "px;width:" + L.map.w + "px;height:" + Math.round(vb[3] * mapScale) + "px";
+        mapEl.innerHTML =
+          '<svg viewBox="' + MAP.viewBox + '" preserveAspectRatio="xMidYMid meet">' +
+          '<rect x="0" y="0" width="' + vb[2] + '" height="' + vb[3] + '" rx="18" fill="#22406a" opacity="0.55"/>' +
+          '<path d="' + MAP.paths.Malaysia + '" fill="#3b4a6b" stroke="#55658a" stroke-width="1.5"/>' +
+          '<path d="' + MAP.paths.Indonesia + '" fill="#3b4a6b" stroke="#55658a" stroke-width="1.5"/>' +
+          '<path id="sg-land" d="' + MAP.paths.Singapore + '" fill="#5b6f96" stroke="#e8edf7" stroke-width="3"/>' +
+          '<text x="' + vb[2] * 0.06 + '" y="' + vb[3] * 0.09 + '" fill="#9fb0d0" font-family="Inter" font-weight="600" font-size="26" letter-spacing="3">JOHOR, MALAYSIA</text>' +
+          '<text x="' + vb[2] * 0.62 + '" y="' + vb[3] * 0.95 + '" fill="#9fb0d0" font-family="Inter" font-weight="600" font-size="22" letter-spacing="3">SINGAPORE STRAIT</text>' +
+          "</svg>";
+        var boxes = {};
+        REGIONS.forEach(function (r) {
+          var key = RNAME[r];
+          var p = MAP.regions[key];
+          var el = document.createElement("div");
+          el.className = "rbox";
+          el.style.cssText =
+            "left:" + (p[0] * mapScale - L.box.w / 2).toFixed(1) + "px;top:" + (p[1] * mapScale - L.box.h / 2).toFixed(1) + "px;width:" + L.box.w + "px;height:" + L.box.h + "px;padding-top:" + Math.round(L.box.h * 0.08) + "px";
+          el.innerHTML = '<span class="rn"></span><span class="rp"></span><span class="rm"></span>';
+          el.children[0].textContent = key;
+          el.children[0].style.fontSize = L.box.rn + "px";
+          el.children[1].style.fontSize = L.box.rp + "px";
+          el.children[2].style.fontSize = L.box.rm + "px";
+          mapEl.appendChild(el);
+          boxes[r] = { el: el, rp: el.children[1], rm: el.children[2] };
+        });
+
+        // ---- racing panels ------------------------------------------------------------
+        function makePanel(id, G, metric, bands, max, titleHtml, unitTicks) {
+          var el = document.getElementById(id);
+          var trackX = G.nameW + 70; // room for the low number left of the bar
+          var trackW = G.w - trackX - 70; // room for the high number right of the bar
+          var plotTop = 74;
+          el.style.cssText = "left:" + G.x + "px;top:" + G.y + "px;width:" + G.w + "px;height:" + (plotTop + G.rowH * 5 + 30) + "px";
+          var h = '<div class="ptitle lg" style="font-size:' + (PORT ? 38 : 36) + 'px">' + titleHtml + "</div>";
+          // Band zones behind the rows, in the same colours as the map boxes.
+          var lo = 0;
+          bands.forEach(function (b) {
+            var hiV = Math.min(b.to, max);
+            if (lo >= max) return;
+            var x0 = trackX + (lo / max) * trackW;
+            var x1 = trackX + (hiV / max) * trackW;
+            h += '<div class="bands" style="left:' + x0.toFixed(1) + "px;top:" + plotTop + "px;width:" + (x1 - x0).toFixed(1) + "px;height:" + G.rowH * 5 + "px;background:" + b.c + '"></div>';
+            if (x1 - x0 > 90)
+              h += '<div class="band-lab" style="left:' + (x0 + 6).toFixed(1) + "px;top:" + (plotTop + G.rowH * 5 + 6) + "px;font-size:" + (PORT ? 15 : 14) + "px;color:" + b.c + '">' + b.n + "</div>";
+            lo = hiV;
+          });
+          unitTicks.forEach(function (t) {
+            if (t > max) return;
+            var x = trackX + (t / max) * trackW;
+            h += '<div class="tick" style="left:' + x.toFixed(1) + "px;top:" + (plotTop - 4) + "px;height:" + (G.rowH * 5 + 4) + 'px"></div>';
+            h += '<div class="tick-lab" style="left:' + x.toFixed(1) + "px;top:" + (plotTop - 24) + "px;font-size:" + (PORT ? 16 : 15) + 'px">' + t + "</div>";
+          });
+          el.innerHTML = h;
+          // Full-scale band strip, re-used inside each bar so the bar shows exactly which bands the day spanned.
+          var strip = "linear-gradient(90deg";
+          lo = 0;
+          bands.forEach(function (b) {
+            var hiV = Math.min(b.to, max);
+            if (lo >= max) return;
+            strip += "," + b.c + " " + ((lo / max) * 100).toFixed(2) + "%," + b.c + " " + ((hiV / max) * 100).toFixed(2) + "%";
+            lo = hiV;
+          });
+          strip += ")";
+          var rows = REGIONS.map(function (r) {
+            var row = document.createElement("div");
+            row.className = "row";
+            row.style.height = G.rowH + "px";
+            row.innerHTML = '<div class="rname lg"></div><div class="rlo"></div><div class="rbar"><div class="strip"></div></div><div class="rhi"></div>';
+            var nm = row.children[0];
+            nm.textContent = RNAME[r];
+            nm.style.cssText = "width:" + G.nameW + "px;font-size:" + G.name + "px;line-height:" + G.rowH + "px";
+            var loEl = row.children[1];
+            loEl.style.cssText = "top:0;line-height:" + G.rowH + "px;font-size:" + G.num + "px;width:64px";
+            var bar = row.children[2];
+            bar.style.cssText = "top:" + (G.rowH - G.barH) / 2 + "px;height:" + G.barH + "px";
+            bar.firstChild.style.cssText = "width:" + trackW + "px;background:" + strip;
+            var hiEl = row.children[3];
+            hiEl.style.cssText = "top:0;line-height:" + G.rowH + "px;font-size:" + G.num + "px";
+            el.appendChild(row);
+            return { r: r, row: row, lo: loEl, bar: bar, strip: bar.firstChild, hi: hiEl };
+          });
+          return { metric: metric, max: max, rows: rows, trackX: trackX, trackW: trackW, plotTop: plotTop, G: G };
+        }
+        var PANELS = [
+          makePanel("panel-psi", L.psi, "psi", PSI_BANDS, PSI_MAX, "24-hr PSI <span>daily low → high</span>", [0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500]),
+          makePanel("panel-pm", L.pm, "pm25", PM_BANDS, PM_MAX, "1-hr PM2.5 <span>µg/m³ · daily low → high</span>", [0, 55, 150, 250, 350, 450])
+        ];
+
+        // Ranks per day (by the day's high), baked once; rows glide between them.
+        PANELS.forEach(function (P) {
+          P.ranks = DATA.days.map(function (_, d) {
+            var order = REGIONS.map(function (r, j) {
+              return { j: j, v: DATA[P.metric][r].max[d] };
+            });
+            order.sort(function (a, b) {
+              return b.v - a.v || a.j - b.j;
+            });
+            var rk = [];
+            order.forEach(function (o, i) {
+              rk[o.j] = i;
+            });
+            return rk;
+          });
+        });
+
+        // ---- sparkline: island-wide daily high PSI, drawn up to the current day -------
+        var SP = L.spark;
+        var spEl = document.getElementById("spark");
+        spEl.style.cssText = "left:" + SP.x + "px;top:" + SP.y + "px;width:" + SP.w + "px;height:" + SP.h + "px";
+        var islandHi = DATA.days.map(function (_, d) {
+          return Math.max.apply(
+            null,
+            REGIONS.map(function (r) {
+              return DATA.psi[r].max[d];
+            })
+          );
+        });
+        function sx(d) {
+          return N > 1 ? (d / (N - 1)) * SP.w : 0;
+        }
+        function sy(v) {
+          return SP.h - (v / PSI_MAX) * SP.h;
+        }
+        var spPts = islandHi
+          .map(function (v, d) {
+            return sx(d).toFixed(1) + "," + sy(v).toFixed(1);
+          })
+          .join(" ");
+        var gl = "";
+        [100, 200].forEach(function (t) {
+          if (t < PSI_MAX) gl += '<line x1="0" x2="' + SP.w + '" y1="' + sy(t) + '" y2="' + sy(t) + '" stroke="' + band(PSI_BANDS, t + 1).c + '" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.7"/>';
+        });
+        spEl.innerHTML =
+          '<div class="sp-lab" style="left:' + -(PORT ? 124 : 120) + "px;top:" + (SP.h / 2 - 22) + "px;font-size:" + (PORT ? 16 : 15) + 'px;line-height:1.3">Island-wide<br>daily high PSI</div>' +
+          '<svg viewBox="0 0 ' + SP.w + " " + SP.h + '"><defs><clipPath id="spclip"><rect id="sp-rect" x="0" y="-20" width="0" height="' + (SP.h + 40) + '"/></clipPath></defs>' +
+          '<polyline points="' + spPts + '" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="3"/>' + gl +
+          '<polyline clip-path="url(#spclip)" points="' + spPts + '" fill="none" stroke="#f5c242" stroke-width="4" stroke-linejoin="round"/>' +
+          '<circle id="sp-dot" r="7" fill="#fff" stroke="#f5c242" stroke-width="3"/></svg>';
+        var firstD = DATA.days[0], lastD = DATA.days[N - 1];
+        function shortDate(iso) {
+          return Number(iso.slice(8, 10)) + " " + MONTHS[Number(iso.slice(5, 7)) - 1];
+        }
+        spEl.insertAdjacentHTML("beforeend", '<div class="sp-lab" style="left:0;top:' + (SP.h + 6) + "px;font-size:" + (PORT ? 16 : 15) + 'px">' + shortDate(firstD) + "</div>");
+        spEl.insertAdjacentHTML("beforeend", '<div class="sp-lab" style="right:0;top:' + (SP.h + 6) + "px;font-size:" + (PORT ? 16 : 15) + 'px">' + shortDate(lastD) + (DATA.partial_last_day ? " (so far)" : "") + "</div>");
+        var spRect = document.getElementById("sp-rect");
+        var spDot = document.getElementById("sp-dot");
+
+        // ---- per-frame render (pure function of day position u) ------------------------
+        var dayEl = document.getElementById("day");
+        var yrEl = document.getElementById("yr");
+        var hazeEl = document.getElementById("haze");
+        function smooth(x) {
+          return x * x * (3 - 2 * x);
+        }
+        // u in [0, N-1]: integer = holding on a day; the move to the next day happens in the last MOVE seconds.
+        function posAt(t) {
+          var x = (t - START) / PER_DAY;
+          if (x <= 0) return 0;
+          if (x >= N - 1) return N - 1;
+          var d = Math.floor(x);
+          var f = (x - d) * PER_DAY;
+          var hold = PER_DAY - MOVE;
+          return d + (f <= hold ? 0 : smooth((f - hold) / MOVE));
+        }
+        function lerpArr(arr, u) {
+          var d = Math.min(Math.floor(u), N - 2);
+          if (N < 2) return arr[0];
+          var f = Math.max(0, Math.min(1, u - d));
+          return arr[d] + (arr[d + 1] - arr[d]) * f;
+        }
+        var lastDay = -1;
+        function render(u, g) {
+          var di = Math.min(N - 1, Math.round(u));
+          PANELS.forEach(function (P) {
+            var bands = P.metric === "psi" ? PSI_BANDS : PM_BANDS;
+            P.rows.forEach(function (R, j) {
+              var s = DATA[P.metric][R.r];
+              var lo = lerpArr(s.min, u) * g;
+              var hi = lerpArr(s.max, u) * g;
+              var d0 = Math.min(Math.floor(u), N - 2);
+              var f = N < 2 ? 0 : Math.max(0, Math.min(1, u - Math.max(d0, 0)));
+              var pos = N < 2 ? P.ranks[0][j] : P.ranks[Math.max(d0, 0)][j] + (P.ranks[Math.max(d0, 0) + 1][j] - P.ranks[Math.max(d0, 0)][j]) * f;
+              R.row.style.transform = "translateY(" + (P.plotTop + pos * P.G.rowH).toFixed(2) + "px)";
+              var x0 = P.trackX + (lo / P.max) * P.trackW;
+              var x1 = P.trackX + (hi / P.max) * P.trackW;
+              var w = Math.max(6, x1 - x0);
+              R.bar.style.left = x0.toFixed(1) + "px";
+              R.bar.style.width = w.toFixed(1) + "px";
+              R.strip.style.transform = "translateX(" + (P.trackX - x0).toFixed(1) + "px)";
+              R.lo.style.left = (x0 - 72).toFixed(1) + "px";
+              R.hi.style.left = (x0 + w + 10).toFixed(1) + "px";
+              // Numbers are the day's real readings, never in-between values.
+              R.lo.textContent = String(Math.round(s.min[di] * g));
+              R.hi.textContent = String(Math.round(s.max[di] * g));
+            });
+          });
+          REGIONS.forEach(function (r) {
+            var b = boxes[r];
+            var pHi = DATA.psi[r].max[di], pLo = DATA.psi[r].min[di];
+            var mHi = DATA.pm25[r].max[di], mLo = DATA.pm25[r].min[di];
+            b.el.style.background = band(PSI_BANDS, pHi).c;
+            b.el.style.color = pHi > 50 && pHi <= 100 ? "#ffffff" : "#16203a";
+            b.rp.textContent = "PSI " + pLo + "–" + pHi;
+            b.rm.textContent = "PM2.5 " + mLo + "–" + mHi;
+          });
+          if (di !== lastDay) {
+            lastDay = di;
+            var iso = DATA.days[di];
+            dayEl.textContent = shortDate(iso);
+            yrEl.textContent = iso.slice(0, 4) + (DATA.partial_last_day && di === N - 1 ? " · so far today" : "");
+          }
+          var hiNow = lerpArr(islandHi, u);
+          hazeEl.style.opacity = Math.max(0, Math.min(0.85, (hiNow - 60) / 160)).toFixed(3);
+          spRect.setAttribute("width", sx(u).toFixed(1));
+          spDot.setAttribute("cx", sx(u).toFixed(1));
+          spDot.setAttribute("cy", sy(hiNow).toFixed(1));
+        }
+
+        // ---- callouts, computed from the data -------------------------------------------
+        function fmtDay(d) {
+          return shortDate(DATA.days[d]);
+        }
+        function argmaxAll(metric) {
+          var best = { v: -1 };
+          REGIONS.forEach(function (r) {
+            DATA[metric][r].max.forEach(function (v, d) {
+              if (v > best.v) best = { v: v, r: r, d: d };
+            });
+          });
+          return best;
+        }
+        var NOTES = [];
+        var firstUnhealthy = islandHi.findIndex(function (v) {
+          return v > 100;
+        });
+        if (firstUnhealthy > 0)
+          NOTES.push({ d: firstUnhealthy, html: "<b>" + fmtDay(firstUnhealthy) + ":</b> 24-hr PSI first enters the <b>Unhealthy</b> range (above 100)" });
+        var pkPsi = argmaxAll("psi");
+        var pkPm = argmaxAll("pm25");
+        NOTES.push({ d: pkPm.d, html: "Highest 1-hr PM2.5: <b>" + pkPm.v + " µg/m³</b> in the " + RNAME[pkPm.r] + " on " + fmtDay(pkPm.d) + " (" + band(PM_BANDS, pkPm.v).n + ")" });
+        NOTES.push({ d: pkPsi.d, html: "Peak 24-hr PSI: <b>" + pkPsi.v + "</b> in the " + RNAME[pkPsi.r] + " on " + fmtDay(pkPsi.d) + " (" + band(PSI_BANDS, pkPsi.v).n + ")" });
+        var unhealthyDays = islandHi.filter(function (v) {
+          return v > 100;
+        }).length;
+        NOTES.push({ d: N - 1, html: "<b>" + unhealthyDays + " of " + N + " days</b> reached Unhealthy PSI somewhere in Singapore" });
+        NOTES.sort(function (a, b) {
+          return a.d - b.d;
+        });
+        // Space the notes out so none is cut short; the last one holds to the end.
+        var noteTimes = [];
+        NOTES.forEach(function (n, i) {
+          var t = START + n.d * PER_DAY;
+          if (i === NOTES.length - 1) t = Math.max(t, END + 0.3);
+          if (noteTimes.length && t < noteTimes[noteTimes.length - 1] + 4.2) t = noteTimes[noteTimes.length - 1] + 4.2;
+          noteTimes.push(Math.min(t, DUR - 2.5));
+        });
+
+        // ---- timeline -----------------------------------------------------------------
+        var tl = gsap.timeline({ paused: true });
+        tl.fromTo("#intro-big", { y: 70, opacity: 0, scale: 0.85 }, { y: 0, opacity: 1, scale: 1, duration: 0.8, ease: "back.out(1.6)" }, 0.15);
+        tl.fromTo("#intro-title", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, 0.6);
+        tl.fromTo("#intro-sub", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, 0.9);
+        tl.to("#intro-inner", { y: -60, opacity: 0, duration: 0.5, ease: "power2.in" }, 2.9);
+        tl.fromTo("#intro", { opacity: 1 }, { opacity: 0, duration: 0.5, ease: "power1.inOut" }, 3.3);
+        tl.fromTo(["#map", "#panel-psi", "#panel-pm", "#spark"], { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "none" }, 3.15);
+        tl.fromTo(".rbox", { scale: 0.6 }, { scale: 1, duration: 0.5, ease: "back.out(2)", stagger: 0.06 }, 3.35);
+        tl.fromTo("#day", { scale: 1 }, { scale: 1.05, duration: 0.3, yoyo: true, repeat: 1, ease: "power1.inOut" }, END);
+
+        var noteText = document.getElementById("note-text");
+        noteTimes.forEach(function (t, i) {
+          tl.fromTo("#note", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.45, ease: "power3.out", immediateRender: false }, t);
+          var next = i < noteTimes.length - 1 ? noteTimes[i + 1] : null;
+          if (next !== null) tl.to("#note", { opacity: 0, x: 20, duration: 0.3, ease: "power2.in", immediateRender: false }, Math.min(t + 4.0, next - 0.32));
+        });
+
+        var lastNote = -1;
+        function frame(t) {
+          var gx = Math.min(Math.max((t - 3.2) / 0.9, 0), 1);
+          var g = 1 - (1 - gx) * (1 - gx);
+          render(posAt(t), g);
+          var ni = 0;
+          noteTimes.forEach(function (nt, i) {
+            if (t >= nt - 0.01) ni = i;
+          });
+          if (ni !== lastNote && NOTES.length) {
+            lastNote = ni;
+            noteText.innerHTML = NOTES[ni].html;
+          }
+        }
+        var clock = { t: 0 };
+        frame(0);
+        tl.to(clock, { t: DUR, duration: DUR, ease: "none", onUpdate: function () { frame(clock.t); } }, 0);
+        window.__timelines["main"] = tl;
+      })();
+    </script>
+  </body>
+</html>
