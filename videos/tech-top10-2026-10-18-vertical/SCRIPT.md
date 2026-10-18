@@ -1,6 +1,6 @@
 # SCRIPT — tech-top10-2026-10-18
 
-**Voice:** am_michael (Kokoro) @1.08, natural pauses + light room chain
+**Voice:** am_michael (Kokoro) @1.06 → +12% tempo, +3% pitch (rubberband), punchy broadcast chain
 **Voice direction:** Brisk, confident news anchor.
 
 ---

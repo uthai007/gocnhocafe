@@ -16,7 +16,7 @@ Neon HUD (as 16 Oct semiconductor update). One story per scene: number badge, ca
 
 - scene: Open
 - voiceover: "Sunday, October 18th, 2026. Here are the ten stories that moved AI, chips and quantum."
-- duration: 8.45s
+- duration: 7.63s
 - transition_in: cut
 - status: animated
 - src: compositions/frames/01-open.html
@@ -32,7 +32,7 @@ keyMessage: Open.
 
 - scene: AI 1 Jack Clark GDP
 - voiceover: "Number one. Anthropic co-founder Jack Clark told the IMF and World Bank meetings that, in its most aggressive scenario, AI could lift US output to about 44 trillion dollars by 2030, and called for serious rules."
-- duration: 17.06s
+- duration: 15.34s
 - transition_in: blur-crossfade
 - status: animated
 - src: compositions/frames/02-clark.html
@@ -48,7 +48,7 @@ keyMessage: AI 1 Jack Clark GDP.
 
 - scene: AI 2 CERT-In advisory
 - voiceover: "Two. India's cyber agency, CERT-In, warned that AI agents under testing reached live systems at Indian firms and read confidential data. None of the companies noticed."
-- duration: 12.78s
+- duration: 11.56s
 - transition_in: push-slide LEFT
 - status: animated
 - src: compositions/frames/03-certin.html
@@ -64,7 +64,7 @@ keyMessage: AI 2 CERT-In advisory.
 
 - scene: AI 3 Midterm AI ads
 - voiceover: "Three. More than 137 million dollars has been spent on AI-made ads in the US midterms. Only 27 percent carry a disclaimer."
-- duration: 11.28s
+- duration: 10.23s
 - transition_in: push-slide LEFT
 - status: animated
 - src: compositions/frames/04-ads.html
@@ -80,7 +80,7 @@ keyMessage: AI 3 Midterm AI ads.
 
 - scene: AI x Quantum 4 IBM agents
 - voiceover: "Four. AI meets quantum. IBM's AI agents designed an error-correction decoder estimated to run 52 times faster, for about 26 dollars of compute."
-- duration: 12.66s
+- duration: 11.44s
 - transition_in: zoom-through
 - status: animated
 - src: compositions/frames/05-ibm.html
@@ -96,7 +96,7 @@ keyMessage: AI x Quantum 4 IBM agents.
 
 - scene: Chips 5 Sell-off
 - voiceover: "Five. A rough week for chips. The Nasdaq fell about four and a half percent, its worst week since June, and the main chip ETF dropped about ten percent."
-- duration: 10.86s
+- duration: 9.78s
 - transition_in: blur-crossfade
 - status: animated
 - src: compositions/frames/06-nasdaq.html
@@ -112,7 +112,7 @@ keyMessage: Chips 5 Sell-off.
 
 - scene: Chips 6 Korea outlook
 - voiceover: "Six. South Korea's finance minister says the chip boom will last at least through 2027, because demand still outpaces supply."
-- duration: 10.36s
+- duration: 9.28s
 - transition_in: push-slide LEFT
 - status: animated
 - src: compositions/frames/07-korea.html
@@ -128,7 +128,7 @@ keyMessage: Chips 6 Korea outlook.
 
 - scene: Chips 7 China exports
 - voiceover: "Seven. China's chip exports jumped 136 percent in September, to about 45 billion dollars, driven mostly by higher prices."
-- duration: 10.93s
+- duration: 9.86s
 - transition_in: push-slide LEFT
 - status: animated
 - src: compositions/frames/08-china.html
@@ -144,7 +144,7 @@ keyMessage: Chips 7 China exports.
 
 - scene: Chips 8 Intel
 - voiceover: "Eight. Intel chief Lip-Bu Tan says the US government's stake gives Washington no say in how Intel runs its business."
-- duration: 9.03s
+- duration: 8.15s
 - transition_in: push-slide LEFT
 - status: animated
 - src: compositions/frames/09-intel.html
@@ -160,7 +160,7 @@ keyMessage: Chips 8 Intel.
 
 - scene: Quantum 9 Google Willow
 - voiceover: "Nine. Google showed magic state cultivation on its Willow chip, cutting errors about 40 times and reaching 99.99 percent fidelity."
-- duration: 10.95s
+- duration: 9.92s
 - transition_in: zoom-through
 - status: animated
 - src: compositions/frames/10-google.html
@@ -176,7 +176,7 @@ keyMessage: Quantum 9 Google Willow.
 
 - scene: Quantum 10 DARPA QBI
 - voiceover: "And ten. DARPA moved Atom Computing, Diraq, IBM and IonQ into the final stage of its Quantum Benchmarking Initiative."
-- duration: 10.23s
+- duration: 9.19s
 - transition_in: push-slide LEFT
 - status: animated
 - src: compositions/frames/11-darpa.html
@@ -192,7 +192,7 @@ keyMessage: Quantum 10 DARPA QBI.
 
 - scene: Close
 - voiceover: "That's the top ten in AI, chips and quantum. See you next week."
-- duration: 5.07s
+- duration: 4.51s
 - transition_in: blur-crossfade
 - status: animated
 - src: compositions/frames/12-close.html

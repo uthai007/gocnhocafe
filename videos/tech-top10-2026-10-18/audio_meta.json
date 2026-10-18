@@ -10,1656 +10,1656 @@
     {
       "frame": 1,
       "path": "assets/voice/01.wav",
-      "duration_s": 8.45,
+      "duration_s": 7.63,
       "words": [
         {
           "id": "01-0",
           "text": "Sunday,",
           "start": 0.15,
-          "end": 1.05
+          "end": 0.961
         },
         {
           "id": "01-1",
           "text": "October",
-          "start": 1.05,
-          "end": 2.07
+          "start": 0.961,
+          "end": 1.88
         },
         {
           "id": "01-2",
           "text": "18th,",
-          "start": 2.07,
-          "end": 2.73
+          "start": 1.88,
+          "end": 2.475
         },
         {
           "id": "01-3",
           "text": "2026.",
-          "start": 2.73,
-          "end": 3.39
+          "start": 2.475,
+          "end": 3.07
         },
         {
           "id": "01-4",
           "text": "Here",
-          "start": 3.9,
-          "end": 4.212
+          "start": 3.51,
+          "end": 3.798
         },
         {
           "id": "01-5",
           "text": "are",
-          "start": 4.212,
-          "end": 4.468
+          "start": 3.798,
+          "end": 4.033
         },
         {
           "id": "01-6",
           "text": "the",
-          "start": 4.468,
-          "end": 4.724
+          "start": 4.033,
+          "end": 4.269
         },
         {
           "id": "01-7",
           "text": "ten",
-          "start": 4.724,
-          "end": 4.979
+          "start": 4.269,
+          "end": 4.504
         },
         {
           "id": "01-8",
           "text": "stories",
-          "start": 4.979,
-          "end": 5.462
+          "start": 4.504,
+          "end": 4.949
         },
         {
           "id": "01-9",
           "text": "that",
-          "start": 5.462,
-          "end": 5.774
+          "start": 4.949,
+          "end": 5.237
         },
         {
           "id": "01-10",
           "text": "moved",
-          "start": 5.774,
-          "end": 6.144
+          "start": 5.237,
+          "end": 5.577
         },
         {
           "id": "01-11",
           "text": "AI,",
-          "start": 6.144,
-          "end": 6.342
+          "start": 5.577,
+          "end": 5.76
         },
         {
           "id": "01-12",
           "text": "chips",
-          "start": 6.342,
-          "end": 6.712
+          "start": 5.76,
+          "end": 6.1
         },
         {
           "id": "01-13",
           "text": "and",
-          "start": 6.712,
-          "end": 6.967
+          "start": 6.1,
+          "end": 6.335
         },
         {
           "id": "01-14",
           "text": "quantum.",
-          "start": 6.967,
-          "end": 7.45
+          "start": 6.335,
+          "end": 6.78
         }
       ]
     },
     {
       "frame": 2,
       "path": "assets/voice/02.wav",
-      "duration_s": 17.06,
+      "duration_s": 15.34,
       "words": [
         {
           "id": "02-0",
           "text": "Number",
           "start": 0.15,
-          "end": 0.5
+          "end": 0.462
         },
         {
           "id": "02-1",
           "text": "one.",
-          "start": 0.5,
-          "end": 0.71
+          "start": 0.462,
+          "end": 0.65
         },
         {
           "id": "02-2",
           "text": "Anthropic",
-          "start": 1.3,
-          "end": 1.91
+          "start": 1.18,
+          "end": 1.73
         },
         {
           "id": "02-3",
           "text": "co-founder",
-          "start": 1.91,
-          "end": 2.52
+          "start": 1.73,
+          "end": 2.281
         },
         {
           "id": "02-4",
           "text": "Jack",
-          "start": 2.52,
-          "end": 2.84
+          "start": 2.281,
+          "end": 2.569
         },
         {
           "id": "02-5",
           "text": "Clark",
-          "start": 2.84,
-          "end": 3.217
+          "start": 2.569,
+          "end": 2.909
         },
         {
           "id": "02-6",
           "text": "told",
-          "start": 3.217,
-          "end": 3.537
+          "start": 2.909,
+          "end": 3.198
         },
         {
           "id": "02-7",
           "text": "the",
-          "start": 3.537,
-          "end": 3.798
+          "start": 3.198,
+          "end": 3.433
         },
         {
           "id": "02-8",
           "text": "IMF",
-          "start": 3.798,
-          "end": 4.06
+          "start": 3.433,
+          "end": 3.669
         },
         {
           "id": "02-9",
           "text": "and",
-          "start": 4.06,
-          "end": 4.321
+          "start": 3.669,
+          "end": 3.905
         },
         {
           "id": "02-10",
           "text": "World",
-          "start": 4.321,
-          "end": 4.699
+          "start": 3.905,
+          "end": 4.246
         },
         {
           "id": "02-11",
           "text": "Bank",
-          "start": 4.699,
-          "end": 5.018
+          "start": 4.246,
+          "end": 4.534
         },
         {
           "id": "02-12",
           "text": "meetings",
-          "start": 5.018,
-          "end": 5.57
+          "start": 4.534,
+          "end": 5.032
         },
         {
           "id": "02-13",
           "text": "that,",
-          "start": 5.57,
-          "end": 5.89
+          "start": 5.032,
+          "end": 5.32
         },
         {
           "id": "02-14",
           "text": "in",
-          "start": 6.33,
-          "end": 6.51
+          "start": 5.75,
+          "end": 5.911
         },
         {
           "id": "02-15",
           "text": "its",
-          "start": 6.51,
-          "end": 6.74
+          "start": 5.911,
+          "end": 6.119
         },
         {
           "id": "02-16",
           "text": "most",
-          "start": 6.74,
-          "end": 7.023
+          "start": 6.119,
+          "end": 6.372
         },
         {
           "id": "02-17",
           "text": "aggressive",
-          "start": 7.023,
-          "end": 7.613
+          "start": 6.372,
+          "end": 6.902
         },
         {
           "id": "02-18",
           "text": "scenario,",
-          "start": 7.613,
-          "end": 8.1
+          "start": 6.902,
+          "end": 7.34
         },
         {
           "id": "02-19",
           "text": "AI",
-          "start": 8.5,
-          "end": 8.779
+          "start": 7.68,
+          "end": 7.932
         },
         {
           "id": "02-20",
           "text": "could",
-          "start": 8.779,
-          "end": 9.297
+          "start": 7.932,
+          "end": 8.401
         },
         {
           "id": "02-21",
           "text": "lift",
-          "start": 9.297,
-          "end": 9.735
+          "start": 8.401,
+          "end": 8.797
         },
         {
           "id": "02-22",
           "text": "US",
-          "start": 9.735,
-          "end": 10.014
+          "start": 8.797,
+          "end": 9.05
         },
         {
           "id": "02-23",
           "text": "output",
-          "start": 10.014,
-          "end": 10.612
+          "start": 9.05,
+          "end": 9.59
         },
         {
           "id": "02-24",
           "text": "to",
-          "start": 10.612,
-          "end": 10.891
+          "start": 9.59,
+          "end": 9.843
         },
         {
           "id": "02-25",
           "text": "about",
-          "start": 10.891,
-          "end": 11.409
+          "start": 9.843,
+          "end": 10.311
         },
         {
           "id": "02-26",
           "text": "44",
-          "start": 11.409,
-          "end": 11.688
+          "start": 10.311,
+          "end": 10.564
         },
         {
           "id": "02-27",
           "text": "trillion",
-          "start": 11.688,
-          "end": 12.445
+          "start": 10.564,
+          "end": 11.248
         },
         {
           "id": "02-28",
           "text": "dollars",
-          "start": 12.445,
-          "end": 13.123
+          "start": 11.248,
+          "end": 11.861
         },
         {
           "id": "02-29",
           "text": "by",
-          "start": 13.123,
-          "end": 13.402
+          "start": 11.861,
+          "end": 12.114
         },
         {
           "id": "02-30",
           "text": "2030,",
-          "start": 13.402,
-          "end": 13.84
+          "start": 12.114,
+          "end": 12.51
         },
         {
           "id": "02-31",
           "text": "and",
-          "start": 14.26,
-          "end": 14.517
+          "start": 12.88,
+          "end": 13.11
         },
         {
           "id": "02-32",
           "text": "called",
-          "start": 14.517,
-          "end": 14.946
+          "start": 13.11,
+          "end": 13.493
         },
         {
           "id": "02-33",
           "text": "for",
-          "start": 14.946,
-          "end": 15.203
+          "start": 13.493,
+          "end": 13.723
         },
         {
           "id": "02-34",
           "text": "serious",
-          "start": 15.203,
-          "end": 15.689
+          "start": 13.723,
+          "end": 14.158
         },
         {
           "id": "02-35",
           "text": "rules.",
-          "start": 15.689,
-          "end": 16.06
+          "start": 14.158,
+          "end": 14.49
         }
       ]
     },
     {
       "frame": 3,
       "path": "assets/voice/03.wav",
-      "duration_s": 12.78,
+      "duration_s": 11.56,
       "words": [
         {
           "id": "03-0",
           "text": "Two.",
           "start": 0.15,
-          "end": 0.47
+          "end": 0.46
         },
         {
           "id": "03-1",
           "text": "India's",
-          "start": 0.83,
-          "end": 1.573
+          "start": 0.76,
+          "end": 1.437
         },
         {
           "id": "03-2",
           "text": "cyber",
-          "start": 1.573,
-          "end": 2.217
+          "start": 1.437,
+          "end": 2.023
         },
         {
           "id": "03-3",
           "text": "agency,",
-          "start": 2.217,
-          "end": 2.96
+          "start": 2.023,
+          "end": 2.7
         },
         {
           "id": "03-4",
           "text": "CERT-In,",
-          "start": 3.37,
-          "end": 8.01
+          "start": 3.06,
+          "end": 7.33
         },
         {
           "id": "03-5",
           "text": "warned",
-          "start": 8.19,
-          "end": 8.301
+          "start": 7.43,
+          "end": 7.531
         },
         {
           "id": "03-6",
           "text": "that",
-          "start": 8.301,
-          "end": 8.383
+          "start": 7.531,
+          "end": 7.605
         },
         {
           "id": "03-7",
           "text": "AI",
-          "start": 8.383,
-          "end": 8.434
+          "start": 7.605,
+          "end": 7.652
         },
         {
           "id": "03-8",
           "text": "agents",
-          "start": 8.434,
-          "end": 8.546
+          "start": 7.652,
+          "end": 7.752
         },
         {
           "id": "03-9",
           "text": "under",
-          "start": 8.546,
-          "end": 8.642
+          "start": 7.752,
+          "end": 7.839
         },
         {
           "id": "03-10",
           "text": "testing",
-          "start": 8.642,
-          "end": 8.768
+          "start": 7.839,
+          "end": 7.954
         },
         {
           "id": "03-11",
           "text": "reached",
-          "start": 8.768,
-          "end": 8.894
+          "start": 7.954,
+          "end": 8.068
         },
         {
           "id": "03-12",
           "text": "live",
-          "start": 8.894,
-          "end": 8.975
+          "start": 8.068,
+          "end": 8.142
         },
         {
           "id": "03-13",
           "text": "systems",
-          "start": 8.975,
-          "end": 9.101
+          "start": 8.142,
+          "end": 8.256
         },
         {
           "id": "03-14",
           "text": "at",
-          "start": 9.101,
-          "end": 9.153
+          "start": 8.256,
+          "end": 8.303
         },
         {
           "id": "03-15",
           "text": "Indian",
-          "start": 9.153,
-          "end": 9.264
+          "start": 8.303,
+          "end": 8.403
         },
         {
           "id": "03-16",
           "text": "firms",
-          "start": 9.264,
-          "end": 9.36
+          "start": 8.403,
+          "end": 8.491
         },
         {
           "id": "03-17",
           "text": "and",
-          "start": 9.36,
-          "end": 9.427
+          "start": 8.491,
+          "end": 8.551
         },
         {
           "id": "03-18",
           "text": "read",
-          "start": 9.427,
-          "end": 9.509
+          "start": 8.551,
+          "end": 8.625
         },
         {
           "id": "03-19",
           "text": "confidential",
-          "start": 9.509,
-          "end": 9.709
+          "start": 8.625,
+          "end": 8.806
         },
         {
           "id": "03-20",
           "text": "data.",
-          "start": 9.709,
-          "end": 9.79
+          "start": 8.806,
+          "end": 8.88
         },
         {
           "id": "03-21",
           "text": "None",
-          "start": 10.42,
-          "end": 10.65
+          "start": 9.44,
+          "end": 9.655
         },
         {
           "id": "03-22",
           "text": "of",
-          "start": 10.65,
-          "end": 10.797
+          "start": 9.655,
+          "end": 9.792
         },
         {
           "id": "03-23",
           "text": "the",
-          "start": 10.797,
-          "end": 10.985
+          "start": 9.792,
+          "end": 9.968
         },
         {
           "id": "03-24",
           "text": "companies",
-          "start": 10.985,
-          "end": 11.424
+          "start": 9.968,
+          "end": 10.378
         },
         {
           "id": "03-25",
           "text": "noticed.",
-          "start": 11.424,
-          "end": 11.78
+          "start": 10.378,
+          "end": 10.71
         }
       ]
     },
     {
       "frame": 4,
       "path": "assets/voice/04.wav",
-      "duration_s": 11.28,
+      "duration_s": 10.23,
       "words": [
         {
           "id": "04-0",
           "text": "Three.",
           "start": 0.15,
-          "end": 0.55
+          "end": 0.52
         },
         {
           "id": "04-1",
           "text": "More",
-          "start": 0.84,
-          "end": 1.252
+          "start": 0.8,
+          "end": 1.173
         },
         {
           "id": "04-2",
           "text": "than",
-          "start": 1.252,
-          "end": 1.663
+          "start": 1.173,
+          "end": 1.546
         },
         {
           "id": "04-3",
           "text": "137",
-          "start": 1.663,
-          "end": 2.0
+          "start": 1.546,
+          "end": 1.851
         },
         {
           "id": "04-4",
           "text": "million",
-          "start": 2.0,
-          "end": 2.636
+          "start": 1.851,
+          "end": 2.428
         },
         {
           "id": "04-5",
           "text": "dollars",
-          "start": 2.636,
-          "end": 3.273
+          "start": 2.428,
+          "end": 3.005
         },
         {
           "id": "04-6",
           "text": "has",
-          "start": 3.273,
-          "end": 3.61
+          "start": 3.005,
+          "end": 3.31
         },
         {
           "id": "04-7",
           "text": "been",
-          "start": 3.61,
-          "end": 4.021
+          "start": 3.31,
+          "end": 3.683
         },
         {
           "id": "04-8",
           "text": "spent",
-          "start": 4.021,
-          "end": 4.508
+          "start": 3.683,
+          "end": 4.124
         },
         {
           "id": "04-9",
           "text": "on",
-          "start": 4.508,
-          "end": 4.77
+          "start": 4.124,
+          "end": 4.361
         },
         {
           "id": "04-10",
           "text": "AI-made",
-          "start": 4.77,
-          "end": 5.331
+          "start": 4.361,
+          "end": 4.87
         },
         {
           "id": "04-11",
           "text": "ads",
-          "start": 5.331,
-          "end": 5.668
+          "start": 4.87,
+          "end": 5.175
         },
         {
           "id": "04-12",
           "text": "in",
-          "start": 5.668,
-          "end": 5.93
+          "start": 5.175,
+          "end": 5.413
         },
         {
           "id": "04-13",
           "text": "the",
-          "start": 5.93,
-          "end": 6.267
+          "start": 5.413,
+          "end": 5.718
         },
         {
           "id": "04-14",
           "text": "US",
-          "start": 6.267,
-          "end": 6.529
+          "start": 5.718,
+          "end": 5.956
         },
         {
           "id": "04-15",
           "text": "midterms.",
-          "start": 6.529,
-          "end": 7.24
+          "start": 5.956,
+          "end": 6.6
         },
         {
           "id": "04-16",
           "text": "Only",
-          "start": 7.75,
-          "end": 8.116
+          "start": 7.09,
+          "end": 7.421
         },
         {
           "id": "04-17",
           "text": "27",
-          "start": 8.116,
-          "end": 8.349
+          "start": 7.421,
+          "end": 7.632
         },
         {
           "id": "04-18",
           "text": "percent",
-          "start": 8.349,
-          "end": 8.915
+          "start": 7.632,
+          "end": 8.145
         },
         {
           "id": "04-19",
           "text": "carry",
-          "start": 8.915,
-          "end": 9.348
+          "start": 8.145,
+          "end": 8.536
         },
         {
           "id": "04-20",
           "text": "a",
-          "start": 9.348,
-          "end": 9.514
+          "start": 8.536,
+          "end": 8.687
         },
         {
           "id": "04-21",
           "text": "disclaimer.",
-          "start": 9.514,
-          "end": 10.28
+          "start": 8.687,
+          "end": 9.38
         }
       ]
     },
     {
       "frame": 5,
       "path": "assets/voice/05.wav",
-      "duration_s": 12.66,
+      "duration_s": 11.44,
       "words": [
         {
           "id": "05-0",
           "text": "Four.",
           "start": 0.15,
-          "end": 0.54
+          "end": 0.5
         },
         {
           "id": "05-1",
           "text": "AI",
-          "start": 0.77,
-          "end": 1.02
+          "start": 0.7,
+          "end": 0.925
         },
         {
           "id": "05-2",
           "text": "meets",
-          "start": 1.02,
-          "end": 1.484
+          "start": 0.925,
+          "end": 1.343
         },
         {
           "id": "05-3",
           "text": "quantum.",
-          "start": 1.484,
-          "end": 2.09
+          "start": 1.343,
+          "end": 1.89
         },
         {
           "id": "05-4",
           "text": "IBM's",
-          "start": 2.7,
-          "end": 3.092
+          "start": 2.46,
+          "end": 2.817
         },
         {
           "id": "05-5",
           "text": "AI",
-          "start": 3.092,
-          "end": 3.341
+          "start": 2.817,
+          "end": 3.045
         },
         {
           "id": "05-6",
           "text": "agents",
-          "start": 3.341,
-          "end": 3.876
+          "start": 3.045,
+          "end": 3.532
         },
         {
           "id": "05-7",
           "text": "designed",
-          "start": 3.876,
-          "end": 4.553
+          "start": 3.532,
+          "end": 4.149
         },
         {
           "id": "05-8",
           "text": "an",
-          "start": 4.553,
-          "end": 4.802
+          "start": 4.149,
+          "end": 4.377
         },
         {
           "id": "05-9",
           "text": "error-correction",
-          "start": 4.802,
-          "end": 5.978
+          "start": 4.377,
+          "end": 5.449
         },
         {
           "id": "05-10",
           "text": "decoder",
-          "start": 5.978,
-          "end": 6.584
+          "start": 5.449,
+          "end": 6.001
         },
         {
           "id": "05-11",
           "text": "estimated",
-          "start": 6.584,
-          "end": 7.333
+          "start": 6.001,
+          "end": 6.683
         },
         {
           "id": "05-12",
           "text": "to",
-          "start": 7.333,
-          "end": 7.582
+          "start": 6.683,
+          "end": 6.911
         },
         {
           "id": "05-13",
           "text": "run",
-          "start": 7.582,
-          "end": 7.903
+          "start": 6.911,
+          "end": 7.203
         },
         {
           "id": "05-14",
           "text": "52",
-          "start": 7.903,
-          "end": 8.152
+          "start": 7.203,
+          "end": 7.43
         },
         {
           "id": "05-15",
           "text": "times",
-          "start": 8.152,
-          "end": 8.615
+          "start": 7.43,
+          "end": 7.853
         },
         {
           "id": "05-16",
           "text": "faster,",
-          "start": 8.615,
-          "end": 9.15
+          "start": 7.853,
+          "end": 8.34
         },
         {
           "id": "05-17",
           "text": "for",
-          "start": 9.59,
-          "end": 9.856
+          "start": 8.69,
+          "end": 8.934
         },
         {
           "id": "05-18",
           "text": "about",
-          "start": 9.856,
-          "end": 10.241
+          "start": 8.934,
+          "end": 9.287
         },
         {
           "id": "05-19",
           "text": "26",
-          "start": 10.241,
-          "end": 10.448
+          "start": 9.287,
+          "end": 9.477
         },
         {
           "id": "05-20",
           "text": "dollars",
-          "start": 10.448,
-          "end": 10.95
+          "start": 9.477,
+          "end": 9.939
         },
         {
           "id": "05-21",
           "text": "of",
-          "start": 10.95,
-          "end": 11.157
+          "start": 9.939,
+          "end": 10.129
         },
         {
           "id": "05-22",
           "text": "compute.",
-          "start": 11.157,
-          "end": 11.66
+          "start": 10.129,
+          "end": 10.59
         }
       ]
     },
     {
       "frame": 6,
       "path": "assets/voice/06.wav",
-      "duration_s": 10.86,
+      "duration_s": 9.78,
       "words": [
         {
           "id": "06-0",
           "text": "Five.",
           "start": 0.15,
-          "end": 0.61
+          "end": 0.56
         },
         {
           "id": "06-1",
           "text": "A",
-          "start": 0.75,
-          "end": 0.881
+          "start": 0.73,
+          "end": 0.848
         },
         {
           "id": "06-2",
           "text": "rough",
-          "start": 0.881,
-          "end": 1.223
+          "start": 0.848,
+          "end": 1.154
         },
         {
           "id": "06-3",
           "text": "week",
-          "start": 1.223,
-          "end": 1.512
+          "start": 1.154,
+          "end": 1.412
         },
         {
           "id": "06-4",
           "text": "for",
-          "start": 1.512,
-          "end": 1.748
+          "start": 1.412,
+          "end": 1.624
         },
         {
           "id": "06-5",
           "text": "chips.",
-          "start": 1.748,
-          "end": 2.09
+          "start": 1.624,
+          "end": 1.93
         },
         {
           "id": "06-6",
           "text": "The",
-          "start": 2.58,
-          "end": 2.783
+          "start": 2.37,
+          "end": 2.551
         },
         {
           "id": "06-7",
           "text": "Nasdaq",
-          "start": 2.783,
-          "end": 3.122
+          "start": 2.551,
+          "end": 2.852
         },
         {
           "id": "06-8",
           "text": "fell",
-          "start": 3.122,
-          "end": 3.37
+          "start": 2.852,
+          "end": 3.073
         },
         {
           "id": "06-9",
           "text": "about",
-          "start": 3.37,
-          "end": 3.664
+          "start": 3.073,
+          "end": 3.335
         },
         {
           "id": "06-10",
           "text": "four",
-          "start": 3.664,
-          "end": 3.912
+          "start": 3.335,
+          "end": 3.556
         },
         {
           "id": "06-11",
           "text": "and",
-          "start": 3.912,
-          "end": 4.115
+          "start": 3.556,
+          "end": 3.737
         },
         {
           "id": "06-12",
           "text": "a",
-          "start": 4.115,
-          "end": 4.228
+          "start": 3.737,
+          "end": 3.837
         },
         {
           "id": "06-13",
           "text": "half",
-          "start": 4.228,
-          "end": 4.476
+          "start": 3.837,
+          "end": 4.058
         },
         {
           "id": "06-14",
           "text": "percent,",
-          "start": 4.476,
-          "end": 4.86
+          "start": 4.058,
+          "end": 4.4
         },
         {
           "id": "06-15",
           "text": "its",
-          "start": 5.15,
-          "end": 5.384
+          "start": 4.66,
+          "end": 4.867
         },
         {
           "id": "06-16",
           "text": "worst",
-          "start": 5.384,
-          "end": 5.721
+          "start": 4.867,
+          "end": 5.166
         },
         {
           "id": "06-17",
           "text": "week",
-          "start": 5.721,
-          "end": 6.007
+          "start": 5.166,
+          "end": 5.418
         },
         {
           "id": "06-18",
           "text": "since",
-          "start": 6.007,
-          "end": 6.344
+          "start": 5.418,
+          "end": 5.717
         },
         {
           "id": "06-19",
           "text": "June,",
-          "start": 6.344,
-          "end": 6.63
+          "start": 5.717,
+          "end": 5.97
         },
         {
           "id": "06-20",
           "text": "and",
-          "start": 6.99,
-          "end": 7.236
+          "start": 6.31,
+          "end": 6.535
         },
         {
           "id": "06-21",
           "text": "the",
-          "start": 7.236,
-          "end": 7.482
+          "start": 6.535,
+          "end": 6.759
         },
         {
           "id": "06-22",
           "text": "main",
-          "start": 7.482,
-          "end": 7.783
+          "start": 6.759,
+          "end": 7.034
         },
         {
           "id": "06-23",
           "text": "chip",
-          "start": 7.783,
-          "end": 8.083
+          "start": 7.034,
+          "end": 7.308
         },
         {
           "id": "06-24",
           "text": "ETF",
-          "start": 8.083,
-          "end": 8.329
+          "start": 7.308,
+          "end": 7.533
         },
         {
           "id": "06-25",
           "text": "dropped",
-          "start": 8.329,
-          "end": 8.794
+          "start": 7.533,
+          "end": 7.957
         },
         {
           "id": "06-26",
           "text": "about",
-          "start": 8.794,
-          "end": 9.149
+          "start": 7.957,
+          "end": 8.281
         },
         {
           "id": "06-27",
           "text": "ten",
-          "start": 9.149,
-          "end": 9.395
+          "start": 8.281,
+          "end": 8.506
         },
         {
           "id": "06-28",
           "text": "percent.",
-          "start": 9.395,
-          "end": 9.86
+          "start": 8.506,
+          "end": 8.93
         }
       ]
     },
     {
       "frame": 7,
       "path": "assets/voice/07.wav",
-      "duration_s": 10.36,
+      "duration_s": 9.28,
       "words": [
         {
           "id": "07-0",
           "text": "Six.",
           "start": 0.15,
-          "end": 0.56
+          "end": 0.53
         },
         {
           "id": "07-1",
           "text": "South",
-          "start": 0.95,
-          "end": 1.355
+          "start": 0.89,
+          "end": 1.253
         },
         {
           "id": "07-2",
           "text": "Korea's",
-          "start": 1.355,
-          "end": 1.822
+          "start": 1.253,
+          "end": 1.673
         },
         {
           "id": "07-3",
           "text": "finance",
-          "start": 1.822,
-          "end": 2.351
+          "start": 1.673,
+          "end": 2.148
         },
         {
           "id": "07-4",
           "text": "minister",
-          "start": 2.351,
-          "end": 2.943
+          "start": 2.148,
+          "end": 2.679
         },
         {
           "id": "07-5",
           "text": "says",
-          "start": 2.943,
-          "end": 3.285
+          "start": 2.679,
+          "end": 2.987
         },
         {
           "id": "07-6",
           "text": "the",
-          "start": 3.285,
-          "end": 3.565
+          "start": 2.987,
+          "end": 3.238
         },
         {
           "id": "07-7",
           "text": "chip",
-          "start": 3.565,
-          "end": 3.908
+          "start": 3.238,
+          "end": 3.546
         },
         {
           "id": "07-8",
           "text": "boom",
-          "start": 3.908,
-          "end": 4.25
+          "start": 3.546,
+          "end": 3.853
         },
         {
           "id": "07-9",
           "text": "will",
-          "start": 4.25,
-          "end": 4.593
+          "start": 3.853,
+          "end": 4.161
         },
         {
           "id": "07-10",
           "text": "last",
-          "start": 4.593,
-          "end": 4.935
+          "start": 4.161,
+          "end": 4.468
         },
         {
           "id": "07-11",
           "text": "at",
-          "start": 4.935,
-          "end": 5.153
+          "start": 4.468,
+          "end": 4.664
         },
         {
           "id": "07-12",
           "text": "least",
-          "start": 5.153,
-          "end": 5.558
+          "start": 4.664,
+          "end": 5.027
         },
         {
           "id": "07-13",
           "text": "through",
-          "start": 5.558,
-          "end": 6.088
+          "start": 5.027,
+          "end": 5.502
         },
         {
           "id": "07-14",
           "text": "2027,",
-          "start": 6.088,
-          "end": 6.43
+          "start": 5.502,
+          "end": 5.81
         },
         {
           "id": "07-15",
           "text": "because",
-          "start": 6.91,
-          "end": 7.437
+          "start": 6.23,
+          "end": 6.703
         },
         {
           "id": "07-16",
           "text": "demand",
-          "start": 7.437,
-          "end": 7.902
+          "start": 6.703,
+          "end": 7.121
         },
         {
           "id": "07-17",
           "text": "still",
-          "start": 7.902,
-          "end": 8.306
+          "start": 7.121,
+          "end": 7.483
         },
         {
           "id": "07-18",
           "text": "outpaces",
-          "start": 8.306,
-          "end": 8.895
+          "start": 7.483,
+          "end": 8.012
         },
         {
           "id": "07-19",
           "text": "supply.",
-          "start": 8.895,
-          "end": 9.36
+          "start": 8.012,
+          "end": 8.43
         }
       ]
     },
     {
       "frame": 8,
       "path": "assets/voice/08.wav",
-      "duration_s": 10.93,
+      "duration_s": 9.86,
       "words": [
         {
           "id": "08-0",
           "text": "Seven.",
           "start": 0.15,
-          "end": 0.54
+          "end": 0.52
         },
         {
           "id": "08-1",
           "text": "China's",
-          "start": 0.8,
-          "end": 1.336
+          "start": 0.75,
+          "end": 1.228
         },
         {
           "id": "08-2",
           "text": "chip",
-          "start": 1.336,
-          "end": 1.729
+          "start": 1.228,
+          "end": 1.579
         },
         {
           "id": "08-3",
           "text": "exports",
-          "start": 1.729,
-          "end": 2.336
+          "start": 1.579,
+          "end": 2.121
         },
         {
           "id": "08-4",
           "text": "jumped",
-          "start": 2.336,
-          "end": 2.871
+          "start": 2.121,
+          "end": 2.599
         },
         {
           "id": "08-5",
           "text": "136",
-          "start": 2.871,
-          "end": 3.193
+          "start": 2.599,
+          "end": 2.886
         },
         {
           "id": "08-6",
           "text": "percent",
-          "start": 3.193,
-          "end": 3.8
+          "start": 2.886,
+          "end": 3.428
         },
         {
           "id": "08-7",
           "text": "in",
-          "start": 3.8,
-          "end": 4.05
+          "start": 3.428,
+          "end": 3.651
         },
         {
           "id": "08-8",
           "text": "September,",
-          "start": 4.05,
-          "end": 4.8
+          "start": 3.651,
+          "end": 4.32
         },
         {
           "id": "08-9",
           "text": "to",
-          "start": 5.24,
-          "end": 5.51
+          "start": 4.71,
+          "end": 4.952
         },
         {
           "id": "08-10",
           "text": "about",
-          "start": 5.51,
-          "end": 6.01
+          "start": 4.952,
+          "end": 5.402
         },
         {
           "id": "08-11",
           "text": "45",
-          "start": 6.01,
-          "end": 6.28
+          "start": 5.402,
+          "end": 5.644
         },
         {
           "id": "08-12",
           "text": "billion",
-          "start": 6.28,
-          "end": 6.935
+          "start": 5.644,
+          "end": 6.232
         },
         {
           "id": "08-13",
           "text": "dollars,",
-          "start": 6.935,
-          "end": 7.59
+          "start": 6.232,
+          "end": 6.82
         },
         {
           "id": "08-14",
           "text": "driven",
-          "start": 7.97,
-          "end": 8.409
+          "start": 7.19,
+          "end": 7.597
         },
         {
           "id": "08-15",
           "text": "mostly",
-          "start": 8.409,
-          "end": 8.848
+          "start": 7.597,
+          "end": 8.005
         },
         {
           "id": "08-16",
           "text": "by",
-          "start": 8.848,
-          "end": 9.052
+          "start": 8.005,
+          "end": 8.195
         },
         {
           "id": "08-17",
           "text": "higher",
-          "start": 9.052,
-          "end": 9.491
+          "start": 8.195,
+          "end": 8.603
         },
         {
           "id": "08-18",
           "text": "prices.",
-          "start": 9.491,
-          "end": 9.93
+          "start": 8.603,
+          "end": 9.01
         }
       ]
     },
     {
       "frame": 9,
       "path": "assets/voice/09.wav",
-      "duration_s": 9.03,
+      "duration_s": 8.15,
       "words": [
         {
           "id": "09-0",
           "text": "Eight.",
           "start": 0.15,
-          "end": 4.23
+          "end": 3.87
         },
         {
           "id": "09-1",
           "text": "Intel",
-          "start": 4.65,
-          "end": 4.839
+          "start": 4.24,
+          "end": 4.411
         },
         {
           "id": "09-2",
           "text": "chief",
-          "start": 4.839,
-          "end": 5.027
+          "start": 4.411,
+          "end": 4.581
         },
         {
           "id": "09-3",
           "text": "Lip-Bu",
-          "start": 5.027,
-          "end": 5.216
+          "start": 4.581,
+          "end": 4.752
         },
         {
           "id": "09-4",
           "text": "Tan",
-          "start": 5.216,
-          "end": 5.346
+          "start": 4.752,
+          "end": 4.87
         },
         {
           "id": "09-5",
           "text": "says",
-          "start": 5.346,
-          "end": 5.506
+          "start": 4.87,
+          "end": 5.015
         },
         {
           "id": "09-6",
           "text": "the",
-          "start": 5.506,
-          "end": 5.636
+          "start": 5.015,
+          "end": 5.133
         },
         {
           "id": "09-7",
           "text": "US",
-          "start": 5.636,
-          "end": 5.738
+          "start": 5.133,
+          "end": 5.225
         },
         {
           "id": "09-8",
           "text": "government's",
-          "start": 5.738,
-          "end": 6.101
+          "start": 5.225,
+          "end": 5.553
         },
         {
           "id": "09-9",
           "text": "stake",
-          "start": 6.101,
-          "end": 6.289
+          "start": 5.553,
+          "end": 5.724
         },
         {
           "id": "09-10",
           "text": "gives",
-          "start": 6.289,
-          "end": 6.478
+          "start": 5.724,
+          "end": 5.895
         },
         {
           "id": "09-11",
           "text": "Washington",
-          "start": 6.478,
-          "end": 6.811
+          "start": 5.895,
+          "end": 6.197
         },
         {
           "id": "09-12",
           "text": "no",
-          "start": 6.811,
-          "end": 6.913
+          "start": 6.197,
+          "end": 6.289
         },
         {
           "id": "09-13",
           "text": "say",
-          "start": 6.913,
-          "end": 7.044
+          "start": 6.289,
+          "end": 6.407
         },
         {
           "id": "09-14",
           "text": "in",
-          "start": 7.044,
-          "end": 7.145
+          "start": 6.407,
+          "end": 6.499
         },
         {
           "id": "09-15",
           "text": "how",
-          "start": 7.145,
-          "end": 7.276
+          "start": 6.499,
+          "end": 6.617
         },
         {
           "id": "09-16",
           "text": "Intel",
-          "start": 7.276,
-          "end": 7.464
+          "start": 6.617,
+          "end": 6.788
         },
         {
           "id": "09-17",
           "text": "runs",
-          "start": 7.464,
-          "end": 7.624
+          "start": 6.788,
+          "end": 6.932
         },
         {
           "id": "09-18",
           "text": "its",
-          "start": 7.624,
-          "end": 7.754
+          "start": 6.932,
+          "end": 7.05
         },
         {
           "id": "09-19",
           "text": "business.",
-          "start": 7.754,
-          "end": 8.03
+          "start": 7.05,
+          "end": 7.3
         }
       ]
     },
     {
       "frame": 10,
       "path": "assets/voice/10.wav",
-      "duration_s": 10.95,
+      "duration_s": 9.92,
       "words": [
         {
           "id": "10-0",
           "text": "Nine.",
           "start": 0.15,
-          "end": 0.56
+          "end": 0.52
         },
         {
           "id": "10-1",
           "text": "Google",
-          "start": 0.95,
-          "end": 1.778
+          "start": 0.88,
+          "end": 1.628
         },
         {
           "id": "10-2",
           "text": "showed",
-          "start": 1.778,
-          "end": 2.606
+          "start": 1.628,
+          "end": 2.375
         },
         {
           "id": "10-3",
           "text": "magic",
-          "start": 2.606,
-          "end": 3.324
+          "start": 2.375,
+          "end": 3.023
         },
         {
           "id": "10-4",
           "text": "state",
-          "start": 3.324,
-          "end": 4.041
+          "start": 3.023,
+          "end": 3.671
         },
         {
           "id": "10-5",
           "text": "cultivation",
-          "start": 4.041,
-          "end": 5.421
+          "start": 3.671,
+          "end": 4.917
         },
         {
           "id": "10-6",
           "text": "on",
-          "start": 5.421,
-          "end": 5.808
+          "start": 4.917,
+          "end": 5.266
         },
         {
           "id": "10-7",
           "text": "its",
-          "start": 5.808,
-          "end": 6.305
+          "start": 5.266,
+          "end": 5.714
         },
         {
           "id": "10-8",
           "text": "Willow",
-          "start": 6.305,
-          "end": 7.133
+          "start": 5.714,
+          "end": 6.462
         },
         {
           "id": "10-9",
           "text": "chip,",
-          "start": 7.133,
-          "end": 7.74
+          "start": 6.462,
+          "end": 7.01
         },
         {
           "id": "10-10",
           "text": "cutting",
-          "start": 8.33,
-          "end": 8.527
+          "start": 7.55,
+          "end": 7.735
         },
         {
           "id": "10-11",
           "text": "errors",
-          "start": 8.527,
-          "end": 8.7
+          "start": 7.735,
+          "end": 7.897
         },
         {
           "id": "10-12",
           "text": "about",
-          "start": 8.7,
-          "end": 8.851
+          "start": 7.897,
+          "end": 8.039
         },
         {
           "id": "10-13",
           "text": "40",
-          "start": 8.851,
-          "end": 8.932
+          "start": 8.039,
+          "end": 8.115
         },
         {
           "id": "10-14",
           "text": "times",
-          "start": 8.932,
-          "end": 9.082
+          "start": 8.115,
+          "end": 8.256
         },
         {
           "id": "10-15",
           "text": "and",
-          "start": 9.082,
-          "end": 9.186
+          "start": 8.256,
+          "end": 8.353
         },
         {
           "id": "10-16",
           "text": "reaching",
-          "start": 9.186,
-          "end": 9.406
+          "start": 8.353,
+          "end": 8.56
         },
         {
           "id": "10-17",
           "text": "99.99",
-          "start": 9.406,
-          "end": 9.533
+          "start": 8.56,
+          "end": 8.679
         },
         {
           "id": "10-18",
           "text": "percent",
-          "start": 9.533,
-          "end": 9.73
+          "start": 8.679,
+          "end": 8.864
         },
         {
           "id": "10-19",
           "text": "fidelity.",
-          "start": 9.73,
-          "end": 9.95
+          "start": 8.864,
+          "end": 9.07
         }
       ]
     },
     {
       "frame": 11,
       "path": "assets/voice/11.wav",
-      "duration_s": 10.23,
+      "duration_s": 9.19,
       "words": [
         {
           "id": "11-0",
           "text": "And",
           "start": 0.15,
-          "end": 0.39
+          "end": 0.35
         },
         {
           "id": "11-1",
           "text": "ten.",
-          "start": 0.39,
-          "end": 0.63
+          "start": 0.35,
+          "end": 0.55
         },
         {
           "id": "11-2",
           "text": "DARPA",
-          "start": 1.19,
-          "end": 1.537
+          "start": 1.09,
+          "end": 1.399
         },
         {
           "id": "11-3",
           "text": "moved",
-          "start": 1.537,
-          "end": 1.885
+          "start": 1.399,
+          "end": 1.709
         },
         {
           "id": "11-4",
           "text": "Atom",
-          "start": 1.885,
-          "end": 2.179
+          "start": 1.709,
+          "end": 1.97
         },
         {
           "id": "11-5",
           "text": "Computing,",
-          "start": 2.179,
-          "end": 2.74
+          "start": 1.97,
+          "end": 2.47
         },
         {
           "id": "11-6",
           "text": "Diraq,",
-          "start": 3.03,
-          "end": 3.58
+          "start": 2.77,
+          "end": 3.24
         },
         {
           "id": "11-7",
           "text": "IBM",
-          "start": 3.94,
-          "end": 4.241
+          "start": 3.56,
+          "end": 3.832
         },
         {
           "id": "11-8",
           "text": "and",
-          "start": 4.241,
-          "end": 4.543
+          "start": 3.832,
+          "end": 4.105
         },
         {
           "id": "11-9",
           "text": "IonQ",
-          "start": 4.543,
-          "end": 4.911
+          "start": 4.105,
+          "end": 4.437
         },
         {
           "id": "11-10",
           "text": "into",
-          "start": 4.911,
-          "end": 5.279
+          "start": 4.437,
+          "end": 4.77
         },
         {
           "id": "11-11",
           "text": "the",
-          "start": 5.279,
-          "end": 5.581
+          "start": 4.77,
+          "end": 5.042
         },
         {
           "id": "11-12",
           "text": "final",
-          "start": 5.581,
-          "end": 6.016
+          "start": 5.042,
+          "end": 5.436
         },
         {
           "id": "11-13",
           "text": "stage",
-          "start": 6.016,
-          "end": 6.451
+          "start": 5.436,
+          "end": 5.829
         },
         {
           "id": "11-14",
           "text": "of",
-          "start": 6.451,
-          "end": 6.685
+          "start": 5.829,
+          "end": 6.041
         },
         {
           "id": "11-15",
           "text": "its",
-          "start": 6.685,
-          "end": 6.987
+          "start": 6.041,
+          "end": 6.313
         },
         {
           "id": "11-16",
           "text": "Quantum",
-          "start": 6.987,
-          "end": 7.556
+          "start": 6.313,
+          "end": 6.827
         },
         {
           "id": "11-17",
           "text": "Benchmarking",
-          "start": 7.556,
-          "end": 8.46
+          "start": 6.827,
+          "end": 7.644
         },
         {
           "id": "11-18",
           "text": "Initiative.",
-          "start": 8.46,
-          "end": 9.23
+          "start": 7.644,
+          "end": 8.34
         }
       ]
     },
     {
       "frame": 12,
       "path": "assets/voice/12.wav",
-      "duration_s": 5.07,
+      "duration_s": 4.51,
       "words": [
         {
           "id": "12-0",
           "text": "That's",
           "start": 0.15,
-          "end": 0.512
+          "end": 0.47
         },
         {
           "id": "12-1",
           "text": "the",
-          "start": 0.512,
-          "end": 0.763
+          "start": 0.47,
+          "end": 0.692
         },
         {
           "id": "12-2",
           "text": "top",
-          "start": 0.763,
-          "end": 1.013
+          "start": 0.692,
+          "end": 0.913
         },
         {
           "id": "12-3",
           "text": "ten",
-          "start": 1.013,
-          "end": 1.264
+          "start": 0.913,
+          "end": 1.135
         },
         {
           "id": "12-4",
           "text": "in",
-          "start": 1.264,
-          "end": 1.459
+          "start": 1.135,
+          "end": 1.307
         },
         {
           "id": "12-5",
           "text": "AI,",
-          "start": 1.459,
-          "end": 1.654
+          "start": 1.307,
+          "end": 1.48
         },
         {
           "id": "12-6",
           "text": "chips",
-          "start": 1.654,
-          "end": 2.016
+          "start": 1.48,
+          "end": 1.8
         },
         {
           "id": "12-7",
           "text": "and",
-          "start": 2.016,
-          "end": 2.267
+          "start": 1.8,
+          "end": 2.021
         },
         {
           "id": "12-8",
           "text": "quantum.",
-          "start": 2.267,
-          "end": 2.74
+          "start": 2.021,
+          "end": 2.44
         },
         {
           "id": "12-9",
           "text": "See",
-          "start": 3.12,
-          "end": 3.334
+          "start": 2.81,
+          "end": 3.001
         },
         {
           "id": "12-10",
           "text": "you",
-          "start": 3.334,
-          "end": 3.548
+          "start": 3.001,
+          "end": 3.193
         },
         {
           "id": "12-11",
           "text": "next",
-          "start": 3.548,
-          "end": 3.809
+          "start": 3.193,
+          "end": 3.426
         },
         {
           "id": "12-12",
           "text": "week.",
-          "start": 3.809,
-          "end": 4.07
+          "start": 3.426,
+          "end": 3.66
         }
       ]
     }

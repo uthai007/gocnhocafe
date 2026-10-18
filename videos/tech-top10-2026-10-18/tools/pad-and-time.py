@@ -12,7 +12,7 @@ import json, os, re, shutil
 import numpy as np
 import soundfile as sf
 
-LEAD, TAIL, HOP = 0.15, 1.0, 0.01
+LEAD, TAIL, HOP = 0.15, 0.85, 0.01
 meta = json.load(open("audio_meta.json"))
 script = open("SCRIPT.md").read()
 lines = {}

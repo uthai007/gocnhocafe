@@ -1,5 +1,5 @@
 <template id="s04-ads-template">
-  <div id="root" data-composition-id="04-ads" data-start="0" data-duration="11.68" data-width="1080" data-height="1920">
+  <div id="root" data-composition-id="04-ads" data-start="0" data-duration="10.63" data-width="1080" data-height="1920">
     <style>
       #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #e9f7ff; font-family: Montserrat, sans-serif; }
       #s04-ads-ground { position: absolute; inset: 0; background:
@@ -34,12 +34,12 @@
       #s04-ads-stage .ring { fill: none; stroke: #38d9ff; stroke-width: 2.5; }
 
     </style>
-    <div id="s04-ads-ground" class="clip" data-start="0" data-duration="11.68" data-track-index="0">
+    <div id="s04-ads-ground" class="clip" data-start="0" data-duration="10.63" data-track-index="0">
       <div class="grid"></div>
       <svg viewBox="0 0 1080 1920"><path d="M0 300 H110 L160 350 H300" class="tr"/><path d="M0 300 H110 L160 350 H300" class="trg" pathLength="100"/><path d="M0 1300 H90 L140 1250 H260" class="tr"/><path d="M0 1300 H90 L140 1250 H260" class="trg" pathLength="100"/><path d="M1080 240 H960 L910 290 H780" class="tr"/><path d="M1080 240 H960 L910 290 H780" class="trg" pathLength="100"/><path d="M1080 1180 H990 L940 1130 H820" class="tr"/><path d="M1080 1180 H990 L940 1130 H820" class="trg" pathLength="100"/><path d="M200 1920 V1830 L250 1780 H420" class="tr"/><path d="M200 1920 V1830 L250 1780 H420" class="trg" pathLength="100"/><path d="M880 1920 V1840 L830 1790 H700" class="tr"/><path d="M880 1920 V1840 L830 1790 H700" class="trg" pathLength="100"/></svg>
       <div class="vig"></div>
     </div>
-    <div id="s04-ads-stage" class="clip" data-start="0" data-duration="11.68" data-track-index="1">
+    <div id="s04-ads-stage" class="clip" data-start="0" data-duration="10.63" data-track-index="1">
       <div id="s04-ads-cam" class="abs" style="left:0;top:0;width:1080px;height:1920px">
         <div class="abs big" id="n4-num" style="left:60px;top:110px;font-size:200px;color:#38d9ff;text-shadow:0 0 30px #38d9ff">03</div>
         <div class="abs mono" id="n4-cat" style="left:330px;top:140px;font-size:24px;letter-spacing:0.16em;color:#03101f;background:#38d9ff;padding:8px 18px;box-shadow:0 0 20px #38d9ff">AI</div>
@@ -63,7 +63,7 @@
     <script>
       (function () {
         const tl = gsap.timeline({ paused: true });
-        const D = 11.28;
+        const D = 10.23;
         const q = (s) => "#s04-ads-stage " + s;
         const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
         const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: d || 0.55, ease: "power3.out" }, at);
@@ -79,9 +79,9 @@
         tl.fromTo("#s04-ads-cam", { scale: 1 }, { scale: 1.04, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
         tl.fromTo(q("#n4-num"), { opacity: 0, x: -50 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 0.05);
         fade("#n4-cat", 0.25); pop("#n4-h", 0.3, 0.6); fade("#n4-src", 0.8);
-        pop("#a4-spend", 1.263); count("#a4-spend-v", 1.263, 0, 137, 0, "$", "M+", 1.1);
-        tl.fromTo(q("#a4-ring"), { strokeDasharray: "0 848.2" }, { strokeDasharray: "229.0 848.2", duration: 1.0, ease: "power2.out" }, 7.75);
-        pop("#a4-pct", 7.75); count("#a4-pv", 7.75, 0, 27, 0, "", "%", 1.0); pop("#a4-leg", 9.514);
+        pop("#a4-spend", 1.146); count("#a4-spend-v", 1.146, 0, 137, 0, "$", "M+", 1.1);
+        tl.fromTo(q("#a4-ring"), { strokeDasharray: "0 848.2" }, { strokeDasharray: "229.0 848.2", duration: 1.0, ease: "power2.out" }, 7.09);
+        pop("#a4-pct", 7.09); count("#a4-pv", 7.09, 0, 27, 0, "", "%", 1.0); pop("#a4-leg", 8.687);
 
 
         window.__timelines["04-ads"] = tl;

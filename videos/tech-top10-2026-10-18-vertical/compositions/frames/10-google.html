@@ -1,5 +1,5 @@
 <template id="s10-google-template">
-  <div id="root" data-composition-id="10-google" data-start="0" data-duration="11.45" data-width="1080" data-height="1920">
+  <div id="root" data-composition-id="10-google" data-start="0" data-duration="10.42" data-width="1080" data-height="1920">
     <style>
       #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #e9f7ff; font-family: Montserrat, sans-serif; }
       #s10-google-ground { position: absolute; inset: 0; background:
@@ -34,12 +34,12 @@
       #s10-google-stage .ring { fill: none; stroke: #38d9ff; stroke-width: 2.5; }
 
     </style>
-    <div id="s10-google-ground" class="clip" data-start="0" data-duration="11.45" data-track-index="0">
+    <div id="s10-google-ground" class="clip" data-start="0" data-duration="10.42" data-track-index="0">
       <div class="grid"></div>
       <svg viewBox="0 0 1080 1920"><path d="M0 300 H110 L160 350 H300" class="tr"/><path d="M0 300 H110 L160 350 H300" class="trg" pathLength="100"/><path d="M0 1300 H90 L140 1250 H260" class="tr"/><path d="M0 1300 H90 L140 1250 H260" class="trg" pathLength="100"/><path d="M1080 240 H960 L910 290 H780" class="tr"/><path d="M1080 240 H960 L910 290 H780" class="trg" pathLength="100"/><path d="M1080 1180 H990 L940 1130 H820" class="tr"/><path d="M1080 1180 H990 L940 1130 H820" class="trg" pathLength="100"/><path d="M200 1920 V1830 L250 1780 H420" class="tr"/><path d="M200 1920 V1830 L250 1780 H420" class="trg" pathLength="100"/><path d="M880 1920 V1840 L830 1790 H700" class="tr"/><path d="M880 1920 V1840 L830 1790 H700" class="trg" pathLength="100"/></svg>
       <div class="vig"></div>
     </div>
-    <div id="s10-google-stage" class="clip" data-start="0" data-duration="11.45" data-track-index="1">
+    <div id="s10-google-stage" class="clip" data-start="0" data-duration="10.42" data-track-index="1">
       <div id="s10-google-cam" class="abs" style="left:0;top:0;width:1080px;height:1920px">
         <div class="abs big" id="n10-num" style="left:60px;top:110px;font-size:200px;color:#3dffa0;text-shadow:0 0 30px #3dffa0">09</div>
         <div class="abs mono" id="n10-cat" style="left:330px;top:140px;font-size:24px;letter-spacing:0.16em;color:#03101f;background:#3dffa0;padding:8px 18px;box-shadow:0 0 20px #3dffa0">QUANTUM</div>
@@ -58,7 +58,7 @@
     <script>
       (function () {
         const tl = gsap.timeline({ paused: true });
-        const D = 10.95;
+        const D = 9.92;
         const q = (s) => "#s10-google-stage " + s;
         const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
         const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: d || 0.55, ease: "power3.out" }, at);
@@ -75,7 +75,7 @@
         tl.fromTo(q("#n10-num"), { opacity: 0, x: -50 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 0.05);
         fade("#n10-cat", 0.25); pop("#n10-h", 0.3, 0.6); fade("#n10-src", 0.8);
         tl.fromTo(q(".qb"), { opacity: 0, scale: 0.3 }, { opacity: 0.85, scale: 1, transformOrigin: "50% 50%", duration: 0.3, stagger: 0.03 }, 0.8); fade("#g10-chip", 1.4);
-        pop("#g10-err", 8.33); pop("#g10-fid", 9.406); pop("#g10-cav", 10.13);
+        pop("#g10-err", 7.55); pop("#g10-fid", 8.56); pop("#g10-cav", 9.264000000000001);
 
 
         window.__timelines["10-google"] = tl;
