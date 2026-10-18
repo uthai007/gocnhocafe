@@ -1,5 +1,5 @@
 <template id="s08-china-template">
-  <div id="root" data-composition-id="08-china" data-start="0" data-duration="10.7" data-width="1920" data-height="1080">
+  <div id="root" data-composition-id="08-china" data-start="0" data-duration="11.43" data-width="1920" data-height="1080">
     <style>
       #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #e9f7ff; font-family: Montserrat, sans-serif; }
       #s08-china-ground { position: absolute; inset: 0; background:
@@ -34,12 +34,12 @@
       #s08-china-stage .ring { fill: none; stroke: #38d9ff; stroke-width: 2.5; }
 
     </style>
-    <div id="s08-china-ground" class="clip" data-start="0" data-duration="10.7" data-track-index="0">
+    <div id="s08-china-ground" class="clip" data-start="0" data-duration="11.43" data-track-index="0">
       <div class="grid"></div>
       <svg viewBox="0 0 1920 1080"><path d="M0 210 H170 L230 270 H420" class="tr"/><path d="M0 210 H170 L230 270 H420" class="trg" pathLength="100"/><path d="M0 860 H120 L180 800 H360 L400 760" class="tr"/><path d="M0 860 H120 L180 800 H360 L400 760" class="trg" pathLength="100"/><path d="M1920 180 H1760 L1700 240 H1520" class="tr"/><path d="M1920 180 H1760 L1700 240 H1520" class="trg" pathLength="100"/><path d="M1920 900 H1800 L1740 840 H1560" class="tr"/><path d="M1920 900 H1800 L1740 840 H1560" class="trg" pathLength="100"/><path d="M260 0 V60 L320 120 H520" class="tr"/><path d="M260 0 V60 L320 120 H520" class="trg" pathLength="100"/><path d="M1660 1080 V1010 L1600 950 H1450" class="tr"/><path d="M1660 1080 V1010 L1600 950 H1450" class="trg" pathLength="100"/></svg>
       <div class="vig"></div>
     </div>
-    <div id="s08-china-stage" class="clip" data-start="0" data-duration="10.7" data-track-index="1">
+    <div id="s08-china-stage" class="clip" data-start="0" data-duration="11.43" data-track-index="1">
       <div id="s08-china-cam" class="abs" style="left:0;top:0;width:1920px;height:1080px">
         <div class="abs big" id="n8-num" style="left:100px;top:120px;font-size:250px;color:#ffb547;text-shadow:0 0 30px #ffb547">07</div>
         <div class="abs mono" id="n8-cat" style="left:110px;top:420px;font-size:24px;letter-spacing:0.16em;color:#03101f;background:#ffb547;padding:8px 18px;box-shadow:0 0 20px #ffb547">CHIPS</div>
@@ -58,7 +58,7 @@
     <script>
       (function () {
         const tl = gsap.timeline({ paused: true });
-        const D = 10.2;
+        const D = 10.93;
         const q = (s) => "#s08-china-stage " + s;
         const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
         const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: d || 0.55, ease: "power3.out" }, at);
@@ -74,8 +74,8 @@
         tl.fromTo("#s08-china-cam", { scale: 1 }, { scale: 1.04, duration: D, ease: "none", transformOrigin: "50% 45%" }, 0);
         tl.fromTo(q("#n8-num"), { opacity: 0, x: -50 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 0.05);
         fade("#n8-cat", 0.25); pop("#n8-h", 0.3, 0.6); fade("#n8-src", 0.8);
-        pop("#x8-big", 2.108); count("#x8-v", 2.108, 0, 136, 0, "+", "%", 1.1);
-        pop("#x8-val", 5.229); pop("#x8-vol", 7.946999999999999); pop("#x8-why", 8.347);
+        pop("#x8-big", 2.471); count("#x8-v", 2.471, 0, 136, 0, "+", "%", 1.1);
+        pop("#x8-val", 6.01); pop("#x8-vol", 9.091); pop("#x8-why", 9.491);
 
 
         window.__timelines["08-china"] = tl;

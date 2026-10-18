@@ -1,5 +1,5 @@
 {
-  "total_duration_s": 118.72,
+  "total_duration_s": 129.66,
   "width": 1920,
   "height": 1080,
   "groups": [
@@ -7,2651 +7,2606 @@
       "id": "caption-group-0",
       "frame": 1,
       "start": 0.15,
-      "end": 0.933,
+      "end": 1.05,
       "text": "Sunday,",
       "words": [
         {
           "id": "caption-word-0-0",
           "text": "Sunday,",
           "start": 0.15,
-          "end": 0.933
+          "end": 1.05
         }
       ]
     },
     {
       "id": "caption-group-1",
       "frame": 1,
-      "start": 0.933,
-      "end": 2.88,
-      "text": "18 October 2026.",
+      "start": 1.05,
+      "end": 2.73,
+      "text": "October 18th,",
       "words": [
         {
           "id": "caption-word-1-0",
-          "text": "18",
-          "start": 0.933,
-          "end": 1.298
+          "text": "October",
+          "start": 1.05,
+          "end": 2.07
         },
         {
           "id": "caption-word-1-1",
-          "text": "October",
-          "start": 1.298,
-          "end": 2.186
-        },
-        {
-          "id": "caption-word-1-2",
-          "text": "2026.",
-          "start": 2.186,
-          "end": 2.76
+          "text": "18th,",
+          "start": 2.07,
+          "end": 2.73
         }
       ]
     },
     {
       "id": "caption-group-2",
       "frame": 1,
-      "start": 3.17,
-      "end": 3.672,
-      "text": "Here are",
+      "start": 2.73,
+      "end": 3.51,
+      "text": "2026.",
       "words": [
         {
           "id": "caption-word-2-0",
-          "text": "Here",
-          "start": 3.17,
-          "end": 3.446
-        },
-        {
-          "id": "caption-word-2-1",
-          "text": "are",
-          "start": 3.446,
-          "end": 3.672
+          "text": "2026.",
+          "start": 2.73,
+          "end": 3.39
         }
       ]
     },
     {
       "id": "caption-group-3",
       "frame": 1,
-      "start": 3.672,
-      "end": 4.125,
-      "text": "the ten",
+      "start": 3.9,
+      "end": 4.468,
+      "text": "Here are",
       "words": [
         {
           "id": "caption-word-3-0",
-          "text": "the",
-          "start": 3.672,
-          "end": 3.898
+          "text": "Here",
+          "start": 3.9,
+          "end": 4.212
         },
         {
           "id": "caption-word-3-1",
-          "text": "ten",
-          "start": 3.898,
-          "end": 4.125
+          "text": "are",
+          "start": 4.212,
+          "end": 4.468
         }
       ]
     },
     {
       "id": "caption-group-4",
       "frame": 1,
-      "start": 4.125,
-      "end": 5.154,
-      "text": "stories that moved",
+      "start": 4.468,
+      "end": 4.979,
+      "text": "the ten",
       "words": [
         {
           "id": "caption-word-4-0",
-          "text": "stories",
-          "start": 4.125,
-          "end": 4.552
+          "text": "the",
+          "start": 4.468,
+          "end": 4.724
         },
         {
           "id": "caption-word-4-1",
-          "text": "that",
-          "start": 4.552,
-          "end": 4.828
-        },
-        {
-          "id": "caption-word-4-2",
-          "text": "moved",
-          "start": 4.828,
-          "end": 5.154
+          "text": "ten",
+          "start": 4.724,
+          "end": 4.979
         }
       ]
     },
     {
       "id": "caption-group-5",
       "frame": 1,
-      "start": 5.154,
-      "end": 5.33,
-      "text": "AI,",
+      "start": 4.979,
+      "end": 6.144,
+      "text": "stories that moved",
       "words": [
         {
           "id": "caption-word-5-0",
-          "text": "AI,",
-          "start": 5.154,
-          "end": 5.33
+          "text": "stories",
+          "start": 4.979,
+          "end": 5.462
+        },
+        {
+          "id": "caption-word-5-1",
+          "text": "that",
+          "start": 5.462,
+          "end": 5.774
+        },
+        {
+          "id": "caption-word-5-2",
+          "text": "moved",
+          "start": 5.774,
+          "end": 6.144
         }
       ]
     },
     {
       "id": "caption-group-6",
       "frame": 1,
-      "start": 5.33,
-      "end": 6.43,
-      "text": "chips and quantum.",
+      "start": 6.144,
+      "end": 6.342,
+      "text": "AI,",
       "words": [
         {
           "id": "caption-word-6-0",
-          "text": "chips",
-          "start": 5.33,
-          "end": 5.657
-        },
-        {
-          "id": "caption-word-6-1",
-          "text": "and",
-          "start": 5.657,
-          "end": 5.883
-        },
-        {
-          "id": "caption-word-6-2",
-          "text": "quantum.",
-          "start": 5.883,
-          "end": 6.31
+          "text": "AI,",
+          "start": 6.144,
+          "end": 6.342
         }
       ]
     },
     {
       "id": "caption-group-7",
-      "frame": 2,
-      "start": 7.91,
-      "end": 8.49,
-      "text": "Number one.",
+      "frame": 1,
+      "start": 6.342,
+      "end": 7.57,
+      "text": "chips and quantum.",
       "words": [
         {
           "id": "caption-word-7-0",
-          "text": "Number",
-          "start": 7.91,
-          "end": 8.198
+          "text": "chips",
+          "start": 6.342,
+          "end": 6.712
         },
         {
           "id": "caption-word-7-1",
-          "text": "one.",
-          "start": 8.198,
-          "end": 8.37
+          "text": "and",
+          "start": 6.712,
+          "end": 6.967
+        },
+        {
+          "id": "caption-word-7-2",
+          "text": "quantum.",
+          "start": 6.967,
+          "end": 7.45
         }
       ]
     },
     {
       "id": "caption-group-8",
       "frame": 2,
-      "start": 8.88,
-      "end": 10.534,
-      "text": "Anthropic co-founder Jack Clark",
+      "start": 8.6,
+      "end": 9.28,
+      "text": "Number one.",
       "words": [
         {
           "id": "caption-word-8-0",
-          "text": "Anthropic",
-          "start": 8.88,
-          "end": 9.406
+          "text": "Number",
+          "start": 8.6,
+          "end": 8.95
         },
         {
           "id": "caption-word-8-1",
-          "text": "co-founder",
-          "start": 9.406,
-          "end": 9.933
-        },
-        {
-          "id": "caption-word-8-2",
-          "text": "Jack",
-          "start": 9.933,
-          "end": 10.208
-        },
-        {
-          "id": "caption-word-8-3",
-          "text": "Clark",
-          "start": 10.208,
-          "end": 10.534
+          "text": "one.",
+          "start": 8.95,
+          "end": 9.16
         }
       ]
     },
     {
       "id": "caption-group-9",
       "frame": 2,
-      "start": 10.534,
-      "end": 11.035,
-      "text": "told the",
+      "start": 9.75,
+      "end": 11.667,
+      "text": "Anthropic co-founder Jack Clark",
       "words": [
         {
           "id": "caption-word-9-0",
-          "text": "told",
-          "start": 10.534,
-          "end": 10.81
+          "text": "Anthropic",
+          "start": 9.75,
+          "end": 10.36
         },
         {
           "id": "caption-word-9-1",
-          "text": "the",
-          "start": 10.81,
-          "end": 11.035
+          "text": "co-founder",
+          "start": 10.36,
+          "end": 10.97
+        },
+        {
+          "id": "caption-word-9-2",
+          "text": "Jack",
+          "start": 10.97,
+          "end": 11.29
+        },
+        {
+          "id": "caption-word-9-3",
+          "text": "Clark",
+          "start": 11.29,
+          "end": 11.667
         }
       ]
     },
     {
       "id": "caption-group-10",
       "frame": 2,
-      "start": 11.035,
-      "end": 11.487,
-      "text": "IMF and",
+      "start": 11.667,
+      "end": 12.248,
+      "text": "told the",
       "words": [
         {
           "id": "caption-word-10-0",
-          "text": "IMF",
-          "start": 11.035,
-          "end": 11.261
+          "text": "told",
+          "start": 11.667,
+          "end": 11.987
         },
         {
           "id": "caption-word-10-1",
-          "text": "and",
-          "start": 11.261,
-          "end": 11.487
+          "text": "the",
+          "start": 11.987,
+          "end": 12.248
         }
       ]
     },
     {
       "id": "caption-group-11",
       "frame": 2,
-      "start": 11.487,
-      "end": 12.564,
-      "text": "World Bank meetings",
+      "start": 12.248,
+      "end": 12.771,
+      "text": "IMF and",
       "words": [
         {
           "id": "caption-word-11-0",
-          "text": "World",
-          "start": 11.487,
-          "end": 11.812
+          "text": "IMF",
+          "start": 12.248,
+          "end": 12.51
         },
         {
           "id": "caption-word-11-1",
-          "text": "Bank",
-          "start": 11.812,
-          "end": 12.088
-        },
-        {
-          "id": "caption-word-11-2",
-          "text": "meetings",
-          "start": 12.088,
-          "end": 12.564
+          "text": "and",
+          "start": 12.51,
+          "end": 12.771
         }
       ]
     },
     {
       "id": "caption-group-12",
       "frame": 2,
-      "start": 12.564,
-      "end": 12.96,
-      "text": "that,",
+      "start": 12.771,
+      "end": 14.02,
+      "text": "World Bank meetings",
       "words": [
         {
           "id": "caption-word-12-0",
-          "text": "that,",
-          "start": 12.564,
-          "end": 12.84
+          "text": "World",
+          "start": 12.771,
+          "end": 13.149
+        },
+        {
+          "id": "caption-word-12-1",
+          "text": "Bank",
+          "start": 13.149,
+          "end": 13.468
+        },
+        {
+          "id": "caption-word-12-2",
+          "text": "meetings",
+          "start": 13.468,
+          "end": 14.02
         }
       ]
     },
     {
       "id": "caption-group-13",
       "frame": 2,
-      "start": 13.21,
-      "end": 13.549,
-      "text": "in its",
+      "start": 14.02,
+      "end": 14.46,
+      "text": "that,",
       "words": [
         {
           "id": "caption-word-13-0",
-          "text": "in",
-          "start": 13.21,
-          "end": 13.358
-        },
-        {
-          "id": "caption-word-13-1",
-          "text": "its",
-          "start": 13.358,
-          "end": 13.549
+          "text": "that,",
+          "start": 14.02,
+          "end": 14.34
         }
       ]
     },
     {
       "id": "caption-group-14",
       "frame": 2,
-      "start": 13.549,
-      "end": 14.79,
-      "text": "most aggressive scenario,",
+      "start": 14.78,
+      "end": 15.19,
+      "text": "in its",
       "words": [
         {
           "id": "caption-word-14-0",
-          "text": "most",
-          "start": 13.549,
-          "end": 13.781
+          "text": "in",
+          "start": 14.78,
+          "end": 14.96
         },
         {
           "id": "caption-word-14-1",
-          "text": "aggressive",
-          "start": 13.781,
-          "end": 14.268
-        },
-        {
-          "id": "caption-word-14-2",
-          "text": "scenario,",
-          "start": 14.268,
-          "end": 14.67
+          "text": "its",
+          "start": 14.96,
+          "end": 15.19
         }
       ]
     },
     {
       "id": "caption-group-15",
       "frame": 2,
-      "start": 15,
-      "end": 16.131,
-      "text": "AI could lift",
+      "start": 15.19,
+      "end": 16.67,
+      "text": "most aggressive scenario,",
       "words": [
         {
           "id": "caption-word-15-0",
-          "text": "AI",
-          "start": 15,
-          "end": 15.255
+          "text": "most",
+          "start": 15.19,
+          "end": 15.473
         },
         {
           "id": "caption-word-15-1",
-          "text": "could",
-          "start": 15.255,
-          "end": 15.73
+          "text": "aggressive",
+          "start": 15.473,
+          "end": 16.063
         },
         {
           "id": "caption-word-15-2",
-          "text": "lift",
-          "start": 15.73,
-          "end": 16.131
+          "text": "scenario,",
+          "start": 16.063,
+          "end": 16.55
         }
       ]
     },
     {
       "id": "caption-group-16",
       "frame": 2,
-      "start": 16.131,
-      "end": 17.19,
-      "text": "US output to",
+      "start": 16.95,
+      "end": 18.185,
+      "text": "AI could lift",
       "words": [
         {
           "id": "caption-word-16-0",
-          "text": "US",
-          "start": 16.131,
-          "end": 16.387
+          "text": "AI",
+          "start": 16.95,
+          "end": 17.229
         },
         {
           "id": "caption-word-16-1",
-          "text": "output",
-          "start": 16.387,
-          "end": 16.934
+          "text": "could",
+          "start": 17.229,
+          "end": 17.747
         },
         {
           "id": "caption-word-16-2",
-          "text": "to",
-          "start": 16.934,
-          "end": 17.19
+          "text": "lift",
+          "start": 17.747,
+          "end": 18.185
         }
       ]
     },
     {
       "id": "caption-group-17",
       "frame": 2,
-      "start": 17.19,
-      "end": 18.613,
-      "text": "about 44 trillion",
+      "start": 18.185,
+      "end": 19.341,
+      "text": "US output to",
       "words": [
         {
           "id": "caption-word-17-0",
-          "text": "about",
-          "start": 17.19,
-          "end": 17.664
+          "text": "US",
+          "start": 18.185,
+          "end": 18.464
         },
         {
           "id": "caption-word-17-1",
-          "text": "44",
-          "start": 17.664,
-          "end": 17.919
+          "text": "output",
+          "start": 18.464,
+          "end": 19.062
         },
         {
           "id": "caption-word-17-2",
-          "text": "trillion",
-          "start": 17.919,
-          "end": 18.613
+          "text": "to",
+          "start": 19.062,
+          "end": 19.341
         }
       ]
     },
     {
       "id": "caption-group-18",
       "frame": 2,
-      "start": 18.613,
-      "end": 20.01,
-      "text": "dollars by 2030,",
+      "start": 19.341,
+      "end": 20.895,
+      "text": "about 44 trillion",
       "words": [
         {
           "id": "caption-word-18-0",
-          "text": "dollars",
-          "start": 18.613,
-          "end": 19.233
+          "text": "about",
+          "start": 19.341,
+          "end": 19.859
         },
         {
           "id": "caption-word-18-1",
-          "text": "by",
-          "start": 19.233,
-          "end": 19.489
+          "text": "44",
+          "start": 19.859,
+          "end": 20.138
         },
         {
           "id": "caption-word-18-2",
-          "text": "2030,",
-          "start": 19.489,
-          "end": 19.89
+          "text": "trillion",
+          "start": 20.138,
+          "end": 20.895
         }
       ]
     },
     {
       "id": "caption-group-19",
       "frame": 2,
-      "start": 20.23,
-      "end": 20.798,
-      "text": "and called",
+      "start": 20.895,
+      "end": 22.41,
+      "text": "dollars by 2030,",
       "words": [
         {
           "id": "caption-word-19-0",
-          "text": "and",
-          "start": 20.23,
-          "end": 20.443
+          "text": "dollars",
+          "start": 20.895,
+          "end": 21.573
         },
         {
           "id": "caption-word-19-1",
-          "text": "called",
-          "start": 20.443,
-          "end": 20.798
+          "text": "by",
+          "start": 21.573,
+          "end": 21.852
+        },
+        {
+          "id": "caption-word-19-2",
+          "text": "2030,",
+          "start": 21.852,
+          "end": 22.29
         }
       ]
     },
     {
       "id": "caption-group-20",
       "frame": 2,
-      "start": 20.798,
-      "end": 21.84,
-      "text": "for serious rules.",
+      "start": 22.71,
+      "end": 23.396,
+      "text": "and called",
       "words": [
         {
           "id": "caption-word-20-0",
-          "text": "for",
-          "start": 20.798,
-          "end": 21.01
+          "text": "and",
+          "start": 22.71,
+          "end": 22.967
         },
         {
           "id": "caption-word-20-1",
-          "text": "serious",
-          "start": 21.01,
-          "end": 21.413
-        },
-        {
-          "id": "caption-word-20-2",
-          "text": "rules.",
-          "start": 21.413,
-          "end": 21.72
+          "text": "called",
+          "start": 22.967,
+          "end": 23.396
         }
       ]
     },
     {
       "id": "caption-group-21",
-      "frame": 3,
-      "start": 23.32,
-      "end": 25.79,
-      "text": "Two.",
+      "frame": 2,
+      "start": 23.396,
+      "end": 24.63,
+      "text": "for serious rules.",
       "words": [
         {
           "id": "caption-word-21-0",
-          "text": "Two.",
-          "start": 23.32,
-          "end": 25.67
+          "text": "for",
+          "start": 23.396,
+          "end": 23.653
+        },
+        {
+          "id": "caption-word-21-1",
+          "text": "serious",
+          "start": 23.653,
+          "end": 24.139
+        },
+        {
+          "id": "caption-word-21-2",
+          "text": "rules.",
+          "start": 24.139,
+          "end": 24.51
         }
       ]
     },
     {
       "id": "caption-group-22",
       "frame": 3,
-      "start": 26.02,
-      "end": 26.578,
-      "text": "India's cyber",
+      "start": 25.66,
+      "end": 26.1,
+      "text": "Two.",
       "words": [
         {
           "id": "caption-word-22-0",
-          "text": "India's",
-          "start": 26.02,
-          "end": 26.319
-        },
-        {
-          "id": "caption-word-22-1",
-          "text": "cyber",
-          "start": 26.319,
-          "end": 26.578
+          "text": "Two.",
+          "start": 25.66,
+          "end": 25.98
         }
       ]
     },
     {
       "id": "caption-group-23",
       "frame": 3,
-      "start": 26.578,
-      "end": 26.877,
-      "text": "agency,",
+      "start": 26.34,
+      "end": 28.59,
+      "text": "India's cyber agency,",
       "words": [
         {
           "id": "caption-word-23-0",
+          "text": "India's",
+          "start": 26.34,
+          "end": 27.083
+        },
+        {
+          "id": "caption-word-23-1",
+          "text": "cyber",
+          "start": 27.083,
+          "end": 27.727
+        },
+        {
+          "id": "caption-word-23-2",
           "text": "agency,",
-          "start": 26.578,
-          "end": 26.877
+          "start": 27.727,
+          "end": 28.47
         }
       ]
     },
     {
       "id": "caption-group-24",
       "frame": 3,
-      "start": 26.877,
-      "end": 27.176,
+      "start": 28.88,
+      "end": 33.64,
       "text": "CERT-In,",
       "words": [
         {
           "id": "caption-word-24-0",
           "text": "CERT-In,",
-          "start": 26.877,
-          "end": 27.176
+          "start": 28.88,
+          "end": 33.52
         }
       ]
     },
     {
       "id": "caption-group-25",
       "frame": 3,
-      "start": 27.176,
-      "end": 27.694,
+      "start": 33.7,
+      "end": 33.893,
       "text": "warned that",
       "words": [
         {
           "id": "caption-word-25-0",
           "text": "warned",
-          "start": 27.176,
-          "end": 27.475
+          "start": 33.7,
+          "end": 33.811
         },
         {
           "id": "caption-word-25-1",
           "text": "that",
-          "start": 27.475,
-          "end": 27.694
+          "start": 33.811,
+          "end": 33.893
         }
       ]
     },
     {
       "id": "caption-group-26",
       "frame": 3,
-      "start": 27.694,
-      "end": 28.132,
+      "start": 33.893,
+      "end": 34.056,
       "text": "AI agents",
       "words": [
         {
           "id": "caption-word-26-0",
           "text": "AI",
-          "start": 27.694,
-          "end": 27.833
+          "start": 33.893,
+          "end": 33.944
         },
         {
           "id": "caption-word-26-1",
           "text": "agents",
-          "start": 27.833,
-          "end": 28.132
+          "start": 33.944,
+          "end": 34.056
         }
       ]
     },
     {
       "id": "caption-group-27",
       "frame": 3,
-      "start": 28.132,
-      "end": 28.73,
+      "start": 34.056,
+      "end": 34.278,
       "text": "under testing",
       "words": [
         {
           "id": "caption-word-27-0",
           "text": "under",
-          "start": 28.132,
-          "end": 28.391
+          "start": 34.056,
+          "end": 34.152
         },
         {
           "id": "caption-word-27-1",
           "text": "testing",
-          "start": 28.391,
-          "end": 28.73
+          "start": 34.152,
+          "end": 34.278
         }
       ]
     },
     {
       "id": "caption-group-28",
       "frame": 3,
-      "start": 28.73,
-      "end": 29.288,
+      "start": 34.278,
+      "end": 34.485,
       "text": "reached live",
       "words": [
         {
           "id": "caption-word-28-0",
           "text": "reached",
-          "start": 28.73,
-          "end": 29.069
+          "start": 34.278,
+          "end": 34.404
         },
         {
           "id": "caption-word-28-1",
           "text": "live",
-          "start": 29.069,
-          "end": 29.288
+          "start": 34.404,
+          "end": 34.485
         }
       ]
     },
     {
       "id": "caption-group-29",
       "frame": 3,
-      "start": 29.288,
-      "end": 29.766,
+      "start": 34.485,
+      "end": 34.663,
       "text": "systems at",
       "words": [
         {
           "id": "caption-word-29-0",
           "text": "systems",
-          "start": 29.288,
-          "end": 29.627
+          "start": 34.485,
+          "end": 34.611
         },
         {
           "id": "caption-word-29-1",
           "text": "at",
-          "start": 29.627,
-          "end": 29.766
+          "start": 34.611,
+          "end": 34.663
         }
       ]
     },
     {
       "id": "caption-group-30",
       "frame": 3,
-      "start": 29.766,
-      "end": 30.324,
+      "start": 34.663,
+      "end": 34.87,
       "text": "Indian firms",
       "words": [
         {
           "id": "caption-word-30-0",
           "text": "Indian",
-          "start": 29.766,
-          "end": 30.065
+          "start": 34.663,
+          "end": 34.774
         },
         {
           "id": "caption-word-30-1",
           "text": "firms",
-          "start": 30.065,
-          "end": 30.324
+          "start": 34.774,
+          "end": 34.87
         }
       ]
     },
     {
       "id": "caption-group-31",
       "frame": 3,
-      "start": 30.324,
-      "end": 30.723,
+      "start": 34.87,
+      "end": 35.019,
       "text": "and read",
       "words": [
         {
           "id": "caption-word-31-0",
           "text": "and",
-          "start": 30.324,
-          "end": 30.504
+          "start": 34.87,
+          "end": 34.937
         },
         {
           "id": "caption-word-31-1",
           "text": "read",
-          "start": 30.504,
-          "end": 30.723
+          "start": 34.937,
+          "end": 35.019
         }
       ]
     },
     {
       "id": "caption-group-32",
       "frame": 3,
-      "start": 30.723,
-      "end": 31.6,
+      "start": 35.019,
+      "end": 35.42,
       "text": "confidential data.",
       "words": [
         {
           "id": "caption-word-32-0",
           "text": "confidential",
-          "start": 30.723,
-          "end": 31.261
+          "start": 35.019,
+          "end": 35.219
         },
         {
           "id": "caption-word-32-1",
           "text": "data.",
-          "start": 31.261,
-          "end": 31.48
+          "start": 35.219,
+          "end": 35.3
         }
       ]
     },
     {
       "id": "caption-group-33",
       "frame": 3,
-      "start": 32.01,
-      "end": 32.345,
+      "start": 35.93,
+      "end": 36.307,
       "text": "None of",
       "words": [
         {
           "id": "caption-word-33-0",
           "text": "None",
-          "start": 32.01,
-          "end": 32.215
+          "start": 35.93,
+          "end": 36.16
         },
         {
           "id": "caption-word-33-1",
           "text": "of",
-          "start": 32.215,
-          "end": 32.345
+          "start": 36.16,
+          "end": 36.307
         }
       ]
     },
     {
       "id": "caption-group-34",
       "frame": 3,
-      "start": 32.345,
-      "end": 33.34,
+      "start": 36.307,
+      "end": 37.41,
       "text": "the companies noticed.",
       "words": [
         {
           "id": "caption-word-34-0",
           "text": "the",
-          "start": 32.345,
-          "end": 32.513
+          "start": 36.307,
+          "end": 36.495
         },
         {
           "id": "caption-word-34-1",
           "text": "companies",
-          "start": 32.513,
-          "end": 32.904
+          "start": 36.495,
+          "end": 36.934
         },
         {
           "id": "caption-word-34-2",
           "text": "noticed.",
-          "start": 32.904,
-          "end": 33.22
+          "start": 36.934,
+          "end": 37.29
         }
       ]
     },
     {
       "id": "caption-group-35",
       "frame": 4,
-      "start": 34.82,
-      "end": 35.25,
+      "start": 38.44,
+      "end": 38.96,
       "text": "Three.",
       "words": [
         {
           "id": "caption-word-35-0",
           "text": "Three.",
-          "start": 34.82,
-          "end": 35.13
+          "start": 38.44,
+          "end": 38.84
         }
       ]
     },
     {
       "id": "caption-group-36",
       "frame": 4,
-      "start": 35.39,
-      "end": 36.394,
+      "start": 39.13,
+      "end": 40.29,
       "text": "More than 137",
       "words": [
         {
           "id": "caption-word-36-0",
           "text": "More",
-          "start": 35.39,
-          "end": 35.746
+          "start": 39.13,
+          "end": 39.542
         },
         {
           "id": "caption-word-36-1",
           "text": "than",
-          "start": 35.746,
-          "end": 36.103
+          "start": 39.542,
+          "end": 39.953
         },
         {
           "id": "caption-word-36-2",
           "text": "137",
-          "start": 36.103,
-          "end": 36.394
+          "start": 39.953,
+          "end": 40.29
         }
       ]
     },
     {
       "id": "caption-group-37",
       "frame": 4,
-      "start": 36.394,
-      "end": 38.144,
+      "start": 40.29,
+      "end": 42.311,
       "text": "million dollars has been",
       "words": [
         {
           "id": "caption-word-37-0",
           "text": "million",
-          "start": 36.394,
-          "end": 36.945
+          "start": 40.29,
+          "end": 40.926
         },
         {
           "id": "caption-word-37-1",
           "text": "dollars",
-          "start": 36.945,
-          "end": 37.496
+          "start": 40.926,
+          "end": 41.563
         },
         {
           "id": "caption-word-37-2",
           "text": "has",
-          "start": 37.496,
-          "end": 37.787
+          "start": 41.563,
+          "end": 41.9
         },
         {
           "id": "caption-word-37-3",
           "text": "been",
-          "start": 37.787,
-          "end": 38.144
+          "start": 41.9,
+          "end": 42.311
         }
       ]
     },
     {
       "id": "caption-group-38",
       "frame": 4,
-      "start": 38.144,
-      "end": 39.278,
+      "start": 42.311,
+      "end": 43.621,
       "text": "spent on AI-made",
       "words": [
         {
           "id": "caption-word-38-0",
           "text": "spent",
-          "start": 38.144,
-          "end": 38.565
+          "start": 42.311,
+          "end": 42.798
         },
         {
           "id": "caption-word-38-1",
           "text": "on",
-          "start": 38.565,
-          "end": 38.792
+          "start": 42.798,
+          "end": 43.06
         },
         {
           "id": "caption-word-38-2",
           "text": "AI-made",
-          "start": 38.792,
-          "end": 39.278
+          "start": 43.06,
+          "end": 43.621
         }
       ]
     },
     {
       "id": "caption-group-39",
       "frame": 4,
-      "start": 39.278,
-      "end": 39.796,
+      "start": 43.621,
+      "end": 44.22,
       "text": "ads in",
       "words": [
         {
           "id": "caption-word-39-0",
           "text": "ads",
-          "start": 39.278,
-          "end": 39.569
+          "start": 43.621,
+          "end": 43.958
         },
         {
           "id": "caption-word-39-1",
           "text": "in",
-          "start": 39.569,
-          "end": 39.796
+          "start": 43.958,
+          "end": 44.22
         }
       ]
     },
     {
       "id": "caption-group-40",
       "frame": 4,
-      "start": 39.796,
-      "end": 41.05,
+      "start": 44.22,
+      "end": 45.65,
       "text": "the US midterms.",
       "words": [
         {
           "id": "caption-word-40-0",
           "text": "the",
-          "start": 39.796,
-          "end": 40.088
+          "start": 44.22,
+          "end": 44.557
         },
         {
           "id": "caption-word-40-1",
           "text": "US",
-          "start": 40.088,
-          "end": 40.314
+          "start": 44.557,
+          "end": 44.819
         },
         {
           "id": "caption-word-40-2",
           "text": "midterms.",
-          "start": 40.314,
-          "end": 40.93
+          "start": 44.819,
+          "end": 45.53
         }
       ]
     },
     {
       "id": "caption-group-41",
       "frame": 4,
-      "start": 41.38,
-      "end": 41.87,
-      "text": "Only 27",
+      "start": 46.04,
+      "end": 47.205,
+      "text": "Only 27 percent",
       "words": [
         {
           "id": "caption-word-41-0",
           "text": "Only",
-          "start": 41.38,
-          "end": 41.68
+          "start": 46.04,
+          "end": 46.406
         },
         {
           "id": "caption-word-41-1",
           "text": "27",
-          "start": 41.68,
-          "end": 41.87
+          "start": 46.406,
+          "end": 46.639
+        },
+        {
+          "id": "caption-word-41-2",
+          "text": "percent",
+          "start": 46.639,
+          "end": 47.205
         }
       ]
     },
     {
       "id": "caption-group-42",
       "frame": 4,
-      "start": 41.87,
-      "end": 42.687,
-      "text": "percent carry",
+      "start": 47.205,
+      "end": 48.69,
+      "text": "carry a disclaimer.",
       "words": [
         {
           "id": "caption-word-42-0",
-          "text": "percent",
-          "start": 41.87,
-          "end": 42.333
+          "text": "carry",
+          "start": 47.205,
+          "end": 47.638
         },
         {
           "id": "caption-word-42-1",
-          "text": "carry",
-          "start": 42.333,
-          "end": 42.687
+          "text": "a",
+          "start": 47.638,
+          "end": 47.804
+        },
+        {
+          "id": "caption-word-42-2",
+          "text": "disclaimer.",
+          "start": 47.804,
+          "end": 48.57
         }
       ]
     },
     {
       "id": "caption-group-43",
-      "frame": 4,
-      "start": 42.687,
-      "end": 43.57,
-      "text": "a disclaimer.",
+      "frame": 5,
+      "start": 49.72,
+      "end": 50.23,
+      "text": "Four.",
       "words": [
         {
           "id": "caption-word-43-0",
-          "text": "a",
-          "start": 42.687,
-          "end": 42.824
-        },
-        {
-          "id": "caption-word-43-1",
-          "text": "disclaimer.",
-          "start": 42.824,
-          "end": 43.45
+          "text": "Four.",
+          "start": 49.72,
+          "end": 50.11
         }
       ]
     },
     {
       "id": "caption-group-44",
       "frame": 5,
-      "start": 45.05,
-      "end": 45.5,
-      "text": "Four.",
+      "start": 50.34,
+      "end": 51.78,
+      "text": "AI meets quantum.",
       "words": [
         {
           "id": "caption-word-44-0",
-          "text": "Four.",
-          "start": 45.05,
-          "end": 45.38
+          "text": "AI",
+          "start": 50.34,
+          "end": 50.59
+        },
+        {
+          "id": "caption-word-44-1",
+          "text": "meets",
+          "start": 50.59,
+          "end": 51.054
+        },
+        {
+          "id": "caption-word-44-2",
+          "text": "quantum.",
+          "start": 51.054,
+          "end": 51.66
         }
       ]
     },
     {
       "id": "caption-group-45",
       "frame": 5,
-      "start": 45.56,
-      "end": 46.77,
-      "text": "AI meets quantum.",
+      "start": 52.27,
+      "end": 53.446,
+      "text": "IBM's AI agents",
       "words": [
         {
           "id": "caption-word-45-0",
-          "text": "AI",
-          "start": 45.56,
-          "end": 45.766
+          "text": "IBM's",
+          "start": 52.27,
+          "end": 52.662
         },
         {
           "id": "caption-word-45-1",
-          "text": "meets",
-          "start": 45.766,
-          "end": 46.149
+          "text": "AI",
+          "start": 52.662,
+          "end": 52.911
         },
         {
           "id": "caption-word-45-2",
-          "text": "quantum.",
-          "start": 46.149,
-          "end": 46.65
+          "text": "agents",
+          "start": 52.911,
+          "end": 53.446
         }
       ]
     },
     {
       "id": "caption-group-46",
       "frame": 5,
-      "start": 47.23,
-      "end": 48.262,
-      "text": "IBM's AI agents",
+      "start": 53.446,
+      "end": 55.548,
+      "text": "designed an error-correction",
       "words": [
         {
           "id": "caption-word-46-0",
-          "text": "IBM's",
-          "start": 47.23,
-          "end": 47.574
+          "text": "designed",
+          "start": 53.446,
+          "end": 54.123
         },
         {
           "id": "caption-word-46-1",
-          "text": "AI",
-          "start": 47.574,
-          "end": 47.793
+          "text": "an",
+          "start": 54.123,
+          "end": 54.372
         },
         {
           "id": "caption-word-46-2",
-          "text": "agents",
-          "start": 47.793,
-          "end": 48.262
+          "text": "error-correction",
+          "start": 54.372,
+          "end": 55.548
         }
       ]
     },
     {
       "id": "caption-group-47",
       "frame": 5,
-      "start": 48.262,
-      "end": 50.107,
-      "text": "designed an error-correction",
+      "start": 55.548,
+      "end": 57.473,
+      "text": "decoder estimated to run",
       "words": [
         {
           "id": "caption-word-47-0",
-          "text": "designed",
-          "start": 48.262,
-          "end": 48.856
+          "text": "decoder",
+          "start": 55.548,
+          "end": 56.154
         },
         {
           "id": "caption-word-47-1",
-          "text": "an",
-          "start": 48.856,
-          "end": 49.075
+          "text": "estimated",
+          "start": 56.154,
+          "end": 56.903
         },
         {
           "id": "caption-word-47-2",
-          "text": "error-correction",
-          "start": 49.075,
-          "end": 50.107
+          "text": "to",
+          "start": 56.903,
+          "end": 57.152
+        },
+        {
+          "id": "caption-word-47-3",
+          "text": "run",
+          "start": 57.152,
+          "end": 57.473
         }
       ]
     },
     {
       "id": "caption-group-48",
       "frame": 5,
-      "start": 50.107,
-      "end": 51.796,
-      "text": "decoder estimated to run",
+      "start": 57.473,
+      "end": 58.84,
+      "text": "52 times faster,",
       "words": [
         {
           "id": "caption-word-48-0",
-          "text": "decoder",
-          "start": 50.107,
-          "end": 50.639
+          "text": "52",
+          "start": 57.473,
+          "end": 57.722
         },
         {
           "id": "caption-word-48-1",
-          "text": "estimated",
-          "start": 50.639,
-          "end": 51.295
+          "text": "times",
+          "start": 57.722,
+          "end": 58.185
         },
         {
           "id": "caption-word-48-2",
-          "text": "to",
-          "start": 51.295,
-          "end": 51.514
-        },
-        {
-          "id": "caption-word-48-3",
-          "text": "run",
-          "start": 51.514,
-          "end": 51.796
+          "text": "faster,",
+          "start": 58.185,
+          "end": 58.72
         }
       ]
     },
     {
       "id": "caption-group-49",
       "frame": 5,
-      "start": 51.796,
-      "end": 53.01,
-      "text": "52 times faster,",
+      "start": 59.16,
+      "end": 59.811,
+      "text": "for about",
       "words": [
         {
           "id": "caption-word-49-0",
-          "text": "52",
-          "start": 51.796,
-          "end": 52.014
+          "text": "for",
+          "start": 59.16,
+          "end": 59.426
         },
         {
           "id": "caption-word-49-1",
-          "text": "times",
-          "start": 52.014,
-          "end": 52.421
-        },
-        {
-          "id": "caption-word-49-2",
-          "text": "faster,",
-          "start": 52.421,
-          "end": 52.89
+          "text": "about",
+          "start": 59.426,
+          "end": 59.811
         }
       ]
     },
     {
       "id": "caption-group-50",
       "frame": 5,
-      "start": 53.22,
-      "end": 53.776,
-      "text": "for about",
+      "start": 59.811,
+      "end": 60.52,
+      "text": "26 dollars",
       "words": [
         {
           "id": "caption-word-50-0",
-          "text": "for",
-          "start": 53.22,
-          "end": 53.448
+          "text": "26",
+          "start": 59.811,
+          "end": 60.018
         },
         {
           "id": "caption-word-50-1",
-          "text": "about",
-          "start": 53.448,
-          "end": 53.776
+          "text": "dollars",
+          "start": 60.018,
+          "end": 60.52
         }
       ]
     },
     {
       "id": "caption-group-51",
       "frame": 5,
-      "start": 53.776,
-      "end": 54.383,
-      "text": "26 dollars",
+      "start": 60.52,
+      "end": 61.35,
+      "text": "of compute.",
       "words": [
         {
           "id": "caption-word-51-0",
-          "text": "26",
-          "start": 53.776,
-          "end": 53.953
+          "text": "of",
+          "start": 60.52,
+          "end": 60.727
         },
         {
           "id": "caption-word-51-1",
-          "text": "dollars",
-          "start": 53.953,
-          "end": 54.383
+          "text": "compute.",
+          "start": 60.727,
+          "end": 61.23
         }
       ]
     },
     {
       "id": "caption-group-52",
-      "frame": 5,
-      "start": 54.383,
-      "end": 55.11,
-      "text": "of compute.",
+      "frame": 6,
+      "start": 62.38,
+      "end": 62.96,
+      "text": "Five.",
       "words": [
         {
           "id": "caption-word-52-0",
-          "text": "of",
-          "start": 54.383,
-          "end": 54.56
-        },
-        {
-          "id": "caption-word-52-1",
-          "text": "compute.",
-          "start": 54.56,
-          "end": 54.99
+          "text": "Five.",
+          "start": 62.38,
+          "end": 62.84
         }
       ]
     },
     {
       "id": "caption-group-53",
       "frame": 6,
-      "start": 56.59,
-      "end": 57.14,
-      "text": "Five.",
+      "start": 62.98,
+      "end": 63.453,
+      "text": "A rough",
       "words": [
         {
           "id": "caption-word-53-0",
-          "text": "Five.",
-          "start": 56.59,
-          "end": 57.02
+          "text": "A",
+          "start": 62.98,
+          "end": 63.111
+        },
+        {
+          "id": "caption-word-53-1",
+          "text": "rough",
+          "start": 63.111,
+          "end": 63.453
         }
       ]
     },
     {
       "id": "caption-group-54",
       "frame": 6,
-      "start": 57.15,
-      "end": 57.542,
-      "text": "A rough",
+      "start": 63.453,
+      "end": 64.44,
+      "text": "week for chips.",
       "words": [
         {
           "id": "caption-word-54-0",
-          "text": "A",
-          "start": 57.15,
-          "end": 57.259
+          "text": "week",
+          "start": 63.453,
+          "end": 63.742
         },
         {
           "id": "caption-word-54-1",
-          "text": "rough",
-          "start": 57.259,
-          "end": 57.542
+          "text": "for",
+          "start": 63.742,
+          "end": 63.978
+        },
+        {
+          "id": "caption-word-54-2",
+          "text": "chips.",
+          "start": 63.978,
+          "end": 64.32
         }
       ]
     },
     {
       "id": "caption-group-55",
       "frame": 6,
-      "start": 57.542,
-      "end": 58.38,
-      "text": "week for chips.",
+      "start": 64.81,
+      "end": 65.352,
+      "text": "The Nasdaq",
       "words": [
         {
           "id": "caption-word-55-0",
-          "text": "week",
-          "start": 57.542,
-          "end": 57.781
+          "text": "The",
+          "start": 64.81,
+          "end": 65.013
         },
         {
           "id": "caption-word-55-1",
-          "text": "for",
-          "start": 57.781,
-          "end": 57.977
-        },
-        {
-          "id": "caption-word-55-2",
-          "text": "chips.",
-          "start": 57.977,
-          "end": 58.26
+          "text": "Nasdaq",
+          "start": 65.013,
+          "end": 65.352
         }
       ]
     },
     {
       "id": "caption-group-56",
       "frame": 6,
-      "start": 58.66,
-      "end": 59.121,
-      "text": "The Nasdaq",
+      "start": 65.352,
+      "end": 65.894,
+      "text": "fell about",
       "words": [
         {
           "id": "caption-word-56-0",
-          "text": "The",
-          "start": 58.66,
-          "end": 58.833
+          "text": "fell",
+          "start": 65.352,
+          "end": 65.6
         },
         {
           "id": "caption-word-56-1",
-          "text": "Nasdaq",
-          "start": 58.833,
-          "end": 59.121
+          "text": "about",
+          "start": 65.6,
+          "end": 65.894
         }
       ]
     },
     {
       "id": "caption-group-57",
       "frame": 6,
-      "start": 59.121,
-      "end": 59.582,
-      "text": "fell about",
+      "start": 65.894,
+      "end": 66.345,
+      "text": "four and",
       "words": [
         {
           "id": "caption-word-57-0",
-          "text": "fell",
-          "start": 59.121,
-          "end": 59.332
+          "text": "four",
+          "start": 65.894,
+          "end": 66.142
         },
         {
           "id": "caption-word-57-1",
-          "text": "about",
-          "start": 59.332,
-          "end": 59.582
+          "text": "and",
+          "start": 66.142,
+          "end": 66.345
         }
       ]
     },
     {
       "id": "caption-group-58",
       "frame": 6,
-      "start": 59.582,
-      "end": 59.966,
-      "text": "four and",
+      "start": 66.345,
+      "end": 67.21,
+      "text": "a half percent,",
       "words": [
         {
           "id": "caption-word-58-0",
-          "text": "four",
-          "start": 59.582,
-          "end": 59.793
+          "text": "a",
+          "start": 66.345,
+          "end": 66.458
         },
         {
           "id": "caption-word-58-1",
-          "text": "and",
-          "start": 59.793,
-          "end": 59.966
+          "text": "half",
+          "start": 66.458,
+          "end": 66.706
+        },
+        {
+          "id": "caption-word-58-2",
+          "text": "percent,",
+          "start": 66.706,
+          "end": 67.09
         }
       ]
     },
     {
       "id": "caption-group-59",
       "frame": 6,
-      "start": 59.966,
-      "end": 60.273,
-      "text": "a half",
+      "start": 67.38,
+      "end": 67.951,
+      "text": "its worst",
       "words": [
         {
           "id": "caption-word-59-0",
-          "text": "a",
-          "start": 59.966,
-          "end": 60.062
+          "text": "its",
+          "start": 67.38,
+          "end": 67.614
         },
         {
           "id": "caption-word-59-1",
-          "text": "half",
-          "start": 60.062,
-          "end": 60.273
+          "text": "worst",
+          "start": 67.614,
+          "end": 67.951
         }
       ]
     },
     {
       "id": "caption-group-60",
       "frame": 6,
-      "start": 60.273,
-      "end": 60.72,
-      "text": "percent,",
+      "start": 67.951,
+      "end": 68.98,
+      "text": "week since June,",
       "words": [
         {
           "id": "caption-word-60-0",
-          "text": "percent,",
-          "start": 60.273,
-          "end": 60.6
+          "text": "week",
+          "start": 67.951,
+          "end": 68.237
+        },
+        {
+          "id": "caption-word-60-1",
+          "text": "since",
+          "start": 68.237,
+          "end": 68.574
+        },
+        {
+          "id": "caption-word-60-2",
+          "text": "June,",
+          "start": 68.574,
+          "end": 68.86
         }
       ]
     },
     {
       "id": "caption-group-61",
       "frame": 6,
-      "start": 60.86,
-      "end": 61.385,
-      "text": "its worst",
+      "start": 69.22,
+      "end": 69.712,
+      "text": "and the",
       "words": [
         {
           "id": "caption-word-61-0",
-          "text": "its",
-          "start": 60.86,
-          "end": 61.075
+          "text": "and",
+          "start": 69.22,
+          "end": 69.466
         },
         {
           "id": "caption-word-61-1",
-          "text": "worst",
-          "start": 61.075,
-          "end": 61.385
+          "text": "the",
+          "start": 69.466,
+          "end": 69.712
         }
       ]
     },
     {
       "id": "caption-group-62",
       "frame": 6,
-      "start": 61.385,
-      "end": 62.34,
-      "text": "week since June,",
+      "start": 69.712,
+      "end": 70.313,
+      "text": "main chip",
       "words": [
         {
           "id": "caption-word-62-0",
-          "text": "week",
-          "start": 61.385,
-          "end": 61.647
+          "text": "main",
+          "start": 69.712,
+          "end": 70.013
         },
         {
           "id": "caption-word-62-1",
-          "text": "since",
-          "start": 61.647,
-          "end": 61.958
-        },
-        {
-          "id": "caption-word-62-2",
-          "text": "June,",
-          "start": 61.958,
-          "end": 62.22
+          "text": "chip",
+          "start": 70.013,
+          "end": 70.313
         }
       ]
     },
     {
       "id": "caption-group-63",
       "frame": 6,
-      "start": 62.44,
-      "end": 62.879,
-      "text": "and the",
+      "start": 70.313,
+      "end": 71.379,
+      "text": "ETF dropped about",
       "words": [
         {
           "id": "caption-word-63-0",
-          "text": "and",
-          "start": 62.44,
-          "end": 62.659
+          "text": "ETF",
+          "start": 70.313,
+          "end": 70.559
         },
         {
           "id": "caption-word-63-1",
-          "text": "the",
-          "start": 62.659,
-          "end": 62.879
+          "text": "dropped",
+          "start": 70.559,
+          "end": 71.024
+        },
+        {
+          "id": "caption-word-63-2",
+          "text": "about",
+          "start": 71.024,
+          "end": 71.379
         }
       ]
     },
     {
       "id": "caption-group-64",
       "frame": 6,
-      "start": 62.879,
-      "end": 63.415,
-      "text": "main chip",
+      "start": 71.379,
+      "end": 72.21,
+      "text": "ten percent.",
       "words": [
         {
           "id": "caption-word-64-0",
-          "text": "main",
-          "start": 62.879,
-          "end": 63.147
+          "text": "ten",
+          "start": 71.379,
+          "end": 71.625
         },
         {
           "id": "caption-word-64-1",
-          "text": "chip",
-          "start": 63.147,
-          "end": 63.415
+          "text": "percent.",
+          "start": 71.625,
+          "end": 72.09
         }
       ]
     },
     {
       "id": "caption-group-65",
-      "frame": 6,
-      "start": 63.415,
-      "end": 64.049,
-      "text": "ETF dropped",
+      "frame": 7,
+      "start": 73.24,
+      "end": 73.77,
+      "text": "Six.",
       "words": [
         {
           "id": "caption-word-65-0",
-          "text": "ETF",
-          "start": 63.415,
-          "end": 63.635
-        },
-        {
-          "id": "caption-word-65-1",
-          "text": "dropped",
-          "start": 63.635,
-          "end": 64.049
+          "text": "Six.",
+          "start": 73.24,
+          "end": 73.65
         }
       ]
     },
     {
       "id": "caption-group-66",
-      "frame": 6,
-      "start": 64.049,
-      "end": 65.12,
-      "text": "about ten percent.",
+      "frame": 7,
+      "start": 74.04,
+      "end": 75.441,
+      "text": "South Korea's finance",
       "words": [
         {
           "id": "caption-word-66-0",
-          "text": "about",
-          "start": 64.049,
-          "end": 64.366
+          "text": "South",
+          "start": 74.04,
+          "end": 74.445
         },
         {
           "id": "caption-word-66-1",
-          "text": "ten",
-          "start": 64.366,
-          "end": 64.586
+          "text": "Korea's",
+          "start": 74.445,
+          "end": 74.912
         },
         {
           "id": "caption-word-66-2",
-          "text": "percent.",
-          "start": 64.586,
-          "end": 65
+          "text": "finance",
+          "start": 74.912,
+          "end": 75.441
         }
       ]
     },
     {
       "id": "caption-group-67",
       "frame": 7,
-      "start": 66.6,
-      "end": 67.05,
-      "text": "Six.",
+      "start": 75.441,
+      "end": 76.655,
+      "text": "minister says the",
       "words": [
         {
           "id": "caption-word-67-0",
-          "text": "Six.",
-          "start": 66.6,
-          "end": 66.93
+          "text": "minister",
+          "start": 75.441,
+          "end": 76.033
+        },
+        {
+          "id": "caption-word-67-1",
+          "text": "says",
+          "start": 76.033,
+          "end": 76.375
+        },
+        {
+          "id": "caption-word-67-2",
+          "text": "the",
+          "start": 76.375,
+          "end": 76.655
         }
       ]
     },
     {
       "id": "caption-group-68",
       "frame": 7,
-      "start": 67.24,
-      "end": 68.483,
-      "text": "South Korea's finance",
+      "start": 76.655,
+      "end": 77.683,
+      "text": "chip boom will",
       "words": [
         {
           "id": "caption-word-68-0",
-          "text": "South",
-          "start": 67.24,
-          "end": 67.599
+          "text": "chip",
+          "start": 76.655,
+          "end": 76.998
         },
         {
           "id": "caption-word-68-1",
-          "text": "Korea's",
-          "start": 67.599,
-          "end": 68.013
+          "text": "boom",
+          "start": 76.998,
+          "end": 77.34
         },
         {
           "id": "caption-word-68-2",
-          "text": "finance",
-          "start": 68.013,
-          "end": 68.483
+          "text": "will",
+          "start": 77.34,
+          "end": 77.683
         }
       ]
     },
     {
       "id": "caption-group-69",
       "frame": 7,
-      "start": 68.483,
-      "end": 69.56,
-      "text": "minister says the",
+      "start": 77.683,
+      "end": 78.243,
+      "text": "last at",
       "words": [
         {
           "id": "caption-word-69-0",
-          "text": "minister",
-          "start": 68.483,
-          "end": 69.007
+          "text": "last",
+          "start": 77.683,
+          "end": 78.025
         },
         {
           "id": "caption-word-69-1",
-          "text": "says",
-          "start": 69.007,
-          "end": 69.311
-        },
-        {
-          "id": "caption-word-69-2",
-          "text": "the",
-          "start": 69.311,
-          "end": 69.56
+          "text": "at",
+          "start": 78.025,
+          "end": 78.243
         }
       ]
     },
     {
       "id": "caption-group-70",
       "frame": 7,
-      "start": 69.56,
-      "end": 70.167,
-      "text": "chip boom",
+      "start": 78.243,
+      "end": 79.64,
+      "text": "least through 2027,",
       "words": [
         {
           "id": "caption-word-70-0",
-          "text": "chip",
-          "start": 69.56,
-          "end": 69.863
+          "text": "least",
+          "start": 78.243,
+          "end": 78.648
         },
         {
           "id": "caption-word-70-1",
-          "text": "boom",
-          "start": 69.863,
-          "end": 70.167
+          "text": "through",
+          "start": 78.648,
+          "end": 79.178
+        },
+        {
+          "id": "caption-word-70-2",
+          "text": "2027,",
+          "start": 79.178,
+          "end": 79.52
         }
       ]
     },
     {
       "id": "caption-group-71",
       "frame": 7,
-      "start": 70.167,
-      "end": 70.775,
-      "text": "will last",
+      "start": 80,
+      "end": 81.396,
+      "text": "because demand still",
       "words": [
         {
           "id": "caption-word-71-0",
-          "text": "will",
-          "start": 70.167,
-          "end": 70.471
+          "text": "because",
+          "start": 80,
+          "end": 80.527
         },
         {
           "id": "caption-word-71-1",
-          "text": "last",
-          "start": 70.471,
-          "end": 70.775
+          "text": "demand",
+          "start": 80.527,
+          "end": 80.992
+        },
+        {
+          "id": "caption-word-71-2",
+          "text": "still",
+          "start": 80.992,
+          "end": 81.396
         }
       ]
     },
     {
       "id": "caption-group-72",
       "frame": 7,
-      "start": 70.775,
-      "end": 71.796,
-      "text": "at least through",
+      "start": 81.396,
+      "end": 82.57,
+      "text": "outpaces supply.",
       "words": [
         {
           "id": "caption-word-72-0",
-          "text": "at",
-          "start": 70.775,
-          "end": 70.968
+          "text": "outpaces",
+          "start": 81.396,
+          "end": 81.985
         },
         {
           "id": "caption-word-72-1",
-          "text": "least",
-          "start": 70.968,
-          "end": 71.327
-        },
-        {
-          "id": "caption-word-72-2",
-          "text": "through",
-          "start": 71.327,
-          "end": 71.796
+          "text": "supply.",
+          "start": 81.985,
+          "end": 82.45
         }
       ]
     },
     {
       "id": "caption-group-73",
-      "frame": 7,
-      "start": 71.796,
-      "end": 72.22,
-      "text": "2027,",
+      "frame": 8,
+      "start": 83.6,
+      "end": 84.11,
+      "text": "Seven.",
       "words": [
         {
           "id": "caption-word-73-0",
-          "text": "2027,",
-          "start": 71.796,
-          "end": 72.1
+          "text": "Seven.",
+          "start": 83.6,
+          "end": 83.99
         }
       ]
     },
     {
       "id": "caption-group-74",
-      "frame": 7,
-      "start": 72.5,
-      "end": 73.656,
-      "text": "because demand still",
+      "frame": 8,
+      "start": 84.25,
+      "end": 85.786,
+      "text": "China's chip exports",
       "words": [
         {
           "id": "caption-word-74-0",
-          "text": "because",
-          "start": 72.5,
-          "end": 72.937
+          "text": "China's",
+          "start": 84.25,
+          "end": 84.786
         },
         {
           "id": "caption-word-74-1",
-          "text": "demand",
-          "start": 72.937,
-          "end": 73.322
+          "text": "chip",
+          "start": 84.786,
+          "end": 85.179
         },
         {
           "id": "caption-word-74-2",
-          "text": "still",
-          "start": 73.322,
-          "end": 73.656
+          "text": "exports",
+          "start": 85.179,
+          "end": 85.786
         }
       ]
     },
     {
       "id": "caption-group-75",
-      "frame": 7,
-      "start": 73.656,
-      "end": 74.65,
-      "text": "outpaces supply.",
+      "frame": 8,
+      "start": 85.786,
+      "end": 87.25,
+      "text": "jumped 136 percent",
       "words": [
         {
           "id": "caption-word-75-0",
-          "text": "outpaces",
-          "start": 73.656,
-          "end": 74.145
+          "text": "jumped",
+          "start": 85.786,
+          "end": 86.321
         },
         {
           "id": "caption-word-75-1",
-          "text": "supply.",
-          "start": 74.145,
-          "end": 74.53
+          "text": "136",
+          "start": 86.321,
+          "end": 86.643
+        },
+        {
+          "id": "caption-word-75-2",
+          "text": "percent",
+          "start": 86.643,
+          "end": 87.25
         }
       ]
     },
     {
       "id": "caption-group-76",
       "frame": 8,
-      "start": 76.13,
-      "end": 76.59,
-      "text": "Seven.",
+      "start": 87.25,
+      "end": 88.37,
+      "text": "in September,",
       "words": [
         {
           "id": "caption-word-76-0",
-          "text": "Seven.",
-          "start": 76.13,
-          "end": 76.47
+          "text": "in",
+          "start": 87.25,
+          "end": 87.5
+        },
+        {
+          "id": "caption-word-76-1",
+          "text": "September,",
+          "start": 87.5,
+          "end": 88.25
         }
       ]
     },
     {
       "id": "caption-group-77",
       "frame": 8,
-      "start": 76.67,
-      "end": 78.018,
-      "text": "China's chip exports",
+      "start": 88.69,
+      "end": 89.73,
+      "text": "to about 45",
       "words": [
         {
           "id": "caption-word-77-0",
-          "text": "China's",
-          "start": 76.67,
-          "end": 77.14
+          "text": "to",
+          "start": 88.69,
+          "end": 88.96
         },
         {
           "id": "caption-word-77-1",
-          "text": "chip",
-          "start": 77.14,
-          "end": 77.485
+          "text": "about",
+          "start": 88.96,
+          "end": 89.46
         },
         {
           "id": "caption-word-77-2",
-          "text": "exports",
-          "start": 77.485,
-          "end": 78.018
+          "text": "45",
+          "start": 89.46,
+          "end": 89.73
         }
       ]
     },
     {
       "id": "caption-group-78",
       "frame": 8,
-      "start": 78.018,
-      "end": 79.303,
-      "text": "jumped 136 percent",
+      "start": 89.73,
+      "end": 91.16,
+      "text": "billion dollars,",
       "words": [
         {
           "id": "caption-word-78-0",
-          "text": "jumped",
-          "start": 78.018,
-          "end": 78.488
+          "text": "billion",
+          "start": 89.73,
+          "end": 90.385
         },
         {
           "id": "caption-word-78-1",
-          "text": "136",
-          "start": 78.488,
-          "end": 78.77
-        },
-        {
-          "id": "caption-word-78-2",
-          "text": "percent",
-          "start": 78.77,
-          "end": 79.302
+          "text": "dollars,",
+          "start": 90.385,
+          "end": 91.04
         }
       ]
     },
     {
       "id": "caption-group-79",
       "frame": 8,
-      "start": 79.303,
-      "end": 80.3,
-      "text": "in September,",
+      "start": 91.42,
+      "end": 92.502,
+      "text": "driven mostly by",
       "words": [
         {
           "id": "caption-word-79-0",
-          "text": "in",
-          "start": 79.303,
-          "end": 79.522
+          "text": "driven",
+          "start": 91.42,
+          "end": 91.859
         },
         {
           "id": "caption-word-79-1",
-          "text": "September,",
-          "start": 79.522,
-          "end": 80.18
+          "text": "mostly",
+          "start": 91.859,
+          "end": 92.298
+        },
+        {
+          "id": "caption-word-79-2",
+          "text": "by",
+          "start": 92.298,
+          "end": 92.502
         }
       ]
     },
     {
       "id": "caption-group-80",
       "frame": 8,
-      "start": 80.53,
-      "end": 81.209,
-      "text": "to about",
+      "start": 92.502,
+      "end": 93.5,
+      "text": "higher prices.",
       "words": [
         {
           "id": "caption-word-80-0",
-          "text": "to",
-          "start": 80.53,
-          "end": 80.768
+          "text": "higher",
+          "start": 92.502,
+          "end": 92.941
         },
         {
           "id": "caption-word-80-1",
-          "text": "about",
-          "start": 80.768,
-          "end": 81.209
+          "text": "prices.",
+          "start": 92.941,
+          "end": 93.38
         }
       ]
     },
     {
       "id": "caption-group-81",
-      "frame": 8,
-      "start": 81.209,
-      "end": 82.72,
-      "text": "45 billion dollars,",
+      "frame": 9,
+      "start": 94.53,
+      "end": 98.73,
+      "text": "Eight.",
       "words": [
         {
           "id": "caption-word-81-0",
-          "text": "45",
-          "start": 81.209,
-          "end": 81.446
-        },
-        {
-          "id": "caption-word-81-1",
-          "text": "billion",
-          "start": 81.446,
-          "end": 82.023
-        },
-        {
-          "id": "caption-word-81-2",
-          "text": "dollars,",
-          "start": 82.023,
-          "end": 82.6
+          "text": "Eight.",
+          "start": 94.53,
+          "end": 98.61
         }
       ]
     },
     {
       "id": "caption-group-82",
-      "frame": 8,
-      "start": 82.93,
-      "end": 83.736,
-      "text": "driven mostly",
+      "frame": 9,
+      "start": 99.03,
+      "end": 99.407,
+      "text": "Intel chief",
       "words": [
         {
           "id": "caption-word-82-0",
-          "text": "driven",
-          "start": 82.93,
-          "end": 83.333
+          "text": "Intel",
+          "start": 99.03,
+          "end": 99.219
         },
         {
           "id": "caption-word-82-1",
-          "text": "mostly",
-          "start": 83.333,
-          "end": 83.736
+          "text": "chief",
+          "start": 99.219,
+          "end": 99.407
         }
       ]
     },
     {
       "id": "caption-group-83",
-      "frame": 8,
-      "start": 83.736,
-      "end": 84.85,
-      "text": "by higher prices.",
+      "frame": 9,
+      "start": 99.407,
+      "end": 99.726,
+      "text": "Lip-Bu Tan",
       "words": [
         {
           "id": "caption-word-83-0",
-          "text": "by",
-          "start": 83.736,
-          "end": 83.924
+          "text": "Lip-Bu",
+          "start": 99.407,
+          "end": 99.596
         },
         {
           "id": "caption-word-83-1",
-          "text": "higher",
-          "start": 83.924,
-          "end": 84.327
-        },
-        {
-          "id": "caption-word-83-2",
-          "text": "prices.",
-          "start": 84.327,
-          "end": 84.73
+          "text": "Tan",
+          "start": 99.596,
+          "end": 99.726
         }
       ]
     },
     {
       "id": "caption-group-84",
       "frame": 9,
-      "start": 86.33,
-      "end": 89.94,
-      "text": "Eight.",
+      "start": 99.726,
+      "end": 100.016,
+      "text": "says the",
       "words": [
         {
           "id": "caption-word-84-0",
-          "text": "Eight.",
-          "start": 86.33,
-          "end": 89.82
+          "text": "says",
+          "start": 99.726,
+          "end": 99.886
+        },
+        {
+          "id": "caption-word-84-1",
+          "text": "the",
+          "start": 99.886,
+          "end": 100.016
         }
       ]
     },
     {
       "id": "caption-group-85",
       "frame": 9,
-      "start": 90.17,
-      "end": 90.482,
-      "text": "Intel chief",
+      "start": 100.016,
+      "end": 100.481,
+      "text": "US government's",
       "words": [
         {
           "id": "caption-word-85-0",
-          "text": "Intel",
-          "start": 90.17,
-          "end": 90.326
+          "text": "US",
+          "start": 100.016,
+          "end": 100.118
         },
         {
           "id": "caption-word-85-1",
-          "text": "chief",
-          "start": 90.326,
-          "end": 90.482
+          "text": "government's",
+          "start": 100.118,
+          "end": 100.481
         }
       ]
     },
     {
       "id": "caption-group-86",
       "frame": 9,
-      "start": 90.482,
-      "end": 90.747,
-      "text": "Lip-Bu Tan",
+      "start": 100.481,
+      "end": 100.858,
+      "text": "stake gives",
       "words": [
         {
           "id": "caption-word-86-0",
-          "text": "Lip-Bu",
-          "start": 90.482,
-          "end": 90.639
+          "text": "stake",
+          "start": 100.481,
+          "end": 100.669
         },
         {
           "id": "caption-word-86-1",
-          "text": "Tan",
-          "start": 90.639,
-          "end": 90.747
+          "text": "gives",
+          "start": 100.669,
+          "end": 100.858
         }
       ]
     },
     {
       "id": "caption-group-87",
       "frame": 9,
-      "start": 90.747,
-      "end": 90.987,
-      "text": "says the",
+      "start": 100.858,
+      "end": 101.293,
+      "text": "Washington no",
       "words": [
         {
           "id": "caption-word-87-0",
-          "text": "says",
-          "start": 90.747,
-          "end": 90.879
+          "text": "Washington",
+          "start": 100.858,
+          "end": 101.191
         },
         {
           "id": "caption-word-87-1",
-          "text": "the",
-          "start": 90.879,
-          "end": 90.987
+          "text": "no",
+          "start": 101.191,
+          "end": 101.293
         }
       ]
     },
     {
       "id": "caption-group-88",
       "frame": 9,
-      "start": 90.987,
-      "end": 91.372,
-      "text": "US government's",
+      "start": 101.293,
+      "end": 101.525,
+      "text": "say in",
       "words": [
         {
           "id": "caption-word-88-0",
-          "text": "US",
-          "start": 90.987,
-          "end": 91.071
+          "text": "say",
+          "start": 101.293,
+          "end": 101.424
         },
         {
           "id": "caption-word-88-1",
-          "text": "government's",
-          "start": 91.071,
-          "end": 91.372
+          "text": "in",
+          "start": 101.424,
+          "end": 101.525
         }
       ]
     },
     {
       "id": "caption-group-89",
       "frame": 9,
-      "start": 91.372,
-      "end": 91.684,
-      "text": "stake gives",
+      "start": 101.525,
+      "end": 101.844,
+      "text": "how Intel",
       "words": [
         {
           "id": "caption-word-89-0",
-          "text": "stake",
-          "start": 91.372,
-          "end": 91.528
+          "text": "how",
+          "start": 101.525,
+          "end": 101.656
         },
         {
           "id": "caption-word-89-1",
-          "text": "gives",
-          "start": 91.528,
-          "end": 91.684
+          "text": "Intel",
+          "start": 101.656,
+          "end": 101.844
         }
       ]
     },
     {
       "id": "caption-group-90",
       "frame": 9,
-      "start": 91.684,
-      "end": 92.045,
-      "text": "Washington no",
+      "start": 101.844,
+      "end": 102.53,
+      "text": "runs its business.",
       "words": [
         {
           "id": "caption-word-90-0",
-          "text": "Washington",
-          "start": 91.684,
-          "end": 91.961
+          "text": "runs",
+          "start": 101.844,
+          "end": 102.004
         },
         {
           "id": "caption-word-90-1",
-          "text": "no",
-          "start": 91.961,
-          "end": 92.045
+          "text": "its",
+          "start": 102.004,
+          "end": 102.134
+        },
+        {
+          "id": "caption-word-90-2",
+          "text": "business.",
+          "start": 102.134,
+          "end": 102.41
         }
       ]
     },
     {
       "id": "caption-group-91",
-      "frame": 9,
-      "start": 92.045,
-      "end": 92.237,
-      "text": "say in",
+      "frame": 10,
+      "start": 103.56,
+      "end": 104.09,
+      "text": "Nine.",
       "words": [
         {
           "id": "caption-word-91-0",
-          "text": "say",
-          "start": 92.045,
-          "end": 92.153
-        },
-        {
-          "id": "caption-word-91-1",
-          "text": "in",
-          "start": 92.153,
-          "end": 92.237
+          "text": "Nine.",
+          "start": 103.56,
+          "end": 103.97
         }
       ]
     },
     {
       "id": "caption-group-92",
-      "frame": 9,
-      "start": 92.237,
-      "end": 92.501,
-      "text": "how Intel",
+      "frame": 10,
+      "start": 104.36,
+      "end": 107.451,
+      "text": "Google showed magic state",
       "words": [
         {
           "id": "caption-word-92-0",
-          "text": "how",
-          "start": 92.237,
-          "end": 92.345
+          "text": "Google",
+          "start": 104.36,
+          "end": 105.188
         },
         {
           "id": "caption-word-92-1",
-          "text": "Intel",
-          "start": 92.345,
-          "end": 92.501
+          "text": "showed",
+          "start": 105.188,
+          "end": 106.016
+        },
+        {
+          "id": "caption-word-92-2",
+          "text": "magic",
+          "start": 106.016,
+          "end": 106.734
+        },
+        {
+          "id": "caption-word-92-3",
+          "text": "state",
+          "start": 106.734,
+          "end": 107.451
         }
       ]
     },
     {
       "id": "caption-group-93",
-      "frame": 9,
-      "start": 92.501,
-      "end": 93.09,
-      "text": "runs its business.",
+      "frame": 10,
+      "start": 107.451,
+      "end": 110.543,
+      "text": "cultivation on its Willow",
       "words": [
         {
           "id": "caption-word-93-0",
-          "text": "runs",
-          "start": 92.501,
-          "end": 92.634
+          "text": "cultivation",
+          "start": 107.451,
+          "end": 108.831
         },
         {
           "id": "caption-word-93-1",
-          "text": "its",
-          "start": 92.634,
-          "end": 92.742
+          "text": "on",
+          "start": 108.831,
+          "end": 109.218
         },
         {
           "id": "caption-word-93-2",
-          "text": "business.",
-          "start": 92.742,
-          "end": 92.97
+          "text": "its",
+          "start": 109.218,
+          "end": 109.715
+        },
+        {
+          "id": "caption-word-93-3",
+          "text": "Willow",
+          "start": 109.715,
+          "end": 110.543
         }
       ]
     },
     {
       "id": "caption-group-94",
       "frame": 10,
-      "start": 94.57,
-      "end": 98.07,
-      "text": "Nine.",
+      "start": 110.543,
+      "end": 111.27,
+      "text": "chip,",
       "words": [
         {
           "id": "caption-word-94-0",
-          "text": "Nine.",
-          "start": 94.57,
-          "end": 97.95
+          "text": "chip,",
+          "start": 110.543,
+          "end": 111.15
         }
       ]
     },
     {
       "id": "caption-group-95",
       "frame": 10,
-      "start": 98.33,
-      "end": 99.023,
-      "text": "Google showed",
+      "start": 111.74,
+      "end": 112.11,
+      "text": "cutting errors",
       "words": [
         {
           "id": "caption-word-95-0",
-          "text": "Google",
-          "start": 98.33,
-          "end": 98.676
+          "text": "cutting",
+          "start": 111.74,
+          "end": 111.937
         },
         {
           "id": "caption-word-95-1",
-          "text": "showed",
-          "start": 98.676,
-          "end": 99.023
+          "text": "errors",
+          "start": 111.937,
+          "end": 112.11
         }
       ]
     },
     {
       "id": "caption-group-96",
       "frame": 10,
-      "start": 99.023,
-      "end": 100.2,
-      "text": "magic state cultivation",
+      "start": 112.11,
+      "end": 112.342,
+      "text": "about 40",
       "words": [
         {
           "id": "caption-word-96-0",
-          "text": "magic",
-          "start": 99.023,
-          "end": 99.323
+          "text": "about",
+          "start": 112.11,
+          "end": 112.261
         },
         {
           "id": "caption-word-96-1",
-          "text": "state",
-          "start": 99.323,
-          "end": 99.623
-        },
-        {
-          "id": "caption-word-96-2",
-          "text": "cultivation",
-          "start": 99.623,
-          "end": 100.2
+          "text": "40",
+          "start": 112.261,
+          "end": 112.342
         }
       ]
     },
     {
       "id": "caption-group-97",
       "frame": 10,
-      "start": 100.2,
-      "end": 100.57,
-      "text": "on its",
+      "start": 112.342,
+      "end": 112.596,
+      "text": "times and",
       "words": [
         {
           "id": "caption-word-97-0",
-          "text": "on",
-          "start": 100.2,
-          "end": 100.362
+          "text": "times",
+          "start": 112.342,
+          "end": 112.492
         },
         {
           "id": "caption-word-97-1",
-          "text": "its",
-          "start": 100.362,
-          "end": 100.57
+          "text": "and",
+          "start": 112.492,
+          "end": 112.596
         }
       ]
     },
     {
       "id": "caption-group-98",
       "frame": 10,
-      "start": 100.57,
-      "end": 101.29,
-      "text": "Willow chip,",
+      "start": 112.596,
+      "end": 112.943,
+      "text": "reaching 99.99",
       "words": [
         {
           "id": "caption-word-98-0",
-          "text": "Willow",
-          "start": 100.57,
-          "end": 100.916
+          "text": "reaching",
+          "start": 112.596,
+          "end": 112.816
         },
         {
           "id": "caption-word-98-1",
-          "text": "chip,",
-          "start": 100.916,
-          "end": 101.17
+          "text": "99.99",
+          "start": 112.816,
+          "end": 112.943
         }
       ]
     },
     {
       "id": "caption-group-99",
       "frame": 10,
-      "start": 101.66,
-      "end": 101.996,
-      "text": "cutting errors",
+      "start": 112.943,
+      "end": 113.48,
+      "text": "percent fidelity.",
       "words": [
         {
           "id": "caption-word-99-0",
-          "text": "cutting",
-          "start": 101.66,
-          "end": 101.839
+          "text": "percent",
+          "start": 112.943,
+          "end": 113.14
         },
         {
           "id": "caption-word-99-1",
-          "text": "errors",
-          "start": 101.839,
-          "end": 101.996
+          "text": "fidelity.",
+          "start": 113.14,
+          "end": 113.36
         }
       ]
     },
     {
       "id": "caption-group-100",
-      "frame": 10,
-      "start": 101.996,
-      "end": 102.206,
-      "text": "about 40",
+      "frame": 11,
+      "start": 114.51,
+      "end": 115.11,
+      "text": "And ten.",
       "words": [
         {
           "id": "caption-word-100-0",
-          "text": "about",
-          "start": 101.996,
-          "end": 102.132
+          "text": "And",
+          "start": 114.51,
+          "end": 114.75
         },
         {
           "id": "caption-word-100-1",
-          "text": "40",
-          "start": 102.132,
-          "end": 102.206
+          "text": "ten.",
+          "start": 114.75,
+          "end": 114.99
         }
       ]
     },
     {
       "id": "caption-group-101",
-      "frame": 10,
-      "start": 102.206,
-      "end": 102.437,
-      "text": "times and",
+      "frame": 11,
+      "start": 115.55,
+      "end": 116.245,
+      "text": "DARPA moved",
       "words": [
         {
           "id": "caption-word-101-0",
-          "text": "times",
-          "start": 102.206,
-          "end": 102.342
+          "text": "DARPA",
+          "start": 115.55,
+          "end": 115.897
         },
         {
           "id": "caption-word-101-1",
-          "text": "and",
-          "start": 102.342,
-          "end": 102.437
+          "text": "moved",
+          "start": 115.897,
+          "end": 116.245
         }
       ]
     },
     {
       "id": "caption-group-102",
-      "frame": 10,
-      "start": 102.437,
-      "end": 102.752,
-      "text": "reaching 99.99",
+      "frame": 11,
+      "start": 116.245,
+      "end": 117.22,
+      "text": "Atom Computing,",
       "words": [
         {
           "id": "caption-word-102-0",
-          "text": "reaching",
-          "start": 102.437,
-          "end": 102.636
+          "text": "Atom",
+          "start": 116.245,
+          "end": 116.539
         },
         {
           "id": "caption-word-102-1",
-          "text": "99.99",
-          "start": 102.636,
-          "end": 102.752
+          "text": "Computing,",
+          "start": 116.539,
+          "end": 117.1
         }
       ]
     },
     {
       "id": "caption-group-103",
-      "frame": 10,
-      "start": 102.752,
-      "end": 103.25,
-      "text": "percent fidelity.",
+      "frame": 11,
+      "start": 117.39,
+      "end": 118.06,
+      "text": "Diraq,",
       "words": [
         {
           "id": "caption-word-103-0",
-          "text": "percent",
-          "start": 102.752,
-          "end": 102.93
-        },
-        {
-          "id": "caption-word-103-1",
-          "text": "fidelity.",
-          "start": 102.93,
-          "end": 103.13
+          "text": "Diraq,",
+          "start": 117.39,
+          "end": 117.94
         }
       ]
     },
     {
       "id": "caption-group-104",
       "frame": 11,
-      "start": 104.73,
-      "end": 105.23,
-      "text": "And ten.",
+      "start": 118.3,
+      "end": 118.903,
+      "text": "IBM and",
       "words": [
         {
           "id": "caption-word-104-0",
-          "text": "And",
-          "start": 104.73,
-          "end": 104.92
+          "text": "IBM",
+          "start": 118.3,
+          "end": 118.601
         },
         {
           "id": "caption-word-104-1",
-          "text": "ten.",
-          "start": 104.92,
-          "end": 105.11
+          "text": "and",
+          "start": 118.601,
+          "end": 118.903
         }
       ]
     },
     {
       "id": "caption-group-105",
       "frame": 11,
-      "start": 105.61,
-      "end": 106.256,
-      "text": "DARPA moved",
+      "start": 118.903,
+      "end": 119.941,
+      "text": "IonQ into the",
       "words": [
         {
           "id": "caption-word-105-0",
-          "text": "DARPA",
-          "start": 105.61,
-          "end": 105.933
+          "text": "IonQ",
+          "start": 118.903,
+          "end": 119.271
         },
         {
           "id": "caption-word-105-1",
-          "text": "moved",
-          "start": 105.933,
-          "end": 106.256
+          "text": "into",
+          "start": 119.271,
+          "end": 119.639
+        },
+        {
+          "id": "caption-word-105-2",
+          "text": "the",
+          "start": 119.639,
+          "end": 119.941
         }
       ]
     },
     {
       "id": "caption-group-106",
       "frame": 11,
-      "start": 106.256,
-      "end": 107.17,
-      "text": "Atom Computing,",
+      "start": 119.941,
+      "end": 121.045,
+      "text": "final stage of",
       "words": [
         {
           "id": "caption-word-106-0",
-          "text": "Atom",
-          "start": 106.256,
-          "end": 106.529
+          "text": "final",
+          "start": 119.941,
+          "end": 120.376
         },
         {
           "id": "caption-word-106-1",
-          "text": "Computing,",
-          "start": 106.529,
-          "end": 107.05
+          "text": "stage",
+          "start": 120.376,
+          "end": 120.811
+        },
+        {
+          "id": "caption-word-106-2",
+          "text": "of",
+          "start": 120.811,
+          "end": 121.045
         }
       ]
     },
     {
       "id": "caption-group-107",
       "frame": 11,
-      "start": 107.3,
-      "end": 107.84,
-      "text": "Diraq,",
+      "start": 121.045,
+      "end": 122.82,
+      "text": "its Quantum Benchmarking",
       "words": [
         {
           "id": "caption-word-107-0",
-          "text": "Diraq,",
-          "start": 107.3,
-          "end": 107.72
+          "text": "its",
+          "start": 121.045,
+          "end": 121.347
+        },
+        {
+          "id": "caption-word-107-1",
+          "text": "Quantum",
+          "start": 121.347,
+          "end": 121.916
+        },
+        {
+          "id": "caption-word-107-2",
+          "text": "Benchmarking",
+          "start": 121.916,
+          "end": 122.82
         }
       ]
     },
     {
       "id": "caption-group-108",
       "frame": 11,
-      "start": 107.94,
-      "end": 108.436,
-      "text": "IBM and",
+      "start": 122.82,
+      "end": 123.71,
+      "text": "Initiative.",
       "words": [
         {
           "id": "caption-word-108-0",
-          "text": "IBM",
-          "start": 107.94,
-          "end": 108.188
-        },
-        {
-          "id": "caption-word-108-1",
-          "text": "and",
-          "start": 108.188,
-          "end": 108.436
+          "text": "Initiative.",
+          "start": 122.82,
+          "end": 123.59
         }
       ]
     },
     {
       "id": "caption-group-109",
-      "frame": 11,
-      "start": 108.436,
-      "end": 109.041,
-      "text": "IonQ into",
+      "frame": 12,
+      "start": 124.74,
+      "end": 125.353,
+      "text": "That's the",
       "words": [
         {
           "id": "caption-word-109-0",
-          "text": "IonQ",
-          "start": 108.436,
-          "end": 108.738
+          "text": "That's",
+          "start": 124.74,
+          "end": 125.102
         },
         {
           "id": "caption-word-109-1",
-          "text": "into",
-          "start": 108.738,
-          "end": 109.041
+          "text": "the",
+          "start": 125.102,
+          "end": 125.353
         }
       ]
     },
     {
       "id": "caption-group-110",
-      "frame": 11,
-      "start": 109.041,
-      "end": 109.647,
-      "text": "the final",
+      "frame": 12,
+      "start": 125.353,
+      "end": 125.854,
+      "text": "top ten",
       "words": [
         {
           "id": "caption-word-110-0",
-          "text": "the",
-          "start": 109.041,
-          "end": 109.289
+          "text": "top",
+          "start": 125.353,
+          "end": 125.603
         },
         {
           "id": "caption-word-110-1",
-          "text": "final",
-          "start": 109.289,
-          "end": 109.647
+          "text": "ten",
+          "start": 125.603,
+          "end": 125.854
         }
       ]
     },
     {
       "id": "caption-group-111",
-      "frame": 11,
-      "start": 109.647,
-      "end": 110.198,
-      "text": "stage of",
+      "frame": 12,
+      "start": 125.854,
+      "end": 126.244,
+      "text": "in AI,",
       "words": [
         {
           "id": "caption-word-111-0",
-          "text": "stage",
-          "start": 109.647,
-          "end": 110.005
+          "text": "in",
+          "start": 125.854,
+          "end": 126.049
         },
         {
           "id": "caption-word-111-1",
-          "text": "of",
-          "start": 110.005,
-          "end": 110.198
+          "text": "AI,",
+          "start": 126.049,
+          "end": 126.244
         }
       ]
     },
     {
       "id": "caption-group-112",
-      "frame": 11,
-      "start": 110.198,
-      "end": 111.657,
-      "text": "its Quantum Benchmarking",
+      "frame": 12,
+      "start": 126.244,
+      "end": 127.45,
+      "text": "chips and quantum.",
       "words": [
         {
           "id": "caption-word-112-0",
-          "text": "its",
-          "start": 110.198,
-          "end": 110.445
+          "text": "chips",
+          "start": 126.244,
+          "end": 126.606
         },
         {
           "id": "caption-word-112-1",
-          "text": "Quantum",
-          "start": 110.445,
-          "end": 110.913
+          "text": "and",
+          "start": 126.606,
+          "end": 126.857
         },
         {
           "id": "caption-word-112-2",
-          "text": "Benchmarking",
-          "start": 110.913,
-          "end": 111.657
+          "text": "quantum.",
+          "start": 126.857,
+          "end": 127.33
         }
       ]
     },
     {
       "id": "caption-group-113",
-      "frame": 11,
-      "start": 111.657,
-      "end": 112.41,
-      "text": "Initiative.",
+      "frame": 12,
+      "start": 127.71,
+      "end": 128.138,
+      "text": "See you",
       "words": [
         {
           "id": "caption-word-113-0",
-          "text": "Initiative.",
-          "start": 111.657,
-          "end": 112.29
+          "text": "See",
+          "start": 127.71,
+          "end": 127.924
+        },
+        {
+          "id": "caption-word-113-1",
+          "text": "you",
+          "start": 127.924,
+          "end": 128.138
         }
       ]
     },
     {
       "id": "caption-group-114",
       "frame": 12,
-      "start": 113.89,
-      "end": 114.425,
-      "text": "That's the",
-      "words": [
-        {
-          "id": "caption-word-114-0",
-          "text": "That's",
-          "start": 113.89,
-          "end": 114.206
-        },
-        {
-          "id": "caption-word-114-1",
-          "text": "the",
-          "start": 114.206,
-          "end": 114.425
-        }
-      ]
-    },
-    {
-      "id": "caption-group-115",
-      "frame": 12,
-      "start": 114.425,
-      "end": 114.862,
-      "text": "top ten",
-      "words": [
-        {
-          "id": "caption-word-115-0",
-          "text": "top",
-          "start": 114.425,
-          "end": 114.643
-        },
-        {
-          "id": "caption-word-115-1",
-          "text": "ten",
-          "start": 114.643,
-          "end": 114.862
-        }
-      ]
-    },
-    {
-      "id": "caption-group-116",
-      "frame": 12,
-      "start": 114.862,
-      "end": 115.202,
-      "text": "in AI,",
-      "words": [
-        {
-          "id": "caption-word-116-0",
-          "text": "in",
-          "start": 114.862,
-          "end": 115.032
-        },
-        {
-          "id": "caption-word-116-1",
-          "text": "AI,",
-          "start": 115.032,
-          "end": 115.202
-        }
-      ]
-    },
-    {
-      "id": "caption-group-117",
-      "frame": 12,
-      "start": 115.202,
-      "end": 116.27,
-      "text": "chips and quantum.",
-      "words": [
-        {
-          "id": "caption-word-117-0",
-          "text": "chips",
-          "start": 115.202,
-          "end": 115.518
-        },
-        {
-          "id": "caption-word-117-1",
-          "text": "and",
-          "start": 115.518,
-          "end": 115.737
-        },
-        {
-          "id": "caption-word-117-2",
-          "text": "quantum.",
-          "start": 115.737,
-          "end": 116.15
-        }
-      ]
-    },
-    {
-      "id": "caption-group-118",
-      "frame": 12,
-      "start": 116.47,
-      "end": 116.83,
-      "text": "See you",
-      "words": [
-        {
-          "id": "caption-word-118-0",
-          "text": "See",
-          "start": 116.47,
-          "end": 116.65
-        },
-        {
-          "id": "caption-word-118-1",
-          "text": "you",
-          "start": 116.65,
-          "end": 116.83
-        }
-      ]
-    },
-    {
-      "id": "caption-group-119",
-      "frame": 12,
-      "start": 116.83,
-      "end": 117.39,
+      "start": 128.138,
+      "end": 128.78,
       "text": "next week.",
       "words": [
         {
-          "id": "caption-word-119-0",
+          "id": "caption-word-114-0",
           "text": "next",
-          "start": 116.83,
-          "end": 117.05
+          "start": 128.138,
+          "end": 128.399
         },
         {
-          "id": "caption-word-119-1",
+          "id": "caption-word-114-1",
           "text": "week.",
-          "start": 117.05,
-          "end": 117.27
+          "start": 128.399,
+          "end": 128.66
         }
       ]
     }

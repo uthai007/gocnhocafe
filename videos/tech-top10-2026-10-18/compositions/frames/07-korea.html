@@ -1,5 +1,5 @@
 <template id="s07-korea-template">
-  <div id="root" data-composition-id="07-korea" data-start="0" data-duration="10.03" data-width="1920" data-height="1080">
+  <div id="root" data-composition-id="07-korea" data-start="0" data-duration="10.86" data-width="1920" data-height="1080">
     <style>
       #root { position: relative; width: 100%; height: 100%; overflow: hidden; color: #e9f7ff; font-family: Montserrat, sans-serif; }
       #s07-korea-ground { position: absolute; inset: 0; background:
@@ -34,12 +34,12 @@
       #s07-korea-stage .ring { fill: none; stroke: #38d9ff; stroke-width: 2.5; }
 
     </style>
-    <div id="s07-korea-ground" class="clip" data-start="0" data-duration="10.03" data-track-index="0">
+    <div id="s07-korea-ground" class="clip" data-start="0" data-duration="10.86" data-track-index="0">
       <div class="grid"></div>
       <svg viewBox="0 0 1920 1080"><path d="M0 210 H170 L230 270 H420" class="tr"/><path d="M0 210 H170 L230 270 H420" class="trg" pathLength="100"/><path d="M0 860 H120 L180 800 H360 L400 760" class="tr"/><path d="M0 860 H120 L180 800 H360 L400 760" class="trg" pathLength="100"/><path d="M1920 180 H1760 L1700 240 H1520" class="tr"/><path d="M1920 180 H1760 L1700 240 H1520" class="trg" pathLength="100"/><path d="M1920 900 H1800 L1740 840 H1560" class="tr"/><path d="M1920 900 H1800 L1740 840 H1560" class="trg" pathLength="100"/><path d="M260 0 V60 L320 120 H520" class="tr"/><path d="M260 0 V60 L320 120 H520" class="trg" pathLength="100"/><path d="M1660 1080 V1010 L1600 950 H1450" class="tr"/><path d="M1660 1080 V1010 L1600 950 H1450" class="trg" pathLength="100"/></svg>
       <div class="vig"></div>
     </div>
-    <div id="s07-korea-stage" class="clip" data-start="0" data-duration="10.03" data-track-index="1">
+    <div id="s07-korea-stage" class="clip" data-start="0" data-duration="10.86" data-track-index="1">
       <div id="s07-korea-cam" class="abs" style="left:0;top:0;width:1920px;height:1080px">
         <div class="abs big" id="n7-num" style="left:100px;top:120px;font-size:250px;color:#ffb547;text-shadow:0 0 30px #ffb547">06</div>
         <div class="abs mono" id="n7-cat" style="left:110px;top:420px;font-size:24px;letter-spacing:0.16em;color:#03101f;background:#ffb547;padding:8px 18px;box-shadow:0 0 20px #ffb547">CHIPS</div>
@@ -62,7 +62,7 @@
     <script>
       (function () {
         const tl = gsap.timeline({ paused: true });
-        const D = 9.53;
+        const D = 10.36;
         const q = (s) => "#s07-korea-stage " + s;
         const draw = (sel, at, d) => tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.9, ease: "power2.inOut" }, at);
         const pop = (sel, at, d) => tl.fromTo(q(sel), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: d || 0.55, ease: "power3.out" }, at);
@@ -79,8 +79,8 @@
         tl.fromTo(q("#n7-num"), { opacity: 0, x: -50 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 0.05);
         fade("#n7-cat", 0.25); pop("#n7-h", 0.3, 0.6); fade("#n7-src", 0.8);
         draw("#k7-axis", 0.6, 0.8); fade("#k7-who", 0.9);
-        tl.fromTo(q("#k7-band"), { scaleX: 0 }, { scaleX: 1, transformOrigin: "0% 50%", duration: 1.2, ease: "power2.out" }, 3.2129999999999996); pop("#k7-label", 3.413);
-        pop("#k7-why", 6.487);
+        tl.fromTo(q("#k7-band"), { scaleX: 0 }, { scaleX: 1, transformOrigin: "0% 50%", duration: 1.2, ease: "power2.out" }, 3.7079999999999997); pop("#k7-label", 3.908);
+        pop("#k7-why", 7.437);
 
 
         window.__timelines["07-korea"] = tl;

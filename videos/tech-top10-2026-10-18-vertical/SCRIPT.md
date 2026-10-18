@@ -1,6 +1,6 @@
 # SCRIPT — tech-top10-2026-10-18
 
-**Voice:** am_michael (Kokoro) @1.28 + broadcast chain
+**Voice:** am_michael (Kokoro) @1.08, natural pauses + light room chain
 **Voice direction:** Brisk, confident news anchor.
 
 ---
@@ -9,7 +9,7 @@
 
 **Delivery:** brisk.
 
-    Sunday, 18 October 2026. Here are the ten stories that moved AI, chips and quantum.
+    Sunday, October 18th, 2026. Here are the ten stories that moved AI, chips and quantum.
 
 ## Line 2 — AI 1 Jack Clark GDP (Frame 2)
 
