@@ -973,15 +973,15 @@
   },
   "renders": {
     "latest": {
-      "id": "24640cc9-bf03-47c9-beac-ba0e42763b55",
-      "completedAt": 1792334432114,
+      "id": "6b554189-68cc-4933-855b-122ae1b02a3b",
+      "completedAt": 1792336393373,
       "output": "/home/user/gocnhocafe/videos/tech-top10-2026-10-18/renders/full.mp4",
       "status": "completed",
-      "revision": "5ec9b0ba-f14f-4203-913b-e61922e8bf87"
+      "revision": "69061c96-33d7-4c95-8ed2-2d668b1c4ab6"
     },
     "retainedRevisions": [
-      "5ec9b0ba-f14f-4203-913b-e61922e8bf87",
-      "e6b0c801-baad-434b-b3ac-0e146043de7e"
+      "69061c96-33d7-4c95-8ed2-2d668b1c4ab6",
+      "5ec9b0ba-f14f-4203-913b-e61922e8bf87"
     ]
   },
   "pendingArtifactCleanup": []
