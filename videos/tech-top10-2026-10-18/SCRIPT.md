@@ -9,7 +9,7 @@
 
 **Delivery:** brisk.
 
-    Sunday, October 18th, 2026. Here are the ten stories that moved AI, chips and quantum.
+    Monday, October 19th, 2026. Here are the ten stories that moved AI, chips and quantum.
 
 ## Line 2 — AI 1 Jack Clark GDP (Frame 2)
 

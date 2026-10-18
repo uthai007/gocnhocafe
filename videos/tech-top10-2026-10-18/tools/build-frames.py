@@ -193,7 +193,7 @@ stage = f"""
         {card("o-title", 90, 470, 1000, 400, f'''<div class="kick">AI · CHIPS · QUANTUM</div>
           <div class="h1" style="font-size:110px;margin-top:14px;line-height:1">Top 10</div>
           <div style="font-size:40px;font-weight:700;margin-top:18px">The stories that moved tech</div>
-          <div class="mono c" style="font-size:30px;margin-top:22px">EDITION · 18 OCT 2026</div>''')}
+          <div class="mono c" style="font-size:30px;margin-top:22px">EDITION · 19 OCT 2026</div>''')}
         <div class="abs" id="o-cats" style="left:1180px;top:560px;display:flex;flex-direction:column;gap:22px">
           <div class="mono" style="font-size:28px;color:#03101f;background:{CY};padding:12px 26px;box-shadow:0 0 20px {CY}">AI</div>
           <div class="mono" style="font-size:28px;color:#03101f;background:{AM};padding:12px 26px;box-shadow:0 0 20px {AM}">CHIPS</div>
@@ -369,7 +369,7 @@ n = 12
 recap = [("AI", "Clark: ~$44T scenario"), ("AI", "CERT-In agent advisory"), ("AI", "$137M AI midterm ads"), ("AI × QUANTUM", "IBM agents · 52×"),
          ("CHIPS", "Nasdaq −4.5% week"), ("CHIPS", "Korea: boom to 2027"), ("CHIPS", "China exports +136%"), ("CHIPS", "Intel: no US say"),
          ("QUANTUM", "Google magic states"), ("QUANTUM", "DARPA QBI Stage C")]
-stage = '        <div class="abs kick" id="z-k" style="left:110px;top:120px;font-size:22px">THE TOP 10 · 18 OCT 2026</div>\n'
+stage = '        <div class="abs kick" id="z-k" style="left:110px;top:120px;font-size:22px">THE TOP 10 · 19 OCT 2026</div>\n'
 for i, (cat, t) in enumerate(recap):
     x, y = 110 + (i % 2) * 860, 170 + (i // 2) * 128
     col = CAT[cat]
@@ -405,7 +405,7 @@ overlay = f"""<template id="hud-template">
       #hud-tape {{ position: absolute; left: 0; top: 9px; white-space: nowrap; }}
     </style>
     <div id="hud-top" class="clip" data-start="0" data-duration="{dur}" data-track-index="0">
-      <span>TOP 10 · AI · CHIPS · QUANTUM</span><span class="live" id="hud-live">● LIVE</span><span>SUN 18 OCT 2026</span>
+      <span>TOP 10 · AI · CHIPS · QUANTUM</span><span class="live" id="hud-live">● LIVE</span><span>SUN 19 OCT 2026</span>
     </div>
     <div id="hud-tick" data-layout-allow-overflow class="clip" data-start="0" data-duration="{dur}" data-track-index="1"><div id="hud-tape">{tick}{tick}{tick}</div></div>
     <script src="assets/vendor/gsap.min.js"></script>

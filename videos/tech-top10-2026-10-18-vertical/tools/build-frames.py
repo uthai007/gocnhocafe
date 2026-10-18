@@ -204,7 +204,7 @@ stage = f"""
         {card("o-title", X0, 830, CW, 400, f'''<div class="kick" style="font-size:24px">AI · CHIPS · QUANTUM</div>
           <div class="h1" style="font-size:130px;margin-top:14px;line-height:1">Top 10</div>
           <div style="font-size:42px;font-weight:700;margin-top:18px">The stories that moved tech</div>
-          <div class="mono c" style="font-size:30px;margin-top:22px">EDITION · 18 OCT 2026</div>''')}
+          <div class="mono c" style="font-size:30px;margin-top:22px">EDITION · 19 OCT 2026</div>''')}
         <div class="abs" id="o-cats" style="left:{X0}px;top:1260px;width:{CW}px;display:flex;justify-content:center;gap:28px">
           <div class="mono" style="font-size:28px;color:#03101f;background:{CY};padding:12px 30px;box-shadow:0 0 20px {CY}">AI</div>
           <div class="mono" style="font-size:28px;color:#03101f;background:{AM};padding:12px 30px;box-shadow:0 0 20px {AM}">CHIPS</div>
@@ -382,7 +382,7 @@ n = 12
 recap = [("AI", "Clark: ~$44T scenario"), ("AI", "CERT-In agent advisory"), ("AI", "$137M AI midterm ads"), ("AI × QUANTUM", "IBM agents · 52×"),
          ("CHIPS", "Nasdaq −4.5% week"), ("CHIPS", "Korea: boom to 2027"), ("CHIPS", "China exports +136%"), ("CHIPS", "Intel: no US say"),
          ("QUANTUM", "Google magic states"), ("QUANTUM", "DARPA QBI Stage C")]
-stage = f'        <div class="abs kick" id="z-k" style="left:{X0}px;top:108px;font-size:22px">THE TOP 10 · 18 OCT 2026</div>\n'
+stage = f'        <div class="abs kick" id="z-k" style="left:{X0}px;top:108px;font-size:22px">THE TOP 10 · 19 OCT 2026</div>\n'
 for i, (cat, t) in enumerate(recap):
     col = CAT[cat]
     stage += f'        <div class="abs glass z-r" style="left:{X0}px;top:{150 + i*119}px;width:{CW}px;height:104px;padding:0 28px;box-sizing:border-box;display:flex;align-items:center;gap:28px"><span class="big" style="font-size:56px;color:{col}">{i+1:02d}</span><span style="font-size:36px;font-weight:700">{t}</span><span class="mono" style="margin-left:auto;font-size:16px;color:{col}">{cat}</span></div>\n'
@@ -418,7 +418,7 @@ overlay = f"""<template id="hud-template">
       #hud-tape {{ position: absolute; left: 0; top: 9px; white-space: nowrap; }}
     </style>
     <div id="hud-top" class="clip" data-start="0" data-duration="{dur}" data-track-index="0">
-      <span>TOP 10 · AI · CHIPS · QUANTUM</span><span class="live" id="hud-live">● LIVE</span><span>18 OCT 2026</span>
+      <span>TOP 10 · AI · CHIPS · QUANTUM</span><span class="live" id="hud-live">● LIVE</span><span>19 OCT 2026</span>
     </div>
     <div id="hud-tick" data-layout-allow-overflow class="clip" data-start="0" data-duration="{dur}" data-track-index="1"><div id="hud-tape">{tick}{tick}{tick}</div></div>
     <script src="assets/vendor/gsap.min.js"></script>

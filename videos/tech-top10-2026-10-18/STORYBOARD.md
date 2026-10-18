@@ -15,7 +15,7 @@ Neon HUD (as 16 Oct semiconductor update). One story per scene: number badge, ca
 ## Frame 1 — Open
 
 - scene: Open
-- voiceover: "Sunday, October 18th, 2026. Here are the ten stories that moved AI, chips and quantum."
+- voiceover: "Monday, October 19th, 2026. Here are the ten stories that moved AI, chips and quantum."
 - duration: 7.63s
 - transition_in: cut
 - status: animated
